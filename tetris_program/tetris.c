@@ -26,52 +26,52 @@ int add_piece(int * cur_piece) {
     switch (piece_id) {
         // line
         case 0:
-            new_rows[0] = 0x10;
-            new_rows[1] = 0x10;
-            new_rows[2] = 0x10;
             new_rows[3] = 0x10;
+            new_rows[2] = 0x10;
+            new_rows[1] = 0x10;
+            new_rows[0] = 0x10;
             break;
         // left L
         case 1:
-            new_rows[0] = 0x10;
-            new_rows[1] = 0x10;
-            new_rows[2] = 0x30;
-            new_rows[3] = 0x00;
+            new_rows[3] = 0x10;
+            new_rows[2] = 0x10;
+            new_rows[1] = 0x30;
+            new_rows[0] = 0x00;
             break;
         // right L
         case 2:
-            new_rows[0] = 0x10;
-            new_rows[1] = 0x10;
-            new_rows[2] = 0x18;
-            new_rows[3] = 0x00;
+            new_rows[3] = 0x10;
+            new_rows[2] = 0x10;
+            new_rows[1] = 0x18;
+            new_rows[0] = 0x00;
             break;
         // S
         case 3:
-            new_rows[0] = 0x10;
-            new_rows[1] = 0x30;
-            new_rows[2] = 0x20;
-            new_rows[3] = 0x00;
+            new_rows[3] = 0x10;
+            new_rows[2] = 0x30;
+            new_rows[1] = 0x20;
+            new_rows[0] = 0x00;
             break;
         // Z
         case 4:
-            new_rows[0] = 0x20;
-            new_rows[1] = 0x30;
-            new_rows[2] = 0x10;
-            new_rows[3] = 0x00;
+            new_rows[3] = 0x20;
+            new_rows[2] = 0x30;
+            new_rows[1] = 0x10;
+            new_rows[0] = 0x00;
             break;
         // box
         case 5:
-            new_rows[0] = 0x30;
-            new_rows[1] = 0x30;
-            new_rows[2] = 0x00;
-            new_rows[3] = 0x00;
+            new_rows[3] = 0x30;
+            new_rows[2] = 0x30;
+            new_rows[1] = 0x00;
+            new_rows[0] = 0x00;
             break;
         // T
         case 6:
-            new_rows[0] = 0x10;
-            new_rows[1] = 0x30;
-            new_rows[2] = 0x10;
-            new_rows[3] = 0x00;
+            new_rows[3] = 0x10;
+            new_rows[2] = 0x30;
+            new_rows[1] = 0x10;
+            new_rows[0] = 0x00;
             break;
     }
 
@@ -110,6 +110,8 @@ int drop_piece(int * cur_piece, int * board)
     return 1;
 }
 
+// Shift the piece in cu_piece 1 left, do not shift if at edge or piece in
+// way
 int shift_left(int *cur_piece, int * board)
 {
     int i;
@@ -117,9 +119,31 @@ int shift_left(int *cur_piece, int * board)
         if (cur_piece[i] & 0x1) {
             return 0;
         }
+        if (cur_piece[i] >> 1 & board[i]) {
+            return 0;
+        }
     }
     for (i = 0; i < N_ROWS; i++) {
         cur_piece[i] = cur_piece[i] >> 1;
+    }
+    return 1;
+}
+
+// Shift the piece in cu_piece 1 right, do not shift if at edge or piece in
+// way
+int shift_right(int *cur_piece, int * board)
+{
+    int i;
+    for (i = 0; i < N_ROWS; i++) {
+        if (cur_piece[i] & (1 << (N_COLS - 1))) {
+            return 0;
+        }
+        if (cur_piece[i] << 1 & board[i]) {
+            return 0;
+        }
+    }
+    for (i = 0; i < N_ROWS; i++) {
+        cur_piece[i] = cur_piece[i] << 1;
     }
     return 1;
 }
@@ -132,6 +156,24 @@ void place_piece(int * cur_piece, int * board)
     {
         board[i] = board[i] | cur_piece[i];
     }
+}
+
+// clear completed lines and shift the rest down
+int clear_lines(int * board) {
+    int i, j;
+    int n_cleared = 0;
+
+    for (i = 0; i < N_ROWS; i++) {
+        // if line cleared, shift above rows down
+        if (board[i] = 0x3FF) {
+            for (j = i; i < N_ROWS - 1; j++) { 
+                board[i] = board[i + 1];
+            }
+            board[N_ROWS - 1] = 0;
+            n_cleared++;
+        }
+    }
+    return n_cleared;
 }
 
 int print_binary(int n) {
@@ -169,7 +211,7 @@ int main(void)
     add_piece(cur_piece);
     while (!game_over) {
         system("clear");
-        shift_left(cur_piece, board);
+        shift_right(cur_piece, board);
         if (!drop_piece(cur_piece, board)) {
             place_piece(cur_piece, board);
             add_piece(cur_piece);
