@@ -1,6 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+// TODO for keyboard input on linux
+#include <ncurses.h>
+
 #define N_ROWS 20
 #define N_COLS 10
 #define CYCLES_PER_STEP 1000
@@ -22,6 +25,9 @@ int add_piece(int * cur_piece) {
     clear_board(cur_piece);
 
     int new_rows[4];
+
+    //TODO for testing 
+    piece_id = 5;
     
     switch (piece_id) {
         // line
@@ -165,33 +171,37 @@ int clear_lines(int * board) {
 
     for (i = 0; i < N_ROWS; i++) {
         // if line cleared, shift above rows down
-        if (board[i] = 0x3FF) {
-            for (j = i; i < N_ROWS - 1; j++) { 
-                board[i] = board[i + 1];
+        if (board[i] == 0x3FF) {
+            for (j = i; j < N_ROWS - 1; j++) { 
+                board[j] = board[j + 1];
             }
             board[N_ROWS - 1] = 0;
             n_cleared++;
+            i--;
         }
     }
     return n_cleared;
 }
 
-int print_binary(int n) {
+// Funtions for printing and keyboard control
+// TODO remove for use of microblaze
+void print_binary(int n) {
     int i;
     int mask = 1;
     for (i = 0; i < N_COLS; i++) {
         if (mask & n) {
-            printf("X");
+            printw("X");
         } else {
-            printf(" ");
+            printw(" ");
         }
         mask = mask << 1;
     }
-    printf("\n");
+    printw("\n");
 }
 
-int print_board(int * board)
+void print_board(int * board)
 {
+    clear();
     int i;
     for (i = N_ROWS - 1; i >= 0; i--) {
         print_binary(board[i]);
@@ -205,25 +215,45 @@ int main(void)
     int cur_piece[20];
     int display_board[20];
 
-    clear_board(board);
+    // TODO remove later keyboard control
+    initscr();
+    cbreak();
+    noecho();
+    nodelay(stdscr, TRUE);
+    keypad(stdscr, TRUE);
+    int ch;
 
     int game_over = 0;
+    clear_board(board);
     add_piece(cur_piece);
     while (!game_over) {
-        system("clear");
-        shift_right(cur_piece, board);
+
+        //TODO linux keyboard control
+        ch = getch();
+        if (ch == KEY_LEFT) {
+            shift_left(cur_piece, board);
+        }
+        else if (ch == KEY_RIGHT) {
+            shift_right(cur_piece, board);
+        }
+        
         if (!drop_piece(cur_piece, board)) {
             place_piece(cur_piece, board);
             add_piece(cur_piece);
         }
+
+        clear_lines(board);
 
         // TODO printing not useful on microblaze
         clear_board(display_board);
         place_piece(board, display_board);
         place_piece(cur_piece, display_board);
         print_board(display_board);
-        usleep(100000);
+        refresh();
+        usleep(200000);
     }
+
+    endwin();
 
     return 0;
 }
