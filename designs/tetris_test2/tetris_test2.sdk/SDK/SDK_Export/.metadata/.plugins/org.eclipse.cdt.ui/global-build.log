@@ -1,0 +1,374 @@
+16:35:50 **** Build of project ddr_test_bsp ****
+make -k all 
+cp -f microblaze_0/lib/libxil_init.a microblaze_0/lib/libxil.a
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+16:35:51 **** Build of configuration Debug for project ddr_test ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../ddr_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../ddr_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: ddr_test.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ddr_test_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "ddr_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ddr_test.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size ddr_test.elf  |tee "ddr_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2652	    308	   2084	   5044	   13b4	ddr_test.elf
+Finished building: ddr_test.elf.size
+ 
+16:36:46 **** Build of project ddr_test_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+16:36:48 **** Clean-only build of configuration Debug for project ddr_test ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  ddr_test.elf.size  ddr_test.elf
+ 
+16:36:49 **** Build of configuration Debug for project ddr_test ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../ddr_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../ddr_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: ddr_test.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ddr_test_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "ddr_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ddr_test.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size ddr_test.elf  |tee "ddr_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2652	    308	   2084	   5044	   13b4	ddr_test.elf
+Finished building: ddr_test.elf.size
+ 
+16:36:52 **** Auto Build of project ddr_test_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+16:36:54 **** Auto Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+16:36:56 **** Clean-only build of project ddr_test_bsp ****
+make -k clean 
+rm -f microblaze_0/lib/libxil.a
+16:36:56 **** Clean-only build of configuration Debug for project ddr_test ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  ddr_test.elf.size  ddr_test.elf
+ 
+16:36:57 **** Build of project ddr_test_bsp ****
+make -k all 
+cp -f microblaze_0/lib/libxil_init.a microblaze_0/lib/libxil.a
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+16:36:58 **** Build of configuration Debug for project ddr_test ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../ddr_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../ddr_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: ddr_test.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ddr_test_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "ddr_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ddr_test.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size ddr_test.elf  |tee "ddr_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2652	    308	   2084	   5044	   13b4	ddr_test.elf
+Finished building: ddr_test.elf.size
+ 
+16:43:38 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+16:43:42 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+16:43:44 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+16:44:32 **** Auto Build of configuration Debug for project ddr_test ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../ddr_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: ddr_test.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ddr_test_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "ddr_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ddr_test.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size ddr_test.elf  |tee "ddr_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3368	    312	   2084	   5764	   1684	ddr_test.elf
+Finished building: ddr_test.elf.size
+ 
+16:44:38 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+16:44:48 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+16:44:59 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+16:45:45 **** Auto Build of configuration Debug for project ddr_test ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../ddr_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: ddr_test.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ddr_test_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "ddr_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ddr_test.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size ddr_test.elf  |tee "ddr_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3364	    312	   2080	   5756	   167c	ddr_test.elf
+Finished building: ddr_test.elf.size
+ 
+16:45:48 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+16:46:45 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+16:46:53 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+16:48:46 **** Clean-only build of configuration Debug for project ddr_test ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  ddr_test.elf.size  ddr_test.elf
+ 
+16:48:46 **** Auto Build of configuration Debug for project ddr_test ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../ddr_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../ddr_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: ddr_test.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ddr_test_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "ddr_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ddr_test.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size ddr_test.elf  |tee "ddr_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3364	    312	   2084	   5760	   1680	ddr_test.elf
+Finished building: ddr_test.elf.size
+ 
+16:48:49 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+16:49:12 **** Auto Build of configuration Debug for project ddr_test ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../ddr_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: ddr_test.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ddr_test_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "ddr_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ddr_test.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size ddr_test.elf  |tee "ddr_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3368	    312	   2080	   5760	   1680	ddr_test.elf
+Finished building: ddr_test.elf.size
+ 
+16:49:14 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+16:49:19 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.

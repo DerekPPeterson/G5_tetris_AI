@@ -1,0 +1,626 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:00:25 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Fri Feb 20 16:39:27 2015
+# Process ID: 17729
+# Log file: /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 398 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.1
+Loading clock regions from /home/derek/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from /home/derek/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from /home/derek/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from /home/derek/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/PinFunctions.xml...
+Loading package from /home/derek/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from /home/derek/Xilinx/Vivado/2014.1/data/./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from /home/derek/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/ConfigModes.xml
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0.xdc] for cell 'design_1_i/microblaze_0/U0'
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0.xdc] for cell 'design_1_i/microblaze_0/U0'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_dlmb_v10_0/design_1_dlmb_v10_0.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_v10/U0'
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_dlmb_v10_0/design_1_dlmb_v10_0.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_v10/U0'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_ilmb_v10_0/design_1_ilmb_v10_0.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_v10/U0'
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_ilmb_v10_0/design_1_ilmb_v10_0.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_v10/U0'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_axi_intc_0/design_1_microblaze_0_axi_intc_0.xdc] for cell 'design_1_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_axi_intc_0/design_1_microblaze_0_axi_intc_0.xdc] for cell 'design_1_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mdm_1_0/design_1_mdm_1_0.xdc] for cell 'design_1_i/mdm_1/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mdm_1_0/design_1_mdm_1_0.xdc:50]
+get_clocks: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1453.270 ; gain = 401.180
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mdm_1_0/design_1_mdm_1_0.xdc] for cell 'design_1_i/mdm_1/U0'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0.xdc] for cell 'design_1_i/clk_wiz_1/inst'
+INFO: [Timing 38-2] Deriving generated clocks [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0.xdc:56]
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0.xdc] for cell 'design_1_i/clk_wiz_1/inst'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0_board.xdc] for cell 'design_1_i/clk_wiz_1/inst'
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0_board.xdc] for cell 'design_1_i/clk_wiz_1/inst'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/design_1_rst_clk_wiz_1_100M_0.xdc] for cell 'design_1_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/design_1_rst_clk_wiz_1_100M_0.xdc] for cell 'design_1_i/rst_clk_wiz_1_100M'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/design_1_rst_clk_wiz_1_100M_0_board.xdc] for cell 'design_1_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/design_1_rst_clk_wiz_1_100M_0_board.xdc] for cell 'design_1_i/rst_clk_wiz_1_100M'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc] for cell 'design_1_i/mig_7series_0'
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_en_i_1' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_clr_i_1' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_reg_i_1' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_5' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_4' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_3' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_2' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc] for cell 'design_1_i/mig_7series_0'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0_board.xdc] for cell 'design_1_i/mig_7series_0'
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0_board.xdc] for cell 'design_1_i/mig_7series_0'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0.xdc] for cell 'design_1_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0.xdc] for cell 'design_1_i/axi_uartlite_0/U0'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_board.xdc] for cell 'design_1_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_board.xdc] for cell 'design_1_i/axi_uartlite_0/U0'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_rst_mig_7series_0_81M_0/design_1_rst_mig_7series_0_81M_0.xdc] for cell 'design_1_i/rst_mig_7series_0_81M'
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_rst_mig_7series_0_81M_0/design_1_rst_mig_7series_0_81M_0.xdc] for cell 'design_1_i/rst_mig_7series_0_81M'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_rst_mig_7series_0_81M_0/design_1_rst_mig_7series_0_81M_0_board.xdc] for cell 'design_1_i/rst_mig_7series_0_81M'
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_rst_mig_7series_0_81M_0/design_1_rst_mig_7series_0_81M_0_board.xdc] for cell 'design_1_i/rst_mig_7series_0_81M'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_axi_intc_0/design_1_microblaze_0_axi_intc_0_clocks.xdc] for cell 'design_1_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_axi_intc_0/design_1_microblaze_0_axi_intc_0_clocks.xdc] for cell 'design_1_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_clocks.xdc] for cell 'design_1_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst'
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_clocks.xdc] for cell 'design_1_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_clocks.xdc] for cell 'design_1_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst'
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_clocks.xdc] for cell 'design_1_i/microblaze_0_axi_periph/m01_couplers/auto_ds/inst'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_2/design_1_auto_ds_2_clocks.xdc] for cell 'design_1_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst'
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_2/design_1_auto_ds_2_clocks.xdc] for cell 'design_1_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc] for cell 'design_1_i/microblaze_0_axi_periph/m03_couplers/auto_cc/inst'
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc] for cell 'design_1_i/microblaze_0_axi_periph/m03_couplers/auto_cc/inst'
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc] for cell 'design_1_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc] for cell 'design_1_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+Generating merged BMM file for the design top 'design_1_wrapper'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/data/mb_bootloop_le.elf 
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 338 instances were transformed.
+  IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 2 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 104 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 34 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 181 instances
+
+link_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1477.273 ; gain = 732.430
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [Drc 23-27] Running DRC with 4 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.25 ; elapsed = 00:00:00.25 . Memory (MB): peak = 1478.273 ; gain = 0.996
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 3 inverter(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 2682858cc
+
+Time (s): cpu = 00:00:00.60 ; elapsed = 00:00:00.65 . Memory (MB): peak = 1478.273 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 47 inverter(s).
+INFO: [Opt 31-10] Eliminated 706 cells.
+Phase 2 Constant Propagation | Checksum: 1ef05c7ae
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1478.273 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 2359 unconnected nets.
+INFO: [Opt 31-11] Eliminated 5559 unconnected cells.
+Phase 3 Sweep | Checksum: 1834ef6da
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1478.273 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1834ef6da
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1478.273 ; gain = 0.000
+Implement Debug Cores | Checksum: 23473355b
+Logic Optimization | Checksum: 23473355b
+
+Starting Power Optimization Task
+
+Starting PowerOpt TimerUpdates Task
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_en_i_1' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_clr_i_1' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_reg_i_1' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_5' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_4' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_3' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_2' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending PowerOpt TimerUpdates Task | Checksum: 1834ef6da
+
+Time (s): cpu = 00:00:00.94 ; elapsed = 00:00:00.86 . Memory (MB): peak = 1478.273 ; gain = 0.000
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 16 has been updated to save power.
+    Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 32
+Ending Power Optimization Task | Checksum: 1834ef6da
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1581.289 ; gain = 103.016
+INFO: [Common 17-83] Releasing license: Implementation
+26 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1581.289 ; gain = 104.016
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.19 . Memory (MB): peak = 1581.293 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command place_design
+INFO: [Drc 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 4 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Core
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1581.297 ; gain = 0.000
+
+Phase 1.1.1 Mandatory Logic Optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1581.297 ; gain = 0.000
+Phase 1.1.1 Mandatory Logic Optimization | Checksum: e5e354e2
+
+Time (s): cpu = 00:00:00.50 ; elapsed = 00:00:00.51 . Memory (MB): peak = 1581.297 ; gain = 0.000
+
+Phase 1.1.2 Build Super Logic Region (SLR) Database
+Phase 1.1.2 Build Super Logic Region (SLR) Database | Checksum: e5e354e2
+
+Time (s): cpu = 00:00:00.52 ; elapsed = 00:00:00.53 . Memory (MB): peak = 1581.297 ; gain = 0.000
+
+Phase 1.1.3 Add Constraints
+Phase 1.1.3 Add Constraints | Checksum: e5e354e2
+
+Time (s): cpu = 00:00:00.53 ; elapsed = 00:00:00.53 . Memory (MB): peak = 1581.297 ; gain = 0.000
+
+Phase 1.1.4 Build Shapes/ HD Config
+
+Phase 1.1.4.1 Build Macros
+Phase 1.1.4.1 Build Macros | Checksum: f987cc00
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1605.301 ; gain = 24.004
+Phase 1.1.4 Build Shapes/ HD Config | Checksum: f987cc00
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1605.301 ; gain = 24.004
+
+Phase 1.1.5 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.5.1 Pre-Place Cells
+Phase 1.1.5.1 Pre-Place Cells | Checksum: a4b19858
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1605.301 ; gain = 24.004
+
+Phase 1.1.5.2 Implementation Feasibility check
+Phase 1.1.5.2 Implementation Feasibility check | Checksum: a4b19858
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1605.301 ; gain = 24.004
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_en_i_1' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_clr_i_1' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_reg_i_1' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_5' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_4' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_3' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_2' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1.1.5.3 Implementation Feasibility check On IDelay
+Phase 1.1.5.3 Implementation Feasibility check On IDelay | Checksum: a4b19858
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1605.301 ; gain = 24.004
+Phase 1.1.5 IO Placement/ Clock Placement/ Build Placer Device | Checksum: f0f0fd93
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1605.301 ; gain = 24.004
+
+Phase 1.1.6 Build Placer Netlist Model
+
+Phase 1.1.6.1 Place Init Design
+
+Phase 1.1.6.1.1 Build Clock Data
+Phase 1.1.6.1.1 Build Clock Data | Checksum: 1f05c022a
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1605.301 ; gain = 24.004
+Phase 1.1.6.1 Place Init Design | Checksum: 123005792
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 1605.301 ; gain = 24.004
+Phase 1.1.6 Build Placer Netlist Model | Checksum: 123005792
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 1605.301 ; gain = 24.004
+
+Phase 1.1.7 Constrain Clocks/Macros
+
+Phase 1.1.7.1 Constrain Global/Regional Clocks
+Phase 1.1.7.1 Constrain Global/Regional Clocks | Checksum: 123005792
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 1605.301 ; gain = 24.004
+Phase 1.1.7 Constrain Clocks/Macros | Checksum: 123005792
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 1605.301 ; gain = 24.004
+Phase 1.1 Placer Initialization Core | Checksum: 123005792
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 1605.301 ; gain = 24.004
+Phase 1 Placer Initialization | Checksum: 123005792
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 1605.301 ; gain = 24.004
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 129eb02cd
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:21 . Memory (MB): peak = 1605.301 ; gain = 24.004
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 129eb02cd
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:21 . Memory (MB): peak = 1605.301 ; gain = 24.004
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: eb4dac88
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:23 . Memory (MB): peak = 1605.301 ; gain = 24.004
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 15565a7e4
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:23 . Memory (MB): peak = 1605.301 ; gain = 24.004
+
+Phase 3.4 Timing Path Optimizer
+Phase 3.4 Timing Path Optimizer | Checksum: 1479d5125
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:24 . Memory (MB): peak = 1605.301 ; gain = 24.004
+
+Phase 3.5 Commit Small Macros & Core Logic
+Phase 3.5 Commit Small Macros & Core Logic | Checksum: f63ddf76
+
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:27 . Memory (MB): peak = 1629.312 ; gain = 48.016
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: f63ddf76
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:27 . Memory (MB): peak = 1629.312 ; gain = 48.016
+Phase 3 Detail Placement | Checksum: f63ddf76
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:28 . Memory (MB): peak = 1629.312 ; gain = 48.016
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 PCOPT Shape updates
+Phase 4.1 PCOPT Shape updates | Checksum: 1f87f6071
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:28 . Memory (MB): peak = 1629.312 ; gain = 48.016
+
+Phase 4.2 Post Placement Optimization
+
+Phase 4.2.1 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.311. For the most accurate timing information please run report_timing.
+Phase 4.2.1 Post Placement Timing Optimization | Checksum: 13316a789
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:29 . Memory (MB): peak = 1629.312 ; gain = 48.016
+Phase 4.2 Post Placement Optimization | Checksum: 13316a789
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:29 . Memory (MB): peak = 1629.312 ; gain = 48.016
+
+Phase 4.3 Post Placement Cleanup
+Phase 4.3 Post Placement Cleanup | Checksum: 13316a789
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:29 . Memory (MB): peak = 1629.312 ; gain = 48.016
+
+Phase 4.4 Placer Reporting
+
+Phase 4.4.1 Restore STA
+Phase 4.4.1 Restore STA | Checksum: 13316a789
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:29 . Memory (MB): peak = 1629.312 ; gain = 48.016
+Phase 4.4 Placer Reporting | Checksum: 13316a789
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:29 . Memory (MB): peak = 1629.312 ; gain = 48.016
+
+Phase 4.5 Final Placement Cleanup
+Phase 4.5 Final Placement Cleanup | Checksum: 1732c95ab
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:29 . Memory (MB): peak = 1629.312 ; gain = 48.016
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1732c95ab
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:30 . Memory (MB): peak = 1629.312 ; gain = 48.016
+Ending Placer Task | Checksum: 1405cea38
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:30 . Memory (MB): peak = 1629.312 ; gain = 48.016
+INFO: [Common 17-83] Releasing license: Implementation
+37 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:52 ; elapsed = 00:00:32 . Memory (MB): peak = 1629.312 ; gain = 48.020
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.98 ; elapsed = 00:00:00.99 . Memory (MB): peak = 1629.316 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00.22 ; elapsed = 00:00:00.25 . Memory (MB): peak = 1629.316 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command route_design
+INFO: [Drc 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 4 CPUs
+
+Starting Route Task
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 19b7aba3f
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:15 . Memory (MB): peak = 1753.086 ; gain = 118.773
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 19b7aba3f
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:15 . Memory (MB): peak = 1754.086 ; gain = 119.773
+ Number of Nodes with overlaps = 0
+
+Phase 2.2 Update Timing
+Phase 2.2 Update Timing | Checksum: f100b6c2
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 1787.352 ; gain = 153.039
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.31   | TNS=0      | WHS=-0.303 | THS=-261   |
+
+Phase 2 Router Initialization | Checksum: f100b6c2
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:21 . Memory (MB): peak = 1787.352 ; gain = 153.039
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: ca3a9d8a
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:22 . Memory (MB): peak = 1816.352 ; gain = 182.039
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 1247
+ Number of Nodes with overlaps = 73
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 1531ec09a
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:25 . Memory (MB): peak = 1816.352 ; gain = 182.039
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.31   | TNS=0      | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 9707a300
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:25 . Memory (MB): peak = 1816.352 ; gain = 182.039
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: d8728bd6
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:26 . Memory (MB): peak = 1816.352 ; gain = 182.039
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.31   | TNS=0      | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 177edefeb
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:26 . Memory (MB): peak = 1816.352 ; gain = 182.039
+Phase 4 Rip-up And Reroute | Checksum: 177edefeb
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:26 . Memory (MB): peak = 1816.352 ; gain = 182.039
+
+Phase 5 Delay CleanUp
+
+Phase 5.1 Update Timing
+Phase 5.1 Update Timing | Checksum: 177edefeb
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:26 . Memory (MB): peak = 1816.352 ; gain = 182.039
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.31   | TNS=0      | WHS=N/A    | THS=N/A    |
+
+Phase 5 Delay CleanUp | Checksum: 177edefeb
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:26 . Memory (MB): peak = 1816.352 ; gain = 182.039
+
+Phase 6 Clock Skew Optimization
+Phase 6 Clock Skew Optimization | Checksum: 177edefeb
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:26 . Memory (MB): peak = 1816.352 ; gain = 182.039
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Update Timing
+Phase 7.1 Update Timing | Checksum: 177edefeb
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:27 . Memory (MB): peak = 1816.352 ; gain = 182.039
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.31   | TNS=0      | WHS=0.037  | THS=0      |
+
+Phase 7 Post Hold Fix | Checksum: 177edefeb
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:27 . Memory (MB): peak = 1816.352 ; gain = 182.039
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 2.32036 %
+  Global Horizontal Routing Utilization  = 3.03907 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 8 Route finalize | Checksum: 177edefeb
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:27 . Memory (MB): peak = 1816.352 ; gain = 182.039
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 177edefeb
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:27 . Memory (MB): peak = 1816.352 ; gain = 182.039
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: ed6bed4a
+
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:28 . Memory (MB): peak = 1816.352 ; gain = 182.039
+
+Phase 11 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.31   | TNS=0      | WHS=0.037  | THS=0      |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 11 Post Router Timing | Checksum: ed6bed4a
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:28 . Memory (MB): peak = 1816.352 ; gain = 182.039
+INFO: [Route 35-16] Router Completed Successfully
+Ending Route Task | Checksum: ed6bed4a
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:28 . Memory (MB): peak = 1816.352 ; gain = 182.039
+
+Routing Is Done.
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:29 . Memory (MB): peak = 1816.352 ; gain = 182.039
+INFO: [Common 17-83] Releasing license: Implementation
+51 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:50 ; elapsed = 00:00:31 . Memory (MB): peak = 1816.352 ; gain = 187.035
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1816.355 ; gain = 0.000
+INFO: [Drc 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/impl_1/design_1_wrapper_drc_routed.rpt.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max, Constraints type: SDC.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 4 CPUs
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-218] MMCM/PLL RST static_probability should be either 0 or 1, power analysis is using 0 by default.
+Use 'set_switching_activity -static_probability 1 -signal_rate 0 [get_nets reset_IBUF]'  to set the static_probability to '1'  if desired.
+WARNING: [Power 33-218] MMCM/PLL RST static_probability should be either 0 or 1, power analysis is using 0 by default.
+Use 'set_switching_activity -static_probability 1 -signal_rate 0 [get_nets design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_ddr2_infrastructure/sys_rst_act_hi]'  to set the static_probability to '1'  if desired.
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 20 16:41:16 2015...
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:00:25 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Fri Feb 20 16:41:22 2015
+# Process ID: 18396
+# Log file: /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+Command: open_checkpoint design_1_wrapper_routed.dcp
+INFO: [Netlist 29-17] Analyzing 384 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.1
+Loading clock regions from /home/derek/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from /home/derek/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from /home/derek/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from /home/derek/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/PinFunctions.xml...
+Loading package from /home/derek/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from /home/derek/Xilinx/Vivado/2014.1/data/./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from /home/derek/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/ConfigModes.xml
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/impl_1/.Xil/Vivado-18396-derek-pc2/dcp/design_1_wrapper_early.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mdm_1_0/design_1_mdm_1_0.xdc:50]
+get_clocks: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1435.047 ; gain = 394.375
+INFO: [Timing 38-2] Deriving generated clocks [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0.xdc:56]
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_en_i_1' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_clr_i_1' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_reg_i_1' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_5' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_4' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_3' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_2' is not a valid startpoint. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc:337]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/impl_1/.Xil/Vivado-18396-derek-pc2/dcp/design_1_wrapper_early.xdc]
+Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/impl_1/.Xil/Vivado-18396-derek-pc2/dcp/design_1_wrapper_late.xdc]
+Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/impl_1/.Xil/Vivado-18396-derek-pc2/dcp/design_1_wrapper_late.xdc]
+Reading XDEF placement.
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.47 ; elapsed = 00:00:00.48 . Memory (MB): peak = 1461.047 ; gain = 11.000
+Restoring placement.
+Restored 3221 out of 3221 XDEF sites from archive | CPU: 1.680000 secs | Memory: 28.930374 MB |
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 324 instances were transformed.
+  IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 2 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 90 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 34 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 181 instances
+
+INFO: [Project 1-484] Checkpoint was created with build 881834
+open_checkpoint: Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1471.719 ; gain = 737.898
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command write_bitstream
+INFO: [Drc 23-27] Running DRC with 4 threads
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 5 Warnings, 1 Advisories
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./design_1_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-118] WebTalk data collection is enabled (User setting is ON. Install Setting is ON.).
+INFO: [Common 17-185] WebTalk report has not been sent to Xilinx. Please check your network and proxy settings.
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:00:25 ; elapsed = 00:00:24 . Memory (MB): peak = 1851.227 ; gain = 379.504
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 20 16:42:06 2015...

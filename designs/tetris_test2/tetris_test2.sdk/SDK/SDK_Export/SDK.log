@@ -1,0 +1,27 @@
+16:34:29 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+16:35:50 ERROR :  License Feature SDK is not available.
+
+16:36:48 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+16:36:49 INFO  : The hardware specification for project 'hw_platform_0' is different from /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+16:36:49 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+16:36:52 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:36:54 INFO  : 
+16:36:55 INFO  : Updating hardware inferred compiler options for ddr_test.
+16:36:55 INFO  : Clearing existing target manager status.
+16:36:56 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+16:43:39 INFO  : Processor reset is completed for microblaze_0
+16:43:43 INFO  : Processor reset is completed for microblaze_0
+16:43:45 INFO  : Processor reset is completed for microblaze_0
+16:44:39 INFO  : Processor reset is completed for microblaze_0
+16:44:49 INFO  : Processor reset is completed for microblaze_0
+16:45:00 INFO  : Processor reset is completed for microblaze_0
+16:45:49 INFO  : Processor reset is completed for microblaze_0
+16:46:46 INFO  : Processor reset is completed for microblaze_0
+16:46:54 INFO  : Processor reset is completed for microblaze_0
+16:47:43 INFO  : Inferring section assignments and sizes from elf file: /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test/Debug/ddr_test.elf
+16:48:46 INFO  : Successfully generated /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test/src/lscript.ld.
+16:48:46 INFO  : Applying linker script to all configurations of project ddr_test.
+16:48:46 INFO  : Setting rebuild state to true for all configurations of project ddr_test.
+16:48:49 INFO  : Processor reset is completed for microblaze_0
+16:49:15 INFO  : Processor reset is completed for microblaze_0
+16:49:20 INFO  : Processor reset is completed for microblaze_0
