@@ -1,0 +1,118 @@
+00:33:38 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:34:18 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+00:35:39 INFO  : Processor reset is completed for microblaze_0
+00:37:53 INFO  : Processor reset is completed for microblaze_0
+00:39:38 INFO  : Processor reset is completed for microblaze_0
+00:42:28 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:42:29 INFO  : The hardware specification for project 'hw_platform_0' is different from /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:42:30 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+00:42:30 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit.
+00:42:30 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1_wrapper_bd.bmm into /hw_platform_0/design_1_wrapper_bd.bmm.
+00:42:30 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+00:42:33 INFO  : 
+00:42:34 INFO  : Updating hardware inferred compiler options for tetris_test.
+00:42:34 INFO  : Clearing existing target manager status.
+00:42:35 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+00:42:42 INFO  : Processor reset is completed for microblaze_0
+00:42:42 ERROR : No such port: /dev/ttyUSB1
+00:43:10 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:546)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:347)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:516)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+00:43:43 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:546)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:347)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:516)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+00:44:14 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+00:45:16 INFO  : Processor reset is completed for microblaze_0
+00:45:38 INFO  : Processor reset is completed for microblaze_0
+00:45:50 INFO  : Processor reset is completed for microblaze_0
+00:46:22 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+00:46:34 INFO  : Processor reset is completed for microblaze_0
+01:00:55 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+01:01:11 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1.xml.
+01:01:11 INFO  : The hardware specification for project 'hw_platform_0' is different from /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1.xml.
+01:01:11 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+01:01:12 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit.
+01:01:12 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1_wrapper_bd.bmm into /hw_platform_0/design_1_wrapper_bd.bmm.
+01:01:14 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+01:01:15 INFO  : 
+01:01:15 INFO  : Updating hardware inferred compiler options for tetris_test.
+01:01:15 INFO  : Clearing existing target manager status.
+01:01:17 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+01:10:32 INFO  : Project hw_platform_0's source hardware specification located at /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+01:10:34 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+01:10:36 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit.
+01:10:36 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1_wrapper_bd.bmm into /hw_platform_0/design_1_wrapper_bd.bmm.
+01:10:37 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+01:10:38 INFO  : 
+01:10:39 INFO  : Updating hardware inferred compiler options for tetris_test.
+01:10:39 INFO  : Clearing existing target manager status.
+01:10:39 INFO  : Closing and re-opening the MSS file of ther project tetris_test_bsp
+01:10:39 INFO  : Closing and re-opening the MSS file of ther project tetris_test_bsp
+01:10:39 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+01:15:31 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+01:15:46 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1.xml.
+01:15:47 INFO  : The hardware specification for project 'hw_platform_0' is different from /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1.xml.
+01:15:47 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+01:15:47 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit.
+01:15:47 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1_wrapper_bd.bmm into /hw_platform_0/design_1_wrapper_bd.bmm.
+01:15:49 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+01:15:50 INFO  : 
+01:15:51 INFO  : Updating hardware inferred compiler options for tetris_test.
+01:15:51 INFO  : Clearing existing target manager status.
+01:18:52 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:480)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+01:19:10 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1.xml.
+01:19:11 INFO  : The hardware specification for project 'hw_platform_0' is different from /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1.xml.
+01:19:11 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+01:19:11 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit.
+01:19:11 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/hw/design_1_wrapper_bd.bmm into /hw_platform_0/design_1_wrapper_bd.bmm.
+01:19:14 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+01:19:14 INFO  : 
+01:19:15 INFO  : Updating hardware inferred compiler options for tetris_test.
+01:19:15 INFO  : Clearing existing target manager status.
+01:24:26 INFO  : Successfully generated /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test/tetris_test.sdk/SDK/SDK_Export/tetris_test/src/lscript.ld.
+01:24:26 INFO  : Applying linker script to all configurations of project tetris_test.
+01:24:26 INFO  : Setting rebuild state to true for all configurations of project tetris_test.
+01:24:51 INFO  : Processor reset is completed for microblaze_0
+01:25:32 INFO  : Processor reset is completed for microblaze_0
+01:26:03 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:26:05 INFO  : Processor reset is completed for microblaze_0
