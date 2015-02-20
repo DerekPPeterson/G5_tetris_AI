@@ -105,6 +105,8 @@ int drop_piece(int * cur_piece, int * board)
             return 0;
         }
     }
+
+    // Shift down
     for (i = 0; i < N_ROWS - 1; i++) {
         cur_piece[i] = cur_piece[i + 1];
     }
@@ -122,13 +124,16 @@ int shift_left(int *cur_piece, int * board)
 {
     int i;
     for (i = 0; i < N_ROWS; i++) {
+        // Check bounds
         if (cur_piece[i] & 0x1) {
             return 0;
         }
+        // Check if collision with block in board
         if (cur_piece[i] >> 1 & board[i]) {
             return 0;
         }
     }
+    // Actually shift
     for (i = 0; i < N_ROWS; i++) {
         cur_piece[i] = cur_piece[i] >> 1;
     }
@@ -137,24 +142,35 @@ int shift_left(int *cur_piece, int * board)
 
 // Shift the piece in cu_piece 1 right, do not shift if at edge or piece in
 // way
+// Return 0 if the piece could not be shifted, 1 otherwise.
 int shift_right(int *cur_piece, int * board)
 {
     int i;
     for (i = 0; i < N_ROWS; i++) {
+        // Check bounds
         if (cur_piece[i] & (1 << (N_COLS - 1))) {
             return 0;
         }
+        // Check if collision with block in board
         if (cur_piece[i] << 1 & board[i]) {
             return 0;
         }
     }
+    // Actually shift
     for (i = 0; i < N_ROWS; i++) {
         cur_piece[i] = cur_piece[i] << 1;
     }
     return 1;
 }
 
-// and the bitmaps together
+// Rotate the currently falling piece
+void rotate(int *cur_piece, int * board)
+{
+
+}
+
+// Combine two board arrays by bitwise ANDing each line together
+// Place the result in the second board
 void place_piece(int * cur_piece, int * board)
 {
     int i;
@@ -165,6 +181,7 @@ void place_piece(int * cur_piece, int * board)
 }
 
 // clear completed lines and shift the rest down
+// Return the number of lines cleared
 int clear_lines(int * board) {
     int i, j;
     int n_cleared = 0;
@@ -210,12 +227,19 @@ void print_board(int * board)
 
 int main(void)
 {
+    
     srand(time(NULL)); // TODO can use on microblaze?
-    int board[20];
-    int cur_piece[20];
-    int display_board[20];
+
+    // Game state variables
+    int board[20];          // "Locked" pieces
+    int cur_piece[20];      // Current falling piece
+    int display_board[20];  // Combination of the two used for display
+
+    int score = 0;          // Current number of lines cleared
+    int game_over = 0;      // 1 when the game ends
 
     // TODO remove later keyboard control
+    // Curses library init
     initscr();
     cbreak();
     noecho();
@@ -223,12 +247,15 @@ int main(void)
     keypad(stdscr, TRUE);
     int ch;
 
-    int game_over = 0;
+    // Initialize board and piece arrays
     clear_board(board);
     add_piece(cur_piece);
+
+    // Main game loop
     while (!game_over) {
 
-        //TODO linux keyboard control
+        // Move the piece
+        // TODO replace linux keyboard control with algorithmic control
         ch = getch();
         if (ch == KEY_LEFT) {
             shift_left(cur_piece, board);
@@ -237,14 +264,16 @@ int main(void)
             shift_right(cur_piece, board);
         }
         
+        // Drop the current pice. If it cannot be dropped, add a new piece
         if (!drop_piece(cur_piece, board)) {
             place_piece(cur_piece, board);
             add_piece(cur_piece);
         }
 
-        clear_lines(board);
+        score += clear_lines(board);
 
         // TODO printing not useful on microblaze
+        // Print the current state
         clear_board(display_board);
         place_piece(board, display_board);
         place_piece(cur_piece, display_board);
