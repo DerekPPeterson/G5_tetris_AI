@@ -25,3 +25,141 @@
 16:48:49 INFO  : Processor reset is completed for microblaze_0
 16:49:15 INFO  : Processor reset is completed for microblaze_0
 16:49:20 INFO  : Processor reset is completed for microblaze_0
+18:13:59 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:58:58 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+20:58:59 INFO  : The hardware specification for project 'hw_platform_0' is different from /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+20:58:59 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+20:59:00 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit.
+20:59:00 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper_bd.bmm into /hw_platform_0/design_1_wrapper_bd.bmm.
+20:59:03 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:59:04 INFO  : 
+20:59:04 INFO  : Updating hardware inferred compiler options for ddr_test.
+20:59:04 INFO  : Clearing existing target manager status.
+20:59:06 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:59:42 INFO  : Processor reset is completed for microblaze_0
+20:59:50 INFO  : Processor reset is completed for microblaze_0
+21:02:46 INFO  : Processor reset is completed for microblaze_0
+21:03:15 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:03:17 INFO  : Processor reset is completed for microblaze_0
+21:03:31 INFO  : Processor reset is completed for microblaze_0
+21:05:17 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:05:19 INFO  : Processor reset is completed for microblaze_0
+21:06:18 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:06:20 INFO  : Processor reset is completed for microblaze_0
+21:13:44 INFO  : Processor reset is completed for microblaze_0
+21:16:30 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:16:31 INFO  : Processor reset is completed for microblaze_0
+21:17:12 INFO  : Processor reset is completed for microblaze_0
+21:17:49 INFO  : Processor reset is completed for microblaze_0
+21:18:35 INFO  : Processor reset is completed for microblaze_0
+21:18:50 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:18:52 INFO  : Processor reset is completed for microblaze_0
+21:19:06 INFO  : Processor reset is completed for microblaze_0
+21:19:24 INFO  : Processor reset is completed for microblaze_0
+21:19:32 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:19:34 INFO  : Processor reset is completed for microblaze_0
+21:19:41 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:19:43 INFO  : Processor reset is completed for microblaze_0
+21:19:57 INFO  : Processor reset is completed for microblaze_0
+21:24:59 INFO  : Processor reset is completed for microblaze_0
+21:26:13 INFO  : Processor reset is completed for microblaze_0
+21:26:30 INFO  : Processor reset is completed for microblaze_0
+21:28:09 INFO  : Processor reset is completed for microblaze_0
+21:29:08 INFO  : Processor reset is completed for microblaze_0
+21:29:49 INFO  : Processor reset is completed for microblaze_0
+21:32:53 INFO  : Processor reset is completed for microblaze_0
+21:36:34 INFO  : Processor reset is completed for microblaze_0
+21:37:12 INFO  : Processor reset is completed for microblaze_0
+21:37:36 INFO  : Processor reset is completed for microblaze_0
+21:38:01 INFO  : Processor reset is completed for microblaze_0
+21:38:18 INFO  : Processor reset is completed for microblaze_0
+21:38:30 INFO  : Processor reset is completed for microblaze_0
+21:39:32 INFO  : Processor reset is completed for microblaze_0
+21:39:53 INFO  : Processor reset is completed for microblaze_0
+21:40:08 INFO  : Processor reset is completed for microblaze_0
+21:40:28 INFO  : Processor reset is completed for microblaze_0
+21:40:45 INFO  : Processor reset is completed for microblaze_0
+21:41:27 INFO  : Processor reset is completed for microblaze_0
+21:41:48 INFO  : Processor reset is completed for microblaze_0
+21:43:42 INFO  : Processor reset is completed for microblaze_0
+21:44:00 INFO  : Processor reset is completed for microblaze_0
+21:44:14 INFO  : Processor reset is completed for microblaze_0
+21:45:39 INFO  : Processor reset is completed for microblaze_0
+21:45:48 INFO  : Processor reset is completed for microblaze_0
+21:46:39 INFO  : Processor reset is completed for microblaze_0
+21:47:05 INFO  : Processor reset is completed for microblaze_0
+21:47:23 INFO  : Processor reset is completed for microblaze_0
+21:47:54 INFO  : Processor reset is completed for microblaze_0
+21:48:17 INFO  : Processor reset is completed for microblaze_0
+21:48:46 INFO  : Processor reset is completed for microblaze_0
+21:49:10 INFO  : Processor reset is completed for microblaze_0
+21:50:59 INFO  : Processor reset is completed for microblaze_0
+21:51:17 INFO  : Processor reset is completed for microblaze_0
+21:53:25 INFO  : Processor reset is completed for microblaze_0
+21:54:03 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:54:04 INFO  : Processor reset is completed for microblaze_0
+21:54:38 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:54:39 INFO  : Processor reset is completed for microblaze_0
+21:56:47 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+21:57:06 INFO  : Processor reset is completed for microblaze_0
+21:57:23 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:57:25 INFO  : Processor reset is completed for microblaze_0
+21:57:42 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:57:43 INFO  : Processor reset is completed for microblaze_0
+21:58:29 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:58:32 INFO  : Processor reset is completed for microblaze_0
+21:59:01 INFO  : Processor reset is completed for microblaze_0
+21:59:35 INFO  : Processor reset is completed for microblaze_0
+21:59:46 INFO  : Processor reset is completed for microblaze_0
+22:00:15 INFO  : Processor reset is completed for microblaze_0
+22:01:44 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:480)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+22:02:24 INFO  : Processor reset is completed for microblaze_0
+22:02:44 INFO  : Inferring section assignments and sizes from elf file: /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test/Debug/vga_test.elf
+22:03:02 INFO  : Successfully generated /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test/src/lscript.ld.
+22:03:02 INFO  : Applying linker script to all configurations of project vga_test.
+22:03:02 INFO  : Setting rebuild state to true for all configurations of project vga_test.
+22:03:06 INFO  : Processor reset is completed for microblaze_0
+22:03:50 INFO  : Processor reset is completed for microblaze_0
+22:04:16 INFO  : Inferring section assignments and sizes from elf file: /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test/Debug/vga_test.elf
+22:04:51 INFO  : Processor reset is completed for microblaze_0
+22:05:40 INFO  : Processor reset is completed for microblaze_0
+22:05:58 INFO  : Processor reset is completed for microblaze_0
+22:07:41 INFO  : Processor reset is completed for microblaze_0
+22:08:04 INFO  : Processor reset is completed for microblaze_0
+22:08:49 INFO  : Processor reset is completed for microblaze_0
+22:27:12 INFO  : Processor reset is completed for microblaze_0
+22:27:36 INFO  : Processor reset is completed for microblaze_0
+22:28:00 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:28:02 INFO  : Processor reset is completed for microblaze_0
+22:28:27 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:28:28 INFO  : Processor reset is completed for microblaze_0
+22:28:41 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:28:42 INFO  : Processor reset is completed for microblaze_0
+22:29:47 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:29:49 INFO  : Processor reset is completed for microblaze_0
+22:29:54 INFO  : Processor reset is completed for microblaze_0
+22:30:01 INFO  : Processor reset is completed for microblaze_0
+22:30:51 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:30:53 INFO  : Processor reset is completed for microblaze_0
+22:31:37 INFO  : Processor reset is completed for microblaze_0
+22:33:25 INFO  : Processor reset is completed for microblaze_0
+22:34:00 INFO  : Processor reset is completed for microblaze_0
+22:35:08 INFO  : Processor reset is completed for microblaze_0
+22:35:24 INFO  : Processor reset is completed for microblaze_0
+22:36:02 INFO  : Processor reset is completed for microblaze_0
+22:36:29 INFO  : Processor reset is completed for microblaze_0
+22:37:01 INFO  : Processor reset is completed for microblaze_0
+22:37:33 INFO  : Processor reset is completed for microblaze_0
+22:38:01 INFO  : Processor reset is completed for microblaze_0
+22:39:00 INFO  : Processor reset is completed for microblaze_0
+22:39:15 INFO  : Processor reset is completed for microblaze_0
+22:39:43 INFO  : Processor reset is completed for microblaze_0

@@ -737,7 +737,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>customizationCRC</spirit:name>
-            <spirit:value>2d0acb27</spirit:value>
+            <spirit:value>62e92751</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>customizationCRCversion</spirit:name>
@@ -745,7 +745,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Feb 20 21:29:20 UTC 2015</spirit:value>
+            <spirit:value>Sat Feb 21 01:37:10 UTC 2015</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>StaleAtRelink</spirit:name>
@@ -764,7 +764,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>customizationCRC</spirit:name>
-            <spirit:value>2d0acb27</spirit:value>
+            <spirit:value>62e92751</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>customizationCRCversion</spirit:name>
@@ -772,7 +772,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Feb 20 21:29:20 UTC 2015</spirit:value>
+            <spirit:value>Sat Feb 21 01:37:11 UTC 2015</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>StaleAtRelink</spirit:name>
@@ -902,7 +902,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -929,7 +929,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -956,7 +956,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -983,7 +983,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1010,7 +1010,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1064,7 +1064,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) = &quot;AXI4&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) = &quot;AXI4&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1091,7 +1091,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1211,7 +1211,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1426,7 +1426,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1453,7 +1453,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1480,7 +1480,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1507,7 +1507,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1534,7 +1534,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1588,7 +1588,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) = &quot;AXI4&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) = &quot;AXI4&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1615,7 +1615,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1750,7 +1750,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1887,7 +1887,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1911,7 +1911,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1935,7 +1935,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1959,7 +1959,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -1983,7 +1983,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -2031,7 +2031,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) = &quot;AXI4&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) = &quot;AXI4&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -2055,7 +2055,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -2166,7 +2166,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_WRITE&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -2327,7 +2327,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -2351,7 +2351,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -2375,7 +2375,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -2399,7 +2399,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -2423,7 +2423,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -2471,7 +2471,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) = &quot;AXI4&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) = &quot;AXI4&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -2495,7 +2495,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -2615,7 +2615,7 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:presence>optional</xilinx:presence>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( (spirit:decode(id(&apos;PARAM_VALUE.PROTOCOL&apos;)) != &quot;AXI4LITE&quot;) and (spirit:decode(id(&apos;MODELPARAM_VALUE.C_AXI_SUPPORTS_READ&apos;)) = 1) )">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -2671,7 +2671,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_AXI_PROTOCOL</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_AXI_PROTOCOL">2</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_AXI_PROTOCOL">0</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_S_AXI_ID_WIDTH</spirit:name>
@@ -2719,7 +2719,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_MAX_SPLIT_BEATS</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_MAX_SPLIT_BEATS">16</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_MAX_SPLIT_BEATS">256</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_PACKING_LEVEL</spirit:name>
@@ -2754,10 +2754,18 @@
       <spirit:name>choices_3</spirit:name>
       <spirit:enumeration spirit:text="32">32</spirit:enumeration>
       <spirit:enumeration spirit:text="64">64</spirit:enumeration>
+      <spirit:enumeration spirit:text="128">128</spirit:enumeration>
+      <spirit:enumeration spirit:text="256">256</spirit:enumeration>
+      <spirit:enumeration spirit:text="512">512</spirit:enumeration>
+      <spirit:enumeration spirit:text="1024">1024</spirit:enumeration>
     </spirit:choice>
     <spirit:choice>
       <spirit:name>choices_4</spirit:name>
       <spirit:enumeration spirit:text="32">32</spirit:enumeration>
+      <spirit:enumeration spirit:text="128">128</spirit:enumeration>
+      <spirit:enumeration spirit:text="256">256</spirit:enumeration>
+      <spirit:enumeration spirit:text="512">512</spirit:enumeration>
+      <spirit:enumeration spirit:text="1024">1024</spirit:enumeration>
     </spirit:choice>
     <spirit:choice>
       <spirit:name>choices_5</spirit:name>
@@ -3678,7 +3686,7 @@
     <spirit:parameter>
       <spirit:name>PROTOCOL</spirit:name>
       <spirit:displayName>PROTOCOL</spirit:displayName>
-      <spirit:value spirit:format="string" spirit:resolve="user" spirit:id="PARAM_VALUE.PROTOCOL" spirit:choiceRef="choices_0" spirit:order="2">AXI4LITE</spirit:value>
+      <spirit:value spirit:format="string" spirit:resolve="user" spirit:id="PARAM_VALUE.PROTOCOL" spirit:choiceRef="choices_0" spirit:order="2">AXI4</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>READ_WRITE_MODE</spirit:name>
@@ -3688,7 +3696,7 @@
     <spirit:parameter>
       <spirit:name>ADDR_WIDTH</spirit:name>
       <spirit:displayName>Address Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ADDR_WIDTH" spirit:order="4" spirit:minimum="3" spirit:maximum="64">32</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ADDR_WIDTH" spirit:order="4" spirit:minimum="12" spirit:maximum="64">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>PACKING_LEVEL</spirit:name>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1424468366">
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1424482632">
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="RDI-RDI" Name="design_1_wrapper.vdi"/>
   <File Type="BG-DRC" Name="design_1_wrapper.drc"/>
@@ -45,7 +45,28 @@
   <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/tutorials/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../tutorials/Nexys4DDR_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1418246284"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PIOPLANDIR/constrs_1/designprops.xml">
+      <FileInfo SFType="CompatPartsDb"/>
+    </File>
+    <File Path="$PIOPLANDIR/constrs_1/usercols.xml">
+      <FileInfo SFType="UserColsDb"/>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/design_1_wrapper.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
     <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/design_1_wrapper.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>

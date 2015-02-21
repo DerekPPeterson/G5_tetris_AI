@@ -10,7 +10,7 @@ a
 ^
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-3982default:defaultZ29-17
+4572default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -107,10 +107,10 @@ $Parsing XDC File [%s] for cell '%s'
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2 
 get_clocks: 2default:default2
-00:00:082default:default2
-00:00:082default:default2
-1453.2702default:default2
-401.1802default:defaultZ17-268
+00:00:092default:default2
+00:00:092default:default2
+1499.1092default:default2
+417.0232default:defaultZ17-268
  
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2©
@@ -166,53 +166,137 @@ $Parsing XDC File [%s] for cell '%s'
 848*designutils2ê
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2,
 design_1_i/mig_7series_02default:defaultZ20-848
-
+Ó
 $%s: '%s' is not a valid startpoint.
 402*constraints2!
-set_max_delay2default:default2—
-€design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_en_i_1	2default:default2ì
+set_max_delay2default:default2^
+Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[2]_i_1	2default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
 3372default:default8@Z18-402
-
+Ó
 $%s: '%s' is not a valid startpoint.
 402*constraints2!
-set_max_delay2default:default2˜
-design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_clr_i_1	2default:default2ì
+set_max_delay2default:default2^
+Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[1]_i_1	2default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
 3372default:default8@Z18-402
-
+Ô
 $%s: '%s' is not a valid startpoint.
 402*constraints2!
-set_max_delay2default:default2‹
-udesign_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_reg_i_1	2default:default2ì
+set_max_delay2default:default2_
+Idesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[11]_i_1	2default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
 3372default:default8@Z18-402
-ı
+Ó
 $%s: '%s' is not a valid startpoint.
 402*constraints2!
-set_max_delay2default:default2‡
-qdesign_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_5	2default:default2ì
+set_max_delay2default:default2^
+Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[0]_i_1	2default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
 3372default:default8@Z18-402
-ı
+Ô
 $%s: '%s' is not a valid startpoint.
 402*constraints2!
-set_max_delay2default:default2‡
-qdesign_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_4	2default:default2ì
+set_max_delay2default:default2_
+Idesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[10]_i_1	2default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
 3372default:default8@Z18-402
-ı
+ì
 $%s: '%s' is not a valid startpoint.
 402*constraints2!
-set_max_delay2default:default2‡
-qdesign_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_3	2default:default2ì
+set_max_delay2default:default2w
+adesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_en_i_1	2default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
 3372default:default8@Z18-402
-ı
+í
 $%s: '%s' is not a valid startpoint.
 402*constraints2!
-set_max_delay2default:default2‡
-qdesign_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_2	2default:default2ì
+set_max_delay2default:default2x
+bdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_clr_i_1	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
+3372default:default8@Z18-402
+á
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2l
+Vdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_reg_i_1	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
+3372default:default8@Z18-402
+İ
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2h
+Rdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_5	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
+3372default:default8@Z18-402
+İ
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2h
+Rdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_4	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
+3372default:default8@Z18-402
+İ
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2h
+Rdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_3	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
+3372default:default8@Z18-402
+İ
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2h
+Rdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_2	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
+3372default:default8@Z18-402
+Ó
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2^
+Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[9]_i_1	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
+3372default:default8@Z18-402
+Ó
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2^
+Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[8]_i_1	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
+3372default:default8@Z18-402
+Ó
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2^
+Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[7]_i_1	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
+3372default:default8@Z18-402
+Ó
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2^
+Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[6]_i_1	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
+3372default:default8@Z18-402
+Ó
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2^
+Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[5]_i_1	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
+3372default:default8@Z18-402
+Ó
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2^
+Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[4]_i_1	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
+3372default:default8@Z18-402
+Ó
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2^
+Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[3]_i_1	2default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
 3372default:default8@Z18-402
 æ
@@ -270,6 +354,32 @@ $Parsing XDC File [%s] for cell '%s'
 847*designutils2Ï
 º/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_rst_mig_7series_0_81M_0/design_1_rst_mig_7series_0_81M_0_board.xdc2default:default24
  design_1_i/rst_mig_7series_0_81M2default:defaultZ20-847
+£
+$Parsing XDC File [%s] for cell '%s'
+848*designutils2±
+œ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_tft_0_0/design_1_axi_tft_0_0.xdc2default:default2+
+design_1_i/axi_tft_0/U02default:defaultZ20-848
+¬
+-Finished Parsing XDC File [%s] for cell '%s'
+847*designutils2±
+œ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_tft_0_0/design_1_axi_tft_0_0.xdc2default:default2+
+design_1_i/axi_tft_0/U02default:defaultZ20-847
+Ò
+Parsing XDC File [%s]
+179*designutils2›
+†/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/imports/tutorials/Nexys4DDR_Master.xdc2default:defaultZ20-179
+Û
+Finished Parsing XDC File [%s]
+178*designutils2›
+†/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/imports/tutorials/Nexys4DDR_Master.xdc2default:defaultZ20-178
+Ã
+Parsing XDC File [%s]
+179*designutils2Œ
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:defaultZ20-179
+Ì
+Finished Parsing XDC File [%s]
+178*designutils2Œ
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:defaultZ20-178
 Î
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2Ğ
@@ -280,6 +390,16 @@ $Parsing XDC File [%s] for cell '%s'
 847*designutils2Ğ
 »/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_axi_intc_0/design_1_microblaze_0_axi_intc_0_clocks.xdc2default:default27
 #design_1_i/microblaze_0_axi_intc/U02default:defaultZ20-847
+ª
+$Parsing XDC File [%s] for cell '%s'
+848*designutils2¸
+£/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_tft_0_0/design_1_axi_tft_0_0_clocks.xdc2default:default2+
+design_1_i/axi_tft_0/U02default:defaultZ20-848
+³
+-Finished Parsing XDC File [%s] for cell '%s'
+847*designutils2¸
+£/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_tft_0_0/design_1_axi_tft_0_0_clocks.xdc2default:default2+
+design_1_i/axi_tft_0/U02default:defaultZ20-847
 Ë
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2´
@@ -323,6 +443,16 @@ $Parsing XDC File [%s] for cell '%s'
 Ë
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2´
+Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_3/design_1_auto_ds_3_clocks.xdc2default:default2P
+<design_1_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst2default:defaultZ20-848
+Ô
+-Finished Parsing XDC File [%s] for cell '%s'
+847*designutils2´
+Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_3/design_1_auto_ds_3_clocks.xdc2default:default2P
+<design_1_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst2default:defaultZ20-847
+Ë
+$Parsing XDC File [%s] for cell '%s'
+848*designutils2´
 Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc2default:default2P
 <design_1_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst2default:defaultZ20-848
 Ô
@@ -344,22 +474,22 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
 ç
 !Unisim Transformation Summary:
 %s111*project2ª
-•  A total of 338 instances were transformed.
+•  A total of 395 instances were transformed.
   IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 2 instances
   IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
   LUT6_2 => LUT6_2 (LUT5, LUT6): 104 instances
   OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
-  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 34 instances
-  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 181 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 32 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 240 instances
 2default:defaultZ1-111
 ü
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2!
 link_design: 2default:default2
-00:00:182default:default2
-00:00:182default:default2
-1477.2732default:default2
-732.4302default:defaultZ17-268
+00:00:222default:default2
+00:00:212default:default2
+1525.1132default:default2
+780.2732default:defaultZ17-268
 
 
 End Record

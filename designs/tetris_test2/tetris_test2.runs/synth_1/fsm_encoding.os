@@ -1,5 +1,10 @@
 
  add_fsm_encoding \
+       {axi_master_burst_pcc.sig_pcc_sm_state} \
+       { }  \
+       {{000 00000010} {001 00000100} {010 00001000} {011 00010000} {100 00100000} {101 01000000} {110 10000000} }
+
+ add_fsm_encoding \
        {mig_7series_v2_0_tempmon.xadc_supplied_temperature.tempmon_state} \
        { }  \
        {{000 00001} {001 00010} {010 00100} {011 01000} }

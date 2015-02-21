@@ -3,8 +3,12 @@
 # 
 
   set_param gui.test TreeTableDev
+  set_param xicom.use_bs_reader 1
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
+set_msg_config -id {Labtools 27-147} -limit 4294967295
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 create_project -in_memory -part xc7a100tcsg324-1
 set_property target_language Verilog [current_project]
 set_property board_part_repo_paths /home/derek/Documents/year_4/ECE532/board_repository/ [current_project]
@@ -43,15 +47,24 @@ set_property used_in_implementation false [get_files -all /home/derek/Documents/
 set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_rst_mig_7series_0_81M_0/design_1_rst_mig_7series_0_81M_0.xdc]
 set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_rst_mig_7series_0_81M_0/design_1_rst_mig_7series_0_81M_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_rst_mig_7series_0_81M_0/design_1_rst_mig_7series_0_81M_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_tft_0_0/design_1_axi_tft_0_0.xdc]
+set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_tft_0_0/design_1_axi_tft_0_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_tft_0_0/design_1_axi_tft_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_2/design_1_auto_ds_2_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_2/design_1_auto_ds_2_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_2/design_1_auto_pc_2_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_3/design_1_auto_ds_3_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_3/design_1_auto_ds_3_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_3/design_1_auto_pc_3_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_4/design_1_auto_pc_4_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc]
 set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/design_1_ooc.xdc]
@@ -59,6 +72,12 @@ set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
 set_property is_locked true [get_files /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/design_1.bd]
 
 read_verilog -library xil_defaultlib /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+read_xdc /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/imports/tutorials/Nexys4DDR_Master.xdc
+set_property used_in_implementation false [get_files /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/imports/tutorials/Nexys4DDR_Master.xdc]
+
+read_xdc /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc
+set_property used_in_implementation false [get_files /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc]
+
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param synth.vivado.isSynthRun true
