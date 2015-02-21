@@ -53,3 +53,99 @@ org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: Inferior terminated[]
 
 !ENTRY net.sourceforge.vrapper.eclipse 1 0 2015-02-20 23:27:54.646
 !MESSAGE TODO: implement ConvertingState's union efficently
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:12:56.260
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:12:56.261
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:12:56.261
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:14:02.062
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:14:02.063
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:14:02.063
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:14:15.185
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:14:15.185
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:14:15.185
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:24:04.947
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:24:04.947
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:24:04.947
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:37:53.011
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:37:53.011
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:37:53.012
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:37:53.012
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:39:55.042
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:39:55.046
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:39:55.046
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:39:55.046
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:40:34.921
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:40:34.921
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:40:34.921
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:40:34.921
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:43:21.380
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:43:21.381
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:43:21.381
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:43:21.381
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:46:47.439
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:46:47.439
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:46:47.439
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-02-21 00:46:47.439
+!MESSAGE {R,T}xThread terminated

@@ -1,5 +1,6 @@
-23:22:54 **** Auto Build of project vga_test_bsp ****
+00:37:55 **** Build of project vga_test_bsp ****
 make -k all 
+cp -f microblaze_0/lib/libxil_init.a microblaze_0/lib/libxil.a
 Running Make include in microblaze_0/libsrc/bram_v4_0/src
 make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
 Running Make include in microblaze_0/libsrc/cpu_v2_0/src
@@ -50,5 +51,5 @@ rm -rf *.o
 make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
 Finished building libraries
 
-23:22:55 Build Finished (took 1s.421ms)
+00:37:57 Build Finished (took 1s.260ms)
 

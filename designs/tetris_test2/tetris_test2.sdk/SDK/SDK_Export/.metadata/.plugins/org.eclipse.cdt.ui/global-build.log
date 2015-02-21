@@ -6794,3 +6794,2194 @@ make: Nothing to be done for `all'.
 23:36:30 **** Incremental Build of configuration Debug for project vga_test ****
 make all 
 make: Nothing to be done for `all'.
+23:42:16 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'draw_block':
+../src/vga.c:55:6: warning: unused variable 'inner_size' [-Wunused-variable]
+  int inner_size;
+      ^
+../src/vga.c: In function 'start_drawing':
+../src/vga.c:94:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16268	   1364	   2152	  19784	   4d48	tetris.elf
+Finished building: tetris.elf.size
+ 
+23:42:21 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:42:22 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:42:22 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:43:45 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+Finished building: ../src/tetris.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16176	   1364	   2148	  19688	   4ce8	tetris.elf
+Finished building: tetris.elf.size
+ 
+23:43:47 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:43:48 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:43:48 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:44:11 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+Finished building: ../src/tetris.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16268	   1364	   2152	  19784	   4d48	tetris.elf
+Finished building: tetris.elf.size
+ 
+23:44:13 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:44:13 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:44:13 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:44:40 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:44:40 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:44:41 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:44:51 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:44:51 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:44:51 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:45:15 **** Auto Build of project ddr_test_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+23:45:16 **** Auto Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:45:17 **** Auto Build of project tetris_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+23:45:18 **** Auto Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:45:18 **** Auto Build of project vga_test_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+23:45:20 **** Auto Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:45:39 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:45:39 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:45:39 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:45:54 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'draw_block':
+../src/vga.c:55:6: warning: unused variable 'inner_size' [-Wunused-variable]
+  int inner_size;
+      ^
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:98:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16268	   1364	   2152	  19784	   4d48	tetris.elf
+Finished building: tetris.elf.size
+ 
+23:45:57 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:45:57 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:45:57 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:46:12 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:46:13 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:46:13 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:46:29 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+Finished building: ../src/tetris.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16268	   1364	   2152	  19784	   4d48	tetris.elf
+Finished building: tetris.elf.size
+ 
+23:46:34 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:46:35 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:46:35 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:46:55 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+Finished building: ../src/tetris.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15748	   1364	   2152	  19264	   4b40	tetris.elf
+Finished building: tetris.elf.size
+ 
+23:46:58 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:46:58 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:46:58 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:47:59 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:47:59 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:48:00 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:48:10 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:48:11 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:48:11 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:48:50 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:48:51 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:48:51 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:49:14 **** Auto Build of project ddr_test_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+23:49:16 **** Auto Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:49:16 **** Auto Build of project tetris_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+23:49:17 **** Auto Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:49:17 **** Auto Build of project vga_test_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+23:49:19 **** Auto Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:50:11 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+Finished building: ../src/tetris.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15748	   1364	   2152	  19264	   4b40	tetris.elf
+Finished building: tetris.elf.size
+ 
+23:50:14 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:50:14 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:50:15 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:51:48 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'draw_block':
+../src/vga.c:58:6: warning: unused variable 'inner_size' [-Wunused-variable]
+  int inner_size;
+      ^
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:101:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15748	   1364	   2152	  19264	   4b40	tetris.elf
+Finished building: tetris.elf.size
+ 
+23:52:13 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'draw_block':
+../src/vga.c:58:6: warning: unused variable 'inner_size' [-Wunused-variable]
+  int inner_size;
+      ^
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:103:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15764	   1364	   2152	  19280	   4b50	tetris.elf
+Finished building: tetris.elf.size
+ 
+23:52:21 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'draw_block':
+../src/vga.c:58:6: warning: unused variable 'inner_size' [-Wunused-variable]
+  int inner_size;
+      ^
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:104:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15780	   1364	   2152	  19296	   4b60	tetris.elf
+Finished building: tetris.elf.size
+ 
+23:52:32 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'draw_block':
+../src/vga.c:58:6: warning: unused variable 'inner_size' [-Wunused-variable]
+  int inner_size;
+      ^
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:104:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15780	   1364	   2152	  19296	   4b60	tetris.elf
+Finished building: tetris.elf.size
+ 
+23:52:34 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:52:35 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:52:35 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:55:25 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:105:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16008	   1364	   2148	  19520	   4c40	tetris.elf
+Finished building: tetris.elf.size
+ 
+23:55:28 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:55:28 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:55:28 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:57:25 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:105:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16008	   1364	   2148	  19520	   4c40	tetris.elf
+Finished building: tetris.elf.size
+ 
+23:58:38 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:99:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16008	   1364	   2148	  19520	   4c40	tetris.elf
+Finished building: tetris.elf.size
+ 
+23:58:41 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+23:58:41 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+23:58:41 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+23:59:58 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:99:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+../src/vga.c:100:2: warning: implicit declaration of function 'spin' [-Wimplicit-function-declaration]
+  spin(DISPLAY_HEIGHT * DISPLAY_WIDTH);
+  ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16028	   1364	   2152	  19544	   4c58	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:00:02 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:00:02 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:00:03 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:00:47 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:105:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16008	   1364	   2148	  19520	   4c40	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:01:24 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:105:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16008	   1364	   2148	  19520	   4c40	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:01:27 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:01:28 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:01:28 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:01:49 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+Finished building: ../src/tetris.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16528	   1364	   2148	  20040	   4e48	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:01:51 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:01:52 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:01:52 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:04:49 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:105:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16144	   1364	   2148	  19656	   4cc8	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:04:52 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:04:52 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:04:53 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:05:51 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:105:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16528	   1364	   2148	  20040	   4e48	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:05:54 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:05:54 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:05:54 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:06:12 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:06:12 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:06:13 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:07:02 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:07:03 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:07:03 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:08:08 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'start_drawing':
+../src/vga.c:95:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16528	   1364	   2148	  20040	   4e48	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:08:14 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'start_drawing':
+../src/vga.c:95:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16588	   1364	   2152	  20104	   4e88	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:08:17 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:08:17 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:08:17 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:08:38 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'start_drawing':
+../src/vga.c:95:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16528	   1364	   2148	  20040	   4e48	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:08:40 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:08:41 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:08:41 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:10:02 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:106:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16548	   1368	   2148	  20064	   4e60	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:10:09 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:10:10 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:10:10 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:10:49 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:10:49 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:10:50 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:13:00 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:13:00 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:13:00 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:13:54 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:106:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16548	   1368	   2148	  20064	   4e60	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:13:59 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:14:00 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:14:00 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:14:10 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:14:11 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:14:11 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:14:30 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:106:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16528	   1364	   2148	  20040	   4e48	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:14:32 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:14:33 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:14:33 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:15:42 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:107:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16556	   1368	   2148	  20072	   4e68	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:15:45 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:15:45 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:15:46 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:16:17 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16448	   1352	   2144	  19944	   4de8	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:16:19 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:16:20 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:16:20 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:19:04 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16448	   1352	   2144	  19944	   4de8	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:19:55 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'start_drawing':
+../src/vga.c:100:13: error: 'vga_buga' undeclared (first use in this function)
+   vga_buf = vga_buga;
+             ^
+../src/vga.c:100:13: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/vga.o] Error 1
+00:20:01 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16508	   1360	   2148	  20016	   4e30	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:20:12 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:107:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16528	   1364	   2148	  20040	   4e48	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:20:15 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:20:16 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:20:16 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:21:31 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:21:31 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:21:31 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:24:08 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:24:08 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:24:09 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:27:15 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:107:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16528	   1364	   2148	  20040	   4e48	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:27:18 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:27:19 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:27:19 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:28:20 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:107:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16556	   1368	   2148	  20072	   4e68	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:28:22 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:28:23 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:28:23 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:34:05 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'start_drawing':
+../src/vga.c:100:8: warning: assignment makes integer from pointer without a cast [enabled by default]
+   *vga = vga_buf;
+        ^
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:108:8: warning: assignment makes integer from pointer without a cast [enabled by default]
+   *vga = vga_buf;
+        ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16548	   1364	   2152	  20064	   4e60	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:34:09 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:34:09 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:34:09 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:34:49 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:107:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16528	   1364	   2148	  20040	   4e48	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:34:52 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:34:52 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:34:52 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:35:57 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:35:57 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:35:57 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:36:03 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:36:04 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:36:04 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:37:41 **** Auto Build of project ddr_test_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+00:37:42 **** Auto Build of project ddr_test_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+00:37:44 **** Auto Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:37:44 **** Auto Build of project tetris_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+00:37:48 **** Auto Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:37:51 **** Auto Build of project vga_test_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+00:37:52 **** Clean-only build of project ddr_test_bsp ****
+make -k clean 
+rm -f microblaze_0/lib/libxil.a
+00:37:52 **** Clean-only build of project vga_test_bsp ****
+00:37:52 **** Clean-only build of project tetris_bsp ****
+make -k clean 
+make -k clean 
+rm -f microblaze_0/lib/libxil.a
+rm -f microblaze_0/lib/libxil.a
+00:37:53 **** Build of project ddr_test_bsp ****
+make -k all 
+cp -f microblaze_0/lib/libxil_init.a microblaze_0/lib/libxil.a
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+00:37:54 **** Auto Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:37:54 **** Build of project tetris_bsp ****
+make -k all 
+cp -f microblaze_0/lib/libxil_init.a microblaze_0/lib/libxil.a
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+00:37:55 **** Auto Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:37:55 **** Build of project vga_test_bsp ****
+make -k all 
+cp -f microblaze_0/lib/libxil_init.a microblaze_0/lib/libxil.a
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/vga_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+00:37:57 **** Auto Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:37:57 **** Clean-only build of configuration Debug for project ddr_test ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  ddr_test.elf.size  ddr_test.elf
+ 
+00:37:57 **** Clean-only build of configuration Debug for project tetris ****
+make clean 
+rm -rf  ./src/platform.o ./src/tetris.o ./src/vga.o  ./src/platform.d ./src/tetris.d ./src/vga.d  tetris.elf.size  tetris.elf
+ 
+00:37:57 **** Clean-only build of configuration Debug for project vga_test ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  vga_test.elf.size  vga_test.elf
+ 
+00:37:58 **** Build of configuration Debug for project ddr_test ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../ddr_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../ddr_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: ddr_test.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ddr_test_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "ddr_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ddr_test.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size ddr_test.elf  |tee "ddr_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3368	    312	   2080	   5760	   1680	ddr_test.elf
+Finished building: ddr_test.elf.size
+ 
+00:37:58 **** Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+Finished building: ../src/tetris.c
+ 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:107:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16528	   1364	   2148	  20040	   4e48	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:37:58 **** Build of configuration Debug for project vga_test ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../vga_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:82:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = video_data;
+       ^
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../vga_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: vga_test.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../vga_test_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "vga_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: vga_test.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size vga_test.elf  |tee "vga_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3616	    316	   2084	   6016	   1780	vga_test.elf
+Finished building: vga_test.elf.size
+ 
+00:38:01 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:38:02 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:38:02 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:38:20 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:38:21 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:38:21 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:39:49 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+Finished building: ../src/vga.c
+../src/vga.c:107:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16528	   1364	   2148	  20040	   4e48	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:39:52 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:39:53 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:39:53 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:40:13 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:40:14 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:40:14 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:40:39 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:40:40 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:40:40 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:41:24 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:106:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16548	   1368	   2148	  20064	   4e60	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:41:27 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:41:27 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:41:27 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:41:41 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:41:42 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:41:42 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:43:19 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:43:19 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:43:19 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:44:12 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:44:12 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:44:12 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:46:41 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:105:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16548	   1368	   2148	  20064	   4e60	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:46:45 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:46:45 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:46:45 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:47:49 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c:54:82: error: invalid digit "8" in octal constant
+ volatile unsigned int * vga_bufb = (unsigned int*) XPAR_MIG_7SERIES_0_BASEADDR + 080000;
+                                                                                  ^
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:105:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+make: *** [src/vga.o] Error 1
+00:47:59 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:105:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16548	   1368	   2148	  20064	   4e60	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:48:01 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:48:01 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:48:02 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:48:44 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:105:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16548	   1368	   2148	  20064	   4e60	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:48:47 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:48:47 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:48:47 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.
+00:49:21 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'clear':
+../src/vga.c:81:6: warning: unused variable 'offset' [-Wunused-variable]
+  int offset = (DISPLAY_WIDTH - size * 10) / 2;
+      ^
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:103:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16528	   1368	   2144	  20040	   4e48	tetris.elf
+Finished building: tetris.elf.size
+ 
+00:49:23 **** Incremental Build of configuration Debug for project ddr_test ****
+make all 
+make: Nothing to be done for `all'.
+00:49:24 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+00:49:24 **** Incremental Build of configuration Debug for project vga_test ****
+make all 
+make: Nothing to be done for `all'.

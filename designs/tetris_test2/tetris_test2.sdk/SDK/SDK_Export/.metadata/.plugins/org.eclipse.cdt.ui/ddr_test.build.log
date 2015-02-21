@@ -1,6 +1,6 @@
-23:36:29 **** Incremental Build of configuration Debug for project ddr_test ****
+00:49:23 **** Incremental Build of configuration Debug for project ddr_test ****
 make all 
 make: Nothing to be done for `all'.
 
-23:36:29 Build Finished (took 60ms)
+00:49:24 Build Finished (took 63ms)
 
