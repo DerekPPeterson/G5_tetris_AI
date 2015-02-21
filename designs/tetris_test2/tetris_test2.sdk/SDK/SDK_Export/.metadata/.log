@@ -31,3 +31,25 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/derek/Docume
 
 !ENTRY org.eclipse.cdt.core 1 0 2015-02-20 21:00:29.692
 !MESSAGE Indexed 'vga_test_bsp' (44 sources, 83 headers) in 0.99 sec: 1,845 declarations; 8,986 references; 23 unresolved inclusions; 4 syntax errors; 9 unresolved names (0.08%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-20 22:41:37.667
+!MESSAGE Indexed 'tetris_bsp' (44 sources, 44 headers) in 0.51 sec: 1,264 declarations; 8,358 references; 16 unresolved inclusions; 2 syntax errors; 9 unresolved names (0.09%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-20 22:41:37.673
+!MESSAGE Indexed 'tetris' (0 sources, 0 headers) in 0.00 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 42 2015-02-20 23:04:44.544
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: Inferior terminated[]
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.getMIShareds(SharedLibraryManager.java:123)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.updateState(SharedLibraryManager.java:189)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.update(SharedLibraryManager.java:137)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.processSuspendedEvent(EventManager.java:329)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.update(EventManager.java:101)
+	at java.util.Observable.notifyObservers(Observable.java:159)
+	at org.eclipse.cdt.debug.mi.core.MISession.notifyObservers(MISession.java:797)
+	at org.eclipse.cdt.debug.mi.core.EventThread.run(EventThread.java:47)
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2015-02-20 23:27:54.646
+!MESSAGE TODO: implement ConvertingState's union efficently

@@ -1,4 +1,4 @@
-21:56:48 **** Auto Build of project ddr_test_bsp ****
+23:22:51 **** Auto Build of project ddr_test_bsp ****
 make -k all 
 Running Make include in microblaze_0/libsrc/bram_v4_0/src
 make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
@@ -42,5 +42,5 @@ rm -rf *.o
 make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
 Finished building libraries
 
-21:56:49 Build Finished (took 1s.217ms)
+23:22:52 Build Finished (took 1s.212ms)
 
