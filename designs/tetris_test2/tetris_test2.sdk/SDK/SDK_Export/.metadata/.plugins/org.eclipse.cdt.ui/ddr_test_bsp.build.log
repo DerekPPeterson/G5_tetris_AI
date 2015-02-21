@@ -1,4 +1,4 @@
-00:37:53 **** Build of project ddr_test_bsp ****
+01:14:46 **** Build of project ddr_test_bsp ****
 make -k all 
 cp -f microblaze_0/lib/libxil_init.a microblaze_0/lib/libxil.a
 Running Make include in microblaze_0/libsrc/bram_v4_0/src
@@ -43,5 +43,5 @@ rm -rf *.o
 make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/ddr_test_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
 Finished building libraries
 
-00:37:54 Build Finished (took 1s.170ms)
+01:14:48 Build Finished (took 1s.321ms)
 

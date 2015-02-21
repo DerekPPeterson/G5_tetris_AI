@@ -374,3 +374,114 @@ com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on har
 00:48:50 INFO  : Processor reset is completed for microblaze_0
 00:49:25 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
 00:49:27 INFO  : Processor reset is completed for microblaze_0
+00:52:32 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:52:36 INFO  : Processor reset is completed for microblaze_0
+00:52:53 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:52:55 INFO  : Processor reset is completed for microblaze_0
+01:06:58 INFO  : Project hw_platform_0's source hardware specification located at /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+01:07:08 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+01:07:09 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit.
+01:07:09 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper_bd.bmm into /hw_platform_0/design_1_wrapper_bd.bmm.
+01:07:12 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+01:07:14 INFO  : 
+01:07:15 INFO  : 
+01:07:16 INFO  : 
+01:07:17 INFO  : Updating hardware inferred compiler options for ddr_test.
+01:07:18 INFO  : Updating hardware inferred compiler options for tetris.
+01:07:18 INFO  : Updating hardware inferred compiler options for vga_test.
+01:07:18 INFO  : Clearing existing target manager status.
+01:07:18 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+01:07:32 INFO  : Processor reset is completed for microblaze_0
+01:07:33 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unknown Error Occured
+    Target '0' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setSafeMode(TM.java:651)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:136)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:537)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+01:07:48 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+01:09:25 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+01:14:15 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+01:14:33 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+01:14:34 INFO  : The hardware specification for project 'hw_platform_0' is different from /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+01:14:34 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+01:14:35 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit.
+01:14:35 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper_bd.bmm into /hw_platform_0/design_1_wrapper_bd.bmm.
+01:14:38 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+01:14:40 INFO  : 
+01:14:41 INFO  : 
+01:14:42 INFO  : 
+01:14:43 INFO  : Updating hardware inferred compiler options for ddr_test.
+01:14:44 INFO  : Updating hardware inferred compiler options for tetris.
+01:14:45 INFO  : Updating hardware inferred compiler options for vga_test.
+01:14:45 INFO  : Clearing existing target manager status.
+01:14:46 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+01:14:57 INFO  : Processor reset is completed for microblaze_0
+01:16:44 INFO  : Processor reset is completed for microblaze_0
+01:16:52 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:16:53 INFO  : Processor reset is completed for microblaze_0
+01:31:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:31:02 INFO  : Processor reset is completed for microblaze_0
+02:28:14 INFO  : Processor reset is completed for microblaze_0
+02:28:54 INFO  : Processor reset is completed for microblaze_0
+02:29:29 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:29:30 INFO  : Processor reset is completed for microblaze_0
+02:30:13 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:30:15 INFO  : Processor reset is completed for microblaze_0
+02:30:36 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:30:37 INFO  : Processor reset is completed for microblaze_0
+02:31:27 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:31:31 INFO  : Processor reset is completed for microblaze_0
+02:32:29 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:32:31 INFO  : Processor reset is completed for microblaze_0
+02:33:32 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:33:34 INFO  : Processor reset is completed for microblaze_0
+02:35:59 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:36:00 INFO  : Processor reset is completed for microblaze_0
+02:36:18 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:36:20 INFO  : Processor reset is completed for microblaze_0
+02:40:12 INFO  : Processor reset is completed for microblaze_0
+02:41:22 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:41:23 INFO  : Processor reset is completed for microblaze_0
+02:42:13 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:42:17 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:42:18 INFO  : Processor reset is completed for microblaze_0
+02:44:19 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:44:20 INFO  : Processor reset is completed for microblaze_0
+02:44:29 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:44:30 INFO  : Processor reset is completed for microblaze_0
+02:46:16 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:46:19 INFO  : Processor reset is completed for microblaze_0
+02:47:15 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:47:17 INFO  : Processor reset is completed for microblaze_0
+02:47:41 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:47:43 INFO  : Processor reset is completed for microblaze_0
+02:47:45 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:47:47 INFO  : Processor reset is completed for microblaze_0
+02:49:49 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:49:50 INFO  : Processor reset is completed for microblaze_0
+02:50:11 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:50:13 INFO  : Processor reset is completed for microblaze_0
+02:51:36 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:51:37 INFO  : Processor reset is completed for microblaze_0
+02:52:33 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:52:35 INFO  : Processor reset is completed for microblaze_0
+02:53:18 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:53:19 INFO  : Processor reset is completed for microblaze_0
+02:53:46 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:53:47 INFO  : Processor reset is completed for microblaze_0
+02:57:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:57:03 INFO  : Processor reset is completed for microblaze_0
+03:00:37 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:00:40 INFO  : Processor reset is completed for microblaze_0
+03:02:07 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:02:09 INFO  : Processor reset is completed for microblaze_0

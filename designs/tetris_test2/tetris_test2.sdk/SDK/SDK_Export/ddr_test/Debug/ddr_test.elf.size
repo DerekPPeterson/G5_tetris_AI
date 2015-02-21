@@ -1,2 +1,2 @@
    text	   data	    bss	    dec	    hex	filename
-   3368	    312	   2080	   5760	   1680	ddr_test.elf
+   2984	    312	   2080	   5376	   1500	ddr_test.elf

@@ -20,7 +20,7 @@ G
 k
 DRC finished with %s
 1905*	planAhead26
-"0 Errors, 5 Warnings, 1 Advisories2default:defaultZ12-3199
+"0 Errors, 9 Warnings, 4 Advisories2default:defaultZ12-3199
 `
 BPlease refer to the DRC report (report_drc) for more information.
 1906*	planAheadZ12-3200
@@ -70,9 +70,9 @@ Q
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2%
 write_bitstream: 2default:default2
-00:00:302default:default2
-00:00:302default:default2
-2325.5082default:default2
+00:00:312default:default2
+00:00:312default:default2
+2333.3752default:default2
 358.5552default:defaultZ17-268
 
 
