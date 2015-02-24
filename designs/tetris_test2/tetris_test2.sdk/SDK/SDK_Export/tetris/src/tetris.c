@@ -11,6 +11,7 @@
 
 #include "platform.h"
 #include "vga.h"
+#include "button_io.h"
 
 #define N_ROWS 20
 #define N_COLS 10
@@ -189,7 +190,6 @@ int rotate(int *cur_piece, int * board, point_t origin) {
 	int i, j, i2, j2;
 	int mask, temp_mask;
 	int temp_board[N_ROWS];
-	int success = 1;
 	clear_board(temp_board);
 
 	for (i = 0; i < N_ROWS; i++) {
@@ -213,8 +213,6 @@ int rotate(int *cur_piece, int * board, point_t origin) {
 			return 0;
 		}
 	}
-
-
 
 	clear_board(cur_piece);
 	place_piece(temp_board, cur_piece);
@@ -314,6 +312,14 @@ int main(void) {
 	// Main game loop
 	while (!game_over) {
 
+		read_buttons();
+		if (left_pressed()) {
+			shift_left(cur_piece, board, &origin);
+		} else if (right_pressed()) {
+			shift_right(cur_piece, board, &origin);
+		} else if (centre_pressed()) {
+			rotate(cur_piece, board, origin);
+		}
 		// Move the piece
 		// TODO replace linux keyboard control with algorithmic control
 		//ch = getch();
@@ -323,8 +329,6 @@ int main(void) {
 		//else if (ch == KEY_RIGHT) {
 		//shift_right(cur_piece, board);
 		//}
-
-		rotate(cur_piece, board, origin);
 
 		// Drop the current pice. If it cannot be dropped, add a new piece
 		if (!drop_piece(cur_piece, board, &origin)) {
@@ -346,4 +350,3 @@ int main(void) {
 
 	return 0;
 }
-

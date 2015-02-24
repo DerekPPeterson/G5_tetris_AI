@@ -1,7 +1,7 @@
 //Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2014.1 (lin64) Build 881834 Fri Apr  4 14:00:25 MDT 2014
-//Date        : Tue Feb 24 16:04:33 2015
+//Date        : Tue Feb 24 18:02:17 2015
 //Host        : derek-laptop running 64-bit Ubuntu 14.04.2 LTS
 //Command     : generate_target design_1_wrapper.bd
 //Design      : design_1_wrapper
@@ -26,6 +26,7 @@ module design_1_wrapper
     DDR2_we_n,
     USB_Uart_rxd,
     USB_Uart_txd,
+    push_buttons_5bits_tri_i,
     reset,
     sys_clock,
     tft_hsync,
@@ -49,6 +50,7 @@ module design_1_wrapper
   output DDR2_we_n;
   input USB_Uart_rxd;
   output USB_Uart_txd;
+  input [4:0]push_buttons_5bits_tri_i;
   input reset;
   input sys_clock;
   output tft_hsync;
@@ -73,6 +75,7 @@ module design_1_wrapper
   wire DDR2_we_n;
   wire USB_Uart_rxd;
   wire USB_Uart_txd;
+  wire [4:0]push_buttons_5bits_tri_i;
   wire reset;
   wire sys_clock;
   wire tft_hsync;
@@ -96,6 +99,7 @@ design_1 design_1_i
         .DDR2_odt(DDR2_odt),
         .DDR2_ras_n(DDR2_ras_n),
         .DDR2_we_n(DDR2_we_n),
+        .Push_Buttons_5Bits_tri_i(push_buttons_5bits_tri_i),
         .USB_Uart_rxd(USB_Uart_rxd),
         .USB_Uart_txd(USB_Uart_txd),
         .reset(reset),

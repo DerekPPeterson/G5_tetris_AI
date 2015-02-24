@@ -21,3 +21,53 @@
 16:50:30 INFO  : Clearing existing target manager status.
 16:50:32 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
 16:51:31 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+17:30:00 INFO  : Processor reset is completed for microblaze_0
+17:30:00 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:30:54 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:30:56 INFO  : Processor reset is completed for microblaze_0
+17:41:46 INFO  : Project hw_platform_0's source hardware specification located at /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:43:33 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+17:43:37 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/system.bit.
+17:43:43 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:43:45 INFO  : 
+17:43:46 INFO  : Updating hardware inferred compiler options for tetris.
+17:43:46 INFO  : Clearing existing target manager status.
+17:43:46 INFO  : Closing and re-opening the MSS file of ther project tetris_bsp
+17:43:47 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:43:52 INFO  : Updating .bit and .bmm files from XPS's export folder.
+17:44:05 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/system.bit.
+17:44:10 INFO  : Updating .bit and .bmm files from XPS's export folder.
+17:44:26 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/system.bit.
+17:44:31 INFO  : Updating .bit and .bmm files from XPS's export folder.
+17:44:42 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/system.bit.
+17:44:47 INFO  : Updating .bit and .bmm files from XPS's export folder.
+17:44:52 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/system.bit.
+17:44:57 INFO  : Updating .bit and .bmm files from XPS's export folder.
+18:19:37 INFO  : Project hw_platform_0's source hardware specification located at /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+18:19:37 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+18:19:42 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/system.bit.
+18:19:49 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:19:50 INFO  : 
+18:19:51 INFO  : Updating hardware inferred compiler options for tetris.
+18:19:51 INFO  : Clearing existing target manager status.
+18:19:51 INFO  : Closing and re-opening the MSS file of ther project tetris_bsp
+18:19:52 INFO  : Closing and re-opening the MSS file of ther project tetris_bsp
+18:19:52 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+18:32:31 INFO  : Project hw_platform_0's source hardware specification located at /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+18:32:31 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+18:32:34 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit.
+18:32:37 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper_bd.bmm into /hw_platform_0/design_1_wrapper_bd.bmm.
+18:32:41 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:32:42 INFO  : 
+18:32:44 INFO  : Updating hardware inferred compiler options for tetris.
+18:32:44 INFO  : Clearing existing target manager status.
+18:32:44 INFO  : Closing and re-opening the MSS file of ther project tetris_bsp
+18:32:44 INFO  : Closing and re-opening the MSS file of ther project tetris_bsp
+18:32:44 INFO  : Closing and re-opening the MSS file of ther project tetris_bsp
+18:32:44 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+18:54:14 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+18:54:32 INFO  : Processor reset is completed for microblaze_0
+18:54:32 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.

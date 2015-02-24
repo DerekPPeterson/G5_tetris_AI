@@ -10,7 +10,7 @@ a
 ^
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-4612default:defaultZ29-17
+4782default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -107,10 +107,10 @@ $Parsing XDC File [%s] for cell '%s'
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2 
 get_clocks: 2default:default2
-00:00:182default:default2
-00:00:192default:default2
-1501.3632default:default2
-417.2732default:defaultZ17-268
+00:00:162default:default2
+00:00:172default:default2
+1514.1022default:default2
+422.2972default:defaultZ17-268
  
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2©
@@ -166,6 +166,34 @@ $Parsing XDC File [%s] for cell '%s'
 848*designutils2ê
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2,
 design_1_i/mig_7series_02default:defaultZ20-848
+Ó
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2^
+Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[1]_i_1	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
+3372default:default8@Z18-402
+Ô
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2_
+Idesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[11]_i_1	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
+3372default:default8@Z18-402
+Ó
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2^
+Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[0]_i_1	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
+3372default:default8@Z18-402
+Ô
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2_
+Idesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[10]_i_1	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
+3372default:default8@Z18-402
 ì
 $%s: '%s' is not a valid startpoint.
 402*constraints2!
@@ -271,34 +299,6 @@ $%s: '%s' is not a valid startpoint.
 Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[2]_i_1	2default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
 3372default:default8@Z18-402
-Ó
-$%s: '%s' is not a valid startpoint.
-402*constraints2!
-set_max_delay2default:default2^
-Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[1]_i_1	2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
-3372default:default8@Z18-402
-Ô
-$%s: '%s' is not a valid startpoint.
-402*constraints2!
-set_max_delay2default:default2_
-Idesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[11]_i_1	2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
-3372default:default8@Z18-402
-Ó
-$%s: '%s' is not a valid startpoint.
-402*constraints2!
-set_max_delay2default:default2^
-Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[0]_i_1	2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
-3372default:default8@Z18-402
-Ô
-$%s: '%s' is not a valid startpoint.
-402*constraints2!
-set_max_delay2default:default2_
-Idesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[10]_i_1	2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc2default:default2
-3372default:default8@Z18-402
 æ
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2ê
@@ -364,6 +364,26 @@ $Parsing XDC File [%s] for cell '%s'
 847*designutils2±
 œ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_tft_0_0/design_1_axi_tft_0_0.xdc2default:default2+
 design_1_i/axi_tft_0/U02default:defaultZ20-847
+¤
+$Parsing XDC File [%s] for cell '%s'
+848*designutils2³
+ž/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc2default:default2*
+design_1_i/axi_5but/U02default:defaultZ20-848
+­
+-Finished Parsing XDC File [%s] for cell '%s'
+847*designutils2³
+ž/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc2default:default2*
+design_1_i/axi_5but/U02default:defaultZ20-847
+ª
+$Parsing XDC File [%s] for cell '%s'
+848*designutils2¹
+¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc2default:default2*
+design_1_i/axi_5but/U02default:defaultZ20-848
+³
+-Finished Parsing XDC File [%s] for cell '%s'
+847*designutils2¹
+¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc2default:default2*
+design_1_i/axi_5but/U02default:defaultZ20-847
 Ò
 Parsing XDC File [%s]
 179*designutils2›
@@ -453,6 +473,16 @@ $Parsing XDC File [%s] for cell '%s'
 Ë
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2´
+Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_4/design_1_auto_ds_4_clocks.xdc2default:default2P
+<design_1_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst2default:defaultZ20-848
+Ô
+-Finished Parsing XDC File [%s] for cell '%s'
+847*designutils2´
+Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_4/design_1_auto_ds_4_clocks.xdc2default:default2P
+<design_1_i/microblaze_0_axi_periph/m05_couplers/auto_ds/inst2default:defaultZ20-847
+Ë
+$Parsing XDC File [%s] for cell '%s'
+848*designutils2´
 Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc2default:default2P
 <design_1_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst2default:defaultZ20-848
 Ô
@@ -474,22 +504,22 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
 ç
 !Unisim Transformation Summary:
 %s111*project2ª
-•  A total of 395 instances were transformed.
+•  A total of 407 instances were transformed.
   IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 2 instances
   IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
   LUT6_2 => LUT6_2 (LUT5, LUT6): 104 instances
   OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
   RAM16X1D => RAM32X1D (RAMD32, RAMD32): 32 instances
-  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 240 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 252 instances
 2default:defaultZ1-111
 ü
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2!
 link_design: 2default:default2
-00:00:512default:default2
 00:00:482default:default2
-1528.3672default:default2
-783.5232default:defaultZ17-268
+00:00:442default:default2
+1540.1052default:default2
+795.2662default:defaultZ17-268
 
 
 End Record

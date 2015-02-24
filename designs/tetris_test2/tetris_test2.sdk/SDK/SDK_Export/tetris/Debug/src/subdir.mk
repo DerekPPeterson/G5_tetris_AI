@@ -4,6 +4,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../src/button_io.c \
 ../src/platform.c \
 ../src/tetris.c \
 ../src/vga.c 
@@ -12,11 +13,13 @@ LD_SRCS += \
 ../src/lscript.ld 
 
 OBJS += \
+./src/button_io.o \
 ./src/platform.o \
 ./src/tetris.o \
 ./src/vga.o 
 
 C_DEPS += \
+./src/button_io.d \
 ./src/platform.d \
 ./src/tetris.d \
 ./src/vga.d 

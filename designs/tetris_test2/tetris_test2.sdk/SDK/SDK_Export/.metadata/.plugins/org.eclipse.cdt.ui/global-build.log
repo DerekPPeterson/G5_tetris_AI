@@ -655,3 +655,1819 @@ Finished building libraries
 16:51:36 **** Auto Build of configuration Debug for project tetris ****
 make all 
 make: Nothing to be done for `all'.
+17:29:59 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+17:30:44 **** Auto Build of project tetris_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+17:30:47 **** Auto Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+17:30:53 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+17:43:33 **** Auto Build of project tetris_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+17:43:37 **** Auto Build of project tetris_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+17:43:42 **** Auto Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+17:43:47 **** Clean-only build of configuration Debug for project tetris ****
+make clean 
+rm -rf  ./src/platform.o ./src/tetris.o ./src/vga.o  ./src/platform.d ./src/tetris.d ./src/vga.d  tetris.elf.size  tetris.elf
+ 
+17:43:47 **** Clean-only build of project tetris_bsp ****
+make -k clean 
+rm -f microblaze_0/lib/libxil.a
+17:43:47 **** Build of project tetris_bsp ****
+make -k all 
+cp -f microblaze_0/lib/libxil_init.a microblaze_0/lib/libxil.a
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+17:43:51 **** Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+../src/tetris.c: In function 'rotate':
+../src/tetris.c:192:6: warning: unused variable 'success' [-Wunused-variable]
+  int success = 1;
+      ^
+Finished building: ../src/tetris.c
+ 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'clear':
+../src/vga.c:57:6: warning: unused variable 'size' [-Wunused-variable]
+  int size = DISPLAY_HEIGHT / 20;
+      ^
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:82:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../tetris_bsp/microblaze_0/lib/libxil.a(xintc_l.o): In function `XIntc_DeviceInterruptHandler':
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src/xintc_l.c:186: undefined reference to `_mcount'
+collect2: error: ld returned 1 exit status
+make: *** [tetris.elf] Error 1
+17:44:05 **** Auto Build of project tetris_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+17:44:09 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../tetris_bsp/microblaze_0/lib/libxil.a(xintc_l.o): In function `XIntc_DeviceInterruptHandler':
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src/xintc_l.c:186: undefined reference to `_mcount'
+collect2: error: ld returned 1 exit status
+make: *** [tetris.elf] Error 1
+17:44:26 **** Auto Build of project tetris_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+17:44:30 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../tetris_bsp/microblaze_0/lib/libxil.a(xintc_l.o): In function `XIntc_DeviceInterruptHandler':
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src/xintc_l.c:186: undefined reference to `_mcount'
+collect2: error: ld returned 1 exit status
+make: *** [tetris.elf] Error 1
+17:44:42 **** Auto Build of project tetris_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+17:44:46 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../tetris_bsp/microblaze_0/lib/libxil.a(xintc_l.o): In function `XIntc_DeviceInterruptHandler':
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src/xintc_l.c:186: undefined reference to `_mcount'
+collect2: error: ld returned 1 exit status
+make: *** [tetris.elf] Error 1
+17:44:52 **** Auto Build of project tetris_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+17:44:57 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../tetris_bsp/microblaze_0/lib/libxil.a(xintc_l.o): In function `XIntc_DeviceInterruptHandler':
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src/xintc_l.c:186: undefined reference to `_mcount'
+collect2: error: ld returned 1 exit status
+make: *** [tetris.elf] Error 1
+17:45:20 **** Clean-only build of configuration Debug for project tetris ****
+make clean 
+rm -rf  ./src/platform.o ./src/tetris.o ./src/vga.o  ./src/platform.d ./src/tetris.d ./src/vga.d  tetris.elf.size  tetris.elf
+ 
+17:45:20 **** Clean-only build of project tetris_bsp ****
+make -k clean 
+rm -f microblaze_0/lib/libxil.a
+17:45:20 **** Build of project tetris_bsp ****
+make -k all 
+cp -f microblaze_0/lib/libxil_init.a microblaze_0/lib/libxil.a
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -pg -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+17:45:24 **** Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+../src/tetris.c: In function 'rotate':
+../src/tetris.c:192:6: warning: unused variable 'success' [-Wunused-variable]
+  int success = 1;
+      ^
+Finished building: ../src/tetris.c
+ 
+Building file: ../src/vga.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+../src/vga.c: In function 'clear':
+../src/vga.c:57:6: warning: unused variable 'size' [-Wunused-variable]
+  int size = DISPLAY_HEIGHT / 20;
+      ^
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:82:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+  *vga = vga_buf;
+       ^
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../tetris_bsp/microblaze_0/lib/libxil.a(xintc_l.o): In function `XIntc_DeviceInterruptHandler':
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src/xintc_l.c:186: undefined reference to `_mcount'
+collect2: error: ld returned 1 exit status
+make: *** [tetris.elf] Error 1
+18:14:07 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+../src/tetris.c: In function 'rotate':
+../src/tetris.c:190:7: warning: unused variable 'success' [-Wunused-variable]
+   int success = 1;
+       ^
+../src/tetris.c: In function 'clear_board':
+../src/tetris.c:291:6: warning: 'main' is normally a non-static function [-Wmain]
+  int main(void) {
+      ^
+../src/tetris.c:344:2: error: expected declaration or statement at end of input
+  }
+  ^
+make: *** [src/tetris.o] Error 1
+18:14:50 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+../src/tetris.c: In function 'rotate':
+../src/tetris.c:190:7: warning: unused variable 'success' [-Wunused-variable]
+   int success = 1;
+       ^
+../src/tetris.c: In function 'clear_board':
+../src/tetris.c:291:6: warning: 'main' is normally a non-static function [-Wmain]
+  int main(void) {
+      ^
+../src/tetris.c:344:2: error: expected declaration or statement at end of input
+  }
+  ^
+make: *** [src/tetris.o] Error 1
+18:14:58 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+../src/tetris.c: In function 'rotate':
+../src/tetris.c:191:7: warning: unused variable 'success' [-Wunused-variable]
+   int success = 1;
+       ^
+Finished building: ../src/tetris.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../tetris_bsp/microblaze_0/lib/libxil.a(xintc_l.o): In function `XIntc_DeviceInterruptHandler':
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src/xintc_l.c:186: undefined reference to `_mcount'
+collect2: error: ld returned 1 exit status
+make: *** [tetris.elf] Error 1
+18:15:20 **** Auto Build of project tetris_bsp ****
+make -k all 
+cp -f microblaze_0/lib/libxil_init.a microblaze_0/lib/libxil.a
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling gpio
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+18:15:23 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12700	   1368	   2148	  16216	   3f58	tetris.elf
+Finished building: tetris.elf.size
+ 
+18:15:55 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+Finished building: ../src/button_io.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/button_io.o ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12700	   1368	   2148	  16216	   3f58	tetris.elf
+Finished building: tetris.elf.size
+ 
+18:16:17 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+Finished building: ../src/button_io.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/button_io.o ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12700	   1368	   2148	  16216	   3f58	tetris.elf
+Finished building: tetris.elf.size
+ 
+18:16:29 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+../src/button_io.c:10:1: error: expected '=', ',', ';', 'asm' or '__attribute__' at end of input
+ int read_5buttons
+ ^
+make: *** [src/button_io.o] Error 1
+18:16:32 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+Finished building: ../src/button_io.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/button_io.o ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12700	   1368	   2148	  16216	   3f58	tetris.elf
+Finished building: tetris.elf.size
+ 
+18:16:39 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+Finished building: ../src/button_io.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/button_io.o ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12700	   1368	   2148	  16216	   3f58	tetris.elf
+Finished building: tetris.elf.size
+ 
+18:16:57 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+../src/button_io.c:12:1: error: expected '=', ',', ';', 'asm' or '__attribute__' at end of input
+ read
+ ^
+make: *** [src/button_io.o] Error 1
+18:18:24 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+../src/button_io.c:10:48: error: 'XPAR_AXI_' undeclared here (not in a function)
+ volatile unsigned int * but5 = (unsigned int*) XPAR_AXI_;
+                                                ^
+make: *** [src/button_io.o] Error 1
+18:19:37 **** Auto Build of project tetris_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling gpio
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+18:19:42 **** Auto Build of project tetris_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling gpio
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+18:19:48 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+../src/button_io.c:10:48: error: 'XPAR_AXI_' undeclared here (not in a function)
+ volatile unsigned int * but5 = (unsigned int*) XPAR_AXI_;
+                                                ^
+make: *** [src/button_io.o] Error 1
+18:19:52 **** Clean-only build of project tetris_bsp ****
+make -k clean 
+rm -f microblaze_0/lib/libxil.a
+18:19:52 **** Clean-only build of configuration Debug for project tetris ****
+make clean 
+rm -rf  ./src/button_io.o ./src/platform.o ./src/tetris.o ./src/vga.o  ./src/button_io.d ./src/platform.d ./src/tetris.d ./src/vga.d  tetris.elf.size  tetris.elf
+ 
+18:19:53 **** Build of project tetris_bsp ****
+make -k all 
+cp -f microblaze_0/lib/libxil_init.a microblaze_0/lib/libxil.a
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling gpio
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+18:19:56 **** Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+../src/button_io.c:10:48: error: 'XPAR_AXI_' undeclared here (not in a function)
+ volatile unsigned int * but5 = (unsigned int*) XPAR_AXI_;
+                                                ^
+make: *** [src/button_io.o] Error 1
+18:32:31 **** Auto Build of project tetris_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling gpio
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+18:32:34 **** Auto Build of project tetris_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling gpio
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+18:32:37 **** Auto Build of project tetris_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling gpio
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+18:32:40 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+../src/button_io.c:10:48: error: 'XPAR_AXI_' undeclared here (not in a function)
+ volatile unsigned int * but5 = (unsigned int*) XPAR_AXI_;
+                                                ^
+make: *** [src/button_io.o] Error 1
+18:32:44 **** Clean-only build of project tetris_bsp ****
+make -k clean 
+rm -f microblaze_0/lib/libxil.a
+18:32:45 **** Clean-only build of configuration Debug for project tetris ****
+make clean 
+rm -rf  ./src/button_io.o ./src/platform.o ./src/tetris.o ./src/vga.o  ./src/button_io.d ./src/platform.d ./src/tetris.d ./src/vga.d  tetris.elf.size  tetris.elf
+ 
+18:32:45 **** Build of project tetris_bsp ****
+make -k all 
+cp -f microblaze_0/lib/libxil_init.a microblaze_0/lib/libxil.a
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling gpio
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+18:32:47 **** Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+../src/button_io.c:10:48: error: 'XPAR_AXI_' undeclared here (not in a function)
+ volatile unsigned int * but5 = (unsigned int*) XPAR_AXI_;
+                                                ^
+make: *** [src/button_io.o] Error 1
+18:43:42 **** Clean-only build of configuration Debug for project tetris ****
+make clean 
+rm -rf  ./src/button_io.o ./src/platform.o ./src/tetris.o ./src/vga.o  ./src/button_io.d ./src/platform.d ./src/tetris.d ./src/vga.d  tetris.elf.size  tetris.elf
+ 
+18:43:42 **** Clean-only build of project tetris_bsp ****
+make -k clean 
+rm -f microblaze_0/lib/libxil.a
+18:43:42 **** Build of project tetris_bsp ****
+make -k all 
+cp -f microblaze_0/lib/libxil_init.a microblaze_0/lib/libxil.a
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling gpio
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+18:43:45 **** Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+../src/button_io.c:10:48: error: 'XPAR_AXI_' undeclared here (not in a function)
+ volatile unsigned int * but5 = (unsigned int*) XPAR_AXI_;
+                                                ^
+make: *** [src/button_io.o] Error 1
+18:45:13 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+Finished building: ../src/button_io.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+../src/tetris.c: In function 'rotate':
+Finished building: ../src/platform.c
+../src/tetris.c:191:7: warning: unused variable 'success' [-Wunused-variable]
+   int success = 1;
+       ^
+ 
+Building file: ../src/tetris.c
+../src/vga.c: In function 'clear':
+Invoking: MicroBlaze gcc compiler
+../src/vga.c:57:6: warning: unused variable 'size' [-Wunused-variable]
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+  int size = DISPLAY_HEIGHT / 20;
+      ^
+../src/vga.c: In function 'finish_drawing':
+../src/vga.c:82:7: warning: assignment makes integer from pointer without a cast [enabled by default]
+Finished building: ../src/tetris.c
+ 
+Building file: ../src/vga.c
+  *vga = vga_buf;
+Invoking: MicroBlaze gcc compiler
+       ^
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vga.d" -MT"src/vga.d" -o "src/vga.o" "../src/vga.c"
+Finished building: ../src/vga.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/button_io.o ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12700	   1368	   2148	  16216	   3f58	tetris.elf
+Finished building: tetris.elf.size
+ 
+18:45:25 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+Finished building: ../src/button_io.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/button_io.o ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12700	   1368	   2148	  16216	   3f58	tetris.elf
+Finished building: tetris.elf.size
+ 
+18:46:24 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+../src/button_io.c: In function 'left':
+Finished building: ../src/button_io.c
+../src/button_io.c:22:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/button_io.o ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+ }
+Finished building target: tetris.elf
+ ^
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12700	   1368	   2148	  16216	   3f58	tetris.elf
+Finished building: tetris.elf.size
+ 
+18:48:38 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+../src/button_io.c: In function 'left':
+../src/button_io.c:26:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/button_io.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/button_io.o ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12700	   1368	   2148	  16216	   3f58	tetris.elf
+Finished building: tetris.elf.size
+ 
+18:49:20 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+Finished building: ../src/button_io.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/button_io.o ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12700	   1368	   2148	  16216	   3f58	tetris.elf
+Finished building: tetris.elf.size
+ 
+18:49:42 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+../src/button_io.c: In function 'right_pressed':
+../src/button_io.c:32:1: error: expected expression before '}' token
+ }
+ ^
+../src/button_io.c:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/button_io.o] Error 1
+18:50:09 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/button_io.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_io.d" -MT"src/button_io.d" -o "src/button_io.o" "../src/button_io.c"
+Finished building: ../src/button_io.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/button_io.o ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12700	   1368	   2148	  16216	   3f58	tetris.elf
+Finished building: tetris.elf.size
+ 
+18:50:35 **** Auto Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+18:50:57 **** Auto Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+18:51:12 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+../src/tetris.c: In function 'rotate':
+../src/tetris.c:191:7: warning: unused variable 'success' [-Wunused-variable]
+   int success = 1;
+       ^
+../src/tetris.c: In function 'read_button':
+../src/tetris.c:242:49: error: 'XPAR_' undeclared (first use in this function)
+   volatile unsigned int * vga = (unsigned int*) XPAR_;
+                                                 ^
+../src/tetris.c:242:49: note: each undeclared identifier is reported only once for each function it appears in
+../src/tetris.c:242:27: warning: unused variable 'vga' [-Wunused-variable]
+   volatile unsigned int * vga = (unsigned int*) XPAR_;
+                           ^
+../src/tetris.c: In function 'clear_board':
+../src/tetris.c:297:6: warning: 'main' is normally a non-static function [-Wmain]
+  int main(void) {
+      ^
+../src/tetris.c:350:2: error: expected declaration or statement at end of input
+  }
+  ^
+make: *** [src/tetris.o] Error 1
+18:51:27 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+../src/tetris.c: In function 'rotate':
+../src/tetris.c:191:7: warning: unused variable 'success' [-Wunused-variable]
+   int success = 1;
+       ^
+../src/tetris.c: In function 'read_button':
+../src/tetris.c:242:49: error: 'XPAR_' undeclared (first use in this function)
+   volatile unsigned int * vga = (unsigned int*) XPAR_;
+                                                 ^
+../src/tetris.c:242:49: note: each undeclared identifier is reported only once for each function it appears in
+../src/tetris.c:242:27: warning: unused variable 'vga' [-Wunused-variable]
+   volatile unsigned int * vga = (unsigned int*) XPAR_;
+                           ^
+../src/tetris.c: In function 'clear_board':
+../src/tetris.c:297:6: warning: 'main' is normally a non-static function [-Wmain]
+  int main(void) {
+      ^
+../src/tetris.c:352:2: error: expected declaration or statement at end of input
+  }
+  ^
+make: *** [src/tetris.o] Error 1
+18:51:47 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+../src/tetris.c: In function 'rotate':
+../src/tetris.c:191:7: warning: unused variable 'success' [-Wunused-variable]
+   int success = 1;
+       ^
+../src/tetris.c: In function 'clear_board':
+../src/tetris.c:292:6: warning: 'main' is normally a non-static function [-Wmain]
+  int main(void) {
+      ^
+../src/tetris.c:347:2: error: expected declaration or statement at end of input
+  }
+  ^
+make: *** [src/tetris.o] Error 1
+18:52:16 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+../src/tetris.c: In function 'rotate':
+../src/tetris.c:191:7: warning: unused variable 'success' [-Wunused-variable]
+   int success = 1;
+       ^
+../src/tetris.c: In function 'clear_board':
+../src/tetris.c:292:6: warning: 'main' is normally a non-static function [-Wmain]
+  int main(void) {
+      ^
+../src/tetris.c: In function 'main':
+../src/tetris.c:317:5: error: incompatible type for argument 3 of 'shift_left'
+     shift_left(cur_piece, board, origin);
+     ^
+../src/tetris.c:132:6: note: expected 'struct point_t *' but argument is of type 'point_t'
+  int shift_left(int *cur_piece, int * board, point_t * origin) {
+      ^
+../src/tetris.c: In function 'clear_board':
+../src/tetris.c:350:2: error: expected declaration or statement at end of input
+  }
+  ^
+make: *** [src/tetris.o] Error 1
+18:52:34 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+../src/tetris.c: In function 'rotate':
+../src/tetris.c:191:7: warning: unused variable 'success' [-Wunused-variable]
+   int success = 1;
+       ^
+../src/tetris.c: In function 'clear_board':
+../src/tetris.c:292:6: warning: 'main' is normally a non-static function [-Wmain]
+  int main(void) {
+      ^
+../src/tetris.c: In function 'main':
+../src/tetris.c:317:5: error: incompatible type for argument 3 of 'shift_left'
+     shift_left(cur_piece, board, origin);
+     ^
+../src/tetris.c:132:6: note: expected 'struct point_t *' but argument is of type 'point_t'
+  int shift_left(int *cur_piece, int * board, point_t * origin) {
+      ^
+../src/tetris.c:319:5: error: incompatible type for argument 3 of 'shift_right'
+     shift_right(cur_piece, board, origin);
+     ^
+../src/tetris.c:156:6: note: expected 'struct point_t *' but argument is of type 'point_t'
+  int shift_right(int *cur_piece, int * board, point_t * origin) {
+      ^
+../src/tetris.c: In function 'clear_board':
+../src/tetris.c:352:2: error: expected declaration or statement at end of input
+  }
+  ^
+make: *** [src/tetris.o] Error 1
+18:52:58 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+../src/tetris.c: In function 'rotate':
+../src/tetris.c:191:7: warning: unused variable 'success' [-Wunused-variable]
+   int success = 1;
+       ^
+../src/tetris.c: In function 'clear_board':
+../src/tetris.c:292:6: warning: 'main' is normally a non-static function [-Wmain]
+  int main(void) {
+      ^
+../src/tetris.c: In function 'main':
+../src/tetris.c:317:5: error: incompatible type for argument 3 of 'shift_left'
+     shift_left(cur_piece, board, origin);
+     ^
+../src/tetris.c:132:6: note: expected 'struct point_t *' but argument is of type 'point_t'
+  int shift_left(int *cur_piece, int * board, point_t * origin) {
+      ^
+../src/tetris.c:319:5: error: incompatible type for argument 3 of 'shift_right'
+     shift_right(cur_piece, board, origin);
+     ^
+../src/tetris.c:156:6: note: expected 'struct point_t *' but argument is of type 'point_t'
+  int shift_right(int *cur_piece, int * board, point_t * origin) {
+      ^
+../src/tetris.c: In function 'clear_board':
+../src/tetris.c:354:2: error: expected declaration or statement at end of input
+  }
+  ^
+make: *** [src/tetris.o] Error 1
+18:53:19 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+../src/tetris.c: In function 'rotate':
+../src/tetris.c:191:7: warning: unused variable 'success' [-Wunused-variable]
+   int success = 1;
+       ^
+../src/tetris.c: In function 'clear_board':
+../src/tetris.c:292:6: warning: 'main' is normally a non-static function [-Wmain]
+  int main(void) {
+      ^
+../src/tetris.c:354:2: error: expected declaration or statement at end of input
+  }
+  ^
+make: *** [src/tetris.o] Error 1
+18:53:34 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+../src/tetris.c: In function 'rotate':
+../src/tetris.c:193:7: warning: unused variable 'success' [-Wunused-variable]
+   int success = 1;
+       ^
+Finished building: ../src/tetris.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/button_io.o ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  13612	   1372	   2152	  17136	   42f0	tetris.elf
+Finished building: tetris.elf.size
+ 
+18:53:46 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+Finished building: ../src/tetris.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/button_io.o ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  13604	   1372	   2152	  17128	   42e8	tetris.elf
+Finished building: tetris.elf.size
+ 
+18:54:15 **** Auto Build of project tetris_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Running Make libs in microblaze_0/libsrc/bram_v4_0/src
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling bram
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/bram_v4_0/src'
+Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
+make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling cpu
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+Running Make libs in microblaze_0/libsrc/gpio_v4_0/src
+make -C microblaze_0/libsrc/gpio_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling gpio
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/gpio_v4_0/src'
+Running Make libs in microblaze_0/libsrc/intc_v3_0/src
+make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling intc
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/intc_v3_0/src'
+Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
+make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tft_v5_0/src
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling tft
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+rm -rf *.o
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/tft_v5_0/src'
+Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+Compiling uartlite
+make[2]: Entering directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+Finished building libraries
+18:54:19 **** Auto Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+18:54:29 **** Auto Build of configuration Debug for project tetris ****
+make all 
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+Finished building: ../src/tetris.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/button_io.o ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  13568	   1372	   2148	  17088	   42c0	tetris.elf
+Finished building: tetris.elf.size
+ 
+18:54:31 **** Incremental Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
