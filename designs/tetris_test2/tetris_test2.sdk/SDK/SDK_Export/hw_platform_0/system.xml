@@ -1,21 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Feb 21 01:14:26 2015" VIVADOVERSION="2014.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Feb 24 16:50:11 2015" VIVADOVERSION="2014.1">
 
   <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:nexys4_ddr:part0:1.1" DEVICE="7a100t" NAME="design_1_imp" PACKAGE="csg324" SPEEDGRADE="-1"/>
 
   <EXTERNALPORTS>
-    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="sys_clock" SIGIS="clk" SIGNAME="External_Ports_sys_clock">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="clk_wiz_1" PORT="clk_in1"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="reset" SIGIS="rst" SIGNAME="External_Ports_reset">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="rst_clk_wiz_1_100M" PORT="ext_reset_in"/>
-        <CONNECTION INSTANCE="clk_wiz_1" PORT="resetn"/>
-        <CONNECTION INSTANCE="mig_7series_0" PORT="sys_rst"/>
-      </CONNECTIONS>
-    </PORT>
     <PORT DIR="I" NAME="USB_Uart_rxd" SIGIS="undef"/>
     <PORT DIR="O" NAME="USB_Uart_txd" SIGIS="undef"/>
     <PORT DIR="IO" NAME="DDR2_dq" SIGIS="undef"/>
@@ -32,6 +20,18 @@
     <PORT DIR="O" NAME="DDR2_cs_n" SIGIS="undef"/>
     <PORT DIR="O" NAME="DDR2_dm" SIGIS="undef"/>
     <PORT DIR="O" NAME="DDR2_odt" SIGIS="undef"/>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="sys_clock" SIGIS="clk" SIGNAME="External_Ports_sys_clock">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="clk_wiz_1" PORT="clk_in1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="reset" SIGIS="rst" SIGNAME="External_Ports_reset">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="rst_clk_wiz_1_100M" PORT="ext_reset_in"/>
+        <CONNECTION INSTANCE="clk_wiz_1" PORT="resetn"/>
+        <CONNECTION INSTANCE="mig_7series_0" PORT="sys_rst"/>
+      </CONNECTIONS>
+    </PORT>
     <PORT DIR="O" NAME="tft_hsync" SIGIS="undef" SIGNAME="axi_tft_0_tft_hsync">
       <CONNECTIONS>
         <CONNECTION INSTANCE="axi_tft_0" PORT="tft_hsync"/>
@@ -47,14 +47,14 @@
         <CONNECTION INSTANCE="xlslice_0" PORT="Dout"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" NAME="tft_vga_r" SIGIS="undef" SIGNAME="xlslice_2_Dout">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="xlslice_2" PORT="Dout"/>
-      </CONNECTIONS>
-    </PORT>
     <PORT DIR="O" NAME="tft_vga_g" SIGIS="undef" SIGNAME="xlslice_1_Dout">
       <CONNECTIONS>
         <CONNECTION INSTANCE="xlslice_1" PORT="Dout"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="tft_vga_r" SIGIS="undef" SIGNAME="xlslice_2_Dout">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xlslice_2" PORT="Dout"/>
       </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
@@ -331,7 +331,7 @@
             <CONNECTION INSTANCE="microblaze_0_axi_periph_m04_couplers_auto_pc" PORT="m_axi_rready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="25000000" DIR="I" NAME="sys_tft_clk" SIGIS="clk" SIGNAME="clk_wiz_1_clk_out3">
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="sys_tft_clk" SIGIS="clk" SIGNAME="clk_wiz_1_clk_out3">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clk_wiz_1" PORT="clk_out3"/>
           </CONNECTIONS>
@@ -2021,7 +2021,7 @@
             <CONNECTION INSTANCE="microblaze_0_axi_periph_m00_couplers_auto_pc" PORT="m_axi_rready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="intr" SENSITIVITY="EDGE_RISING" SIGIS="INTERRUPT" SIGNAME="mdm_1_Interrupt">
+        <PORT DIR="I" NAME="intr" SENSITIVITY="LEVEL_HIGH" SIGIS="INTERRUPT" SIGNAME="mdm_1_Interrupt">
           <CONNECTIONS>
             <CONNECTION INSTANCE="mdm_1" PORT="Interrupt"/>
           </CONNECTIONS>
@@ -4440,7 +4440,7 @@
             <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_rready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="81000000" DIR="I" NAME="m_axi_aclk" SIGIS="clk" SIGNAME="mig_7series_0_ui_clk">
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="m_axi_aclk" SIGIS="clk" SIGNAME="mig_7series_0_ui_clk">
           <CONNECTIONS>
             <CONNECTION INSTANCE="mig_7series_0" PORT="ui_clk"/>
           </CONNECTIONS>
@@ -6052,8 +6052,8 @@
         <PARAMETER NAME="C_AXI_DATA_WIDTH" VALUE="64"/>
         <PARAMETER NAME="C_AXI_PROTOCOL" VALUE="0"/>
         <PARAMETER NAME="C_NUM_ADDR_RANGES" VALUE="1"/>
-        <PARAMETER NAME="C_M_AXI_BASE_ADDR" VALUE="0x0000000044a000000000000080000000000000004060000000000000414000000000000041200000"/>
-        <PARAMETER NAME="C_M_AXI_ADDR_WIDTH" VALUE="0x000000100000001b000000100000000c00000010"/>
+        <PARAMETER NAME="C_M_AXI_BASE_ADDR" VALUE="0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"/>
+        <PARAMETER NAME="C_M_AXI_ADDR_WIDTH" VALUE="0x0000000000000000000000000000000000000000"/>
         <PARAMETER NAME="C_S_AXI_BASE_ID" VALUE="0x0000000100000000"/>
         <PARAMETER NAME="C_S_AXI_THREAD_ID_WIDTH" VALUE="0x0000000000000000"/>
         <PARAMETER NAME="C_AXI_SUPPORTS_USER_SIGNALS" VALUE="0"/>
@@ -6760,7 +6760,7 @@
         <PARAMETER NAME="S13_BASE_ID" VALUE="0x0000000d"/>
         <PARAMETER NAME="S14_BASE_ID" VALUE="0x0000000e"/>
         <PARAMETER NAME="S15_BASE_ID" VALUE="0x0000000f"/>
-        <PARAMETER NAME="M00_A00_BASE_ADDR" VALUE="0x0000000041200000"/>
+        <PARAMETER NAME="M00_A00_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M00_A01_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M00_A02_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M00_A03_BASE_ADDR" VALUE="0xffffffffffffffff"/>
@@ -6776,7 +6776,7 @@
         <PARAMETER NAME="M00_A13_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M00_A14_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M00_A15_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER NAME="M01_A00_BASE_ADDR" VALUE="0x0000000041400000"/>
+        <PARAMETER NAME="M01_A00_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M01_A01_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M01_A02_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M01_A03_BASE_ADDR" VALUE="0xffffffffffffffff"/>
@@ -6792,7 +6792,7 @@
         <PARAMETER NAME="M01_A13_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M01_A14_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M01_A15_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER NAME="M02_A00_BASE_ADDR" VALUE="0x0000000040600000"/>
+        <PARAMETER NAME="M02_A00_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M02_A01_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M02_A02_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M02_A03_BASE_ADDR" VALUE="0xffffffffffffffff"/>
@@ -6808,7 +6808,7 @@
         <PARAMETER NAME="M02_A13_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M02_A14_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M02_A15_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER NAME="M03_A00_BASE_ADDR" VALUE="0x0000000080000000"/>
+        <PARAMETER NAME="M03_A00_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M03_A01_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M03_A02_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M03_A03_BASE_ADDR" VALUE="0xffffffffffffffff"/>
@@ -6824,7 +6824,7 @@
         <PARAMETER NAME="M03_A13_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M03_A14_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M03_A15_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER NAME="M04_A00_BASE_ADDR" VALUE="0x0000000044A00000"/>
+        <PARAMETER NAME="M04_A00_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M04_A01_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M04_A02_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M04_A03_BASE_ADDR" VALUE="0xffffffffffffffff"/>
@@ -7016,7 +7016,7 @@
         <PARAMETER NAME="M15_A13_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
         <PARAMETER NAME="M15_A14_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
         <PARAMETER NAME="M15_A15_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
-        <PARAMETER NAME="M00_A00_ADDR_WIDTH" VALUE="16"/>
+        <PARAMETER NAME="M00_A00_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M00_A01_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M00_A02_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M00_A03_ADDR_WIDTH" VALUE="0"/>
@@ -7032,7 +7032,7 @@
         <PARAMETER NAME="M00_A13_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M00_A14_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M00_A15_ADDR_WIDTH" VALUE="0"/>
-        <PARAMETER NAME="M01_A00_ADDR_WIDTH" VALUE="12"/>
+        <PARAMETER NAME="M01_A00_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M01_A01_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M01_A02_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M01_A03_ADDR_WIDTH" VALUE="0"/>
@@ -7048,7 +7048,7 @@
         <PARAMETER NAME="M01_A13_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M01_A14_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M01_A15_ADDR_WIDTH" VALUE="0"/>
-        <PARAMETER NAME="M02_A00_ADDR_WIDTH" VALUE="16"/>
+        <PARAMETER NAME="M02_A00_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M02_A01_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M02_A02_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M02_A03_ADDR_WIDTH" VALUE="0"/>
@@ -7064,7 +7064,7 @@
         <PARAMETER NAME="M02_A13_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M02_A14_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M02_A15_ADDR_WIDTH" VALUE="0"/>
-        <PARAMETER NAME="M03_A00_ADDR_WIDTH" VALUE="27"/>
+        <PARAMETER NAME="M03_A00_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M03_A01_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M03_A02_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M03_A03_ADDR_WIDTH" VALUE="0"/>
@@ -7080,7 +7080,7 @@
         <PARAMETER NAME="M03_A13_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M03_A14_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M03_A15_ADDR_WIDTH" VALUE="0"/>
-        <PARAMETER NAME="M04_A00_ADDR_WIDTH" VALUE="16"/>
+        <PARAMETER NAME="M04_A00_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M04_A01_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M04_A02_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M04_A03_ADDR_WIDTH" VALUE="0"/>
@@ -10318,7 +10318,7 @@
             <CONNECTION INSTANCE="rst_mig_7series_0_81M" PORT="dcm_locked"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="200000000" DIR="I" NAME="sys_clk_i" SIGIS="clk" SIGNAME="clk_wiz_1_clk_out2">
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="sys_clk_i" SIGIS="clk" SIGNAME="clk_wiz_1_clk_out2">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clk_wiz_1" PORT="clk_out2"/>
           </CONNECTIONS>
@@ -10496,7 +10496,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="81000000" DIR="I" NAME="slowest_sync_clk" SIGIS="clk" SIGNAME="mig_7series_0_ui_clk">
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="slowest_sync_clk" SIGIS="clk" SIGNAME="mig_7series_0_ui_clk">
           <CONNECTIONS>
             <CONNECTION INSTANCE="mig_7series_0" PORT="ui_clk"/>
           </CONNECTIONS>

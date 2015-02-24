@@ -1,0 +1,6 @@
+16:51:36 **** Auto Build of configuration Debug for project tetris ****
+make all 
+make: Nothing to be done for `all'.
+
+16:51:36 Build Finished (took 142ms)
+

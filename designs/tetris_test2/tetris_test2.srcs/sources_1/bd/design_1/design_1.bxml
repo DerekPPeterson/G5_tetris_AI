@@ -2,8 +2,8 @@
 <Root MajorVersion="0" MinorVersion="29">
   <CompositeFile CompositeFileTopName="design_1" CanBeSetAsTop="true" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="STALE"/>
-    <Generation Name="IMPLEMENTATION" State="STALE"/>
+    <Generation Name="SYNTHESIS" State="GENERATED"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED"/>
     <Generation Name="SIMULATION" State="STALE"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip/design_1_microblaze_0_0/design_1_microblaze_0_0.xci" Type="IP">
@@ -173,6 +173,27 @@
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
+      <File Name="ip/design_1_axi_bram_ctrl_0_0/design_1_axi_bram_ctrl_0_0.xci" Type="IP">
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/design_1_microblaze_0_axi_periph_1/design_1_microblaze_0_axi_periph_1.xci" Type="IP">
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/design_1_xbar_1/design_1_xbar_1.xci" Type="IP">
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
       <File Name="ip/design_1_auto_ds_0/design_1_auto_ds_0.xci" Type="IP">
         <Instance HierarchyPath="microblaze_0_axi_periph/m00_couplers/auto_ds"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true"/>
@@ -273,27 +294,6 @@
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="OUT_OF_CONTEXT"/>
-      </File>
-      <File Name="ip/design_1_axi_bram_ctrl_0_0/design_1_axi_bram_ctrl_0_0.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true"/>
-        <Library Name="xil_defaultlib"/>
-        <UsedIn Val="SYNTHESIS"/>
-        <UsedIn Val="IMPLEMENTATION"/>
-        <UsedIn Val="SIMULATION"/>
-      </File>
-      <File Name="ip/design_1_microblaze_0_axi_periph_1/design_1_microblaze_0_axi_periph_1.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true"/>
-        <Library Name="xil_defaultlib"/>
-        <UsedIn Val="SYNTHESIS"/>
-        <UsedIn Val="IMPLEMENTATION"/>
-        <UsedIn Val="SIMULATION"/>
-      </File>
-      <File Name="ip/design_1_xbar_1/design_1_xbar_1.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true"/>
-        <Library Name="xil_defaultlib"/>
-        <UsedIn Val="SYNTHESIS"/>
-        <UsedIn Val="IMPLEMENTATION"/>
-        <UsedIn Val="SIMULATION"/>
       </File>
     </FileCollection>
   </CompositeFile>

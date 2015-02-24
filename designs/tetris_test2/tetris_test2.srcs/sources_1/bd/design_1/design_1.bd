@@ -122,7 +122,7 @@
           </spirit:wire>
         </spirit:port>
         <spirit:port>
-          <spirit:name>tft_vga_r</spirit:name>
+          <spirit:name>tft_vga_g</spirit:name>
           <spirit:wire>
             <spirit:direction>out</spirit:direction>
             <spirit:vector>
@@ -132,7 +132,7 @@
           </spirit:wire>
         </spirit:port>
         <spirit:port>
-          <spirit:name>tft_vga_g</spirit:name>
+          <spirit:name>tft_vga_r</spirit:name>
           <spirit:wire>
             <spirit:direction>out</spirit:direction>
             <spirit:vector>

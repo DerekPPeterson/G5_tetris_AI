@@ -44,17 +44,13 @@ proc step_failed { step } {
 
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
-set_msg_config -id {Labtools 27-147} -limit 4294967295
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 
 start_step init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_param gui.test TreeTableDev
-  set_param xicom.use_bs_reader 1
   create_project -in_memory -part xc7a100tcsg324-1
-  set_property board_part_repo_paths /home/derek/Documents/year_4/ECE532/board_repository/ [current_project]
+  set_property board_part_repo_paths /home/derek/Documents/year_4/ECE532/board_repository [current_project]
   set_property board_part digilentinc.com:nexys4_ddr:part0:1.1 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_property webtalk.parent_dir /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.cache/wt [current_project]

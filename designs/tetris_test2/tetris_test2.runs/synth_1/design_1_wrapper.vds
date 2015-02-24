@@ -2,22 +2,18 @@
 # Vivado v2014.1 (64-bit)
 # SW Build 881834 on Fri Apr  4 14:00:25 MDT 2014
 # IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
-# Start of session at: Sat Feb 21 00:55:39 2015
-# Process ID: 5497
+# Start of session at: Tue Feb 24 16:14:50 2015
+# Process ID: 17499
 # Log file: /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/design_1_wrapper.vds
 # Journal file: /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/vivado.jou
 #-----------------------------------------------------------
 source design_1_wrapper.tcl
 # set_param gui.test TreeTableDev
-# set_param xicom.use_bs_reader 1
 # set_msg_config -id {HDL 9-1061} -limit 100000
 # set_msg_config -id {HDL 9-1654} -limit 100000
-# set_msg_config -id {Labtools 27-147} -limit 4294967295
-# set_msg_config -id {Synth 8-256} -limit 10000
-# set_msg_config -id {Synth 8-638} -limit 10000
 # create_project -in_memory -part xc7a100tcsg324-1
 # set_property target_language Verilog [current_project]
-# set_property board_part_repo_paths /home/derek/Documents/year_4/ECE532/board_repository/ [current_project]
+# set_property board_part_repo_paths /home/derek/Documents/year_4/ECE532/board_repository [current_project]
 # set_property board_part digilentinc.com:nexys4_ddr:part0:1.1 [current_project]
 # set_param project.compositeFile.enableAutoGeneration 0
 # set_property default_lib xil_defaultlib [current_project]
@@ -25,6 +21,7 @@ source design_1_wrapper.tcl
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/derek/Xilinx/Vivado/2014.1/data/ip'.
+add_files: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 822.695 ; gain = 85.859
 # set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0.xdc]
 # set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0_ooc.xdc]
 # set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_dlmb_v10_0/design_1_dlmb_v10_0.xdc]
@@ -46,8 +43,8 @@ INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/derek/Xilinx/Vivado/2
 # set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/design_1_rst_clk_wiz_1_100M_0.xdc]
 # set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/design_1_rst_clk_wiz_1_100M_0_ooc.xdc]
 # set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/design_1_rst_clk_wiz_1_100M_0_board.xdc]
-# set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc]
 # set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/constraints/design_1_mig_7series_0_0.xdc]
 # set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0_board.xdc]
 # set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_ooc.xdc]
 # set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0.xdc]
@@ -96,7 +93,7 @@ Starting synthesis...
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 896.699 ; gain = 259.773
+Starting RTL Elaboration : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 903.695 ; gain = 266.773
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 INFO: [Synth 8-638] synthesizing module 'design_1' [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v:13]
@@ -19475,7 +19472,7 @@ INFO: [Synth 8-256] done synthesizing module 'design_1_xlslice_0_2' (322#1) [/ho
 INFO: [Synth 8-256] done synthesizing module 'design_1' (323#1) [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v:13]
 INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (324#1) [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:03:44 ; elapsed = 00:03:47 . Memory (MB): peak = 1314.375 ; gain = 677.449
+Finished RTL Elaboration : Time (s): cpu = 00:07:02 ; elapsed = 00:07:10 . Memory (MB): peak = 1321.371 ; gain = 684.449
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -19643,6 +19640,12 @@ Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/design
 Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc]
 Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc]
 Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {REF_NAME==design_1_axi_bram_ctrl_0_0 || ORIG_REF_NAME==design_1_axi_bram_ctrl_0_0}'. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc:72]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {REF_NAME==design_1_microblaze_0_axi_periph_1 || ORIG_REF_NAME==design_1_microblaze_0_axi_periph_1}'. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc:75]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {REF_NAME==design_1_xbar_1 || ORIG_REF_NAME==design_1_xbar_1}'. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc:78]
 Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
 Resolution: To avoid this message, exclude constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
@@ -19695,7 +19698,7 @@ Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:04:11 ; elapsed = 00:04:14 . Memory (MB): peak = 1622.949 ; gain = 986.023
+Finished Loading Part and Timing Information : Time (s): cpu = 00:08:07 ; elapsed = 00:08:11 . Memory (MB): peak = 1631.945 ; gain = 995.023
 ---------------------------------------------------------------------------------
 
 
@@ -19723,37 +19726,37 @@ Applied set_property DONT_TOUCH = true for axi_tft_0. (constraint file  /home/de
 Applied set_property DONT_TOUCH = true for xlslice_0. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 63).
 Applied set_property DONT_TOUCH = true for xlslice_1. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 66).
 Applied set_property DONT_TOUCH = true for xlslice_2. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 69).
-Applied set_property DONT_TOUCH = true for auto_ds. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 72).
-Applied set_property DONT_TOUCH = true for auto_pc. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 75).
-Applied set_property DONT_TOUCH = true for auto_ds. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 78).
-Applied set_property DONT_TOUCH = true for auto_pc. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 81).
-Applied set_property DONT_TOUCH = true for auto_ds. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 84).
-Applied set_property DONT_TOUCH = true for auto_pc. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 87).
-Applied set_property DONT_TOUCH = true for auto_cc. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 90).
+Applied set_property DONT_TOUCH = true for auto_ds. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 81).
+Applied set_property DONT_TOUCH = true for auto_pc. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 84).
+Applied set_property DONT_TOUCH = true for auto_ds. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 87).
+Applied set_property DONT_TOUCH = true for auto_pc. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 90).
 Applied set_property DONT_TOUCH = true for auto_ds. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 93).
 Applied set_property DONT_TOUCH = true for auto_pc. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 96).
-Applied set_property DONT_TOUCH = true for auto_pc. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 99).
-Applied set_property DONT_TOUCH = true for auto_us. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 102).
-Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 105).
-Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 110).
-Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 115).
-Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 126).
-Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 134).
-Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 141).
-Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 167).
-Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 181).
-Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 191).
-Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 198).
-Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 205).
-Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 212).
-Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 217).
+Applied set_property DONT_TOUCH = true for auto_cc. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 99).
+Applied set_property DONT_TOUCH = true for auto_ds. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 102).
+Applied set_property DONT_TOUCH = true for auto_pc. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 105).
+Applied set_property DONT_TOUCH = true for auto_pc. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 108).
+Applied set_property DONT_TOUCH = true for auto_us. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 111).
+Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 114).
+Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 119).
+Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 124).
+Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 135).
+Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 143).
+Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 150).
+Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 176).
+Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 190).
+Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 200).
+Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 207).
+Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 214).
+Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 221).
 Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 226).
+Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 235).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:04:14 ; elapsed = 00:04:15 . Memory (MB): peak = 1622.949 ; gain = 986.023
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:08:15 ; elapsed = 00:08:15 . Memory (MB): peak = 1631.945 ; gain = 995.023
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
-Finished RTL Optimization : Time (s): cpu = 00:04:14 ; elapsed = 00:04:15 . Memory (MB): peak = 1622.949 ; gain = 986.023
+Finished RTL Optimization : Time (s): cpu = 00:08:15 ; elapsed = 00:08:15 . Memory (MB): peak = 1631.945 ; gain = 995.023
 ---------------------------------------------------------------------------------
 
 INFO: [Synth 8-802] inferred FSM for state register 'sig_pcc_sm_state_reg' in module 'axi_master_burst_pcc'
@@ -19928,16 +19931,16 @@ INFO: [Synth 8-3538] Detected potentially large (wide) register LOCKSTEP_Out_reg
 Detailed RTL Component Info : 
 +---Adders : 
 	   3 Input     33 Bit       Adders := 1     
-	   3 Input     32 Bit       Adders := 1     
 	   2 Input     32 Bit       Adders := 10    
+	   3 Input     32 Bit       Adders := 1     
 	   2 Input     16 Bit       Adders := 3     
 	   2 Input     13 Bit       Adders := 1     
-	   2 Input     12 Bit       Adders := 39    
 	   3 Input     12 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 39    
 	   2 Input     11 Bit       Adders := 2     
 	   2 Input     10 Bit       Adders := 17    
-	   2 Input      9 Bit       Adders := 14    
 	   3 Input      9 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 14    
 	   3 Input      8 Bit       Adders := 9     
 	   2 Input      8 Bit       Adders := 46    
 	   2 Input      7 Bit       Adders := 5     
@@ -19945,22 +19948,22 @@ Detailed RTL Component Info :
 	   3 Input      6 Bit       Adders := 3     
 	   2 Input      5 Bit       Adders := 81    
 	   2 Input      4 Bit       Adders := 56    
-	   3 Input      3 Bit       Adders := 1     
 	   2 Input      3 Bit       Adders := 41    
-	   5 Input      2 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
 	   3 Input      2 Bit       Adders := 3     
-	   4 Input      2 Bit       Adders := 5     
-	   8 Input      2 Bit       Adders := 1     
 	   2 Input      2 Bit       Adders := 57    
+	   8 Input      2 Bit       Adders := 1     
+	   5 Input      2 Bit       Adders := 1     
+	   4 Input      2 Bit       Adders := 5     
+	  10 Input      1 Bit       Adders := 1     
+	   6 Input      1 Bit       Adders := 1     
+	   7 Input      1 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 5     
+	   3 Input      1 Bit       Adders := 1     
+	   5 Input      1 Bit       Adders := 1     
+	   8 Input      1 Bit       Adders := 1     
 	   4 Input      1 Bit       Adders := 1     
 	   9 Input      1 Bit       Adders := 1     
-	   3 Input      1 Bit       Adders := 1     
-	   7 Input      1 Bit       Adders := 1     
-	   6 Input      1 Bit       Adders := 1     
-	   5 Input      1 Bit       Adders := 1     
-	   2 Input      1 Bit       Adders := 5     
-	  10 Input      1 Bit       Adders := 1     
-	   8 Input      1 Bit       Adders := 1     
 +---XORs : 
 	   2 Input      2 Bit         XORs := 1     
 	   3 Input      1 Bit         XORs := 1     
@@ -20019,77 +20022,77 @@ Detailed RTL Component Info :
 	   2 Input     52 Bit        Muxes := 1     
 	   2 Input     36 Bit        Muxes := 6     
 	   2 Input     33 Bit        Muxes := 7     
+	   4 Input     32 Bit        Muxes := 5     
 	   3 Input     32 Bit        Muxes := 9     
 	   2 Input     32 Bit        Muxes := 100   
 	   8 Input     32 Bit        Muxes := 1     
-	   4 Input     32 Bit        Muxes := 5     
 	   2 Input     30 Bit        Muxes := 3     
 	   2 Input     27 Bit        Muxes := 1     
 	   2 Input     20 Bit        Muxes := 22    
 	   2 Input     17 Bit        Muxes := 3     
 	   3 Input     16 Bit        Muxes := 1     
-	  16 Input     16 Bit        Muxes := 1     
 	   2 Input     16 Bit        Muxes := 30    
+	  16 Input     16 Bit        Muxes := 1     
 	   2 Input     15 Bit        Muxes := 10    
 	   2 Input     13 Bit        Muxes := 14    
 	   8 Input     13 Bit        Muxes := 1     
 	   4 Input     12 Bit        Muxes := 1     
 	   2 Input     12 Bit        Muxes := 26    
 	  12 Input     11 Bit        Muxes := 1     
-	   3 Input     11 Bit        Muxes := 1     
 	   2 Input     11 Bit        Muxes := 9     
+	   3 Input     11 Bit        Muxes := 1     
 	   2 Input     10 Bit        Muxes := 8     
-	   2 Input      9 Bit        Muxes := 35    
 	   3 Input      9 Bit        Muxes := 1     
 	   4 Input      9 Bit        Muxes := 6     
-	   4 Input      8 Bit        Muxes := 2     
-	   8 Input      8 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 35    
 	   2 Input      8 Bit        Muxes := 227   
 	   7 Input      8 Bit        Muxes := 1     
-	   2 Input      7 Bit        Muxes := 4     
+	   4 Input      8 Bit        Muxes := 2     
+	   8 Input      8 Bit        Muxes := 2     
 	  36 Input      7 Bit        Muxes := 1     
 	   3 Input      7 Bit        Muxes := 1     
-	  34 Input      6 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 4     
 	   4 Input      6 Bit        Muxes := 6     
-	   2 Input      6 Bit        Muxes := 82    
 	   3 Input      6 Bit        Muxes := 1     
-	  16 Input      6 Bit        Muxes := 1     
 	  36 Input      6 Bit        Muxes := 3     
-	   8 Input      5 Bit        Muxes := 2     
+	  34 Input      6 Bit        Muxes := 3     
+	   2 Input      6 Bit        Muxes := 82    
+	  16 Input      6 Bit        Muxes := 1     
 	   6 Input      5 Bit        Muxes := 2     
 	   4 Input      5 Bit        Muxes := 3     
 	   2 Input      5 Bit        Muxes := 78    
 	   3 Input      5 Bit        Muxes := 1     
 	  34 Input      5 Bit        Muxes := 1     
-	   9 Input      4 Bit        Muxes := 1     
+	   8 Input      5 Bit        Muxes := 2     
 	   4 Input      4 Bit        Muxes := 1     
 	   3 Input      4 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 112   
+	   9 Input      4 Bit        Muxes := 1     
 	   8 Input      4 Bit        Muxes := 2     
 	  17 Input      4 Bit        Muxes := 1     
-	   8 Input      3 Bit        Muxes := 34    
 	   2 Input      3 Bit        Muxes := 88    
-	   4 Input      3 Bit        Muxes := 1     
 	   5 Input      3 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 34    
 	   2 Input      2 Bit        Muxes := 291   
-	   5 Input      2 Bit        Muxes := 1     
-	   4 Input      2 Bit        Muxes := 39    
-	  34 Input      2 Bit        Muxes := 2     
 	  10 Input      2 Bit        Muxes := 1     
-	   3 Input      2 Bit        Muxes := 8     
 	   8 Input      2 Bit        Muxes := 5     
-	   8 Input      1 Bit        Muxes := 17    
-	   6 Input      1 Bit        Muxes := 10    
+	   4 Input      2 Bit        Muxes := 39    
+	   5 Input      2 Bit        Muxes := 1     
+	  34 Input      2 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 8     
+	   7 Input      1 Bit        Muxes := 7     
 	  10 Input      1 Bit        Muxes := 20    
 	  53 Input      1 Bit        Muxes := 1     
-	   7 Input      1 Bit        Muxes := 7     
-	  34 Input      1 Bit        Muxes := 32    
+	   8 Input      1 Bit        Muxes := 17    
 	   4 Input      1 Bit        Muxes := 250   
 	  12 Input      1 Bit        Muxes := 4     
+	   6 Input      1 Bit        Muxes := 10    
+	  34 Input      1 Bit        Muxes := 32    
 	  16 Input      1 Bit        Muxes := 22    
 	   2 Input      1 Bit        Muxes := 1311  
-	   3 Input      1 Bit        Muxes := 38    
 	   5 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 38    
 
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -20121,15 +20124,15 @@ Detailed RTL Component Info :
 +---Adders : 
 	   2 Input      6 Bit       Adders := 1     
 	   2 Input      5 Bit       Adders := 1     
-	  10 Input      1 Bit       Adders := 1     
-	   8 Input      1 Bit       Adders := 1     
-	   3 Input      1 Bit       Adders := 1     
-	   5 Input      1 Bit       Adders := 1     
 	   2 Input      1 Bit       Adders := 1     
+	   5 Input      1 Bit       Adders := 1     
+	   8 Input      1 Bit       Adders := 1     
 	   4 Input      1 Bit       Adders := 1     
-	   6 Input      1 Bit       Adders := 1     
-	   7 Input      1 Bit       Adders := 1     
 	   9 Input      1 Bit       Adders := 1     
+	   3 Input      1 Bit       Adders := 1     
+	   6 Input      1 Bit       Adders := 1     
+	  10 Input      1 Bit       Adders := 1     
+	   7 Input      1 Bit       Adders := 1     
 +---Registers : 
 	                6 Bit    Registers := 1     
 	                5 Bit    Registers := 1     
@@ -20632,8 +20635,8 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   8 Input     13 Bit        Muxes := 1     
 	   2 Input     13 Bit        Muxes := 8     
-	   4 Input     12 Bit        Muxes := 1     
 	   2 Input     12 Bit        Muxes := 2     
+	   4 Input     12 Bit        Muxes := 1     
 	   2 Input     10 Bit        Muxes := 1     
 	   2 Input      9 Bit        Muxes := 2     
 	   3 Input      7 Bit        Muxes := 1     
@@ -20641,15 +20644,15 @@ Detailed RTL Component Info :
 	   2 Input      6 Bit        Muxes := 27    
 	   2 Input      5 Bit        Muxes := 18    
 	   2 Input      4 Bit        Muxes := 5     
-	   4 Input      3 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 6     
-	   2 Input      2 Bit        Muxes := 5     
-	   8 Input      2 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
 	   4 Input      2 Bit        Muxes := 3     
-	   3 Input      1 Bit        Muxes := 3     
+	   8 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
 	   4 Input      1 Bit        Muxes := 1     
-	  53 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 3     
 	   2 Input      1 Bit        Muxes := 36    
+	  53 Input      1 Bit        Muxes := 1     
 Module mig_7series_v2_0_ddr_phy_wrcal 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -20729,20 +20732,20 @@ Detailed RTL Component Info :
 	   2 Input     12 Bit        Muxes := 4     
 	   2 Input      8 Bit        Muxes := 48    
 	  36 Input      7 Bit        Muxes := 1     
-	  36 Input      6 Bit        Muxes := 3     
 	   2 Input      6 Bit        Muxes := 6     
+	  36 Input      6 Bit        Muxes := 3     
 	  34 Input      6 Bit        Muxes := 3     
-	  34 Input      5 Bit        Muxes := 1     
-	   2 Input      5 Bit        Muxes := 16    
 	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 16    
+	  34 Input      5 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 9     
 	   3 Input      4 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 2     
-	   2 Input      2 Bit        Muxes := 7     
 	  34 Input      2 Bit        Muxes := 2     
-	  34 Input      1 Bit        Muxes := 32    
+	   2 Input      2 Bit        Muxes := 7     
 	   4 Input      1 Bit        Muxes := 64    
 	   2 Input      1 Bit        Muxes := 168   
+	  34 Input      1 Bit        Muxes := 32    
 Module mig_7series_v2_0_ddr_phy_tempmon 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -20761,8 +20764,8 @@ Detailed RTL Component Info :
 	   2 Input      7 Bit        Muxes := 1     
 	   2 Input      6 Bit        Muxes := 1     
 	   2 Input      5 Bit        Muxes := 1     
-	  12 Input      1 Bit        Muxes := 4     
 	   2 Input      1 Bit        Muxes := 7     
+	  12 Input      1 Bit        Muxes := 4     
 Module mig_7series_v2_0_ddr_calib_top 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -25171,13 +25174,13 @@ Detailed RTL Component Info :
 	   3 Input     11 Bit        Muxes := 1     
 	   2 Input      7 Bit        Muxes := 1     
 	   2 Input      6 Bit        Muxes := 3     
-	   2 Input      5 Bit        Muxes := 4     
 	   6 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
 	   2 Input      4 Bit        Muxes := 2     
 	   2 Input      3 Bit        Muxes := 1     
-	   3 Input      1 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 7     
 	   6 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 1     
 Module axi_tft_v2_0_v_sync 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -25985,7 +25988,7 @@ WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.ge
 WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/r_pipe/m_payload_i_reg' and it is trimmed from '36' to '35' bits. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/a2538a4c/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 WARNING: [Synth 8-3936] Found unconnected internal register 'gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_READ.gen_non_fifo_r_upsizer.mi_register_slice_inst/r_pipe/m_payload_i_reg' and it is trimmed from '68' to '67' bits. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/a2538a4c/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:04:41 ; elapsed = 00:04:37 . Memory (MB): peak = 1622.949 ; gain = 986.023
+Finished Cross Boundary Optimization : Time (s): cpu = 00:09:18 ; elapsed = 00:09:06 . Memory (MB): peak = 1631.949 ; gain = 995.027
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -26118,7 +26121,7 @@ INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_1_
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_1_i/mig_7series_0/u_ddr_mc_phy_wrapperi_3/\phy_ctl_wd_i1_reg[26] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_1_i/mig_7series_0/u_ddr_mc_phy_wrapperi_3/\phy_ctl_wd_i1_reg[26] )
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:05:21 ; elapsed = 00:05:18 . Memory (MB): peak = 1720.141 ; gain = 1083.215
+Finished Area Optimization : Time (s): cpu = 00:10:44 ; elapsed = 00:10:35 . Memory (MB): peak = 1729.715 ; gain = 1092.793
 ---------------------------------------------------------------------------------
 
 
@@ -26130,11 +26133,11 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:05:26 ; elapsed = 00:05:23 . Memory (MB): peak = 1741.141 ; gain = 1104.215
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:10:56 ; elapsed = 00:10:47 . Memory (MB): peak = 1752.715 ; gain = 1115.793
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:05:29 ; elapsed = 00:05:26 . Memory (MB): peak = 1749.141 ; gain = 1112.215
+Finished Timing Optimization : Time (s): cpu = 00:11:04 ; elapsed = 00:10:56 . Memory (MB): peak = 1760.715 ; gain = 1123.793
 ---------------------------------------------------------------------------------
 
 
@@ -26142,7 +26145,7 @@ Finished Timing Optimization : Time (s): cpu = 00:05:29 ; elapsed = 00:05:26 . M
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:05:52 ; elapsed = 00:05:50 . Memory (MB): peak = 1785.406 ; gain = 1148.480
+Finished Technology Mapping : Time (s): cpu = 00:11:58 ; elapsed = 00:11:51 . Memory (MB): peak = 1795.059 ; gain = 1158.137
 ---------------------------------------------------------------------------------
 
 
@@ -26257,7 +26260,7 @@ WARNING: [Synth 8-4617] Design design_1_auto_pc_3 has 4 max_fanout violations th
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:05:55 ; elapsed = 00:05:53 . Memory (MB): peak = 1785.406 ; gain = 1148.480
+Finished IO Insertion : Time (s): cpu = 00:12:05 ; elapsed = 00:11:59 . Memory (MB): peak = 1795.059 ; gain = 1158.137
 ---------------------------------------------------------------------------------
 
 
@@ -26272,7 +26275,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:05:55 ; elapsed = 00:05:53 . Memory (MB): peak = 1785.406 ; gain = 1148.480
+Finished Renaming Generated Instances : Time (s): cpu = 00:12:06 ; elapsed = 00:12:00 . Memory (MB): peak = 1795.059 ; gain = 1158.137
 ---------------------------------------------------------------------------------
 
 
@@ -26280,7 +26283,7 @@ Finished Renaming Generated Instances : Time (s): cpu = 00:05:55 ; elapsed = 00:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:05:58 ; elapsed = 00:05:55 . Memory (MB): peak = 1785.406 ; gain = 1148.480
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:12:11 ; elapsed = 00:12:05 . Memory (MB): peak = 1795.059 ; gain = 1158.137
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -26496,13 +26499,13 @@ Report Instance Areas:
 |73    |      lmb_bram                                                                                                                           |design_1_lmb_bram_0                           |    16|
 +------+-----------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:05:58 ; elapsed = 00:05:56 . Memory (MB): peak = 1785.406 ; gain = 1148.480
+Finished Writing Synthesis Report : Time (s): cpu = 00:12:13 ; elapsed = 00:12:07 . Memory (MB): peak = 1795.059 ; gain = 1158.137
 ---------------------------------------------------------------------------------
 
 Synthesis finished with 0 errors, 0 critical warnings and 1429 warnings.
-Synthesis Optimization Complete : Time (s): cpu = 00:05:59 ; elapsed = 00:05:56 . Memory (MB): peak = 1785.406 ; gain = 1148.480
+Synthesis Optimization Complete : Time (s): cpu = 00:12:14 ; elapsed = 00:12:07 . Memory (MB): peak = 1795.059 ; gain = 1158.137
 INFO: [Netlist 29-17] Analyzing 850 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
 INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
 INFO: [Opt 31-138] Pushed 49 inverter(s).
@@ -26529,10 +26532,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   SRLC32E => SRL16E: 1 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-1806 Infos, 357 Warnings, 0 Critical Warnings and 0 Errors encountered.
+1806 Infos, 360 Warnings, 3 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:06:02 ; elapsed = 00:05:59 . Memory (MB): peak = 1785.410 ; gain = 962.711
+synth_design: Time (s): cpu = 00:12:21 ; elapsed = 00:12:15 . Memory (MB): peak = 1795.062 ; gain = 972.367
 # write_checkpoint design_1_wrapper.dcp
 # report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.35 ; elapsed = 00:00:00.50 . Memory (MB): peak = 1785.410 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Sat Feb 21 01:01:49 2015...
+report_utilization: Time (s): cpu = 00:00:00.73 ; elapsed = 00:00:00.94 . Memory (MB): peak = 1795.062 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 24 16:27:29 2015...
