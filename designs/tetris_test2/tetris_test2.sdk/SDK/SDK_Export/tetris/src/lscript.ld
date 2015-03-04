@@ -19,6 +19,7 @@ MEMORY
 {
    microblaze_0_local_memory_ilmb_bram_if_cntlr_microblaze_0_local_memory_dlmb_bram_if_cntlr : ORIGIN = 0x00000050, LENGTH = 0x0000FFB0
    mig_7series_0 : ORIGIN = 0x80000000, LENGTH = 0x08000000
+   axi_bram_ai_cntrl_S_AXI_BASEADDR : ORIGIN = 0xC0000000, LENGTH = 0x00001000
 }
 
 /* Specify the default entry point to the program */

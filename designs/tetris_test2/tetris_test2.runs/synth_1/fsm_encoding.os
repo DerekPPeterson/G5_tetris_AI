@@ -1,5 +1,30 @@
 
  add_fsm_encoding \
+       {rd_chnl.rlast_sm_cs} \
+       { }  \
+       {{000 000010} {001 100000} {010 001000} {011 000100} {100 010000} }
+
+ add_fsm_encoding \
+       {axi_data_fifo_v2_1_axic_reg_srl_fifo.state} \
+       { }  \
+       {{00 01000} {01 00100} {10 00001} {11 00010} }
+
+ add_fsm_encoding \
+       {axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized0.state} \
+       { }  \
+       {{00 01000} {01 00100} {10 00001} {11 00010} }
+
+ add_fsm_encoding \
+       {axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized1.state} \
+       { }  \
+       {{00 01000} {01 00100} {10 00001} {11 00010} }
+
+ add_fsm_encoding \
+       {axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized2.state} \
+       { }  \
+       {{00 01000} {01 00100} {10 00001} {11 00010} }
+
+ add_fsm_encoding \
        {axi_master_burst_pcc.sig_pcc_sm_state} \
        { }  \
        {{000 00000010} {001 00000100} {010 00001000} {011 00010000} {100 00100000} {101 01000000} {110 10000000} }

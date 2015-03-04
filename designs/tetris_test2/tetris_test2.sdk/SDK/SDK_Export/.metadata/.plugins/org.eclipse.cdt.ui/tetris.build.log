@@ -1,6 +1,21 @@
-18:54:31 **** Incremental Build of configuration Debug for project tetris ****
+02:07:40 **** Auto Build of configuration Debug for project tetris ****
 make all 
-make: Nothing to be done for `all'.
+Building file: ../src/tetris.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../tetris_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/tetris.d" -MT"src/tetris.d" -o "src/tetris.o" "../src/tetris.c"
+Finished building: ../src/tetris.c
+ 
+Building target: tetris.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../tetris_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.3 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "tetris.elf"  ./src/button_io.o ./src/platform.o ./src/tetris.o ./src/vga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: tetris.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size tetris.elf  |tee "tetris.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14320	   1376	   2144	  17840	   45b0	tetris.elf
+Finished building: tetris.elf.size
+ 
 
-18:54:31 Build Finished (took 73ms)
+02:07:40 Build Finished (took 115ms)
 

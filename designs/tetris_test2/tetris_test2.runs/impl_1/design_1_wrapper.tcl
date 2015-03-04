@@ -44,13 +44,11 @@ proc step_failed { step } {
 
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
-set_msg_config -id {Labtools 27-147} -limit 4294967295
 
 start_step write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
   set_param gui.test TreeTableDev
-  set_param xicom.use_bs_reader 1
   open_checkpoint design_1_wrapper_routed.dcp
   catch { write_bmm -force design_1_wrapper_bd.bmm }
   write_bitstream -force design_1_wrapper.bit 

@@ -30,10 +30,17 @@ void clear_board(int * board) {
 	}
 }
 
+void decide_next_piece(int* next_pieces) {
+	next_pieces[0] = next_pieces[1];
+	next_pieces[1] = next_pieces[2];
+	next_pieces[2] = rand() % 7;
+}
+
 // given the pointer to the current piece board, clear it and add a random
 // piece at the top. return the id of the piece created
-int add_piece(int * cur_piece, point_t *origin) {
-	int piece_id = rand() % 7;
+int add_piece(int * cur_piece, point_t *origin, int * next_pieces) {
+	int piece_id = next_pieces[0];
+	decide_next_piece(next_pieces);
 
 	clear_board(cur_piece);
 
@@ -269,7 +276,9 @@ void print_board(int * board) {
 void display_on_vga(int * board) {
 	int i, j;
 	int mask;
+
 	start_drawing();
+	clear_blocks();
 
 	for (i = 0; i < N_ROWS; i++) {
 		mask = 1;
@@ -296,7 +305,16 @@ int main(void) {
 
 	srand(time(NULL ));
 
+	// Draw background
+	start_drawing();
+	draw_rect(0, 0, VGA_DISPLAY_WIDTH, VGA_DISPLAY_HEIGHT, 0x2222);
+	finish_drawing();
+	start_drawing();
+	draw_rect(0, 0, VGA_DISPLAY_WIDTH, VGA_DISPLAY_HEIGHT, 0x2222);
+	finish_drawing();
+
 	// Game state variables
+	int next_pieces[3];
 	int board[20];          // "Locked" pieces
 	int cur_piece[20];      // Current falling piece
 	point_t origin;	// origin of current falling piece
@@ -307,44 +325,58 @@ int main(void) {
 
 	// Initialize board and piece arrays
 	clear_board(board);
-	add_piece(cur_piece, &origin);
+	int i;
+	for (i = 0; i < 3; i++) {
+		decide_next_piece(next_pieces);
+	}
+	add_piece(cur_piece, &origin, next_pieces);
 
 	// Main game loop
+	int display = 1;
+	int drop_counter = 0;
 	while (!game_over) {
 
+		// Button Input control
 		read_buttons();
 		if (left_pressed()) {
 			shift_left(cur_piece, board, &origin);
+			display = 1;
 		} else if (right_pressed()) {
 			shift_right(cur_piece, board, &origin);
+			display = 1;
 		} else if (centre_pressed()) {
 			rotate(cur_piece, board, origin);
+			display = 1;
 		}
-		// Move the piece
-		// TODO replace linux keyboard control with algorithmic control
-		//ch = getch();
-		//if (ch == KEY_LEFT) {
-		//shift_left(cur_piece, board, origin);
-		//}
-		//else if (ch == KEY_RIGHT) {
-		//shift_right(cur_piece, board);
-		//}
+		clear_pressed();
 
 		// Drop the current pice. If it cannot be dropped, add a new piece
-		if (!drop_piece(cur_piece, board, &origin)) {
-			place_piece(cur_piece, board);
-			add_piece(cur_piece, &origin);
+		drop_counter++;
+		if (drop_counter == 10) {
+			if (!drop_piece(cur_piece, board, &origin)) {
+				place_piece(cur_piece, board);
+				add_piece(cur_piece, &origin, next_pieces);
+			}
+			display = 1;
+			drop_counter = 0;
 		}
 
 		score += clear_lines(board);
 
 		// TODO printing not useful on microblaze
 		// Print the current state
-		clear_board(display_board);
-		place_piece(board, display_board);
-		place_piece(cur_piece, display_board);
-		//print_board(display_board);
-		display_on_vga(display_board);
+		if (display == 1) {
+			clear_board(display_board);
+			place_piece(board, display_board);
+			place_piece(cur_piece, display_board);
+			//print_board(display_board);
+			display_on_vga(display_board);
+			display = 0;
+		} else {
+			for (i = 0; i < 100000; i++) {
+				read_buttons();
+			}
+		}
 
 	}
 

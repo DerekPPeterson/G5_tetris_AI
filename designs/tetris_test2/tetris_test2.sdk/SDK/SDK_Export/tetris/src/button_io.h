@@ -5,6 +5,7 @@
  *      Author: derek
  */
 void read_buttons();
+void clear_pressed();
 int centre_pressed();
 int left_pressed();
 int right_pressed();

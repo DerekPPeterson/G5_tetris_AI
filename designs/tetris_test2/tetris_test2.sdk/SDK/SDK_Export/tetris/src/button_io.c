@@ -13,7 +13,7 @@ int state = 0;
 
 void read_buttons()
 {
-	state = *but5;
+	state = state | (*but5);
 }
 
 int centre_pressed()
@@ -31,3 +31,6 @@ int right_pressed()
 	return state & 0x8;
 }
 
+void clear_pressed() {
+	state = 0;
+}

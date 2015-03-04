@@ -71,3 +71,301 @@
 18:54:14 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
 18:54:32 INFO  : Processor reset is completed for microblaze_0
 18:54:32 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+16:15:39 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+16:15:40 ERROR :  License Feature SDK is not available.
+
+16:19:54 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+16:20:11 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+17:12:06 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+17:15:46 INFO  : Processor reset is completed for microblaze_0
+17:15:46 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:16:27 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:16:29 INFO  : Processor reset is completed for microblaze_0
+17:16:29 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:17:11 INFO  : Processor reset is completed for microblaze_0
+17:17:11 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:17:56 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:17:58 INFO  : Processor reset is completed for microblaze_0
+17:17:58 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:18:28 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:18:30 INFO  : Processor reset is completed for microblaze_0
+17:18:30 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:18:59 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:19:00 INFO  : Processor reset is completed for microblaze_0
+17:19:00 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:19:42 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:480)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+17:20:48 WARN  : Terminating existing sessions on processor microblaze_0
+17:21:07 WARN  : Terminating existing sessions on processor microblaze_0
+17:21:22 WARN  : Terminating existing sessions on processor microblaze_0
+17:21:57 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:22:22 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+17:22:31 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:546)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:347)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:516)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+17:22:43 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+17:23:14 INFO  : Processor reset is completed for microblaze_0
+17:23:14 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:23:24 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:23:25 INFO  : Processor reset is completed for microblaze_0
+17:23:25 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:23:57 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:23:59 INFO  : Processor reset is completed for microblaze_0
+17:23:59 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:25:27 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:25:28 INFO  : Processor reset is completed for microblaze_0
+17:27:53 INFO  : Processor reset is completed for microblaze_0
+17:27:53 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:28:20 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:28:24 INFO  : Processor reset is completed for microblaze_0
+17:28:24 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:29:15 INFO  : Processor reset is completed for microblaze_0
+17:29:15 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:31:55 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:31:56 INFO  : Processor reset is completed for microblaze_0
+17:31:56 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:39:34 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:39:36 INFO  : Processor reset is completed for microblaze_0
+17:39:36 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:41:46 INFO  : Project hw_platform_0's source hardware specification located at /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:41:47 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+17:41:51 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/system.bit.
+17:41:56 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:41:58 INFO  : 
+17:41:58 INFO  : Updating hardware inferred compiler options for tetris.
+17:41:59 INFO  : Clearing existing target manager status.
+17:41:59 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:42:04 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:43:47 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+17:43:50 INFO  : The hardware specification for project 'hw_platform_0' is different from /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+17:43:50 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+17:43:52 INFO  : Updating .bit and .bmm files from XPS's export folder.
+17:43:55 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit.
+17:43:55 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper_bd.bmm into /hw_platform_0/design_1_wrapper_bd.bmm.
+17:43:55 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit.
+17:43:55 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper_bd.bmm into /hw_platform_0/design_1_wrapper_bd.bmm.
+17:44:01 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:44:02 INFO  : 
+17:44:03 INFO  : Updating hardware inferred compiler options for tetris.
+17:44:03 INFO  : Clearing existing target manager status.
+17:44:06 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:44:28 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+17:45:55 INFO  : Processor reset is completed for microblaze_0
+17:45:55 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:46:10 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:46:12 INFO  : Processor reset is completed for microblaze_0
+17:46:12 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:46:25 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:46:27 INFO  : Processor reset is completed for microblaze_0
+17:46:27 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:47:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:47:02 INFO  : Processor reset is completed for microblaze_0
+17:47:02 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:47:12 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:47:14 INFO  : Processor reset is completed for microblaze_0
+17:47:14 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:47:52 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:47:54 INFO  : Processor reset is completed for microblaze_0
+17:47:54 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+17:48:10 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:48:12 INFO  : Processor reset is completed for microblaze_0
+17:48:12 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+18:12:51 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:12:53 INFO  : Processor reset is completed for microblaze_0
+18:12:53 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+19:35:15 INFO  : Project hw_platform_0's source hardware specification located at /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+19:35:15 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+19:35:20 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit.
+19:35:20 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper_bd.bmm into /hw_platform_0/design_1_wrapper_bd.bmm.
+19:35:26 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:35:28 INFO  : 
+19:35:29 INFO  : Updating hardware inferred compiler options for tetris.
+19:35:29 INFO  : Clearing existing target manager status.
+19:35:29 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:36:19 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+19:37:10 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+19:38:07 INFO  : Project hw_platform_0's source hardware specification located at /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+19:38:07 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+19:38:11 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit.
+19:38:11 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper_bd.bmm into /hw_platform_0/design_1_wrapper_bd.bmm.
+19:38:16 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:38:18 INFO  : 
+19:38:19 INFO  : Updating hardware inferred compiler options for tetris.
+19:38:19 INFO  : Clearing existing target manager status.
+19:38:19 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:38:36 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+19:39:17 INFO  : Processor reset is completed for microblaze_0
+19:39:17 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+19:39:41 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+19:39:58 INFO  : Inferring section assignments and sizes from elf file: /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf
+19:40:35 INFO  : Successfully generated /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/src/lscript.ld.
+19:40:35 INFO  : Applying linker script to all configurations of project tetris.
+19:40:35 INFO  : Setting rebuild state to true for all configurations of project tetris.
+19:40:41 INFO  : Processor reset is completed for microblaze_0
+19:40:41 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+19:40:50 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:40:52 INFO  : Processor reset is completed for microblaze_0
+19:40:52 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+19:40:59 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:41:00 INFO  : Processor reset is completed for microblaze_0
+19:41:00 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+19:41:07 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:41:09 INFO  : Processor reset is completed for microblaze_0
+19:41:09 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+19:41:17 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:41:19 INFO  : Processor reset is completed for microblaze_0
+19:41:19 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+19:41:56 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+19:42:05 INFO  : Inferring section assignments and sizes from elf file: /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf
+19:42:43 INFO  : Successfully generated /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/src/lscript.ld.
+19:42:43 INFO  : Applying linker script to all configurations of project tetris.
+19:42:43 INFO  : Setting rebuild state to true for all configurations of project tetris.
+19:43:31 INFO  : Processor reset is completed for microblaze_0
+19:43:31 WARN  : ELF /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf was not built with -pg compiler and linker option. Profiling information will not be available.
+19:46:06 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:46:08 INFO  : Processor reset is completed for microblaze_0
+19:46:26 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:46:28 INFO  : Processor reset is completed for microblaze_0
+00:24:42 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:24:44 INFO  : The hardware specification for project 'hw_platform_0' is different from /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:24:44 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+00:24:47 INFO  : Updating .bit and .bmm files from XPS's export folder.
+00:24:51 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit.
+00:24:51 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper_bd.bmm into /hw_platform_0/design_1_wrapper_bd.bmm.
+00:24:53 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit.
+00:24:53 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper_bd.bmm into /hw_platform_0/design_1_wrapper_bd.bmm.
+00:24:54 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+00:24:57 INFO  : 
+00:24:58 INFO  : Updating hardware inferred compiler options for tetris.
+00:24:58 INFO  : Clearing existing target manager status.
+00:25:00 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+00:25:54 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+00:27:32 INFO  : Inferring section assignments and sizes from elf file: /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf
+00:27:44 INFO  : Successfully generated /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/src/lscript.ld.
+00:27:44 INFO  : Applying linker script to all configurations of project tetris.
+00:27:44 INFO  : Setting rebuild state to true for all configurations of project tetris.
+00:27:49 INFO  : Processor reset is completed for microblaze_0
+00:27:56 INFO  : Inferring section assignments and sizes from elf file: /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf
+00:28:23 INFO  : Successfully generated /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/src/lscript.ld.
+00:28:23 INFO  : Applying linker script to all configurations of project tetris.
+00:28:23 INFO  : Setting rebuild state to true for all configurations of project tetris.
+00:28:44 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:28:46 INFO  : Processor reset is completed for microblaze_0
+00:30:32 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:30:33 INFO  : Processor reset is completed for microblaze_0
+00:31:35 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:31:36 INFO  : Processor reset is completed for microblaze_0
+01:09:22 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:09:24 INFO  : Processor reset is completed for microblaze_0
+01:15:51 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:15:53 INFO  : Processor reset is completed for microblaze_0
+01:16:17 INFO  : Processor reset is completed for microblaze_0
+01:16:51 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:16:53 INFO  : Processor reset is completed for microblaze_0
+01:20:10 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:20:12 INFO  : Processor reset is completed for microblaze_0
+01:20:46 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:20:48 INFO  : Processor reset is completed for microblaze_0
+01:21:49 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:21:50 INFO  : Processor reset is completed for microblaze_0
+01:34:20 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:480)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+01:35:54 WARN  : Terminating existing sessions on processor microblaze_0
+01:36:06 WARN  : Terminating existing sessions on processor microblaze_0
+01:36:19 WARN  : Terminating existing sessions on processor microblaze_0
+01:36:25 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+01:36:45 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+01:37:15 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+01:37:22 INFO  : Processor reset is completed for microblaze_0
+01:38:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:38:03 INFO  : Processor reset is completed for microblaze_0
+01:38:11 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:38:12 INFO  : Processor reset is completed for microblaze_0
+01:39:13 INFO  : Processor reset is completed for microblaze_0
+01:50:10 INFO  : Processor reset is completed for microblaze_0
+01:53:14 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:53:28 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+MicroBlaze is not being clocked. Check if the Clock input to MicroBlaze and its Bus Interfaces are connected properly
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1134)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:351)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:601)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:253)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+01:53:37 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:546)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:347)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:516)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+01:53:49 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+01:53:58 INFO  : Processor reset is completed for microblaze_0
+01:56:38 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:56:39 INFO  : Processor reset is completed for microblaze_0
+01:59:09 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:59:10 INFO  : Processor reset is completed for microblaze_0
+01:59:54 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:59:55 INFO  : Processor reset is completed for microblaze_0
+02:00:47 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:00:48 INFO  : Processor reset is completed for microblaze_0
+02:01:53 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:01:54 INFO  : Processor reset is completed for microblaze_0
+02:03:03 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:03:05 INFO  : Processor reset is completed for microblaze_0
+02:04:20 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:04:22 INFO  : Processor reset is completed for microblaze_0
+02:05:42 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:05:44 INFO  : Processor reset is completed for microblaze_0

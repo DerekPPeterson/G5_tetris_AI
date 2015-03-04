@@ -1,8 +1,8 @@
 Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
 | Tool Version : Vivado v.2014.1 (lin64) Build 881834 Fri Apr  4 14:00:25 MDT 2014
-| Date         : Tue Feb 24 18:21:31 2015
-| Host         : derek-laptop running 64-bit unknown
+| Date         : Wed Mar  4 00:15:25 2015
+| Host         : derek-pc2 running 64-bit Ubuntu 14.04.2 LTS
 | Command      : report_drc
 -----------------------------------------------------------------------------------
 
@@ -28,17 +28,17 @@ REPORT SUMMARY
 -----------------
 AVAL-139#1 Warning
 Phase shift check  
-The MMCME2_ADV cell design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_ddr2_infrastructure/gen_mmcm.mmcm_i has a fractional CLKOUT0_DIVIDE_F value (9.843)  which is not a multiple of the hardware granularity (0.125) and will be adjusted to the nearest supportable value.
+The MMCME2_ADV cell design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_ddr2_infrastructure/gen_mmcm.mmcm_i has a fractional CLKOUT0_DIVIDE_F value (9.843)  which is not a multiple of the hardware granularity (0.125) and will be adjusted to the nearest supportable value.
 Related violations: <none>
 
 BUFC-1#1 Warning
 Input Buffer Connections  
-Input buffer design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_dqs_iobuf_HR.gen_dqs_iobuf[0].gen_dqs_diff.u_iobuf_dqs/IBUFDS/IBUFDS_S (in design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_dqs_iobuf_HR.gen_dqs_iobuf[0].gen_dqs_diff.u_iobuf_dqs macro) has no loads. An input buffer must drive an internal load.
+Input buffer design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_dqs_iobuf_HR.gen_dqs_iobuf[0].gen_dqs_diff.u_iobuf_dqs/IBUFDS/IBUFDS_S (in design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_dqs_iobuf_HR.gen_dqs_iobuf[0].gen_dqs_diff.u_iobuf_dqs macro) has no loads. An input buffer must drive an internal load.
 Related violations: <none>
 
 BUFC-1#2 Warning
 Input Buffer Connections  
-Input buffer design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_dqs_iobuf_HR.gen_dqs_iobuf[1].gen_dqs_diff.u_iobuf_dqs/IBUFDS/IBUFDS_S (in design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_dqs_iobuf_HR.gen_dqs_iobuf[1].gen_dqs_diff.u_iobuf_dqs macro) has no loads. An input buffer must drive an internal load.
+Input buffer design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_dqs_iobuf_HR.gen_dqs_iobuf[1].gen_dqs_diff.u_iobuf_dqs/IBUFDS/IBUFDS_S (in design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_dqs_iobuf_HR.gen_dqs_iobuf[1].gen_dqs_diff.u_iobuf_dqs macro) has no loads. An input buffer must drive an internal load.
 Related violations: <none>
 
 CFGBVS-1#1 Warning
@@ -76,7 +76,7 @@ Related violations: <none>
 
 REQP-1709#1 Warning
 Clock output buffering  
-PLLE2_ADV connectivity violation. The signal design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_ddr2_infrastructure/pll_clk3_out on the design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_ddr2_infrastructure/plle2_i/CLKOUT3 pin of design_1_i/mig_7series_0/u_design_1_mig_7series_0_0_mig/u_ddr2_infrastructure/plle2_i does not drive the same kind of BUFFER load as the other CLKOUT pins. Routing from the different buffer types will not be phase aligned.
+PLLE2_ADV connectivity violation. The signal design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_ddr2_infrastructure/pll_clk3_out on the design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_ddr2_infrastructure/plle2_i/CLKOUT3 pin of design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_ddr2_infrastructure/plle2_i does not drive the same kind of BUFFER load as the other CLKOUT pins. Routing from the different buffer types will not be phase aligned.
 Related violations: <none>
 
 AVAL-4#1 Advisory
@@ -96,7 +96,7 @@ Related violations: <none>
 
 RTSTAT-10#1 Advisory
 No routable loads  
-45 net(s) have no routable loads. The problem net(s) are design_1_i/microblaze_0_local_memory/dlmb_v10/U0/M_ABus[30], design_1_i/microblaze_0_local_memory/dlmb_v10/U0/M_ABus[31], design_1_i/microblaze_0_local_memory/dlmb_v10/U0/M_ReadStrobe, design_1_i/microblaze_0_axi_periph/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_araddr[27], design_1_i/microblaze_0_axi_periph/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_araddr[28], design_1_i/microblaze_0_axi_periph/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_araddr[29], design_1_i/microblaze_0_axi_periph/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_araddr[30], design_1_i/microblaze_0_axi_periph/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_araddr[31], design_1_i/microblaze_0_axi_periph/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_arcache[0], design_1_i/microblaze_0_axi_periph/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_arcache[1], design_1_i/microblaze_0_axi_periph/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_arcache[2], design_1_i/microblaze_0_axi_periph/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_arcache[3], design_1_i/microblaze_0_axi_periph/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_arid[0], design_1_i/microblaze_0_axi_periph/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_arlock[0], design_1_i/microblaze_0_axi_periph/m03_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_arprot[0] (the first 15 of 45 listed).
+40 net(s) have no routable loads. The problem net(s) are design_1_i/microblaze_0_local_memory/dlmb_v10/U0/M_ABus[30], design_1_i/microblaze_0_local_memory/dlmb_v10/U0/M_ABus[31], design_1_i/microblaze_0_local_memory/dlmb_v10/U0/M_ReadStrobe, design_1_i/axi_mem_intercon/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_araddr[27], design_1_i/axi_mem_intercon/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_araddr[28], design_1_i/axi_mem_intercon/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_araddr[29], design_1_i/axi_mem_intercon/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_araddr[30], design_1_i/axi_mem_intercon/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_araddr[31], design_1_i/axi_mem_intercon/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_arcache[0], design_1_i/axi_mem_intercon/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_arcache[1], design_1_i/axi_mem_intercon/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_arcache[2], design_1_i/axi_mem_intercon/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_arcache[3], design_1_i/axi_mem_intercon/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_arlock[0], design_1_i/axi_mem_intercon/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_arprot[0], design_1_i/axi_mem_intercon/m00_couplers/auto_cc/inst/gen_clock_conv.gen_async_conv.asyncfifo_axi/m_axi_arprot[1] (the first 15 of 40 listed).
 Related violations: <none>
 
 
