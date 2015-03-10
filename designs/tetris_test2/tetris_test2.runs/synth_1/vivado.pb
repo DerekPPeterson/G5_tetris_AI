@@ -30,7 +30,7 @@ Starting synthesis...
 xc7a100t2default:defaultZ17-349
 ú
 %s*synth2å
-xStarting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 898.656 ; gain = 261.734
+xStarting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 898.652 ; gain = 261.734
 2default:default
 è
 synthesizing module '%s'638*oasys2$
@@ -28307,7 +28307,7 @@ a
 2default:default
 ]
 %s*synth2N
-:	Parameter C_DCACHE_LINE_LEN bound to: 4 - type: integer 
+:	Parameter C_DCACHE_LINE_LEN bound to: 8 - type: integer 
 2default:default
 `
 %s*synth2Q
@@ -28915,7 +28915,7 @@ a
 2default:default
 ]
 %s*synth2N
-:	Parameter C_DCACHE_LINE_LEN bound to: 4 - type: integer 
+:	Parameter C_DCACHE_LINE_LEN bound to: 8 - type: integer 
 2default:default
 `
 %s*synth2Q
@@ -29507,7 +29507,7 @@ a
 2default:default
 ]
 %s*synth2N
-:	Parameter C_DCACHE_LINE_LEN bound to: 4 - type: integer 
+:	Parameter C_DCACHE_LINE_LEN bound to: 8 - type: integer 
 2default:default
 `
 %s*synth2Q
@@ -30113,7 +30113,7 @@ a
 2default:default
 ]
 %s*synth2N
-:	Parameter C_DCACHE_LINE_LEN bound to: 4 - type: integer 
+:	Parameter C_DCACHE_LINE_LEN bound to: 8 - type: integer 
 2default:default
 `
 %s*synth2Q
@@ -33168,7 +33168,7 @@ X
 2default:default
 ]
 %s*synth2N
-:	Parameter C_DCACHE_LINE_LEN bound to: 4 - type: integer 
+:	Parameter C_DCACHE_LINE_LEN bound to: 8 - type: integer 
 2default:default
 a
 %s*synth2R
@@ -33578,7 +33578,7 @@ X
 2default:default
 ]
 %s*synth2N
-:	Parameter C_DCACHE_LINE_LEN bound to: 4 - type: integer 
+:	Parameter C_DCACHE_LINE_LEN bound to: 8 - type: integer 
 2default:default
 a
 %s*synth2R
@@ -37921,7 +37921,7 @@ X
 2default:default
 ]
 %s*synth2N
-:	Parameter C_DCACHE_LINE_LEN bound to: 4 - type: integer 
+:	Parameter C_DCACHE_LINE_LEN bound to: 8 - type: integer 
 2default:default
 a
 %s*synth2R
@@ -38270,7 +38270,7 @@ X
 2default:default
 ]
 %s*synth2N
-:	Parameter C_DCACHE_LINE_LEN bound to: 4 - type: integer 
+:	Parameter C_DCACHE_LINE_LEN bound to: 8 - type: integer 
 2default:default
 a
 %s*synth2R
@@ -38508,7 +38508,7 @@ D	Parameter C_DCACHE_HIGHADDR bound to: -2013265921 - type: integer
 2default:default
 \
 %s*synth2M
-9	Parameter C_CACHELINE_SIZE bound to: 4 - type: integer 
+9	Parameter C_CACHELINE_SIZE bound to: 8 - type: integer 
 2default:default
 `
 %s*synth2Q
@@ -38637,7 +38637,7 @@ D	Parameter C_DCACHE_HIGHADDR bound to: -2013265921 - type: integer
 2default:default
 \
 %s*synth2M
-9	Parameter C_CACHELINE_SIZE bound to: 4 - type: integer 
+9	Parameter C_CACHELINE_SIZE bound to: 8 - type: integer 
 2default:default
 `
 %s*synth2Q
@@ -38774,6 +38774,14 @@ S
 S
 %s*synth2D
 0	Parameter C_SIZE bound to: 16 - type: integer 
+2default:default
+U
+%s*synth2F
+2	Parameter C_TARGET bound to: 17 - type: integer 
+2default:default
+U
+%s*synth2F
+2	Parameter C_TARGET bound to: 17 - type: integer 
 2default:default
 U
 %s*synth2F
@@ -39077,7 +39085,7 @@ U
 2default:default
 Y
 %s*synth2J
-6	Parameter C_DATA_WIDTH bound to: 19 - type: integer 
+6	Parameter C_DATA_WIDTH bound to: 23 - type: integer 
 2default:default
 V
 %s*synth2G
@@ -39085,7 +39093,7 @@ V
 2default:default
 X
 %s*synth2I
-5	Parameter C_ADDR_WIDTH bound to: 9 - type: integer 
+5	Parameter C_ADDR_WIDTH bound to: 8 - type: integer 
 2default:default
 U
 %s*synth2F
@@ -39110,7 +39118,7 @@ U
 2default:default
 Y
 %s*synth2J
-6	Parameter C_DATA_WIDTH bound to: 19 - type: integer 
+6	Parameter C_DATA_WIDTH bound to: 23 - type: integer 
 2default:default
 V
 %s*synth2G
@@ -39118,7 +39126,7 @@ V
 2default:default
 X
 %s*synth2I
-5	Parameter C_ADDR_WIDTH bound to: 9 - type: integer 
+5	Parameter C_ADDR_WIDTH bound to: 8 - type: integer 
 2default:default
 U
 %s*synth2F
@@ -41181,11 +41189,11 @@ X
 2default:default
 \
 %s*synth2M
-9	Parameter C_CACHELINE_SIZE bound to: 4 - type: integer 
+9	Parameter C_CACHELINE_SIZE bound to: 8 - type: integer 
 2default:default
 \
 %s*synth2M
-9	Parameter C_CACHELINE_BITS bound to: 2 - type: integer 
+9	Parameter C_CACHELINE_BITS bound to: 3 - type: integer 
 2default:default
 ]
 %s*synth2N
@@ -41298,11 +41306,11 @@ X
 2default:default
 \
 %s*synth2M
-9	Parameter C_CACHELINE_SIZE bound to: 4 - type: integer 
+9	Parameter C_CACHELINE_SIZE bound to: 8 - type: integer 
 2default:default
 \
 %s*synth2M
-9	Parameter C_CACHELINE_BITS bound to: 2 - type: integer 
+9	Parameter C_CACHELINE_BITS bound to: 3 - type: integer 
 2default:default
 ]
 %s*synth2N
@@ -84019,7 +84027,7 @@ z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test
 122default:default8@Z8-256
 ù
 %s*synth2ç
-yFinished RTL Elaboration : Time (s): cpu = 00:03:17 ; elapsed = 00:03:20 . Memory (MB): peak = 1345.840 ; gain = 708.918
+yFinished RTL Elaboration : Time (s): cpu = 00:03:08 ; elapsed = 00:03:12 . Memory (MB): peak = 1346.141 ; gain = 709.223
 2default:default
 ;
 %s*synth2,
@@ -84755,7 +84763,7 @@ auxout_clk2default:default2Ò
 ^
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-7672default:defaultZ29-17
+7692default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -85296,7 +85304,7 @@ $Parsing XDC File [%s] for cell '%s'
 ⁄
 !Unisim Transformation Summary:
 %s111*project2ù
-à  A total of 701 instances were transformed.
+à  A total of 703 instances were transformed.
   FDC_1 => FDCE (inverted pins: C): 1 instances
   FDE => FDRE: 32 instances
   FDR => FDRE: 183 instances
@@ -85307,22 +85315,22 @@ $Parsing XDC File [%s] for cell '%s'
   IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
   LUT6_2 => LUT6_2 (LUT6, LUT5): 120 instances
   MULT_AND => LUT2: 1 instances
-  MUXCY_L => MUXCY: 250 instances
+  MUXCY_L => MUXCY: 252 instances
   RAM32M => RAM32M (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 67 instances
   RAMB36 => RAMB36E1: 4 instances
   SRL16 => SRL16E: 2 instances
 2default:defaultZ1-111
 ≤
 %s*synth2¢
-çFinished Loading Part and Timing Information : Time (s): cpu = 00:03:42 ; elapsed = 00:03:45 . Memory (MB): peak = 1590.703 ; gain = 953.781
+çFinished Loading Part and Timing Information : Time (s): cpu = 00:03:32 ; elapsed = 00:03:36 . Memory (MB): peak = 1591.090 ; gain = 954.172
 2default:default
 ∂
 %s*synth2¶
-ëFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:03:45 ; elapsed = 00:03:47 . Memory (MB): peak = 1590.703 ; gain = 953.781
+ëFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:03:35 ; elapsed = 00:03:38 . Memory (MB): peak = 1591.090 ; gain = 954.172
 2default:default
 û
 %s*synth2é
-zFinished RTL Optimization : Time (s): cpu = 00:03:45 ; elapsed = 00:03:47 . Memory (MB): peak = 1590.703 ; gain = 953.781
+zFinished RTL Optimization : Time (s): cpu = 00:03:35 ; elapsed = 00:03:38 . Memory (MB): peak = 1591.090 ; gain = 954.172
 2default:default
 å
 3inferred FSM for state register '%s' in module '%s'802*oasys2#
@@ -86275,7 +86283,7 @@ V|9     |design_1_mig_7series_0_3_mig__GC0                   |           1|     
 2default:default
 y
 %s*synth2j
-V|10    |design_1__GCB0                                      |           1|     29738|
+V|10    |design_1__GCB0                                      |           1|     29852|
 2default:default
 y
 %s*synth2j
@@ -86320,11 +86328,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     12 Bit       Adders := 15    
+.	   3 Input     12 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
-.	   3 Input     12 Bit       Adders := 1     
+.	   2 Input     12 Bit       Adders := 15    
 2default:default
 Q
 %s*synth2B
@@ -86336,11 +86344,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      9 Bit       Adders := 6     
+.	   3 Input      9 Bit       Adders := 2     
 2default:default
 Q
 %s*synth2B
-.	   3 Input      9 Bit       Adders := 2     
+.	   2 Input      9 Bit       Adders := 6     
 2default:default
 Q
 %s*synth2B
@@ -86356,11 +86364,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input      6 Bit       Adders := 3     
+.	   2 Input      6 Bit       Adders := 31    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      6 Bit       Adders := 31    
+.	   3 Input      6 Bit       Adders := 3     
 2default:default
 Q
 %s*synth2B
@@ -86372,19 +86380,15 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   2 Input      3 Bit       Adders := 32    
+2default:default
+Q
+%s*synth2B
 .	   3 Input      3 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit       Adders := 28    
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit       Adders := 5     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 63    
+.	   3 Input      2 Bit       Adders := 3     
 2default:default
 Q
 %s*synth2B
@@ -86392,7 +86396,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input      2 Bit       Adders := 3     
+.	   4 Input      2 Bit       Adders := 5     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 59    
 2default:default
 Q
 %s*synth2B
@@ -86404,15 +86412,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   9 Input      1 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
 .	   3 Input      1 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      1 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
@@ -86424,7 +86424,15 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   4 Input      1 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
 .	   5 Input      1 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   9 Input      1 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
@@ -86432,7 +86440,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input      1 Bit       Adders := 1     
+.	   8 Input      1 Bit       Adders := 1     
 2default:default
 /
 %s*synth2 
@@ -86596,7 +86604,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                8 Bit    Registers := 66    
+.	                8 Bit    Registers := 68    
 2default:default
 Q
 %s*synth2B
@@ -86612,15 +86620,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                4 Bit    Registers := 204   
+.	                4 Bit    Registers := 202   
 2default:default
 Q
 %s*synth2B
-.	                3 Bit    Registers := 76    
+.	                3 Bit    Registers := 80    
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 158   
+.	                2 Bit    Registers := 154   
 2default:default
 Q
 %s*synth2B
@@ -86664,15 +86672,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input     32 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
 .	   3 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
 .	   2 Input     32 Bit        Muxes := 60    
+2default:default
+Q
+%s*synth2B
+.	   4 Input     32 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
@@ -86684,11 +86692,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     20 Bit        Muxes := 22    
+.	   2 Input     23 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     19 Bit        Muxes := 2     
+.	   2 Input     20 Bit        Muxes := 22    
 2default:default
 Q
 %s*synth2B
@@ -86712,11 +86720,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input     13 Bit        Muxes := 1     
+.	   2 Input     13 Bit        Muxes := 14    
 2default:default
 Q
 %s*synth2B
-.	   2 Input     13 Bit        Muxes := 14    
+.	   8 Input     13 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -86740,19 +86748,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   5 Input     10 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
 .	   2 Input     10 Bit        Muxes := 13    
 2default:default
 Q
 %s*synth2B
-.	   3 Input      9 Bit        Muxes := 1     
+.	   5 Input     10 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      9 Bit        Muxes := 21    
+.	   2 Input      9 Bit        Muxes := 20    
 2default:default
 Q
 %s*synth2B
@@ -86760,7 +86764,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 153   
+.	   3 Input      9 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 154   
 2default:default
 Q
 %s*synth2B
@@ -86776,7 +86784,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input      7 Bit        Muxes := 1     
+.	  36 Input      7 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -86784,15 +86792,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  36 Input      7 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	  16 Input      6 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	  36 Input      6 Bit        Muxes := 3     
+.	   3 Input      7 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -86800,11 +86800,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  34 Input      6 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      6 Bit        Muxes := 1     
+.	  36 Input      6 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
@@ -86816,7 +86812,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  34 Input      5 Bit        Muxes := 1     
+.	   3 Input      6 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  16 Input      6 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  34 Input      6 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
@@ -86828,6 +86832,14 @@ Q
 2default:default
 Q
 %s*synth2B
+.	  34 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
 .	   2 Input      5 Bit        Muxes := 78    
 2default:default
 Q
@@ -86836,15 +86848,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 85    
-2default:default
-Q
-%s*synth2B
 .	  17 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   9 Input      4 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -86856,11 +86864,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   9 Input      4 Bit        Muxes := 1     
+.	   4 Input      4 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   4 Input      4 Bit        Muxes := 1     
+.	   2 Input      4 Bit        Muxes := 85    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -86868,7 +86880,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 63    
+.	   2 Input      3 Bit        Muxes := 67    
 2default:default
 Q
 %s*synth2B
@@ -86880,23 +86892,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      2 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	  34 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 206   
-2default:default
-Q
-%s*synth2B
-.	  10 Input      2 Bit        Muxes := 1     
+.	   3 Input      2 Bit        Muxes := 10    
 2default:default
 Q
 %s*synth2B
@@ -86908,15 +86904,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input      2 Bit        Muxes := 10    
+.	  10 Input      2 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	  12 Input      1 Bit        Muxes := 4     
+.	   5 Input      2 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      1 Bit        Muxes := 7     
+.	   2 Input      2 Bit        Muxes := 202   
+2default:default
+Q
+%s*synth2B
+.	  34 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 28    
 2default:default
 Q
 %s*synth2B
@@ -86924,31 +86928,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  34 Input      1 Bit        Muxes := 32    
+.	  12 Input      1 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	  16 Input      1 Bit        Muxes := 26    
-2default:default
-Q
-%s*synth2B
-.	  10 Input      1 Bit        Muxes := 38    
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 27    
-2default:default
-Q
-%s*synth2B
-.	   5 Input      1 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 250   
-2default:default
-Q
-%s*synth2B
-.	   8 Input      1 Bit        Muxes := 9     
+.	   2 Input      1 Bit        Muxes := 1258  
 2default:default
 Q
 %s*synth2B
@@ -86956,7 +86940,31 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 1258  
+.	   7 Input      1 Bit        Muxes := 7     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit        Muxes := 38    
+2default:default
+Q
+%s*synth2B
+.	  16 Input      1 Bit        Muxes := 26    
+2default:default
+Q
+%s*synth2B
+.	   5 Input      1 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 9     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 250   
+2default:default
+Q
+%s*synth2B
+.	  34 Input      1 Bit        Muxes := 32    
 2default:default
  
 -Detected potentially large (wide) register %s3414*oasys2$
@@ -87053,23 +87061,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   6 Input      1 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      1 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
 .	   7 Input      1 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
-.	  10 Input      1 Bit       Adders := 1     
+.	   3 Input      1 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
@@ -87077,7 +87073,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   9 Input      1 Bit       Adders := 1     
+.	   2 Input      1 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
@@ -87085,7 +87081,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input      1 Bit       Adders := 1     
+.	   8 Input      1 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   9 Input      1 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      1 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -89097,11 +89105,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input     12 Bit        Muxes := 1     
+.	   2 Input     12 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     12 Bit        Muxes := 2     
+.	   4 Input     12 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -89113,11 +89121,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      7 Bit        Muxes := 1     
+.	   3 Input      7 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   3 Input      7 Bit        Muxes := 1     
+.	   2 Input      7 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -89141,10 +89149,6 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
 .	   4 Input      2 Bit        Muxes := 3     
 2default:default
 Q
@@ -89153,11 +89157,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 36    
+.	   8 Input      2 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   4 Input      1 Bit        Muxes := 1     
+.	  53 Input      1 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -89165,7 +89169,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  53 Input      1 Bit        Muxes := 1     
+.	   4 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 36    
 2default:default
 J
 %s*synth2;
@@ -89497,15 +89505,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
 .	   2 Input      5 Bit        Muxes := 16    
 2default:default
 Q
 %s*synth2B
 .	  34 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -89521,11 +89529,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  34 Input      2 Bit        Muxes := 2     
+.	   2 Input      2 Bit        Muxes := 7     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 7     
+.	  34 Input      2 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -89533,11 +89541,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input      1 Bit        Muxes := 64    
+.	   2 Input      1 Bit        Muxes := 168   
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 168   
+.	   4 Input      1 Bit        Muxes := 64    
 2default:default
 L
 %s*synth2=
@@ -89613,11 +89621,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 7     
+.	  12 Input      1 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	  12 Input      1 Bit        Muxes := 4     
+.	   2 Input      1 Bit        Muxes := 7     
 2default:default
 J
 %s*synth2;
@@ -92437,11 +92445,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      6 Bit        Muxes := 3     
+.	   5 Input      6 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   5 Input      6 Bit        Muxes := 1     
+.	   2 Input      6 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
@@ -92457,11 +92465,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 28    
+.	   6 Input      1 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      1 Bit        Muxes := 2     
+.	   2 Input      1 Bit        Muxes := 28    
 2default:default
 Q
 %s*synth2B
@@ -98341,7 +98349,7 @@ B
 2default:default
 H
 %s*synth29
-%Module carry_and__parameterized0__4 
+%Module carry_and__parameterized0__6 
 2default:default
 B
 %s*synth23
@@ -98365,7 +98373,7 @@ Q
 2default:default
 H
 %s*synth29
-%Module carry_and__parameterized0__5 
+%Module carry_and__parameterized0__7 
 2default:default
 B
 %s*synth23
@@ -98477,7 +98485,7 @@ Q
 2default:default
 H
 %s*synth29
-%Module carry_and__parameterized0__6 
+%Module carry_and__parameterized0__8 
 2default:default
 B
 %s*synth23
@@ -98485,7 +98493,7 @@ B
 2default:default
 H
 %s*synth29
-%Module carry_and__parameterized0__7 
+%Module carry_and__parameterized0__9 
 2default:default
 B
 %s*synth23
@@ -98522,22 +98530,6 @@ Q
 G
 %s*synth28
 $Module carry_or__parameterized0__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module carry_and__parameterized0__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module carry_and__parameterized0__9 
 2default:default
 B
 %s*synth23
@@ -98618,6 +98610,22 @@ B
 I
 %s*synth2:
 &Module carry_and__parameterized0__19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module carry_and__parameterized0__20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module carry_and__parameterized0__21 
 2default:default
 B
 %s*synth23
@@ -99861,7 +99869,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit       Adders := 3     
+.	   2 Input      3 Bit       Adders := 3     
 2default:default
 4
 %s*synth2%
@@ -99881,7 +99889,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 5     
+.	                3 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
 2default:default
 Q
 %s*synth2B
@@ -99905,7 +99917,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 8     
+.	   2 Input      3 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
@@ -99927,6 +99943,22 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
+H
+%s*synth29
+%Module carry_and__parameterized0__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module carry_and__parameterized0__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
 F
 %s*synth27
 #Module DCache_gti__parameterized0 
@@ -99941,7 +99973,11 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit       Adders := 2     
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -99953,11 +99989,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                4 Bit    Registers := 2     
+.	                8 Bit    Registers := 2     
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 2     
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -99973,7 +100013,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     19 Bit        Muxes := 2     
+.	   2 Input     23 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -99981,11 +100021,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      9 Bit        Muxes := 1     
+.	   2 Input      8 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   5 Input      1 Bit        Muxes := 1     
+.	   3 Input      1 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -103985,11 +104025,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit        Muxes := 4     
+.	   6 Input      5 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      5 Bit        Muxes := 1     
+.	   2 Input      5 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
@@ -104001,7 +104041,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
+.	   6 Input      1 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
@@ -104009,7 +104049,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input      1 Bit        Muxes := 5     
+.	   3 Input      1 Bit        Muxes := 1     
 2default:default
 ?
 %s*synth20
@@ -104403,6 +104443,10 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 DCache_gti__parameterized02default:defaultZ8-3332
 ∂
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2&
+\Req_Addr_reg[27] 2default:default2.
+DCache_gti__parameterized02default:defaultZ8-3332
+∂
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2&
 \Req_Addr_reg[28] 2default:default2.
 DCache_gti__parameterized02default:defaultZ8-3332
 ∂
@@ -104436,6 +104480,10 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ø
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2/
 \new_cacheline_addr_reg[4] 2default:default2.
+DCache_gti__parameterized02default:defaultZ8-3332
+¿
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys20
+\new_cacheline_addr_reg[27] 2default:default2.
 DCache_gti__parameterized02default:defaultZ8-3332
 ¿
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys20
@@ -104475,6 +104523,10 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 DCache_gti__parameterized02default:defaultZ8-3332
 ∂
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2&
+\Req_Addr_reg[27] 2default:default2.
+DCache_gti__parameterized02default:defaultZ8-3332
+∂
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2&
 \Req_Addr_reg[28] 2default:default2.
 DCache_gti__parameterized02default:defaultZ8-3332
 ∂
@@ -104508,6 +104560,10 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ø
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2/
 \new_cacheline_addr_reg[4] 2default:default2.
+DCache_gti__parameterized02default:defaultZ8-3332
+¿
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys20
+\new_cacheline_addr_reg[27] 2default:default2.
 DCache_gti__parameterized02default:defaultZ8-3332
 ¿
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys20
@@ -104641,22 +104697,6 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys23
 \oclkdelay_start_dly_r_reg[12] 2default:default21
 mig_7series_v2_0_ddr_phy_init2default:defaultZ8-3332
-∆
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys23
-\oclkdelay_start_dly_r_reg[11] 2default:default21
-mig_7series_v2_0_ddr_phy_init2default:defaultZ8-3332
-∆
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys23
-\oclkdelay_start_dly_r_reg[10] 2default:default21
-mig_7series_v2_0_ddr_phy_init2default:defaultZ8-3332
-≈
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys22
-\oclkdelay_start_dly_r_reg[9] 2default:default21
-mig_7series_v2_0_ddr_phy_init2default:defaultZ8-3332
-≈
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys22
-\oclkdelay_start_dly_r_reg[8] 2default:default21
-mig_7series_v2_0_ddr_phy_init2default:defaultZ8-3332
 ‘
 ÅMessage '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2 
@@ -104692,7 +104732,7 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 1212default:default8@Z8-3936
 ™
 %s*synth2ö
-ÖFinished Cross Boundary Optimization : Time (s): cpu = 00:04:11 ; elapsed = 00:04:08 . Memory (MB): peak = 1590.703 ; gain = 953.781
+ÖFinished Cross Boundary Optimization : Time (s): cpu = 00:04:00 ; elapsed = 00:03:58 . Memory (MB): peak = 1591.090 ; gain = 954.172
 2default:default
 ¢
 %s*synth2í
@@ -104766,7 +104806,7 @@ Distributed RAM:
 2default:default
 ˚
 %s*synth2Î
-÷|DCache_gti                                          | Using_New_CacheInterface_for_AXI.cacheline_copy_reg                                                | Implied            | 4 X 32               | RAM32M x 6      | design_1_microblaze_0_0/MicroBlaze/MicroBlaze_Core/DCache_gti/ram__51                                                    | 
+÷|DCache_gti                                          | Using_New_CacheInterface_for_AXI.cacheline_copy_reg                                                | Implied            | 8 X 32               | RAM32M x 6      | design_1_microblaze_0_0/MicroBlaze/MicroBlaze_Core/DCache_gti/ram__51                                                    | 
 2default:default
 ˚
 %s*synth2Î
@@ -105140,19 +105180,19 @@ Hdesign_1_i/mig_7series_0/u_ddr_mc_phy_wrapperi_3/\phy_ctl_wd_i1_reg[26] 2defau
 Hdesign_1_i/mig_7series_0/u_ddr_mc_phy_wrapperi_3/\phy_ctl_wd_i1_reg[26] 2default:defaultZ8-3333
 †
 %s*synth2ê
-|Finished Area Optimization : Time (s): cpu = 00:04:49 ; elapsed = 00:04:47 . Memory (MB): peak = 1689.676 ; gain = 1052.754
+|Finished Area Optimization : Time (s): cpu = 00:04:34 ; elapsed = 00:04:33 . Memory (MB): peak = 1690.062 ; gain = 1053.145
 2default:default
 Ø
 %s*synth2ü
-äFinished Applying XDC Timing Constraints : Time (s): cpu = 00:04:53 ; elapsed = 00:04:52 . Memory (MB): peak = 1709.676 ; gain = 1072.754
+äFinished Applying XDC Timing Constraints : Time (s): cpu = 00:04:38 ; elapsed = 00:04:37 . Memory (MB): peak = 1711.062 ; gain = 1074.145
 2default:default
 ¢
 %s*synth2í
-~Finished Timing Optimization : Time (s): cpu = 00:04:56 ; elapsed = 00:04:55 . Memory (MB): peak = 1718.676 ; gain = 1081.754
+~Finished Timing Optimization : Time (s): cpu = 00:04:41 ; elapsed = 00:04:40 . Memory (MB): peak = 1719.062 ; gain = 1082.145
 2default:default
 °
 %s*synth2ë
-}Finished Technology Mapping : Time (s): cpu = 00:05:16 ; elapsed = 00:05:15 . Memory (MB): peak = 1726.684 ; gain = 1089.762
+}Finished Technology Mapping : Time (s): cpu = 00:04:59 ; elapsed = 00:04:58 . Memory (MB): peak = 1732.445 ; gain = 1095.527
 2default:default
 Ó
 eFound max_fanout attribute set to %s on net %s. Fanout reduced from %s to %s by creating %s replicas.3744*oasys2
@@ -105205,7 +105245,7 @@ F\u_design_1_mig_7series_0_3_mig/u_ddr2_infrastructure/rstdiv0_sync_r1 2default
 132default:defaultZ8-4618
 õ
 %s*synth2ã
-wFinished IO Insertion : Time (s): cpu = 00:05:19 ; elapsed = 00:05:18 . Memory (MB): peak = 1726.684 ; gain = 1089.762
+wFinished IO Insertion : Time (s): cpu = 00:05:01 ; elapsed = 00:05:00 . Memory (MB): peak = 1732.445 ; gain = 1095.527
 2default:default
 ;
 %s*synth2,
@@ -105234,11 +105274,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ¨
 %s*synth2ú
-áFinished Renaming Generated Instances : Time (s): cpu = 00:05:19 ; elapsed = 00:05:18 . Memory (MB): peak = 1726.684 ; gain = 1089.762
+áFinished Renaming Generated Instances : Time (s): cpu = 00:05:01 ; elapsed = 00:05:00 . Memory (MB): peak = 1732.445 ; gain = 1095.527
 2default:default
 ©
 %s*synth2ô
-ÑFinished Rebuilding User Hierarchy : Time (s): cpu = 00:05:20 ; elapsed = 00:05:20 . Memory (MB): peak = 1726.684 ; gain = 1089.762
+ÑFinished Rebuilding User Hierarchy : Time (s): cpu = 00:05:03 ; elapsed = 00:05:02 . Memory (MB): peak = 1732.445 ; gain = 1095.527
 2default:default
 ¢
 %s*synth2í
@@ -105382,7 +105422,7 @@ Dynamic Shift Register:
 2default:default
 ∞
 %s*synth2†
-ã|dsrl__7     | Using_AXI.Use_AXI_Write.aw_w_fifo_mem_reg[15][Valid] | 16     | 4          | 4      | 0       | 0      | 0      | 0      | 
+ã|dsrl__7     | Using_AXI.Use_AXI_Write.aw_w_fifo_mem_reg[15][Valid] | 16     | 8          | 8      | 0       | 0      | 0      | 0      | 
 2default:default
 ∞
 %s*synth2†
@@ -105402,7 +105442,7 @@ Dynamic Shift Register:
 2default:default
 ∞
 %s*synth2†
-ã|dsrl__12    | Using_AXI.r_fifo_mem_reg[15][Low_Addr]               | 16     | 2          | 2      | 0       | 0      | 0      | 0      | 
+ã|dsrl__12    | Using_AXI.r_fifo_mem_reg[15][Low_Addr]               | 16     | 3          | 3      | 0       | 0      | 0      | 0      | 
 2default:default
 ∞
 %s*synth2†
@@ -105502,7 +105542,7 @@ J
 2default:default
 J
 %s*synth2;
-'|6     |CARRY4                |   146|
+'|6     |CARRY4                |   145|
 2default:default
 J
 %s*synth2;
@@ -105546,23 +105586,23 @@ J
 2default:default
 J
 %s*synth2;
-'|17    |LUT2                  |  1722|
+'|17    |LUT2                  |  1724|
 2default:default
 J
 %s*synth2;
-'|18    |LUT3                  |  2203|
+'|18    |LUT3                  |  2198|
 2default:default
 J
 %s*synth2;
-'|19    |LUT4                  |  2063|
+'|19    |LUT4                  |  2074|
 2default:default
 J
 %s*synth2;
-'|20    |LUT5                  |  2090|
+'|20    |LUT5                  |  2091|
 2default:default
 J
 %s*synth2;
-'|21    |LUT6                  |  3371|
+'|21    |LUT6                  |  3381|
 2default:default
 J
 %s*synth2;
@@ -105582,11 +105622,11 @@ J
 2default:default
 J
 %s*synth2;
-'|26    |MUXCY_L               |   237|
+'|26    |MUXCY_L               |   239|
 2default:default
 J
 %s*synth2;
-'|27    |MUXF7                 |   161|
+'|27    |MUXF7                 |   162|
 2default:default
 J
 %s*synth2;
@@ -105678,7 +105718,7 @@ J
 2default:default
 J
 %s*synth2;
-'|50    |SRL16E                |   222|
+'|50    |SRL16E                |   227|
 2default:default
 J
 %s*synth2;
@@ -105718,7 +105758,7 @@ J
 2default:default
 J
 %s*synth2;
-'|60    |FDRE                  | 13756|
+'|60    |FDRE                  | 13765|
 2default:default
 J
 %s*synth2;
@@ -105779,11 +105819,11 @@ Report Instance Areas:
 2default:default
 ’
 %s*synth2≈
-∞|1     |top                                                                                                              |                                             | 28997|
+∞|1     |top                                                                                                              |                                             | 29032|
 2default:default
 ’
 %s*synth2≈
-∞|2     |  design_1_i                                                                                                     |design_1                                     | 28975|
+∞|2     |  design_1_i                                                                                                     |design_1                                     | 29010|
 2default:default
 ’
 %s*synth2≈
@@ -105875,11 +105915,11 @@ Report Instance Areas:
 2default:default
 ’
 %s*synth2≈
-∞|25    |    microblaze_0                                                                                                 |design_1_microblaze_0_0                      |  9273|
+∞|25    |    microblaze_0                                                                                                 |design_1_microblaze_0_0                      |  9308|
 2default:default
 ’
 %s*synth2≈
-∞|26    |      U0                                                                                                         |MicroBlaze__parameterized0                   |  9273|
+∞|26    |      U0                                                                                                         |MicroBlaze__parameterized0                   |  9308|
 2default:default
 ’
 %s*synth2≈
@@ -106003,20 +106043,20 @@ Report Instance Areas:
 2default:default
 ®
 %s*synth2ò
-ÉFinished Writing Synthesis Report : Time (s): cpu = 00:05:21 ; elapsed = 00:05:21 . Memory (MB): peak = 1726.684 ; gain = 1089.762
+ÉFinished Writing Synthesis Report : Time (s): cpu = 00:05:03 ; elapsed = 00:05:03 . Memory (MB): peak = 1732.445 ; gain = 1095.527
 2default:default
 l
 %s*synth2]
-ISynthesis finished with 0 errors, 0 critical warnings and 1371 warnings.
+ISynthesis finished with 0 errors, 0 critical warnings and 1378 warnings.
 2default:default
 ¶
 %s*synth2ñ
-ÅSynthesis Optimization Complete : Time (s): cpu = 00:05:21 ; elapsed = 00:05:21 . Memory (MB): peak = 1726.684 ; gain = 1089.762
+ÅSynthesis Optimization Complete : Time (s): cpu = 00:05:03 ; elapsed = 00:05:03 . Memory (MB): peak = 1732.445 ; gain = 1095.527
 2default:default
 ^
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-8732default:defaultZ29-17
+8752default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -106074,15 +106114,15 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:05:232default:default2
-00:05:232default:default2
-1726.6882default:default2
-900.0312default:defaultZ17-268
+00:05:052default:default2
+00:05:042default:default2
+1732.4492default:default2
+905.7972default:defaultZ17-268
 Ç
-vreport_utilization: Time (s): cpu = 00:00:00.29 ; elapsed = 00:00:00.50 . Memory (MB): peak = 1726.688 ; gain = 0.000
+vreport_utilization: Time (s): cpu = 00:00:00.28 ; elapsed = 00:00:00.33 . Memory (MB): peak = 1732.449 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Wed Mar  4 00:12:30 20152default:defaultZ17-206
+Tue Mar 10 01:46:31 20152default:defaultZ17-206

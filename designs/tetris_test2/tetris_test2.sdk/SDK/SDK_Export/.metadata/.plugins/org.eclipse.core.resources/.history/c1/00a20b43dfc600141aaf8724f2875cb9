@@ -1,0 +1,46 @@
+#include "tetrominoes.h"
+
+
+
+// rotation tables for each tetronimoe
+int ROTATIONS[N_TETRONIMOES][4][4] = {
+    // piece_id = 0 -- I
+    {
+        {0x0, 0xF, 0x0, 0x0},
+		{0x2, 0x2, 0x2, 0x2},
+		{0x0, 0x0, 0xF, 0x0},
+		{0x4, 0x4, 0x4, 0x4},
+    },
+
+    // piece_id = 1 -- J
+    {
+		{0x4, 0x7, 0x0, 0x0},
+		{0x3, 0x2, 0x2, 0x0},
+		{0x0, 0x7, 0x1, 0x0},
+		{0x2, 0x2, 0x6, 0x0},
+    }
+};
+
+void clear_board(board_t board);
+	int i;
+	for (i = 0; i < N_ROWS; i++) {
+		board[i] = 0;
+	}
+}
+
+piece_t create_piece(int piece_id);
+int drop_piece(piece_t piece, board_t board);
+
+piece_t create_piece(int piece_id) {
+	piece_t piece;
+
+	piece.piece_id = piece_id;
+
+	// Initial position is top centre
+	piece.position.x = (N_COLS - 4) / 2;
+	piece.position.y = N_ROWS - 1 - 4;
+
+	piece.rotation = 0;
+
+	return piece;
+}

@@ -107,10 +107,10 @@ $Parsing XDC File [%s] for cell '%s'
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2 
 get_clocks: 2default:default2
+00:00:082default:default2
 00:00:092default:default2
-00:00:092default:default2
-1471.1452default:default2
-410.0622default:defaultZ17-268
+1472.1992default:default2
+411.1172default:defaultZ17-268
  
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2©
@@ -682,10 +682,10 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2!
 link_design: 2default:default2
-00:00:202default:default2
-00:00:212default:default2
-1495.1482default:default2
-750.3122default:defaultZ17-268
+00:00:192default:default2
+00:00:192default:default2
+1495.2032default:default2
+750.3672default:defaultZ17-268
 
 
 End Record

@@ -7,6 +7,7 @@ C_SRCS += \
 ../src/button_io.c \
 ../src/platform.c \
 ../src/tetris.c \
+../src/tetrominoes.c \
 ../src/vga.c 
 
 LD_SRCS += \
@@ -16,12 +17,14 @@ OBJS += \
 ./src/button_io.o \
 ./src/platform.o \
 ./src/tetris.o \
+./src/tetrominoes.o \
 ./src/vga.o 
 
 C_DEPS += \
 ./src/button_io.d \
 ./src/platform.d \
 ./src/tetris.d \
+./src/tetrominoes.d \
 ./src/vga.d 
 
 

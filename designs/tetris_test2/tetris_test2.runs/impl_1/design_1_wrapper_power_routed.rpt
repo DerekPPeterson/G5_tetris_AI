@@ -1,7 +1,7 @@
 Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2014.1 (lin64) Build 881834 Fri Apr  4 14:00:25 MDT 2014
-| Date             : Wed Mar  4 00:15:36 2015
+| Date             : Tue Mar 10 01:48:48 2015
 | Host             : derek-pc2 running 64-bit Ubuntu 14.04.2 LTS
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb
 | Design           : design_1_wrapper
@@ -51,15 +51,15 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.049 |       26 |       --- |             --- |
-| Slice Logic              |     0.008 |    24220 |       --- |             --- |
-|   LUT as Logic           |     0.007 |     9222 |     63400 |           14.54 |
-|   Register               |    <0.001 |    10240 |    126800 |            8.07 |
-|   LUT as Shift Register  |    <0.001 |      405 |     19000 |            2.13 |
+| Slice Logic              |     0.008 |    24251 |       --- |             --- |
+|   LUT as Logic           |     0.007 |     9235 |     63400 |           14.56 |
+|   Register               |    <0.001 |    10249 |    126800 |            8.08 |
+|   LUT as Shift Register  |    <0.001 |      407 |     19000 |            2.14 |
 |   LUT as Distributed RAM |    <0.001 |      824 |     19000 |            4.33 |
-|   CARRY4                 |    <0.001 |      267 |     15850 |            1.68 |
-|   F7/F8 Muxes            |    <0.001 |      159 |     63400 |            0.25 |
+|   CARRY4                 |    <0.001 |      266 |     15850 |            1.67 |
+|   F7/F8 Muxes            |    <0.001 |      160 |     63400 |            0.25 |
 |   Others                 |     0.000 |      291 |       --- |             --- |
-| Signals                  |     0.011 |    18508 |       --- |             --- |
+| Signals                  |     0.011 |    18541 |       --- |             --- |
 | Block RAM                |     0.014 |     22.5 |       135 |           16.66 |
 | MMCM                     |     0.107 |        2 |         6 |           33.33 |
 | PLL                      |     0.113 |        1 |         6 |           16.66 |
@@ -84,7 +84,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.129 |       0.111 |      0.018 |
+| Vccint    |       1.000 |     0.130 |       0.112 |      0.018 |
 | Vccaux    |       1.800 |     0.237 |       0.219 |      0.018 |
 | Vcco33    |       3.300 |     0.004 |       0.000 |      0.004 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -140,12 +140,12 @@ Table of Contents
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
 | Clock                                                                                                                                                                                       | Domain                                                                                                                                                                                                               | Constraint (ns) |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+| design_1_i/mdm_1/U0/Use_E2.BSCANE2_I/DRCK                                                                                                                                                   | design_1_i/mdm_1/U0/DRCK                                                                                                                                                                                             |            33.3 |
+| design_1_i/mdm_1/U0/Use_E2.BSCANE2_I/UPDATE                                                                                                                                                 | design_1_i/mdm_1/U0/Ext_JTAG_UPDATE__0                                                                                                                                                                               |            33.3 |
 | sys_clock                                                                                                                                                                                   | sys_clock                                                                                                                                                                                                            |            10.0 |
 | clkfbout_design_1_clk_wiz_1_0                                                                                                                                                               | design_1_i/clk_wiz_1/inst/clkfbout_design_1_clk_wiz_1_0                                                                                                                                                              |            10.0 |
-| design_1_i/mdm_1/U0/Use_E2.BSCANE2_I/UPDATE                                                                                                                                                 | design_1_i/mdm_1/U0/Ext_JTAG_UPDATE__0                                                                                                                                                                               |            33.3 |
 | clk_out1_design_1_clk_wiz_1_0                                                                                                                                                               | design_1_i/clk_wiz_1/inst/clk_out1_design_1_clk_wiz_1_0                                                                                                                                                              |            10.0 |
 | clk_out2_design_1_clk_wiz_1_0                                                                                                                                                               | design_1_i/clk_wiz_1/inst/clk_out2_design_1_clk_wiz_1_0                                                                                                                                                              |             5.0 |
-| design_1_i/mdm_1/U0/Use_E2.BSCANE2_I/DRCK                                                                                                                                                   | design_1_i/mdm_1/U0/DRCK                                                                                                                                                                                             |            33.3 |
 | clk_out3_design_1_clk_wiz_1_0                                                                                                                                                               | design_1_i/clk_wiz_1/inst/clk_out3_design_1_clk_wiz_1_0                                                                                                                                                              |            40.0 |
 | u_design_1_mig_7series_0_3_mig/u_ddr2_infrastructure/pll_clkfbout                                                                                                                           | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_ddr2_infrastructure/pll_clkfbout                                                                                                                           |            10.0 |
 | u_design_1_mig_7series_0_3_mig/freq_refclk                                                                                                                                                  | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/freq_refclk                                                                                                                                                  |             1.5 |
@@ -340,12 +340,12 @@ Table of Contents
 |         MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[7].I_RET_ADDR_WB                                                                                                      |    <0.001 |
 |         MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[8].I_RET_ADDR_WB                                                                                                      |    <0.001 |
 |         MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[9].I_RET_ADDR_WB                                                                                                      |    <0.001 |
-|         MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.cacheline_copy_reg_0_3_0_5                                                                                             |    <0.001 |
-|         MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.cacheline_copy_reg_0_3_12_17                                                                                           |    <0.001 |
-|         MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.cacheline_copy_reg_0_3_18_23                                                                                           |    <0.001 |
-|         MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.cacheline_copy_reg_0_3_24_29                                                                                           |    <0.001 |
-|         MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.cacheline_copy_reg_0_3_30_31                                                                                           |    <0.001 |
-|         MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.cacheline_copy_reg_0_3_6_11                                                                                            |    <0.001 |
+|         MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.cacheline_copy_reg_0_7_0_5                                                                                             |    <0.001 |
+|         MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.cacheline_copy_reg_0_7_12_17                                                                                           |    <0.001 |
+|         MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.cacheline_copy_reg_0_7_18_23                                                                                           |    <0.001 |
+|         MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.cacheline_copy_reg_0_7_24_29                                                                                           |    <0.001 |
+|         MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.cacheline_copy_reg_0_7_30_31                                                                                           |    <0.001 |
+|         MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.cacheline_copy_reg_0_7_6_11                                                                                            |    <0.001 |
 |         MicroBlaze_Core_I/Performance.instr_mux_I/Use_LUT6.Mux_LD.LD_inst/Use_LUT6.Mux_Loop[0].I_MUX_LUT6                                                                                                                               |    <0.001 |
 |         MicroBlaze_Core_I/Performance.instr_mux_I/Use_LUT6.Mux_LD.LD_inst/Use_LUT6.Mux_Loop[10].I_MUX_LUT6                                                                                                                              |    <0.001 |
 |         MicroBlaze_Core_I/Performance.instr_mux_I/Use_LUT6.Mux_LD.LD_inst/Use_LUT6.Mux_Loop[11].I_MUX_LUT6                                                                                                                              |    <0.001 |

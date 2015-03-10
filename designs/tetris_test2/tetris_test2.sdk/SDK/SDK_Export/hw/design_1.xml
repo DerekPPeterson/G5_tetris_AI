@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Mar  4 00:24:33 2015" VIVADOVERSION="2014.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Mar 10 02:10:30 2015" VIVADOVERSION="2014.1">
 
   <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:nexys4_ddr:part0:1.1" DEVICE="7a100t" NAME="design_1_imp" PACKAGE="csg324" SPEEDGRADE="-1"/>
 
@@ -7,6 +7,20 @@
     <PORT DIR="I" NAME="USB_Uart_rxd" SIGIS="undef"/>
     <PORT DIR="O" NAME="USB_Uart_txd" SIGIS="undef"/>
     <PORT DIR="I" NAME="Push_Buttons_5Bits_tri_i" SIGIS="undef"/>
+    <PORT DIR="IO" NAME="DDR2_dq" SIGIS="undef"/>
+    <PORT DIR="IO" NAME="DDR2_dqs_p" SIGIS="undef"/>
+    <PORT DIR="IO" NAME="DDR2_dqs_n" SIGIS="undef"/>
+    <PORT DIR="O" NAME="DDR2_addr" SIGIS="undef"/>
+    <PORT DIR="O" NAME="DDR2_ba" SIGIS="undef"/>
+    <PORT DIR="O" NAME="DDR2_ras_n" SIGIS="undef"/>
+    <PORT DIR="O" NAME="DDR2_cas_n" SIGIS="undef"/>
+    <PORT DIR="O" NAME="DDR2_we_n" SIGIS="undef"/>
+    <PORT DIR="O" NAME="DDR2_ck_p" SIGIS="undef"/>
+    <PORT DIR="O" NAME="DDR2_ck_n" SIGIS="undef"/>
+    <PORT DIR="O" NAME="DDR2_cke" SIGIS="undef"/>
+    <PORT DIR="O" NAME="DDR2_cs_n" SIGIS="undef"/>
+    <PORT DIR="O" NAME="DDR2_dm" SIGIS="undef"/>
+    <PORT DIR="O" NAME="DDR2_odt" SIGIS="undef"/>
     <PORT CLKFREQUENCY="100000000" DIR="I" NAME="sys_clock" SIGIS="clk" SIGNAME="External_Ports_sys_clock">
       <CONNECTIONS>
         <CONNECTION INSTANCE="clk_wiz_1" PORT="clk_in1"/>
@@ -44,20 +58,6 @@
         <CONNECTION INSTANCE="clk_wiz_1" PORT="resetn"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="IO" NAME="DDR2_dq" SIGIS="undef"/>
-    <PORT DIR="IO" NAME="DDR2_dqs_p" SIGIS="undef"/>
-    <PORT DIR="IO" NAME="DDR2_dqs_n" SIGIS="undef"/>
-    <PORT DIR="O" NAME="DDR2_addr" SIGIS="undef"/>
-    <PORT DIR="O" NAME="DDR2_ba" SIGIS="undef"/>
-    <PORT DIR="O" NAME="DDR2_ras_n" SIGIS="undef"/>
-    <PORT DIR="O" NAME="DDR2_cas_n" SIGIS="undef"/>
-    <PORT DIR="O" NAME="DDR2_we_n" SIGIS="undef"/>
-    <PORT DIR="O" NAME="DDR2_ck_p" SIGIS="undef"/>
-    <PORT DIR="O" NAME="DDR2_ck_n" SIGIS="undef"/>
-    <PORT DIR="O" NAME="DDR2_cke" SIGIS="undef"/>
-    <PORT DIR="O" NAME="DDR2_cs_n" SIGIS="undef"/>
-    <PORT DIR="O" NAME="DDR2_dm" SIGIS="undef"/>
-    <PORT DIR="O" NAME="DDR2_odt" SIGIS="undef"/>
   </EXTERNALPORTS>
 
   <MODULES>
@@ -4645,7 +4645,7 @@
         <PARAMETER NAME="C_ALLOW_DCACHE_WR" VALUE="1"/>
         <PARAMETER NAME="C_DCACHE_ADDR_TAG" VALUE="14"/>
         <PARAMETER NAME="C_DCACHE_BYTE_SIZE" VALUE="8192"/>
-        <PARAMETER NAME="C_DCACHE_LINE_LEN" VALUE="4"/>
+        <PARAMETER NAME="C_DCACHE_LINE_LEN" VALUE="8"/>
         <PARAMETER NAME="C_DCACHE_ALWAYS_USED" VALUE="1"/>
         <PARAMETER NAME="C_DCACHE_USE_WRITEBACK" VALUE="0"/>
         <PARAMETER NAME="C_DCACHE_VICTIMS" VALUE="0"/>

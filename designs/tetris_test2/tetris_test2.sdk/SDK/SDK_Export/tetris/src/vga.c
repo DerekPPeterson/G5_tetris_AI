@@ -17,7 +17,7 @@ volatile unsigned int * ddr = (unsigned int*) XPAR_MIG_7SERIES_0_BASEADDR;
 volatile unsigned int * vga_buf = (unsigned int*) XPAR_MIG_7SERIES_0_BASEADDR;
 volatile unsigned int * vga_bufa = (unsigned int*) XPAR_MIG_7SERIES_0_BASEADDR;
 volatile unsigned int * vga_bufb = (unsigned int*) XPAR_MIG_7SERIES_0_BASEADDR
-		+ 0x100000;
+		+ 0x200000;
 
 // Draw a square with with white border around gray inside at the given position in the block grid
 // lower left of block grid is 0, 0

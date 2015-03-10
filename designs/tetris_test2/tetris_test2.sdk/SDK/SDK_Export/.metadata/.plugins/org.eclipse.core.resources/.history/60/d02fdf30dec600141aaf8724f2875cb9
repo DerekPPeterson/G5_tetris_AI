@@ -1,0 +1,17 @@
+#ifndef TETROMINOES_H
+#define TETROMINOES_H
+
+struct point {
+	int x;
+	int y;
+}typedef point_t;
+
+struct piece {
+	int piece_id;
+	point_t position;
+	int rotation;
+} typedef piece_t;
+
+piece_t create_piece(int piece_id);
+
+#endif

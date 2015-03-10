@@ -1,0 +1,38 @@
+#include "tetrominoes.h"
+
+#define N_ROWS 20
+#define N_COLS 10
+#define N_TETRONIMOES
+
+
+// piece_id = 0 -- I
+int I[4][4] = {
+		{0x0, 0xF, 0x0, 0x0},
+		{0x2, 0x2, 0x2, 0x2},
+		{0x0, 0x0, 0xF, 0x0},
+		{0x4, 0x4, 0x4, 0x4},
+};
+
+// piece_id = 1 -- J
+int J[4][4] = {
+		{0x4, 0x7, 0x0, 0x0},
+		{0x3, 0x2, 0x2, 0x0},
+		{0x0, 0x7, 0x1, 0x0},
+		{0x2, 0x2, 0x6, 0x0},
+};
+
+int ** ROTATIONS[2] = {I, J};
+
+piece_t create_piece(int piece_id) {
+	piece_t piece;
+
+	piece.piece_id = piece_id;
+
+	// Initial position is top centre
+	piece.position.x = (N_COLS - 4) / 2;
+	piece.position.y = N_ROWS - 1 - 4;
+
+	piece.rotation = 0;
+
+	return piece;
+}

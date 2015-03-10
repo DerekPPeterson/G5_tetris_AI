@@ -64,7 +64,7 @@ enable_caches()
     Xil_DCacheEnableRegion(CACHEABLE_REGION_MASK);
 #elif __MICROBLAZE__
 #ifdef XPAR_MICROBLAZE_USE_ICACHE
-    Xil_ICacheEnable();
+    //Xil_ICacheEnable();
 #endif
 #ifdef XPAR_MICROBLAZE_USE_DCACHE
     Xil_DCacheEnable();
