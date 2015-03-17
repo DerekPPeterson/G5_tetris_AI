@@ -1,7 +1,7 @@
 Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
 | Tool Version : Vivado v.2014.1 (lin64) Build 881834 Fri Apr  4 14:00:25 MDT 2014
-| Date         : Tue Mar 10 01:48:38 2015
+| Date         : Sun Mar 15 13:18:32 2015
 | Host         : derek-pc2 running 64-bit Ubuntu 14.04.2 LTS
 | Command      : report_drc
 -----------------------------------------------------------------------------------
@@ -22,7 +22,7 @@ REPORT SUMMARY
       Design limits: <entire design considered>
            Ruledeck: default
            Max violations: <unlimited>
-         Violations found: 13
+         Violations found: 525
 
 2. REPORT DETAILS
 -----------------
@@ -56,20 +56,2210 @@ Related violations: <none>
 
 DPIP-1#1 Warning
 Input pipelining  
-DSP design_1_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.No_MUL64.dsp_module_I2/Using_DSP48E1.DSP48E1_I1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
 Related violations: <none>
 
 DPIP-1#2 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#3 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__0__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#4 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__0__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#5 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#6 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__10 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#7 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__10__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#8 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__11 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#9 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__12 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#10 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__13 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#11 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__14 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#12 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__15 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#13 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__16 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#14 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__17 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#15 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__18 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#16 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__19 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#17 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__1__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#18 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__1__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#19 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__2 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#20 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__20 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#21 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__2__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#22 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__2__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#23 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__3 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#24 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__3__0 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#25 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__3__1 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#26 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__4 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#27 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__4__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#28 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__4__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#29 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__5 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#30 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__5__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#31 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__5__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#32 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__6 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#33 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__6__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#34 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__6__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#35 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__7 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#36 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__7__0 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#37 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__8 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#38 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__8__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#39 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__9 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#40 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__9__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#41 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#42 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#43 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3__0__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#44 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3__0__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#45 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#46 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3__1__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#47 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3__2 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#48 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3__3 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#49 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3__4 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#50 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3__5 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#51 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg6 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#52 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg6__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#53 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg6__0__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#54 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg6__0__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#55 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg6__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#56 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg6__1__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#57 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg6__2 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#58 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#59 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#60 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__0__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#61 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__0__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#62 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#63 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__10 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#64 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__10__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#65 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__11 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#66 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__12 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#67 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__13 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#68 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__14 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#69 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__15 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#70 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__16 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#71 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__17 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#72 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__18 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#73 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__19 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#74 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__1__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#75 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__1__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#76 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__2 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#77 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__20 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#78 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__2__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#79 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__2__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#80 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__3 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#81 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__3__0 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#82 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__3__1 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#83 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__4 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#84 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__4__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#85 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__4__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#86 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__5 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#87 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__5__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#88 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__5__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#89 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__6 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#90 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__6__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#91 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__6__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#92 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__7 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#93 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__7__0 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#94 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__8 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#95 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__8__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#96 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__9 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#97 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__9__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#98 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#99 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#100 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3__0__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#101 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3__0__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#102 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#103 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3__1__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#104 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3__2 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#105 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3__3 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#106 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3__4 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#107 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3__5 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#108 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#109 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#110 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6__0__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#111 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6__0__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#112 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#113 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6__1__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#114 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6__2 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#115 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6__3 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#116 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6__4 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#117 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6__5 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#118 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#119 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#120 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__0__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#121 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__0__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#122 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#123 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__10 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#124 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__10__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#125 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__11 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#126 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__12 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#127 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__1__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#128 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__1__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#129 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__2 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#130 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__2__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#131 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__2__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#132 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__3 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#133 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__3__0 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#134 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__3__1 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#135 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__4 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#136 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__4__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#137 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__4__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#138 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__5 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#139 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__5__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#140 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__5__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#141 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__6 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#142 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__6__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#143 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__6__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#144 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__7 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#145 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__7__0 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#146 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__8 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#147 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__8__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#148 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__9 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#149 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__9__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#150 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg3 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#151 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg3__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#152 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg3__0__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#153 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg3__0__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#154 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg3__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#155 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg3__1__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#156 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg3__2 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#157 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg3__3 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#158 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg6 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#159 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg6__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#160 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg6__0__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#161 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg6__0__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#162 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg6__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#163 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg6__1__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#164 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg6__2 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#165 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg6__3 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#166 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#167 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#168 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__0__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#169 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__0__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#170 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#171 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__10 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#172 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__10__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#173 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__11 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#174 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__12 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#175 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__13 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#176 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__14 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#177 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__15 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#178 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__16 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#179 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__1__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#180 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__1__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#181 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__2 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#182 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__2__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#183 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__2__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#184 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__3 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#185 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__3__0 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#186 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__3__1 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#187 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__4 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#188 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__4__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#189 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__4__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#190 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__5 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#191 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__5__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#192 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__5__1 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#193 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__6 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#194 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__6__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#195 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__6__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#196 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__7 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#197 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__7__0 input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#198 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__8 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#199 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__8__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#200 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__9 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#201 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__9__0 input A B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#202 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg3 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#203 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg3__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#204 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg3__0__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#205 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg3__0__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#206 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg3__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#207 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg3__1__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#208 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg3__2 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#209 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg3__3 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#210 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg3__4 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#211 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg6 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#212 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg6__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#213 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg6__0__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#214 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg6__0__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#215 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg6__1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#216 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg6__1__0 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#217 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg6__2 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#218 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg6__3 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#219 Warning
+Input pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg6__4 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#220 Warning
+Input pipelining  
+DSP design_1_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.No_MUL64.dsp_module_I2/Using_DSP48E1.DSP48E1_I1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#221 Warning
 Input pipelining  
 DSP design_1_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1 input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
 Related violations: <none>
 
 DPOP-1#1 Warning
 Output pipelining  
-DSP design_1_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.No_MUL64.dsp_module_I3/Using_DSP48E1.DSP48E1_I1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
 Related violations: <none>
 
 DPOP-1#2 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#3 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__0__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#4 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__0__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#5 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#6 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__10 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#7 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__10__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#8 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__11 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#9 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__12 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#10 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__13 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#11 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__14 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#12 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__15 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#13 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__16 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#14 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__17 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#15 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__18 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#16 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__19 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#17 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__1__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#18 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__1__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#19 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__2 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#20 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__20 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#21 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__2__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#22 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__2__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#23 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__3 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#24 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__3__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#25 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__3__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#26 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__4 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#27 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__4__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#28 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__4__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#29 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__5 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#30 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__5__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#31 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__5__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#32 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__6 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#33 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__6__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#34 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__6__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#35 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__7 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#36 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__7__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#37 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__8 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#38 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__8__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#39 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__9 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#40 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg0__9__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#41 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#42 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#43 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3__0__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#44 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3__0__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#45 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#46 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3__1__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#47 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3__2 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#48 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3__3 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#49 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3__4 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#50 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg3__5 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#51 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg6 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#52 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg6__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#53 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg6__0__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#54 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg6__0__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#55 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg6__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#56 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg6__1__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#57 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot0/score_reg6__2 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#58 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#59 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#60 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__0__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#61 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__0__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#62 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#63 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__10 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#64 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__10__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#65 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__11 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#66 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__12 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#67 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__13 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#68 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__14 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#69 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__15 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#70 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__16 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#71 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__17 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#72 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__18 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#73 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__19 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#74 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__1__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#75 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__1__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#76 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__2 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#77 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__20 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#78 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__2__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#79 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__2__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#80 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__3 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#81 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__3__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#82 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__3__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#83 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__4 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#84 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__4__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#85 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__4__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#86 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__5 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#87 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__5__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#88 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__5__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#89 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__6 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#90 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__6__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#91 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__6__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#92 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__7 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#93 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__7__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#94 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__8 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#95 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__8__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#96 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__9 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#97 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg0__9__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#98 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#99 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#100 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3__0__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#101 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3__0__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#102 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#103 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3__1__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#104 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3__2 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#105 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3__3 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#106 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3__4 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#107 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg3__5 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#108 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#109 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#110 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6__0__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#111 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6__0__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#112 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#113 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6__1__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#114 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6__2 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#115 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6__3 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#116 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6__4 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#117 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot1/score_reg6__5 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#118 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#119 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#120 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__0__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#121 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__0__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#122 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#123 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__10 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#124 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__10__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#125 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__11 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#126 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__12 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#127 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__1__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#128 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__1__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#129 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__2 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#130 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__2__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#131 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__2__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#132 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__3 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#133 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__3__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#134 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__3__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#135 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__4 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#136 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__4__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#137 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__4__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#138 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__5 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#139 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__5__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#140 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__5__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#141 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__6 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#142 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__6__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#143 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__6__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#144 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__7 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#145 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__7__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#146 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__8 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#147 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__8__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#148 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__9 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#149 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg0__9__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#150 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg3 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#151 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg3__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#152 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg3__0__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#153 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg3__0__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#154 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg3__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#155 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg3__1__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#156 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg3__2 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#157 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg3__3 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#158 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg6 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#159 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg6__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#160 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg6__0__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#161 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg6__0__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#162 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg6__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#163 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg6__1__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#164 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg6__2 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#165 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot2/score_reg6__3 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#166 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#167 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#168 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__0__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#169 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__0__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#170 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#171 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__10 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#172 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__10__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#173 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__11 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#174 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__12 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#175 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__13 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#176 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__14 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#177 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__15 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#178 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__16 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#179 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__1__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#180 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__1__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#181 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__2 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#182 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__2__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#183 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__2__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#184 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__3 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#185 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__3__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#186 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__3__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#187 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__4 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#188 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__4__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#189 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__4__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#190 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__5 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#191 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__5__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#192 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__5__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#193 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__6 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#194 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__6__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#195 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__6__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#196 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__7 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#197 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__7__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#198 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__8 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#199 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__8__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#200 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__9 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#201 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg0__9__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#202 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg3 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#203 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg3__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#204 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg3__0__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#205 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg3__0__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#206 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg3__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#207 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg3__1__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#208 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg3__2 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#209 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg3__3 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#210 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg3__4 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#211 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg6 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#212 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg6__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#213 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg6__0__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#214 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg6__0__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#215 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg6__1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#216 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg6__1__0 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#217 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg6__2 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#218 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg6__3 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#219 Warning
+Output pipelining  
+DSP design_1_i/aicontroller_0/inst/score_rot3/score_reg6__4 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#220 Warning
+Output pipelining  
+DSP design_1_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.No_MUL64.dsp_module_I3/Using_DSP48E1.DSP48E1_I1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#221 Warning
 Output pipelining  
 DSP design_1_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1 output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
 Related violations: <none>
@@ -92,6 +2282,376 @@ Related violations: <none>
 AVAL-4#3 Advisory
 enum_USE_DPORT_FALSE_enum_DREG_0_connects_CED_GND  
 design_1_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1: DSP48E1 attribute USE_DPORT is set to FALSE. Set attribute DREG to 1 and tie CED to GND to save power.
+Related violations: <none>
+
+AVAL-5#1 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#2 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__0__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#3 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__0__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#4 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__12: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#5 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__13: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#6 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__16: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#7 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__17: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#8 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#9 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__1__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#10 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__1__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#11 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__4: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#12 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__4__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#13 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__4__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#14 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__5: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#15 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__5__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#16 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__5__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#17 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__8: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#18 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__8__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#19 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__9: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#20 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot0/score_reg0__9__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#21 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#22 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__0__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#23 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__0__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#24 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__12: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#25 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__13: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#26 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__16: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#27 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__17: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#28 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#29 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__1__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#30 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__1__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#31 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__4: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#32 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__4__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#33 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__4__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#34 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__5: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#35 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__5__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#36 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__5__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#37 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__8: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#38 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__8__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#39 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__9: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#40 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot1/score_reg0__9__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#41 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot2/score_reg0__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#42 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot2/score_reg0__0__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#43 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot2/score_reg0__0__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#44 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot2/score_reg0__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#45 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot2/score_reg0__1__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#46 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot2/score_reg0__1__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#47 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot2/score_reg0__4: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#48 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot2/score_reg0__4__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#49 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot2/score_reg0__4__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#50 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot2/score_reg0__5: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#51 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot2/score_reg0__5__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#52 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot2/score_reg0__5__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#53 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot2/score_reg0__8: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#54 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot2/score_reg0__8__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#55 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot2/score_reg0__9: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#56 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot2/score_reg0__9__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#57 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot3/score_reg0__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#58 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot3/score_reg0__0__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#59 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot3/score_reg0__0__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#60 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot3/score_reg0__12: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#61 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot3/score_reg0__13: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#62 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot3/score_reg0__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#63 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot3/score_reg0__1__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#64 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot3/score_reg0__1__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#65 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot3/score_reg0__4: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#66 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot3/score_reg0__4__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#67 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot3/score_reg0__4__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#68 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot3/score_reg0__5: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#69 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot3/score_reg0__5__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#70 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot3/score_reg0__5__1: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#71 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot3/score_reg0__8: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#72 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot3/score_reg0__8__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#73 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot3/score_reg0__9: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
+Related violations: <none>
+
+AVAL-5#74 Advisory
+enum_USE_MULT_NONE_enum_DREG_1_enum_ADREG_1  
+design_1_i/aicontroller_0/inst/score_rot3/score_reg0__9__0: DSP48E1 attribute USE_MULT is set to NONE. Set attributes DREG and ADREG to 0 to save power.
 Related violations: <none>
 
 RTSTAT-10#1 Advisory

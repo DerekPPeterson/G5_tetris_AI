@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="30" version="2.0">
+<workbench progressCount="31" version="2.0">
 <workbenchAdvisor/>
-<window height="787" maximized="true" width="1038" x="397" y="24">
+<window height="768" maximized="true" width="1020" x="525" y="160">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
-<itemSize x="365"/>
+<itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="258" y="26"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="186" y="26"/>
-<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="142" y="26"/>
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="36" y="26"/>
@@ -24,21 +23,14 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="212" y="26"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1424813702821" focus="true" label="Workspace - C/C++">
+<page aggregateWorkingSetId="Aggregate for window 1426440268934" focus="true" label="Workspace - C/C++">
 <editors>
-<editorArea activeWorkbook="org.eclipse.ui.internal.EditorStack@3b4d5358">
+<editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
-<folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-</presentation>
-</folder>
-</info>
-<info part="org.eclipse.ui.internal.EditorStack@3b4d5358" ratio="0.4996426" ratioLeft="699" ratioRight="700" relationship="2" relative="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
@@ -48,64 +40,37 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="tetrominoes.c" partName="tetrominoes.c" path="/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/src/tetrominoes.c" title="tetrominoes.c" tooltip="tetris/src/tetrominoes.c" workbook="DefaultEditorWorkbook">
+<editor id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" name="system.xml" partName="system.xml" path="/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/system.xml" title="system.xml" tooltip="hw_platform_0/system.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/hw_platform_0/system.xml"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="tetrominoes.c" partName="tetrominoes.c" path="/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2.bak/tetris_test2.sdk/SDK/SDK_Export/tetris/src/tetrominoes.c" title="tetrominoes.c" tooltip="tetris/src/tetrominoes.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/tetris/src/tetrominoes.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1454" selectionTopPixel="748"/>
+<editorState selectionHorizontalPixel="0" selectionLength="40" selectionOffset="944" selectionTopPixel="612"/>
 </editor>
-<editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="vga.c" partName="vga.c" path="/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/src/vga.c" title="vga.c" tooltip="tetris/src/vga.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="vga.c" partName="vga.c" path="/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2.bak/tetris_test2.sdk/SDK/SDK_Export/tetris/src/vga.c" title="vga.c" tooltip="tetris/src/vga.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/tetris/src/vga.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2476" selectionTopPixel="895"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="tetrominoes.h" partName="tetrominoes.h" path="/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/src/tetrominoes.h" title="tetrominoes.h" tooltip="tetris/src/tetrominoes.h" workbook="org.eclipse.ui.internal.EditorStack@3b4d5358">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/tetris/src/tetrominoes.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="379" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="tetris.c" partName="tetris.c" path="/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/src/tetris.c" title="tetris.c" tooltip="tetris/src/tetris.c" workbook="org.eclipse.ui.internal.EditorStack@3b4d5358">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/tetris/src/tetris.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4304" selectionTopPixel="3383"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="platform.c" partName="platform.c" path="/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/tetris/src/platform.c" title="platform.c" tooltip="tetris/src/platform.c" workbook="org.eclipse.ui.internal.EditorStack@3b4d5358">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/tetris/src/platform.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3699" selectionTopPixel="901"/>
+<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="2590" selectionTopPixel="984"/>
 </editor>
 </editors>
 <views>
-<view id="com.xilinx.sdk.targetmanager.ui.TargetManagementView" partName="Target Connections">
-<viewState/>
-</view>
-<view id="org.eclipse.tm.terminal.view.TerminalView" partName="Terminal"/>
-<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
-<viewState/>
-</view>
-<view id="org.eclipse.cdt.debug.ui.executablesView" partName="Executables"/>
-<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
-<viewState/>
-</view>
-<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
-<viewState/>
-</view>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
-<view id="com.xilinx.sdk.targetmanager.ui.XmdConsoleView" partName="XMD Console"/>
+<view id="com.xilinx.sdk.targetmanager.ui.TargetManagementView" partName="Target Connections">
+<viewState/>
+</view>
 <view id="com.xilinx.sdk.logger.SdkLogView" partName="SDK Log">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
-<view id="com.xilinx.sdk.targetmanager.ui.xsdb.XSDBConsoleView" partName="XSDB Console"/>
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
+<view id="org.eclipse.tm.terminal.view.TerminalView" partName="Terminal"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (1 item)"/>
 <category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Errors"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="105" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="568"/>
+<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="105" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -114,6 +79,10 @@
 </viewState>
 </view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
 </views>
@@ -190,15 +159,16 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@ea469cc" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.7573604" ratioLeft="746" ratioRight="239" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.75" ratioLeft="504" ratioRight="168" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -214,7 +184,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@6ce0030d" ratio="0.5" ratioLeft="379" ratioRight="379" relationship="2" relative="bottom">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@38cdca5b" ratio="0.5" ratioLeft="379" ratioRight="379" relationship="2" relative="bottom">
 <folder activePageID="com.xilinx.sdk.logger.SdkLogView" appearance="2" expanded="2">
 <page content="com.xilinx.sdk.logger.SdkLogView" label="SDK Log"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -232,160 +202,11 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@66e88252" ratio="0.75" ratioLeft="504" ratioRight="168" relationship="4" relative="topLeft">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@4ea0397f" ratio="0.75" ratioLeft="504" ratioRight="168" relationship="4" relative="topLeft">
 <folder activePageID="com.xilinx.sdk.targetmanager.ui.TargetManagementView" appearance="2" expanded="2">
 <page content="com.xilinx.sdk.targetmanager.ui.TargetManagementView" label="Target Connections"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-</presentation>
-</folder>
-</info>
-</mainWindow>
-</layout>
-</perspective>
-<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
-<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
-<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
-<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
-<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
-<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
-<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
-<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
-<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
-<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
-<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
-<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
-<alwaysOnActionSet id="org.eclipse.cdt.debug.ui.debugActionSet"/>
-<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
-<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
-<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
-<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
-<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
-<show_view_action id="org.eclipse.debug.ui.DebugView"/>
-<show_view_action id="org.eclipse.debug.ui.VariableView"/>
-<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
-<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
-<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
-<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
-<show_view_action id="org.eclipse.ui.views.TaskList"/>
-<show_view_action id="org.eclipse.tm.terminal.view.TerminalView"/>
-<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
-<show_view_action id="org.eclipse.cdt.debug.ui.SignalsView"/>
-<show_view_action id="org.eclipse.debug.ui.RegisterView"/>
-<show_view_action id="org.eclipse.debug.ui.ModuleView"/>
-<show_view_action id="org.eclipse.debug.ui.MemoryView"/>
-<show_view_action id="org.eclipse.ui.views.ProblemView"/>
-<show_view_action id="org.eclipse.cdt.debug.ui.executablesView"/>
-<show_view_action id="org.eclipse.cdt.dsf.gdb.ui.tracecontrol.view"/>
-<show_view_action id="org.eclipse.cdt.dsf.debug.ui.disassembly.view"/>
-<show_view_action id="org.eclipse.pde.runtime.LogView"/>
-<show_view_action id="org.eclipse.jdt.debug.ui.DisplayView"/>
-<perspective_action id="org.eclipse.cdt.ui.CPerspective"/>
-<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
-<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
-<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
-<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.ui.views.TaskList"/>
-<view id="org.eclipse.tm.terminal.view.TerminalView"/>
-<view id="org.eclipse.ui.views.ProblemView"/>
-<view id="org.eclipse.cdt.debug.ui.executablesView"/>
-<view id="org.eclipse.debug.ui.DebugView"/>
-<view id="org.eclipse.debug.ui.VariableView"/>
-<view id="org.eclipse.debug.ui.BreakpointView"/>
-<view id="com.xilinx.sdk.targetmanager.ui.XmdConsoleView"/>
-<view id="com.xilinx.sdk.targetmanager.ui.xsdb.XSDBConsoleView"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="com.xilinx.sdk.logger.SdkLogView"/>
-<view id="com.xilinx.sdk.targetmanager.ui.TargetManagementView"/>
-<fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
-<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
-<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
-<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
-</folder>
-</info>
-<info folder="true" part="stickyFolderRight" ratio="0.7498601" ratioLeft="1340" ratioRight="447" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
-<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
-</folder>
-</info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@29041ed5" ratio="0.75" ratioLeft="738" ratioRight="246" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="com.xilinx.sdk.targetmanager.ui.TargetManagementView" appearance="2" expanded="2">
-<page content="com.xilinx.sdk.targetmanager.ui.TargetManagementView" label="Target Connections"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
-</folder>
-</info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@5af95bf4" ratio="0.5998881" ratioLeft="1072" ratioRight="715" relationship="2" relative="org.eclipse.ui.internal.ViewStack@29041ed5">
-<folder activePageID="com.xilinx.sdk.logger.SdkLogView" appearance="2" expanded="2">
-<page content="com.xilinx.sdk.logger.SdkLogView" label="SDK Log"/>
-<page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
-</folder>
-</info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.25" ratioLeft="268" ratioRight="804" relationship="2" relative="org.eclipse.ui.internal.ViewStack@29041ed5">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
-<page content="org.eclipse.tm.terminal.view.TerminalView" label="Terminal"/>
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
-<page content="org.eclipse.cdt.debug.ui.executablesView" label="Executables"/>
-<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
-<page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
-<page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
-<page content="org.eclipse.tcf.TraceView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-</presentation>
-</folder>
-</info>
-<info part="org.eclipse.ui.editorss" ratio="0.4498645" ratioLeft="332" ratioRight="406" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7498601" ratioLeft="1340" ratioRight="447" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<page content="org.eclipse.cdt.dsf.gdb.ui.tracecontrol.view" label="LabelNotFound"/>
-<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
-<page content="org.eclipse.tcf.ProfilerView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
-</folder>
-</info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.49972022" ratioLeft="893" ratioRight="894" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
-<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
-<page content="com.xilinx.sdk.targetmanager.ui.XmdConsoleView" label="XMD Console"/>
-<page content="com.xilinx.sdk.targetmanager.ui.xsdb.XSDBConsoleView" label="XSDB Console"/>
-<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
-<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
-<page content="org.eclipse.cdt.debug.ui.SignalsView" label="LabelNotFound"/>
-<page content="org.eclipse.debug.ui.ModuleView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
@@ -396,161 +217,22 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/tetris/src/tetris.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/tetris/src/tetrominoes.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" path="/hw_platform_0/system.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/tetris/src/tetrominoes.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/tetris/src/vga.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/tetris/src/platform.c"/>
 </editors>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="5572" y="0"/>
+<item historyLabel="system.xml" index="0"/>
+<item historyLabel="tetrominoes.c" index="1">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="tetrominoes.h" index="1">
-<position info="not_deleted" x="235" y="0"/>
+<item historyLabel="vga.c" index="2">
+<position info="not_deleted" x="2590" y="15"/>
 </item>
-<item historyLabel="tetrominoes.h" index="1">
-<position info="not_deleted" x="264" y="0"/>
+<item historyLabel="tetrominoes.c" index="1">
+<position info="not_deleted" x="944" y="40"/>
 </item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="5182" y="0"/>
-</item>
-<item historyLabel="tetrominoes.h" index="1">
-<position info="not_deleted" x="264" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="5182" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="4971" y="0"/>
-</item>
-<item historyLabel="tetrominoes.h" index="1">
-<position info="not_deleted" x="403" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="5358" y="0"/>
-</item>
-<item historyLabel="tetrominoes.c" index="2">
-<position info="not_deleted" x="672" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="5155" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="4957" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="5009" y="0"/>
-</item>
-<item historyLabel="tetrominoes.h" index="1">
-<position info="not_deleted" x="379" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="5009" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="5286" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="5572" y="0"/>
-</item>
-<item historyLabel="tetrominoes.c" index="2">
-<position/>
-</item>
-<item historyLabel="tetrominoes.c" index="2">
-<position info="not_deleted" x="630" y="27"/>
-</item>
-<item historyLabel="tetrominoes.c" index="2">
-<position info="not_deleted" x="1455" y="0"/>
-</item>
-<item historyLabel="tetrominoes.c" index="2">
-<position info="not_deleted" x="630" y="27"/>
-</item>
-<item historyLabel="tetrominoes.c" index="2">
-<position info="not_deleted" x="693" y="0"/>
-</item>
-<item historyLabel="tetrominoes.c" index="2">
-<position info="not_deleted" x="1453" y="0"/>
-</item>
-<item historyLabel="tetrominoes.c" index="2">
-<position info="not_deleted" x="649" y="0"/>
-</item>
-<item historyLabel="tetrominoes.c" index="2">
-<position info="not_deleted" x="1454" y="0"/>
-</item>
-<item historyLabel="vga.c" index="3">
-<position info="not_deleted" x="2604" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="5543" y="0"/>
-</item>
-<item historyLabel="vga.c" index="3">
-<position info="not_deleted" x="2476" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="3472" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="3701" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="3720" y="0"/>
-</item>
-<item historyLabel="platform.c" index="4">
-<position info="not_deleted" x="3699" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="3701" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position/>
-</item>
-<item historyLabel="platform.c" index="4">
-<position info="not_deleted" x="3699" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="3701" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="3721" y="0"/>
-</item>
-<item historyLabel="platform.c" index="4">
-<position info="not_deleted" x="3699" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="3701" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="3740" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="3758" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="3823" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="3842" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="3860" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="3925" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="4100" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="4160" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="4248" y="0"/>
-</item>
-<item historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="4277" y="0"/>
-</item>
-<item active="true" historyLabel="tetris.c" index="0">
-<position info="not_deleted" x="4304" y="0"/>
+<item active="true" historyLabel="vga.c" index="2">
+<position info="not_deleted" x="2590" y="15"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -569,29 +251,14 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="platform.c" tooltip="tetris/src/platform.c">
-<persistable path="/tetris/src/platform.c"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="vga.c" tooltip="tetris/src/vga.c">
 <persistable path="/tetris/src/vga.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tetrominoes.h" tooltip="tetris/src/tetrominoes.h">
-<persistable path="/tetris/src/tetrominoes.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tetris.c" tooltip="tetris/src/tetris.c">
-<persistable path="/tetris/src/tetris.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tetrominoes.c" tooltip="tetris/src/tetrominoes.c">
 <persistable path="/tetris/src/tetrominoes.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="button_io.h" tooltip="tetris/src/button_io.h">
-<persistable path="/tetris/src/button_io.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="button_io.c" tooltip="tetris/src/button_io.c">
-<persistable path="/tetris/src/button_io.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="vga.h" tooltip="tetris/src/vga.h">
-<persistable path="/tetris/src/vga.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" name="system.xml" tooltip="hw_platform_0/system.xml">
+<persistable path="/hw_platform_0/system.xml"/>
 </file>
 </mruList>
 </workbench>

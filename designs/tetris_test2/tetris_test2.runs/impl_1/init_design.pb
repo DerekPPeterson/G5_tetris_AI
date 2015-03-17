@@ -10,7 +10,7 @@ a
 ^
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-4292default:defaultZ29-17
+6482default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -107,10 +107,10 @@ $Parsing XDC File [%s] for cell '%s'
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2 
 get_clocks: 2default:default2
-00:00:082default:default2
-00:00:092default:default2
-1472.1992default:default2
-411.1172default:defaultZ17-268
+00:00:142default:default2
+00:00:142default:default2
+1756.8792default:default2
+570.1092default:defaultZ17-268
  
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2©
@@ -230,6 +230,41 @@ $%s: '%s' is not a valid startpoint.
 bdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_clr_i_1	2default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
 3372default:default8@Z18-402
+á
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2l
+Vdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_reg_i_1	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
+3372default:default8@Z18-402
+Ý
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2h
+Rdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_5	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
+3372default:default8@Z18-402
+Ý
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2h
+Rdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_4	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
+3372default:default8@Z18-402
+Ý
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2h
+Rdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_3	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
+3372default:default8@Z18-402
+Ý
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2h
+Rdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_2	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
+3372default:default8@Z18-402
 Ó
 $%s: '%s' is not a valid startpoint.
 402*constraints2!
@@ -312,41 +347,6 @@ $%s: '%s' is not a valid startpoint.
 402*constraints2!
 set_max_delay2default:default2_
 Idesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[10]_i_1	2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
-3372default:default8@Z18-402
-
-$%s: '%s' is not a valid startpoint.
-402*constraints2!
-set_max_delay2default:default2‹
-udesign_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_reg_i_1	2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
-3372default:default8@Z18-402
-ý
-$%s: '%s' is not a valid startpoint.
-402*constraints2!
-set_max_delay2default:default2‡
-qdesign_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_5	2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
-3372default:default8@Z18-402
-ý
-$%s: '%s' is not a valid startpoint.
-402*constraints2!
-set_max_delay2default:default2‡
-qdesign_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_4	2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
-3372default:default8@Z18-402
-ý
-$%s: '%s' is not a valid startpoint.
-402*constraints2!
-set_max_delay2default:default2‡
-qdesign_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_3	2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
-3372default:default8@Z18-402
-ý
-$%s: '%s' is not a valid startpoint.
-402*constraints2!
-set_max_delay2default:default2‡
-qdesign_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_2	2default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
 3372default:default8@Z18-402
 æ
@@ -612,6 +612,734 @@ x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test
 set_property2default:default2Ž
 x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
 392default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[15]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+452default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+452default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[14]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+462default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+462default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[13]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+472default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+472default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[12]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+482default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+482default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[11]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+492default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+492default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[10]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+502default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+502default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[9]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+512default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+512default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[8]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+522default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+522default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[7]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+532default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+532default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[6]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+542default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+542default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[5]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+552default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+552default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[4]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+562default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+562default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[3]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+572default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+572default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[2]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+582default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+582default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[1]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+592default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+592default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[0]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+602default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+602default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[0]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+612default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+612default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[2]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+622default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+622default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[1]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+632default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+632default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[3]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+642default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+642default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[5]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+652default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+652default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[4]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+662default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+662default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[6]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+672default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+672default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[7]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+682default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+682default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[8]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+692default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+692default:default8@Z17-55
+þ
+No ports matched '%s'.
+584*	planAhead2
+LED[9]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+702default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+702default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[10]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+712default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+712default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[11]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+722default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+722default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[12]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+732default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+732default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[13]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+742default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+742default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[15]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+752default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+752default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[14]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+762default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+762default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[0]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+772default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+772default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[1]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+782default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+782default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[2]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+792default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+792default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[3]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+802default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+802default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[4]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+812default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+812default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[5]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+822default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+822default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[6]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+832default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+832default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[7]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+842default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+842default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[8]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+852default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+852default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[9]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+862default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+862default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+
+SWITCH[10]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+872default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+872default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+
+SWITCH[11]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+882default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+882default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+
+SWITCH[12]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+892default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+892default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+
+SWITCH[13]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+902default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+902default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+
+SWITCH[13]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+912default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+912default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+
+SWITCH[12]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+922default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+922default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+
+SWITCH[11]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+932default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+932default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+
+SWITCH[10]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+942default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+942default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[9]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+952default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+952default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[8]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+962default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+962default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[7]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+972default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+972default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[6]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+982default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+982default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[5]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+992default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+992default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[4]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1002default:default8@Z12-584
+‹
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1002default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[3]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1012default:default8@Z12-584
+‹
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1012default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[2]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1022default:default8@Z12-584
+‹
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1022default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[1]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1032default:default8@Z12-584
+‹
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1032default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[0]2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1042default:default8@Z12-584
+‹
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2Ž
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1042default:default8@Z17-55
 Ì
 Finished Parsing XDC File [%s]
 178*designutils2Œ
@@ -678,14 +1406,14 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
   RAM16X1D => RAM32X1D (RAMD32, RAMD32): 32 instances
   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 198 instances
 2default:defaultZ1-111
-ü
+ý
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2!
 link_design: 2default:default2
-00:00:192default:default2
-00:00:192default:default2
-1495.2032default:default2
-750.3672default:defaultZ17-268
+00:00:412default:default2
+00:00:372default:default2
+1767.8832default:default2
+1023.0472default:defaultZ17-268
 
 
 End Record

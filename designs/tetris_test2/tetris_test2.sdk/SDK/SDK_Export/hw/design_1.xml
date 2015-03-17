@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Mar 10 02:10:30 2015" VIVADOVERSION="2014.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Mar 15 13:24:23 2015" VIVADOVERSION="2014.1">
 
   <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:nexys4_ddr:part0:1.1" DEVICE="7a100t" NAME="design_1_imp" PACKAGE="csg324" SPEEDGRADE="-1"/>
 
@@ -61,6 +61,358 @@
   </EXTERNALPORTS>
 
   <MODULES>
+    <MODULE FULLNAME="/Board_Analyzer_BRAM_0" HWVERSION="1.0" INSTANCE="Board_Analyzer_BRAM_0" IPTYPE="PERIPHERAL" MODCLASS="PERIPHERAL" MODTYPE="Board_Analyzer_BRAM" VLNV="user:user:Board_Analyzer_BRAM:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_S00_AXI_DATA_WIDTH" VALUE="32"/>
+        <PARAMETER NAME="C_S00_AXI_ADDR_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_Board_Analyzer_BRAM_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+        <PARAMETER NAME="C_S00_AXI_BASEADDR" VALUE="0x44A10000"/>
+        <PARAMETER NAME="C_S00_AXI_HIGHADDR" VALUE="0x44A1FFFF"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="bram_addr" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_bram_addr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_ai" PORT="addrb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="bram_clk" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_bram_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="aicontroller_0" PORT="clk"/>
+            <CONNECTION INSTANCE="blk_mem_gen_ai" PORT="clkb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="bram_wdata" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_bram_wdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_ai" PORT="dinb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="bram_rdata" SIGIS="undef" SIGNAME="blk_mem_gen_ai_doutb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_ai" PORT="doutb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="bram_en" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_bram_en">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_ai" PORT="enb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="bram_rst" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_bram_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_ai" PORT="rstb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="bram_we" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_bram_we">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_ai" PORT="web"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="col0" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="aicontroller_0" PORT="col0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="col1" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="aicontroller_0" PORT="col1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="col2" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="aicontroller_0" PORT="col2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="col3" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="aicontroller_0" PORT="col3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="col4" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="aicontroller_0" PORT="col4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="col5" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="aicontroller_0" PORT="col5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="col6" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="aicontroller_0" PORT="col6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="col7" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="aicontroller_0" PORT="col7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="col8" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="aicontroller_0" PORT="col8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="col9" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col9">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="aicontroller_0" PORT="col9"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="next_piece" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_next_piece">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="aicontroller_0" PORT="next_piece"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="algo_en" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_algo_en">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="aicontroller_0" PORT="algo_en"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="algo_done" SIGIS="undef" SIGNAME="aicontroller_0_algo_done">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="aicontroller_0" PORT="algo_done"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="algo_rot" SIGIS="undef" SIGNAME="aicontroller_0_algo_rot">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="aicontroller_0" PORT="algo_rot"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="algo_rshift" SIGIS="undef" SIGNAME="aicontroller_0_algo_rshift">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="aicontroller_0" PORT="algo_rshift"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="s00_axi_awaddr" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_awaddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_awaddr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="s00_axi_awprot" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_awprot">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_awprot"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="s00_axi_awvalid" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_awvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_awvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="s00_axi_awready" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_awready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_awready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="s00_axi_wdata" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_wdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_wdata"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="s00_axi_wstrb" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_wstrb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_wstrb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="s00_axi_wvalid" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_wvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_wvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="s00_axi_wready" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_wready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_wready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="s00_axi_bresp" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_bresp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_bresp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="s00_axi_bvalid" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_bvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_bvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="s00_axi_bready" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_bready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_bready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="s00_axi_araddr" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_araddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_araddr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="s00_axi_arprot" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_arprot">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_arprot"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="s00_axi_arvalid" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_arvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_arvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="s00_axi_arready" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_arready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_arready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="s00_axi_rdata" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_rdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_rdata"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="s00_axi_rresp" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_rresp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_rresp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="s00_axi_rvalid" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_rvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_rvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="s00_axi_rready" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_s00_axi_rready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_rready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="s00_axi_aclk" SIGIS="clk" SIGNAME="clk_wiz_1_clk_out1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_wiz_1" PORT="clk_out1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="s00_axi_aresetn" SIGIS="rst" SIGNAME="rst_clk_wiz_1_100M_peripheral_aresetn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="rst_clk_wiz_1_100M" PORT="peripheral_aresetn"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES>
+        <BUSINTERFACE BUSNAME="microblaze_0_axi_periph_xbar" NAME="S00_AXI" TYPE="SLAVE">
+          <PORTMAPS>
+            <PORTMAP PHYSICAL="s00_axi_awaddr"/>
+            <PORTMAP PHYSICAL="s00_axi_awprot"/>
+            <PORTMAP PHYSICAL="s00_axi_awvalid"/>
+            <PORTMAP PHYSICAL="s00_axi_awready"/>
+            <PORTMAP PHYSICAL="s00_axi_wdata"/>
+            <PORTMAP PHYSICAL="s00_axi_wstrb"/>
+            <PORTMAP PHYSICAL="s00_axi_wvalid"/>
+            <PORTMAP PHYSICAL="s00_axi_wready"/>
+            <PORTMAP PHYSICAL="s00_axi_bresp"/>
+            <PORTMAP PHYSICAL="s00_axi_bvalid"/>
+            <PORTMAP PHYSICAL="s00_axi_bready"/>
+            <PORTMAP PHYSICAL="s00_axi_araddr"/>
+            <PORTMAP PHYSICAL="s00_axi_arprot"/>
+            <PORTMAP PHYSICAL="s00_axi_arvalid"/>
+            <PORTMAP PHYSICAL="s00_axi_arready"/>
+            <PORTMAP PHYSICAL="s00_axi_rdata"/>
+            <PORTMAP PHYSICAL="s00_axi_rresp"/>
+            <PORTMAP PHYSICAL="s00_axi_rvalid"/>
+            <PORTMAP PHYSICAL="s00_axi_rready"/>
+          </PORTMAPS>
+        </BUSINTERFACE>
+      </BUSINTERFACES>
+    </MODULE>
+    <MODULE FULLNAME="/aicontroller_0" HWVERSION="1.2" INSTANCE="aicontroller_0" IPTYPE="PERIPHERAL" MODCLASS="PERIPHERAL" MODTYPE="aicontroller" VLNV="xilinx.com:user:aicontroller:1.2">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="INIT" VALUE="0"/>
+        <PARAMETER NAME="DONE" VALUE="4"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_aicontroller_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_bram_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="bram_clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="SWITCH" SIGIS="undef" SIGNAME="xlconstant_0_const">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="const"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="col0" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="col0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="col1" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="col1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="col2" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="col2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="col3" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="col3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="col4" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="col4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="col5" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="col5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="col6" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="col6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="col7" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="col7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="col8" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="col8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="col9" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_col9">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="col9"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="next_piece" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_next_piece">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="next_piece"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="algo_en" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_algo_en">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="algo_en"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="LED" SIGIS="undef"/>
+        <PORT DIR="O" NAME="algo_done" SIGIS="undef" SIGNAME="aicontroller_0_algo_done">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="algo_done"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="algo_rot" SIGIS="undef" SIGNAME="aicontroller_0_algo_rot">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="algo_rot"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="algo_rshift" SIGIS="undef" SIGNAME="aicontroller_0_algo_rshift">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="algo_rshift"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
     <MODULE FULLNAME="/axi_5but" HWVERSION="2.0" INSTANCE="axi_5but" IPTYPE="PERIPHERAL" MODCLASS="PERIPHERAL" MODTYPE="axi_gpio" VLNV="xilinx.com:ip:axi_gpio:2.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=axi_gpio;v=v2_0;d=pg144-axi-gpio.pdf"/>
@@ -3737,13 +4089,41 @@
             <CONNECTION INSTANCE="axi_bram_ai_cntrl" PORT="bram_rddata_a"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="clkb" SIGIS="undef"/>
-        <PORT DIR="I" NAME="rstb" SIGIS="undef"/>
-        <PORT DIR="I" NAME="enb" SIGIS="undef"/>
-        <PORT DIR="I" NAME="web" SIGIS="undef"/>
-        <PORT DIR="I" NAME="addrb" SIGIS="undef"/>
-        <PORT DIR="I" NAME="dinb" SIGIS="undef"/>
-        <PORT DIR="O" NAME="doutb" SIGIS="undef"/>
+        <PORT DIR="I" NAME="clkb" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_bram_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="bram_clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rstb" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_bram_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="bram_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="enb" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_bram_en">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="bram_en"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="web" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_bram_we">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="bram_we"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="addrb" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_bram_addr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="bram_addr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="dinb" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_bram_wdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="bram_wdata"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="doutb" SIGIS="undef" SIGNAME="blk_mem_gen_ai_doutb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="bram_rdata"/>
+          </CONNECTIONS>
+        </PORT>
       </PORTS>
       <BUSINTERFACES>
         <BUSINTERFACE BUSNAME="axi_bram_ai_cntrl_BRAM_PORTA" NAME="BRAM_PORTA" TYPE="TARGET">
@@ -4263,6 +4643,7 @@
             <CONNECTION INSTANCE="microblaze_0_local_memory_ilmb_v10" PORT="LMB_Clk"/>
             <CONNECTION INSTANCE="microblaze_0_local_memory_ilmb_bram_if_cntlr" PORT="LMB_Clk"/>
             <CONNECTION INSTANCE="microblaze_0_axi_intc" PORT="processor_clk"/>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_aclk"/>
           </CONNECTIONS>
         </PORT>
         <PORT CLKFREQUENCY="200000000" DIR="O" NAME="clk_out2" SIGIS="clk" SIGNAME="clk_wiz_1_clk_out2">
@@ -5244,6 +5625,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
       <MEMORYMAP>
+        <MEMRANGE BASENAME="C_S00_AXI_BASEADDR" BASEVALUE="0x44A10000" HIGHNAME="C_S00_AXI_HIGHADDR" HIGHVALUE="0x44A1FFFF" INSTANCE="Board_Analyzer_BRAM_0" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
         <MEMRANGE BASENAME="C_BASEADDR" BASEVALUE="0x80000000" HIGHNAME="C_HIGHADDR" HIGHVALUE="0x87FFFFFF" INSTANCE="mig_7series_0" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="MEMORY"/>
         <MEMRANGE BASENAME="C_S_AXI_BASEADDR" BASEVALUE="0xC0000000" HIGHNAME="C_S_AXI_HIGHADDR" HIGHVALUE="0xC0000FFF" INSTANCE="axi_bram_ai_cntrl" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="MEMORY"/>
         <MEMRANGE BASENAME="C_BASEADDR" BASEVALUE="0x40000000" HIGHNAME="C_HIGHADDR" HIGHVALUE="0x4000FFFF" INSTANCE="axi_5but" IS_DATA="TRUE" IS_INSTRUCTION="FALSE" MEMTYPE="REGISTER"/>
@@ -5255,6 +5637,7 @@
         <MEMRANGE BASENAME="C_BASEADDR" BASEVALUE="0x00000000" HIGHNAME="C_HIGHADDR" HIGHVALUE="0x0000FFFF" INSTANCE="microblaze_0_local_memory_ilmb_bram_if_cntlr" IS_DATA="FALSE" IS_INSTRUCTION="TRUE" MEMTYPE="MEMORY"/>
       </MEMORYMAP>
       <PERIPHERALS>
+        <PERIPHERAL INSTANCE="Board_Analyzer_BRAM_0"/>
         <PERIPHERAL INSTANCE="mig_7series_0"/>
         <PERIPHERAL INSTANCE="axi_bram_ai_cntrl"/>
         <PERIPHERAL INSTANCE="axi_5but"/>
@@ -5775,14 +6158,14 @@
       <PARAMETERS>
         <PARAMETER NAME="C_FAMILY" VALUE="artix7"/>
         <PARAMETER NAME="C_NUM_SLAVE_SLOTS" VALUE="1"/>
-        <PARAMETER NAME="C_NUM_MASTER_SLOTS" VALUE="6"/>
+        <PARAMETER NAME="C_NUM_MASTER_SLOTS" VALUE="7"/>
         <PARAMETER NAME="C_AXI_ID_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_AXI_ADDR_WIDTH" VALUE="32"/>
         <PARAMETER NAME="C_AXI_DATA_WIDTH" VALUE="32"/>
         <PARAMETER NAME="C_AXI_PROTOCOL" VALUE="2"/>
         <PARAMETER NAME="C_NUM_ADDR_RANGES" VALUE="1"/>
-        <PARAMETER NAME="C_M_AXI_BASE_ADDR" VALUE="0x00000000c000000000000000400000000000000044a00000000000004060000000000000414000000000000041200000"/>
-        <PARAMETER NAME="C_M_AXI_ADDR_WIDTH" VALUE="0x0000000c0000001000000010000000100000000c00000010"/>
+        <PARAMETER NAME="C_M_AXI_BASE_ADDR" VALUE="0x0000000044a1000000000000c000000000000000400000000000000044a00000000000004060000000000000414000000000000041200000"/>
+        <PARAMETER NAME="C_M_AXI_ADDR_WIDTH" VALUE="0x000000100000000c0000001000000010000000100000000c00000010"/>
         <PARAMETER NAME="C_S_AXI_BASE_ID" VALUE="0x00000000"/>
         <PARAMETER NAME="C_S_AXI_THREAD_ID_WIDTH" VALUE="0x00000000"/>
         <PARAMETER NAME="C_AXI_SUPPORTS_USER_SIGNALS" VALUE="0"/>
@@ -5791,20 +6174,20 @@
         <PARAMETER NAME="C_AXI_WUSER_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_AXI_RUSER_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_AXI_BUSER_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="C_M_AXI_WRITE_CONNECTIVITY" VALUE="0x000000010000000100000001000000010000000100000001"/>
-        <PARAMETER NAME="C_M_AXI_READ_CONNECTIVITY" VALUE="0x000000010000000100000001000000010000000100000001"/>
+        <PARAMETER NAME="C_M_AXI_WRITE_CONNECTIVITY" VALUE="0x00000001000000010000000100000001000000010000000100000001"/>
+        <PARAMETER NAME="C_M_AXI_READ_CONNECTIVITY" VALUE="0x00000001000000010000000100000001000000010000000100000001"/>
         <PARAMETER NAME="C_R_REGISTER" VALUE="1"/>
         <PARAMETER NAME="C_S_AXI_SINGLE_THREAD" VALUE="0x00000001"/>
         <PARAMETER NAME="C_S_AXI_WRITE_ACCEPTANCE" VALUE="0x00000001"/>
         <PARAMETER NAME="C_S_AXI_READ_ACCEPTANCE" VALUE="0x00000001"/>
-        <PARAMETER NAME="C_M_AXI_WRITE_ISSUING" VALUE="0x000000010000000100000001000000010000000100000001"/>
-        <PARAMETER NAME="C_M_AXI_READ_ISSUING" VALUE="0x000000010000000100000001000000010000000100000001"/>
+        <PARAMETER NAME="C_M_AXI_WRITE_ISSUING" VALUE="0x00000001000000010000000100000001000000010000000100000001"/>
+        <PARAMETER NAME="C_M_AXI_READ_ISSUING" VALUE="0x00000001000000010000000100000001000000010000000100000001"/>
         <PARAMETER NAME="C_S_AXI_ARB_PRIORITY" VALUE="0x00000000"/>
-        <PARAMETER NAME="C_M_AXI_SECURE" VALUE="0x000000000000000000000000000000000000000000000000"/>
+        <PARAMETER NAME="C_M_AXI_SECURE" VALUE="0x00000000000000000000000000000000000000000000000000000000"/>
         <PARAMETER NAME="C_CONNECTIVITY_MODE" VALUE="0"/>
         <PARAMETER NAME="ADDR_RANGES" VALUE="1"/>
         <PARAMETER NAME="NUM_SI" VALUE="1"/>
-        <PARAMETER NAME="NUM_MI" VALUE="6"/>
+        <PARAMETER NAME="NUM_MI" VALUE="7"/>
         <PARAMETER NAME="ADDR_WIDTH" VALUE="32"/>
         <PARAMETER NAME="STRATEGY" VALUE="0"/>
         <PARAMETER NAME="PROTOCOL" VALUE="AXI4LITE"/>
@@ -6585,22 +6968,22 @@
         <PARAMETER NAME="M05_A13_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M05_A14_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M05_A15_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER NAME="M06_A00_BASE_ADDR" VALUE="0xffffffffffffffff"/>
-        <PARAMETER NAME="M06_A01_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
-        <PARAMETER NAME="M06_A02_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
-        <PARAMETER NAME="M06_A03_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
-        <PARAMETER NAME="M06_A04_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
-        <PARAMETER NAME="M06_A05_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
-        <PARAMETER NAME="M06_A06_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
-        <PARAMETER NAME="M06_A07_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
-        <PARAMETER NAME="M06_A08_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
-        <PARAMETER NAME="M06_A09_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
-        <PARAMETER NAME="M06_A10_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
-        <PARAMETER NAME="M06_A11_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
-        <PARAMETER NAME="M06_A12_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
-        <PARAMETER NAME="M06_A13_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
-        <PARAMETER NAME="M06_A14_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
-        <PARAMETER NAME="M06_A15_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
+        <PARAMETER NAME="M06_A00_BASE_ADDR" VALUE="0x0000000044A10000"/>
+        <PARAMETER NAME="M06_A01_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER NAME="M06_A02_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER NAME="M06_A03_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER NAME="M06_A04_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER NAME="M06_A05_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER NAME="M06_A06_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER NAME="M06_A07_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER NAME="M06_A08_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER NAME="M06_A09_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER NAME="M06_A10_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER NAME="M06_A11_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER NAME="M06_A12_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER NAME="M06_A13_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER NAME="M06_A14_BASE_ADDR" VALUE="0xffffffffffffffff"/>
+        <PARAMETER NAME="M06_A15_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M07_A00_BASE_ADDR" VALUE="0xffffffffffffffff"/>
         <PARAMETER NAME="M07_A01_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
         <PARAMETER NAME="M07_A02_BASE_ADDR" VALUE="0xFFFFFFFFFFFFFFFF"/>
@@ -6841,7 +7224,7 @@
         <PARAMETER NAME="M05_A13_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M05_A14_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M05_A15_ADDR_WIDTH" VALUE="0"/>
-        <PARAMETER NAME="M06_A00_ADDR_WIDTH" VALUE="0"/>
+        <PARAMETER NAME="M06_A00_ADDR_WIDTH" VALUE="16"/>
         <PARAMETER NAME="M06_A01_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M06_A02_ADDR_WIDTH" VALUE="0"/>
         <PARAMETER NAME="M06_A03_ADDR_WIDTH" VALUE="0"/>
@@ -7112,6 +7495,9 @@
         </PORT>
         <PORT DIR="O" NAME="m_axi_awaddr" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_awaddr">
           <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_awaddr"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
             <CONNECTION INSTANCE="axi_5but" PORT="s_axi_awaddr"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7132,10 +7518,16 @@
         </PORT>
         <PORT DIR="O" NAME="m_axi_awprot" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_awprot">
           <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_awprot"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
             <CONNECTION INSTANCE="microblaze_0_axi_periph_m05_couplers_auto_pc" PORT="s_axi_awprot"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axi_awvalid" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_awvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_awvalid"/>
+          </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_5but" PORT="s_axi_awvalid"/>
           </CONNECTIONS>
@@ -7157,6 +7549,9 @@
         </PORT>
         <PORT DIR="I" NAME="m_axi_awready" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_awready">
           <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_awready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
             <CONNECTION INSTANCE="axi_5but" PORT="s_axi_awready"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7176,6 +7571,9 @@
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axi_wdata" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_wdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_wdata"/>
+          </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_5but" PORT="s_axi_wdata"/>
           </CONNECTIONS>
@@ -7197,6 +7595,9 @@
         </PORT>
         <PORT DIR="O" NAME="m_axi_wstrb" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_wstrb">
           <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_wstrb"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
             <CONNECTION INSTANCE="axi_5but" PORT="s_axi_wstrb"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7216,6 +7617,9 @@
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axi_wvalid" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_wvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_wvalid"/>
+          </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_5but" PORT="s_axi_wvalid"/>
           </CONNECTIONS>
@@ -7237,6 +7641,9 @@
         </PORT>
         <PORT DIR="I" NAME="m_axi_wready" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_wready">
           <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_wready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
             <CONNECTION INSTANCE="axi_5but" PORT="s_axi_wready"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7256,6 +7663,9 @@
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="m_axi_bresp" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_bresp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_bresp"/>
+          </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_5but" PORT="s_axi_bresp"/>
           </CONNECTIONS>
@@ -7277,6 +7687,9 @@
         </PORT>
         <PORT DIR="I" NAME="m_axi_bvalid" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_bvalid">
           <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_bvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
             <CONNECTION INSTANCE="axi_5but" PORT="s_axi_bvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7296,6 +7709,9 @@
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axi_bready" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_bready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_bready"/>
+          </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_5but" PORT="s_axi_bready"/>
           </CONNECTIONS>
@@ -7317,6 +7733,9 @@
         </PORT>
         <PORT DIR="O" NAME="m_axi_araddr" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_araddr">
           <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_araddr"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
             <CONNECTION INSTANCE="axi_5but" PORT="s_axi_araddr"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7337,10 +7756,16 @@
         </PORT>
         <PORT DIR="O" NAME="m_axi_arprot" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_arprot">
           <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_arprot"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
             <CONNECTION INSTANCE="microblaze_0_axi_periph_m05_couplers_auto_pc" PORT="s_axi_arprot"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axi_arvalid" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_arvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_arvalid"/>
+          </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_5but" PORT="s_axi_arvalid"/>
           </CONNECTIONS>
@@ -7362,6 +7787,9 @@
         </PORT>
         <PORT DIR="I" NAME="m_axi_arready" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_arready">
           <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_arready"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
             <CONNECTION INSTANCE="axi_5but" PORT="s_axi_arready"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7381,6 +7809,9 @@
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="m_axi_rdata" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_rdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_rdata"/>
+          </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_5but" PORT="s_axi_rdata"/>
           </CONNECTIONS>
@@ -7402,6 +7833,9 @@
         </PORT>
         <PORT DIR="I" NAME="m_axi_rresp" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_rresp">
           <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_rresp"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
             <CONNECTION INSTANCE="axi_5but" PORT="s_axi_rresp"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7422,6 +7856,9 @@
         </PORT>
         <PORT DIR="I" NAME="m_axi_rvalid" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_rvalid">
           <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_rvalid"/>
+          </CONNECTIONS>
+          <CONNECTIONS>
             <CONNECTION INSTANCE="axi_5but" PORT="s_axi_rvalid"/>
           </CONNECTIONS>
           <CONNECTIONS>
@@ -7441,6 +7878,9 @@
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axi_rready" SIGIS="undef" SIGNAME="microblaze_0_axi_periph_m05_couplers_auto_pc_s_axi_rready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_rready"/>
+          </CONNECTIONS>
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_5but" PORT="s_axi_rready"/>
           </CONNECTIONS>
@@ -9805,6 +10245,7 @@
             <CONNECTION INSTANCE="axi_bram_ai_cntrl" PORT="s_axi_aresetn"/>
             <CONNECTION INSTANCE="axi_mem_intercon_s00_couplers_auto_us" PORT="s_axi_aresetn"/>
             <CONNECTION INSTANCE="axi_tft_0" PORT="m_axi_aresetn"/>
+            <CONNECTION INSTANCE="Board_Analyzer_BRAM_0" PORT="s00_axi_aresetn"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -9855,6 +10296,23 @@
           <CONNECTIONS>
             <CONNECTION INSTANCE="mig_7series_0" PORT="aresetn"/>
             <CONNECTION INSTANCE="axi_mem_intercon_m00_couplers_auto_cc" PORT="m_axi_aresetn"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xlconstant_0" HWVERSION="1.0" INSTANCE="xlconstant_0" IPTYPE="PERIPHERAL" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_VAL" VALUE="0"/>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="14"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xlconstant_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="const" SIGIS="undef" SIGNAME="xlconstant_0_const">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="aicontroller_0" PORT="SWITCH"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -9934,7 +10392,9 @@
     </MODULE>
   </MODULES>
 
-  <REPOSITORIES/>
+  <REPOSITORIES>
+    <REPOSITORY ABSPATH="/home/derek/Documents/year_4/ECE532/ip_repo/ip_repo/Board_Analyzer_BRAM_1.0" RELPATH="../../../../../../../../ip_repo/ip_repo/Board_Analyzer_BRAM_1.0"/>
+  </REPOSITORIES>
 
   <ADDRESSSPACETAGS>
     <ADDRESSSPACETAG NAME="design_1_i/microblaze_0:design_1_i_microblaze_0"/>

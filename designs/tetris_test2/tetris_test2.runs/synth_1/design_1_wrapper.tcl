@@ -11,6 +11,7 @@ set_property board_part_repo_paths /home/derek/Documents/year_4/ECE532/board_rep
 set_property board_part digilentinc.com:nexys4_ddr:part0:1.1 [current_project]
 set_param project.compositeFile.enableAutoGeneration 0
 set_property default_lib xil_defaultlib [current_project]
+set_property ip_repo_paths /home/derek/Documents/year_4/ECE532/ip_repo [current_fileset]
 
 add_files /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/design_1.bd
 set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0.xdc]

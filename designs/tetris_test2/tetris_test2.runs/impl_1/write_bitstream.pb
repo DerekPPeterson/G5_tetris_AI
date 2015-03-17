@@ -17,10 +17,10 @@ G
 Running DRC with %s threads
 24*drc2
 42default:defaultZ23-27
-k
+n
 DRC finished with %s
-1905*	planAhead26
-"0 Errors, 9 Warnings, 4 Advisories2default:defaultZ12-3199
+1905*	planAhead29
+%0 Errors, 447 Warnings, 78 Advisories2default:defaultZ12-3199
 `
 BPlease refer to the DRC report (report_drc) for more information.
 1906*	planAheadZ12-3200
@@ -70,10 +70,10 @@ Q
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2%
 write_bitstream: 2default:default2
-00:00:282default:default2
-00:00:282default:default2
-2267.3792default:default2
-354.5552default:defaultZ17-268
+00:01:122default:default2
+00:01:082default:default2
+3176.5202default:default2
+422.3442default:defaultZ17-268
 
 
 End Record

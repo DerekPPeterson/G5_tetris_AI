@@ -2,9 +2,10 @@
 5
 Refreshing IP repositories
 234*coregenZ19-234
->
-"No user IP repositories specified
-1154*coregenZ19-1704
+}
+ Loaded user IP repository '%s'.
+1135*coregen2?
++/home/derek/Documents/year_4/ECE532/ip_repo2default:defaultZ19-1700
 |
 "Loaded Vivado IP repository '%s'.
 1332*coregen2<
@@ -28,9 +29,14 @@ Starting synthesis...
 310*common2
 	Synthesis2default:default2
 xc7a100t2default:defaultZ17-349
+
+Pparameter declaration becomes local in %s with formal parameter declaration list2507*oasys24
+ Board_Analyzer_BRAM_v1_0_S00_AXI2default:default2Í
+¶/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_0/d224aeb9/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v2default:default2
+4752default:default8@Z8-2507
 œ
 %s*synth2Œ
-xStarting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 898.652 ; gain = 261.734
+xStarting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 902.504 ; gain = 265.590
 2default:default
 
 synthesizing module '%s'638*oasys2$
@@ -42,6 +48,112 @@ xStarting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memo
 design_12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
 132default:default8@Z8-638
+Õ
+synthesizing module '%s'638*oasys24
+ design_1_Board_Analyzer_BRAM_0_02default:default2Ï
+¸/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_Board_Analyzer_BRAM_0_0/synth/design_1_Board_Analyzer_BRAM_0_0.v2default:default2
+562default:default8@Z8-638
+Â
+synthesizing module '%s'638*oasys2,
+Board_Analyzer_BRAM_v1_02default:default2Å
+®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_0/d224aeb9/hdl/Board_Analyzer_BRAM_v1_0.v2default:default2
+42default:default8@Z8-638
+a
+%s*synth2R
+>	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+2default:default
+`
+%s*synth2Q
+=	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+2default:default
+Ò
+synthesizing module '%s'638*oasys24
+ Board_Analyzer_BRAM_v1_0_S00_AXI2default:default2Í
+¶/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_0/d224aeb9/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v2default:default2
+62default:default8@Z8-638
+_
+%s*synth2P
+<	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+2default:default
+^
+%s*synth2O
+;	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+2default:default
+T
+%s*synth2E
+1	Parameter ADDR_LSB bound to: 2 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+2default:default
+P
+%s*synth2A
+-	Parameter WAIT bound to: 0 - type: integer 
+2default:default
+d
+%s*synth2U
+A	Parameter INIT bound to: 32'sb00000000000000000000000000000001 
+2default:default
+S
+%s*synth2D
+0	Parameter MEMWAIT bound to: 2 - type: integer 
+2default:default
+R
+%s*synth2C
+/	Parameter NXTMEM bound to: 3 - type: integer 
+2default:default
+T
+%s*synth2E
+1	Parameter NXTPIECE bound to: 4 - type: integer 
+2default:default
+U
+%s*synth2F
+2	Parameter STARTALGO bound to: 5 - type: integer 
+2default:default
+T
+%s*synth2E
+1	Parameter WAITALGO bound to: 6 - type: integer 
+2default:default
+R
+%s*synth2C
+/	Parameter FINISH bound to: 7 - type: integer 
+2default:default
+¡
+default block is never used226*oasys2Í
+¶/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_0/d224aeb9/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v2default:default2
+2482default:default8@Z8-226
+¡
+default block is never used226*oasys2Í
+¶/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_0/d224aeb9/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v2default:default2
+3952default:default8@Z8-226
+Œ
+0Net %s in module/entity %s does not have driver.3422*oasys2
+slv_reg32default:default24
+ Board_Analyzer_BRAM_v1_0_S00_AXI2default:default2Í
+¶/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_0/d224aeb9/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v2default:default2
+1352default:default8@Z8-3848
+
+%done synthesizing module '%s' (%s#%s)256*oasys24
+ Board_Analyzer_BRAM_v1_0_S00_AXI2default:default2
+12default:default2
+12default:default2Í
+¶/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_0/d224aeb9/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v2default:default2
+62default:default8@Z8-256
+ı
+%done synthesizing module '%s' (%s#%s)256*oasys2,
+Board_Analyzer_BRAM_v1_02default:default2
+22default:default2
+12default:default2Å
+®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_0/d224aeb9/hdl/Board_Analyzer_BRAM_v1_0.v2default:default2
+42default:default8@Z8-256
+
+%done synthesizing module '%s' (%s#%s)256*oasys24
+ design_1_Board_Analyzer_BRAM_0_02default:default2
+32default:default2
+12default:default2Ï
+¸/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_Board_Analyzer_BRAM_0_0/synth/design_1_Board_Analyzer_BRAM_0_0.v2default:default2
+562default:default8@Z8-256
 ¾
 synthesizing module '%s'638*oasys2
 GND2default:default2T
@@ -50,7 +162,7 @@ z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2
 GND2default:default2
-12default:default2
+42default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 38522default:default8@Z8-256
@@ -62,10 +174,288 @@ z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2
 VCC2default:default2
-22default:default2
+52default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 354802default:default8@Z8-256
+À
+synthesizing module '%s'638*oasys2-
+design_1_aicontroller_0_02default:default2Á
+ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_aicontroller_0_0/synth/design_1_aicontroller_0_0.v2default:default2
+572default:default8@Z8-638
+ª
+synthesizing module '%s'638*oasys2 
+aicontroller2default:default2¸
+¡/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/new/aicontroller.v2default:default2
+232default:default8@Z8-638
+d
+%s*synth2U
+A	Parameter INIT bound to: 32'sb00000000000000000000000000000000 
+2default:default
+P
+%s*synth2A
+-	Parameter DONE bound to: 4 - type: integer 
+2default:default
+¤
+synthesizing module '%s'638*oasys2
+	score_ten2default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+232default:default8@Z8-638
+d
+%s*synth2U
+A	Parameter INIT bound to: 32'sb00000000000000000000000000000000 
+2default:default
+Q
+%s*synth2B
+.	Parameter DONE bound to: 10 - type: integer 
+2default:default
+¬
+synthesizing module '%s'638*oasys2
+	placement2default:default2½
+¦/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/imports/new/placement.v2default:default2
+232default:default8@Z8-638
+P
+%s*synth2A
+-	Parameter WAIT bound to: 0 - type: integer 
+2default:default
+d
+%s*synth2U
+A	Parameter INIT bound to: 32'sb00000000000000000000000000000001 
+2default:default
+Q
+%s*synth2B
+.	Parameter FIRST bound to: 2 - type: integer 
+2default:default
+R
+%s*synth2C
+/	Parameter SECOND bound to: 3 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter THIRD bound to: 4 - type: integer 
+2default:default
+O
+%s*synth2@
+,	Parameter NXT bound to: 5 - type: integer 
+2default:default
+P
+%s*synth2A
+-	Parameter DONE bound to: 6 - type: integer 
+2default:default
+ç
+%done synthesizing module '%s' (%s#%s)256*oasys2
+	placement2default:default2
+62default:default2
+12default:default2½
+¦/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/imports/new/placement.v2default:default2
+232default:default8@Z8-256
+¦
+synthesizing module '%s'638*oasys2
+
+eval_block2default:default2¶
+Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/eval_block.v2default:default2
+252default:default8@Z8-638
+P
+%s*synth2A
+-	Parameter WAIT bound to: 0 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter SHFTR bound to: 1 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter SHFTD bound to: 2 - type: integer 
+2default:default
+R
+%s*synth2C
+/	Parameter ADJUST bound to: 3 - type: integer 
+2default:default
+P
+%s*synth2A
+-	Parameter DONE bound to: 4 - type: integer 
+2default:default
+á
+%done synthesizing module '%s' (%s#%s)256*oasys2
+
+eval_block2default:default2
+72default:default2
+12default:default2¶
+Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/eval_block.v2default:default2
+252default:default8@Z8-256
+¦
+Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
+eval_block002default:default2
+
+eval_block2default:default2
+172default:default2
+152default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+732default:default8@Z8-350
+§
+Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
+eval_block012default:default2
+
+eval_block2default:default2
+172default:default2
+152default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+1162default:default8@Z8-350
+§
+Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
+eval_block022default:default2
+
+eval_block2default:default2
+172default:default2
+152default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+1592default:default8@Z8-350
+§
+Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
+eval_block032default:default2
+
+eval_block2default:default2
+172default:default2
+152default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+2022default:default8@Z8-350
+§
+Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
+eval_block042default:default2
+
+eval_block2default:default2
+172default:default2
+152default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+2452default:default8@Z8-350
+§
+Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
+eval_block052default:default2
+
+eval_block2default:default2
+172default:default2
+152default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+2882default:default8@Z8-350
+§
+Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
+eval_block062default:default2
+
+eval_block2default:default2
+172default:default2
+152default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+3312default:default8@Z8-350
+ª
+Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
+12default:default2
+	next_col02default:default2
+42default:default2
+	placement2default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+3622default:default8@Z8-689
+§
+Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
+eval_block072default:default2
+
+eval_block2default:default2
+172default:default2
+152default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+3742default:default8@Z8-350
+ª
+Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
+12default:default2
+	next_col02default:default2
+42default:default2
+	placement2default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+4052default:default8@Z8-689
+ª
+Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
+12default:default2
+	next_col12default:default2
+42default:default2
+	placement2default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+4062default:default8@Z8-689
+§
+Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
+eval_block082default:default2
+
+eval_block2default:default2
+172default:default2
+152default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+4172default:default8@Z8-350
+ª
+Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
+12default:default2
+	next_col02default:default2
+42default:default2
+	placement2default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+4482default:default8@Z8-689
+ª
+Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
+12default:default2
+	next_col12default:default2
+42default:default2
+	placement2default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+4492default:default8@Z8-689
+ª
+Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
+12default:default2
+	next_col22default:default2
+42default:default2
+	placement2default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+4502default:default8@Z8-689
+§
+Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
+eval_block092default:default2
+
+eval_block2default:default2
+172default:default2
+152default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+4602default:default8@Z8-350
+Ş
+0Net %s in module/entity %s does not have driver.3422*oasys2
+	dummy_arr2default:default2
+	score_ten2default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+3622default:default8@Z8-3848
+ß
+%done synthesizing module '%s' (%s#%s)256*oasys2
+	score_ten2default:default2
+82default:default2
+12default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+232default:default8@Z8-256
+å
+%done synthesizing module '%s' (%s#%s)256*oasys2 
+aicontroller2default:default2
+92default:default2
+12default:default2¸
+¡/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/new/aicontroller.v2default:default2
+232default:default8@Z8-256
+ü
+%done synthesizing module '%s' (%s#%s)256*oasys2-
+design_1_aicontroller_0_02default:default2
+102default:default2
+12default:default2Á
+ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_aicontroller_0_0/synth/design_1_aicontroller_0_0.v2default:default2
+572default:default8@Z8-256
+“
+Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2"
+aicontroller_02default:default2-
+design_1_aicontroller_0_02default:default2
+182default:default2
+172default:default2
+z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
+4892default:default8@Z8-350
 ¶
 synthesizing module '%s'638*oasys2)
 design_1_axi_gpio_0_02default:default2»
@@ -339,10 +729,10 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-ê
+ë
 %done synthesizing module '%s' (%s#%s)256*oasys2
-	pselect_f2default:default2
-32default:default2
+	pselect_f2default:default2
+112default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -367,10 +757,10 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-ú
+û
 %done synthesizing module '%s' (%s#%s)256*oasys2-
-pselect_f__parameterized02default:default2
-32default:default2
+pselect_f__parameterized02default:default2
+112default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -395,10 +785,10 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-ú
+û
 %done synthesizing module '%s' (%s#%s)256*oasys2-
-pselect_f__parameterized12default:default2
-32default:default2
+pselect_f__parameterized12default:default2
+112default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -423,17 +813,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-ú
+û
 %done synthesizing module '%s' (%s#%s)256*oasys2-
-pselect_f__parameterized22default:default2
-32default:default2
+pselect_f__parameterized22default:default2
+112default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-ø
+ù
 %done synthesizing module '%s' (%s#%s)256*oasys2#
-address_decoder2default:default2
-42default:default2
+address_decoder2default:default2
+122default:default2
 12default:default2Ç
 °/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v2_0/82c7a66d/hdl/src/vhdl/address_decoder.vhd2default:default2
 1882default:default8@Z8-256
@@ -441,17 +831,17 @@ Z
 default block is never used226*oasys2È
 ±/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v2_0/82c7a66d/hdl/src/vhdl/slave_attachment.vhd2default:default2
 4012default:default8@Z8-226
-ú
+û
 %done synthesizing module '%s' (%s#%s)256*oasys2$
-slave_attachment2default:default2
-52default:default2
+slave_attachment2default:default2
+132default:default2
 12default:default2È
 ±/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v2_0/82c7a66d/hdl/src/vhdl/slave_attachment.vhd2default:default2
 2432default:default8@Z8-256
-ô
+õ
 %done synthesizing module '%s' (%s#%s)256*oasys2!
-axi_lite_ipif2default:default2
-62default:default2
+axi_lite_ipif2default:default2
+142default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v2_0/82c7a66d/hdl/src/vhdl/axi_lite_ipif.vhd2default:default2
 2532default:default8@Z8-256
@@ -577,31 +967,31 @@ Y
 true2default:default2¾
 §/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/cdc_sync.vhd2default:default2
 3932default:default8@Z8-4472
-è
+é
 %done synthesizing module '%s' (%s#%s)256*oasys2
-cdc_sync2default:default2
-72default:default2
+cdc_sync2default:default2
+152default:default2
 12default:default2¾
 §/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/cdc_sync.vhd2default:default2
 1042default:default8@Z8-256
-ç
+è
 %done synthesizing module '%s' (%s#%s)256*oasys2
-	GPIO_Core2default:default2
-82default:default2
+	GPIO_Core2default:default2
+162default:default2
 12default:default2¼
 ¥/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/5a4a6737/hdl/src/vhdl/gpio_core.vhd2default:default2
 1732default:default8@Z8-256
-õ
+ö
 %done synthesizing module '%s' (%s#%s)256*oasys2,
-axi_gpio__parameterized02default:default2
-92default:default2
+axi_gpio__parameterized02default:default2
+172default:default2
 12default:default2»
 ¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/5a4a6737/hdl/src/vhdl/axi_gpio.vhd2default:default2
 2832default:default8@Z8-256
 ò
 %done synthesizing module '%s' (%s#%s)256*oasys2)
 design_1_axi_gpio_0_02default:default2
-102default:default2
+182default:default2
 12default:default2»
 ¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd2default:default2
 842default:default8@Z8-256
@@ -910,7 +1300,7 @@ _
 ï
 %done synthesizing module '%s' (%s#%s)256*oasys2 
 sng_port_arb2default:default2
-112default:default2
+192default:default2
 12default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/sng_port_arb.vhd2default:default2
 1892default:default8@Z8-256
@@ -984,7 +1374,7 @@ B	Parameter C_BRAM_ADDR_ADJUST_FACTOR bound to: 2 - type: integer
 é
 %done synthesizing module '%s' (%s#%s)256*oasys2
 	wrap_brst2default:default2
-122default:default2
+202default:default2
 12default:default2½
 ¦/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/wrap_brst.vhd2default:default2
 2082default:default8@Z8-256
@@ -1026,7 +1416,7 @@ C
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2
 FDR2default:default2
-132default:default2
+212default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 30012default:default8@Z8-256
@@ -1047,7 +1437,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 MUXCY_L2default:default2
-142default:default2
+222default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 166712default:default8@Z8-256
@@ -1068,7 +1458,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2
 XORCY2default:default2
-152default:default2
+232default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 356782default:default8@Z8-256
@@ -1105,7 +1495,7 @@ L
 û
 %done synthesizing module '%s' (%s#%s)256*oasys2
 FDRE2default:default2
-162default:default2
+242default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 30142default:default8@Z8-256
@@ -1215,21 +1605,21 @@ S
 ş
 %done synthesizing module '%s' (%s#%s)256*oasys2
 SRL16E2default:default2
-172default:default2
+252default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 345242default:default8@Z8-256
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 axi_bram_ctrl_v4_0_SRL_FIFO2default:default2
-182default:default2
+262default:default2
 12default:default2¼
 ¥/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/srl_fifo.vhd2default:default2
 1352default:default8@Z8-256
 å
 %done synthesizing module '%s' (%s#%s)256*oasys2
 wr_chnl2default:default2
-192default:default2
+272default:default2
 12default:default2»
 ¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/wr_chnl.vhd2default:default2
 4032default:default8@Z8-256
@@ -1286,35 +1676,35 @@ V
 å
 %done synthesizing module '%s' (%s#%s)256*oasys2
 rd_chnl2default:default2
-202default:default2
+282default:default2
 12default:default2»
 ¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/rd_chnl.vhd2default:default2
 3232default:default8@Z8-256
 ç
 %done synthesizing module '%s' (%s#%s)256*oasys2
 full_axi2default:default2
-212default:default2
+292default:default2
 12default:default2¼
 ¥/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/full_axi.vhd2default:default2
 3812default:default8@Z8-256
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2%
 axi_bram_ctrl_top2default:default2
-222default:default2
+302default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/axi_bram_ctrl_top.vhd2default:default2
 3972default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys21
 axi_bram_ctrl__parameterized02default:default2
-232default:default2
+312default:default2
 12default:default2Á
 ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_bram_ctrl_v4_0/0289339c/hdl/vhdl/axi_bram_ctrl.vhd2default:default2
 2922default:default8@Z8-256
 ‚
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 design_1_axi_bram_ctrl_0_02default:default2
-242default:default2
+322default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_bram_ctrl_0_0/synth/design_1_axi_bram_ctrl_0_0.vhd2default:default2
 1042default:default8@Z8-256
@@ -1322,12 +1712,12 @@ V
 synthesizing module '%s'638*oasys2/
 design_1_axi_mem_intercon_12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-10802default:default8@Z8-638
+12082default:default8@Z8-638
 
 synthesizing module '%s'638*oasys2,
 m00_couplers_imp_1ULZJWI2default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-31092default:default8@Z8-638
+33832default:default8@Z8-638
 «
 synthesizing module '%s'638*oasys2&
 design_1_auto_cc_02default:default2³
@@ -3984,7 +4374,7 @@ W
 ş
 %done synthesizing module '%s' (%s#%s)256*oasys2%
 reset_blk_ramfifo2default:default2
-252default:default2
+332default:default2
 12default:default2Ê
 ³/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2222default:default8@Z8-256
@@ -4068,7 +4458,7 @@ Z
 í
 %done synthesizing module '%s' (%s#%s)256*oasys2
 	input_blk2default:default2
-262default:default2
+342default:default2
 12default:default2Á
 ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
@@ -4239,14 +4629,14 @@ W
 ä
 %done synthesizing module '%s' (%s#%s)256*oasys2
 dmem2default:default2
-272default:default2
+352default:default2
 12default:default2½
 ¦/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
 è
 %done synthesizing module '%s' (%s#%s)256*oasys2
 memory2default:default2
-282default:default2
+362default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/memory.vhd2default:default2
 2172default:default8@Z8-256
@@ -4297,14 +4687,14 @@ S
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 synchronizer_ff2default:default2
-292default:default2
+372default:default2
 12default:default2Ç
 °/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/common/synchronizer_ff.vhd2default:default2
 1382default:default8@Z8-256
 ò
 %done synthesizing module '%s' (%s#%s)256*oasys2
 clk_x_pntrs2default:default2
-302default:default2
+382default:default2
 12default:default2Ä
 ­/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/clk_x_pntrs.vhd2default:default2
 2132default:default8@Z8-256
@@ -4425,7 +4815,7 @@ X
 ò
 %done synthesizing module '%s' (%s#%s)256*oasys2
 rd_bin_cntr2default:default2
-312default:default2
+392default:default2
 12default:default2Ä
 ­/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/rd_bin_cntr.vhd2default:default2
 1512default:default8@Z8-256
@@ -4462,14 +4852,14 @@ S
 ê
 %done synthesizing module '%s' (%s#%s)256*oasys2
 compare2default:default2
-322default:default2
+402default:default2
 12default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/compare.vhd2default:default2
 1382default:default8@Z8-256
 €
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 rd_status_flags_as2default:default2
-332default:default2
+412default:default2
 12default:default2Ë
 ´/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/rd_status_flags_as.vhd2default:default2
 1712default:default8@Z8-256
@@ -4509,14 +4899,14 @@ W
 ê
 %done synthesizing module '%s' (%s#%s)256*oasys2
 rd_fwft2default:default2
-342default:default2
+422default:default2
 12default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/rd_fwft.vhd2default:default2
 1542default:default8@Z8-256
 ì
 %done synthesizing module '%s' (%s#%s)256*oasys2
 rd_logic2default:default2
-352default:default2
+432default:default2
 12default:default2Á
 ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/rd_logic.vhd2default:default2
 2342default:default8@Z8-256
@@ -4649,7 +5039,7 @@ Y
 ò
 %done synthesizing module '%s' (%s#%s)256*oasys2
 wr_bin_cntr2default:default2
-362default:default2
+442default:default2
 12default:default2Ä
 ­/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/wr_bin_cntr.vhd2default:default2
 1562default:default8@Z8-256
@@ -4681,14 +5071,14 @@ U
 €
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 wr_status_flags_as2default:default2
-372default:default2
+452default:default2
 12default:default2Ë
 ´/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/wr_status_flags_as.vhd2default:default2
 1722default:default8@Z8-256
 ì
 %done synthesizing module '%s' (%s#%s)256*oasys2
 wr_logic2default:default2
-382default:default2
+462default:default2
 12default:default2Á
 ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/wr_logic.vhd2default:default2
 2282default:default8@Z8-256
@@ -4802,21 +5192,21 @@ W
 %done synthesizing module '%s' (%s#%s)256*oasys2
 
 output_blk2default:default2
-392default:default2
+472default:default2
 12default:default2Â
 «/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
 ˆ
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 fifo_generator_ramfifo2default:default2
-402default:default2
+482default:default2
 12default:default2Ï
 ¸/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3102default:default8@Z8-256
 ø
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 fifo_generator_top2default:default2
-412default:default2
+492default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/fifo_generator_top.vhd2default:default2
 2752default:default8@Z8-256
@@ -5410,7 +5800,7 @@ Z
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 input_blk__parameterized02default:default2
-412default:default2
+492default:default2
 12default:default2Á
 ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
@@ -5575,14 +5965,14 @@ W
 ô
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 dmem__parameterized02default:default2
-412default:default2
+492default:default2
 12default:default2½
 ¦/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
 ø
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 memory__parameterized02default:default2
-412default:default2
+492default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/memory.vhd2default:default2
 2172default:default8@Z8-256
@@ -5694,21 +6084,21 @@ W
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 output_blk__parameterized02default:default2
-412default:default2
+492default:default2
 12default:default2Â
 «/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
 ˜
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &fifo_generator_ramfifo__parameterized02default:default2
-412default:default2
+492default:default2
 12default:default2Ï
 ¸/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3102default:default8@Z8-256
 ˆ
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "fifo_generator_top__parameterized02default:default2
-412default:default2
+492default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/fifo_generator_top.vhd2default:default2
 2752default:default8@Z8-256
@@ -6302,7 +6692,7 @@ Z
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 input_blk__parameterized12default:default2
-412default:default2
+492default:default2
 12default:default2Á
 ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
@@ -6467,14 +6857,14 @@ W
 ô
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 dmem__parameterized12default:default2
-412default:default2
+492default:default2
 12default:default2½
 ¦/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
 ø
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 memory__parameterized12default:default2
-412default:default2
+492default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/memory.vhd2default:default2
 2172default:default8@Z8-256
@@ -6586,21 +6976,21 @@ W
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 output_blk__parameterized12default:default2
-412default:default2
+492default:default2
 12default:default2Â
 «/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
 ˜
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &fifo_generator_ramfifo__parameterized12default:default2
-412default:default2
+492default:default2
 12default:default2Ï
 ¸/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3102default:default8@Z8-256
 ˆ
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "fifo_generator_top__parameterized12default:default2
-412default:default2
+492default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/fifo_generator_top.vhd2default:default2
 2752default:default8@Z8-256
@@ -7194,7 +7584,7 @@ Z
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 input_blk__parameterized22default:default2
-412default:default2
+492default:default2
 12default:default2Á
 ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
@@ -7359,14 +7749,14 @@ W
 ô
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 dmem__parameterized22default:default2
-412default:default2
+492default:default2
 12default:default2½
 ¦/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
 ø
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 memory__parameterized22default:default2
-412default:default2
+492default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/memory.vhd2default:default2
 2172default:default8@Z8-256
@@ -7478,49 +7868,49 @@ W
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 output_blk__parameterized22default:default2
-412default:default2
+492default:default2
 12default:default2Â
 «/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
 ˜
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &fifo_generator_ramfifo__parameterized22default:default2
-412default:default2
+492default:default2
 12default:default2Ï
 ¸/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3102default:default8@Z8-256
 ˆ
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "fifo_generator_top__parameterized22default:default2
-412default:default2
+492default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/fifo_generator_top.vhd2default:default2
 2752default:default8@Z8-256
 ˆ
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 fifo_generator_v12_0_synth2default:default2
-422default:default2
+502default:default2
 12default:default2Ë
 ´/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/fifo_generator_v12_0_synth.vhd2default:default2
 6812default:default8@Z8-256
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 fifo_generator_v12_02default:default2
-432default:default2
+512default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/fifo_generator_v12_0.vhd2default:default2
 6642default:default8@Z8-256
 µ
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,axi_clock_converter_v2_1_axi_clock_converter2default:default2
-442default:default2
+522default:default2
 12default:default2ç
 Ğ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_clock_converter_v2_1/852f5724/hdl/verilog/axi_clock_converter_v2_1_axi_clock_converter.v2default:default2
 712default:default8@Z8-256
 ç
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 design_1_auto_cc_02default:default2
-452default:default2
+532default:default2
 12default:default2³
 œ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_0/synth/design_1_auto_cc_0.v2default:default2
 572default:default8@Z8-256
@@ -7531,19 +7921,19 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 822default:default2
 802default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-34322default:default8@Z8-350
+37062default:default8@Z8-350
 Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m00_couplers_imp_1ULZJWI2default:default2
-462default:default2
+542default:default2
 12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-31092default:default8@Z8-256
+33832default:default8@Z8-256
 
 synthesizing module '%s'638*oasys2+
 s00_couplers_imp_5VZGPS2default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-45502default:default8@Z8-638
+49702default:default8@Z8-638
 «
 synthesizing module '%s'638*oasys2&
 design_1_auto_us_02default:default2³
@@ -8560,7 +8950,7 @@ a
  
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_infrastructure_v1_1_axi2vector2default:default2
-472default:default2
+552default:default2
 12default:default2Ü
 Å/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/e13550d2/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
@@ -8584,7 +8974,7 @@ X
 ²
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_register_slice_v2_1_axic_register_slice2default:default2
-482default:default2
+562default:default2
 12default:default2å
 Î/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/a2538a4c/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -8608,7 +8998,7 @@ X
 Â
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized02default:default2
-482default:default2
+562default:default2
 12default:default2å
 Î/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/a2538a4c/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -8632,7 +9022,7 @@ X
 Â
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized12default:default2
-482default:default2
+562default:default2
 12default:default2å
 Î/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/a2538a4c/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -8656,7 +9046,7 @@ X
 Â
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized22default:default2
-482default:default2
+562default:default2
 12default:default2å
 Î/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/a2538a4c/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -9032,14 +9422,14 @@ a
  
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_infrastructure_v1_1_vector2axi2default:default2
-492default:default2
+572default:default2
 12default:default2Ü
 Å/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/e13550d2/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
 °
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_register_slice_v2_1_axi_register_slice2default:default2
-502default:default2
+582default:default2
 12default:default2ä
 Í/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/a2538a4c/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
@@ -9184,14 +9574,14 @@ Y
 ¤
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $generic_baseblocks_v2_1_command_fifo2default:default2
-512default:default2
+592default:default2
 12default:default2Ş
 Ç/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_command_fifo.v2default:default2
 622default:default8@Z8-256
 ¤
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #axi_dwidth_converter_v2_1_a_upsizer2default:default2
-522default:default2
+602default:default2
 12default:default2ß
 È/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_dwidth_converter_v2_1/61739fa5/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
 632default:default8@Z8-256
@@ -9251,7 +9641,7 @@ Y
 ¤
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #axi_dwidth_converter_v2_1_w_upsizer2default:default2
-532default:default2
+612default:default2
 12default:default2ß
 È/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_dwidth_converter_v2_1/61739fa5/hdl/verilog/axi_dwidth_converter_v2_1_w_upsizer.v2default:default2
 642default:default8@Z8-256
@@ -9371,7 +9761,7 @@ Y
 ´
 %done synthesizing module '%s' (%s#%s)256*oasys2G
 3axi_dwidth_converter_v2_1_a_upsizer__parameterized02default:default2
-532default:default2
+612default:default2
 12default:default2ß
 È/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_dwidth_converter_v2_1/61739fa5/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
 632default:default8@Z8-256
@@ -9435,7 +9825,7 @@ Y
 ¤
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #axi_dwidth_converter_v2_1_r_upsizer2default:default2
-542default:default2
+622default:default2
 12default:default2ß
 È/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_dwidth_converter_v2_1/61739fa5/hdl/verilog/axi_dwidth_converter_v2_1_r_upsizer.v2default:default2
 622default:default8@Z8-256
@@ -10184,7 +10574,7 @@ a
 °
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized02default:default2
-542default:default2
+622default:default2
 12default:default2Ü
 Å/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/e13550d2/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
@@ -10208,7 +10598,7 @@ X
 Â
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized32default:default2
-542default:default2
+622default:default2
 12default:default2å
 Î/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/a2538a4c/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -10232,7 +10622,7 @@ X
 Â
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized42default:default2
-542default:default2
+622default:default2
 12default:default2å
 Î/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/a2538a4c/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -10256,7 +10646,7 @@ X
 Â
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized52default:default2
-542default:default2
+622default:default2
 12default:default2å
 Î/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/a2538a4c/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -10632,35 +11022,35 @@ a
 °
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized02default:default2
-542default:default2
+622default:default2
 12default:default2Ü
 Å/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/e13550d2/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
 À
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized02default:default2
-542default:default2
+622default:default2
 12default:default2ä
 Í/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/a2538a4c/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
 ¨
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %axi_dwidth_converter_v2_1_axi_upsizer2default:default2
-552default:default2
+632default:default2
 12default:default2á
 Ê/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_dwidth_converter_v2_1/61739fa5/hdl/verilog/axi_dwidth_converter_v2_1_axi_upsizer.v2default:default2
 722default:default8@Z8-256
 ˜
 %done synthesizing module '%s' (%s#%s)256*oasys21
 axi_dwidth_converter_v2_1_top2default:default2
-562default:default2
+642default:default2
 12default:default2Ù
 Â/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_dwidth_converter_v2_1/61739fa5/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
 792default:default8@Z8-256
 ç
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 design_1_auto_us_02default:default2
-572default:default2
+652default:default2
 12default:default2³
 œ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/synth/design_1_auto_us_0.v2default:default2
 572default:default8@Z8-256
@@ -10671,26 +11061,26 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 722default:default2
 702default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-48322default:default8@Z8-350
+52522default:default8@Z8-350
 Ë
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 s00_couplers_imp_5VZGPS2default:default2
-582default:default2
+662default:default2
 12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-45502default:default8@Z8-256
+49702default:default8@Z8-256
 
 synthesizing module '%s'638*oasys2,
 s01_couplers_imp_1XMYHY62default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-50512default:default8@Z8-638
+54712default:default8@Z8-638
 Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 s01_couplers_imp_1XMYHY62default:default2
-592default:default2
+672default:default2
 12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-50512default:default8@Z8-256
+54712default:default8@Z8-256
 ¢
 synthesizing module '%s'638*oasys2#
 design_1_xbar_32default:default2­
@@ -11417,21 +11807,21 @@ U
 
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !generic_baseblocks_v2_1_carry_and2default:default2
-602default:default2
+682default:default2
 12default:default2Û
 Ä/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_carry_and.v2default:default2
 622default:default8@Z8-256
 ®
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )generic_baseblocks_v2_1_comparator_static2default:default2
-612default:default2
+692default:default2
 12default:default2ã
 Ì/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_addr_decoder2default:default2
-622default:default2
+702default:default2
 12default:default2Ò
 »/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-256
@@ -11459,7 +11849,7 @@ Y
 š
 %done synthesizing module '%s' (%s#%s)256*oasys23
 generic_baseblocks_v2_1_mux_enc2default:default2
-632default:default2
+712default:default2
 12default:default2Ù
 Â/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -11557,28 +11947,28 @@ c
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 SRLC32E2default:default2
-642default:default2
+722default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 346742default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys20
 axi_data_fifo_v2_1_ndeep_srl2default:default2
-652default:default2
+732default:default2
 12default:default2Ñ
 º/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_data_fifo_v2_1/fcdb10ca/hdl/verilog/axi_data_fifo_v2_1_ndeep_srl.v2default:default2
 582default:default8@Z8-256
 —
 %done synthesizing module '%s' (%s#%s)256*oasys24
  axi_data_fifo_v2_1_axic_srl_fifo2default:default2
-662default:default2
+742default:default2
 12default:default2Õ
 ¾/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_data_fifo_v2_1/fcdb10ca/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
 612default:default8@Z8-256
 ”
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_crossbar_v2_1_si_transactor2default:default2
-672default:default2
+752default:default2
 12default:default2Ó
 ¼/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_si_transactor.v2default:default2
 812default:default8@Z8-256
@@ -11759,7 +12149,7 @@ X
 ª
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized02default:default2
-672default:default2
+752default:default2
 12default:default2Ù
 Â/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -11865,28 +12255,28 @@ T
 œ
 %done synthesizing module '%s' (%s#%s)256*oasys24
  generic_baseblocks_v2_1_nto1_mux2default:default2
-682default:default2
+762default:default2
 12default:default2Ú
 Ã/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_nto1_mux.v2default:default2
 602default:default8@Z8-256
 Ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,axi_data_fifo_v2_1_ndeep_srl__parameterized02default:default2
-682default:default2
+762default:default2
 12default:default2Ñ
 º/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_data_fifo_v2_1/fcdb10ca/hdl/verilog/axi_data_fifo_v2_1_ndeep_srl.v2default:default2
 582default:default8@Z8-256
 §
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0axi_data_fifo_v2_1_axic_srl_fifo__parameterized02default:default2
-682default:default2
+762default:default2
 12default:default2Õ
 ¾/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_data_fifo_v2_1/fcdb10ca/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
 612default:default8@Z8-256
 ¤
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /axi_crossbar_v2_1_si_transactor__parameterized02default:default2
-682default:default2
+762default:default2
 12default:default2Ó
 ¼/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_si_transactor.v2default:default2
 812default:default8@Z8-256
@@ -11902,7 +12292,7 @@ S
 Š
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 axi_crossbar_v2_1_splitter2default:default2
-692default:default2
+772default:default2
 12default:default2Î
 ·/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
 722default:default8@Z8-256
@@ -12028,7 +12418,7 @@ Z
 Ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,axi_data_fifo_v2_1_ndeep_srl__parameterized12default:default2
-692default:default2
+772default:default2
 12default:default2Ñ
 º/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_data_fifo_v2_1/fcdb10ca/hdl/verilog/axi_data_fifo_v2_1_ndeep_srl.v2default:default2
 582default:default8@Z8-256
@@ -12039,14 +12429,14 @@ Z
 Ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $axi_data_fifo_v2_1_axic_reg_srl_fifo2default:default2
-702default:default2
+782default:default2
 12default:default2Ù
 Â/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_data_fifo_v2_1/fcdb10ca/hdl/verilog/axi_data_fifo_v2_1_axic_reg_srl_fifo.v2default:default2
 612default:default8@Z8-256
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_wdata_router2default:default2
-712default:default2
+792default:default2
 12default:default2Ò
 »/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_wdata_router.v2default:default2
 672default:default8@Z8-256
@@ -12206,7 +12596,7 @@ N
 ¤
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /axi_crossbar_v2_1_si_transactor__parameterized12default:default2
-712default:default2
+792default:default2
 12default:default2Ó
 ¼/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_si_transactor.v2default:default2
 812default:default8@Z8-256
@@ -12366,7 +12756,7 @@ N
 ¤
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /axi_crossbar_v2_1_si_transactor__parameterized22default:default2
-712default:default2
+792default:default2
 12default:default2Ó
 ¼/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_si_transactor.v2default:default2
 812default:default8@Z8-256
@@ -12467,14 +12857,14 @@ C
 ¯
 %done synthesizing module '%s' (%s#%s)256*oasys2H
 4axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized02default:default2
-712default:default2
+792default:default2
 12default:default2Ù
 Â/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_data_fifo_v2_1/fcdb10ca/hdl/verilog/axi_data_fifo_v2_1_axic_reg_srl_fifo.v2default:default2
 612default:default8@Z8-256
 ¢
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_wdata_router__parameterized02default:default2
-712default:default2
+792default:default2
 12default:default2Ò
 »/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_wdata_router.v2default:default2
 672default:default8@Z8-256
@@ -12538,7 +12928,7 @@ b
 ¢
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_addr_decoder__parameterized02default:default2
-712default:default2
+792default:default2
 12default:default2Ò
 »/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-256
@@ -12664,7 +13054,7 @@ Y
 Ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,axi_data_fifo_v2_1_ndeep_srl__parameterized22default:default2
-712default:default2
+792default:default2
 12default:default2Ñ
 º/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_data_fifo_v2_1/fcdb10ca/hdl/verilog/axi_data_fifo_v2_1_ndeep_srl.v2default:default2
 582default:default8@Z8-256
@@ -12675,7 +13065,7 @@ Y
 ¯
 %done synthesizing module '%s' (%s#%s)256*oasys2H
 4axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized12default:default2
-712default:default2
+792default:default2
 12default:default2Ù
 Â/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_data_fifo_v2_1/fcdb10ca/hdl/verilog/axi_data_fifo_v2_1_axic_reg_srl_fifo.v2default:default2
 612default:default8@Z8-256
@@ -12703,14 +13093,14 @@ Y
 ª
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized12default:default2
-712default:default2
+792default:default2
 12default:default2Ù
 Â/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
 Œ
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 axi_crossbar_v2_1_wdata_mux2default:default2
-722default:default2
+802default:default2
 12default:default2Ï
 ¸/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_wdata_mux.v2default:default2
 682default:default8@Z8-256
@@ -12766,7 +13156,7 @@ V
 §
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0axi_data_fifo_v2_1_axic_srl_fifo__parameterized12default:default2
-722default:default2
+802default:default2
 12default:default2Õ
 ¾/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_data_fifo_v2_1/fcdb10ca/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
 612default:default8@Z8-256
@@ -13515,7 +13905,7 @@ a
 °
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized12default:default2
-722default:default2
+802default:default2
 12default:default2Ü
 Å/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/e13550d2/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
@@ -13539,7 +13929,7 @@ X
 Â
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized62default:default2
-722default:default2
+802default:default2
 12default:default2å
 Î/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/a2538a4c/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -13563,7 +13953,7 @@ X
 Â
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized72default:default2
-722default:default2
+802default:default2
 12default:default2å
 Î/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/a2538a4c/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -13939,14 +14329,14 @@ a
 °
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized12default:default2
-722default:default2
+802default:default2
 12default:default2Ü
 Å/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/e13550d2/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
 À
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized12default:default2
-722default:default2
+802default:default2
 12default:default2ä
 Í/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/a2538a4c/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
@@ -14047,14 +14437,14 @@ C
 ¯
 %done synthesizing module '%s' (%s#%s)256*oasys2H
 4axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized22default:default2
-722default:default2
+802default:default2
 12default:default2Ù
 Â/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_data_fifo_v2_1/fcdb10ca/hdl/verilog/axi_data_fifo_v2_1_axic_reg_srl_fifo.v2default:default2
 612default:default8@Z8-256
 œ
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_crossbar_v2_1_wdata_mux__parameterized02default:default2
-722default:default2
+802default:default2
 12default:default2Ï
 ¸/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_wdata_mux.v2default:default2
 682default:default8@Z8-256
@@ -14110,7 +14500,7 @@ V
 §
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0axi_data_fifo_v2_1_axic_srl_fifo__parameterized22default:default2
-722default:default2
+802default:default2
 12default:default2Õ
 ¾/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_data_fifo_v2_1/fcdb10ca/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
 612default:default8@Z8-256
@@ -14171,7 +14561,7 @@ Y
 ª
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized22default:default2
-722default:default2
+802default:default2
 12default:default2Ù
 Â/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -14199,7 +14589,7 @@ X
 ª
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized32default:default2
-722default:default2
+802default:default2
 12default:default2Ù
 Â/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -14213,7 +14603,7 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_addr_arbiter2default:default2
-732default:default2
+812default:default2
 12default:default2Ò
 »/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_addr_arbiter.v2default:default2
 652default:default8@Z8-256
@@ -14285,28 +14675,28 @@ U
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_decerr_slave2default:default2
-742default:default2
+822default:default2
 12default:default2Ò
 »/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
 642default:default8@Z8-256
 Š
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 axi_crossbar_v2_1_crossbar2default:default2
-752default:default2
+832default:default2
 12default:default2Î
 ·/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_crossbar.v2default:default2
 902default:default8@Z8-256
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys22
 axi_crossbar_v2_1_axi_crossbar2default:default2
-762default:default2
+842default:default2
 12default:default2Ò
 »/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-256
 Ş
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 design_1_xbar_32default:default2
-772default:default2
+852default:default2
 12default:default2­
 –/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_xbar_3/synth/design_1_xbar_3.v2default:default2
 572default:default8@Z8-256
@@ -14317,14 +14707,14 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 782default:default2
 762default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-18302default:default8@Z8-350
+19582default:default8@Z8-350
 Ï
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 design_1_axi_mem_intercon_12default:default2
-782default:default2
+862default:default2
 12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-10802default:default8@Z8-256
+12082default:default8@Z8-256
 ´
 synthesizing module '%s'638*oasys2(
 design_1_axi_tft_0_02default:default2¹
@@ -14538,7 +14928,7 @@ Z
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys23
 address_decoder__parameterized02default:default2
-782default:default2
+862default:default2
 12default:default2Ç
 °/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v2_0/82c7a66d/hdl/src/vhdl/address_decoder.vhd2default:default2
 1882default:default8@Z8-256
@@ -14549,14 +14939,14 @@ Z
 ‹
 %done synthesizing module '%s' (%s#%s)256*oasys24
  slave_attachment__parameterized02default:default2
-782default:default2
+862default:default2
 12default:default2È
 ±/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v2_0/82c7a66d/hdl/src/vhdl/slave_attachment.vhd2default:default2
 2432default:default8@Z8-256
 …
 %done synthesizing module '%s' (%s#%s)256*oasys21
 axi_lite_ipif__parameterized02default:default2
-782default:default2
+862default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v2_0/82c7a66d/hdl/src/vhdl/axi_lite_ipif.vhd2default:default2
 2532default:default8@Z8-256
@@ -14619,7 +15009,7 @@ X
 Š
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 axi_master_burst_reset2default:default2
-792default:default2
+872default:default2
 12default:default2Ñ
 º/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_reset.vhd2default:default2
 1342default:default8@Z8-256
@@ -14668,7 +15058,7 @@ Z
  
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !axi_master_burst_first_stb_offset2default:default2
-802default:default2
+882default:default2
 12default:default2Ü
 Å/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_first_stb_offset.vhd2default:default2
 1162default:default8@Z8-256
@@ -14684,7 +15074,7 @@ Z
 
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 axi_master_burst_stbs_set2default:default2
-812default:default2
+892default:default2
 12default:default2Ô
 ½/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_stbs_set.vhd2default:default2
 1152default:default8@Z8-256
@@ -14704,7 +15094,7 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 ”
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 axi_master_burst_cmd_status2default:default2
-822default:default2
+902default:default2
 12default:default2Ö
 ¿/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_cmd_status.vhd2default:default2
 2392default:default8@Z8-256
@@ -14822,7 +15212,7 @@ Z
 
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 axi_master_burst_strb_gen2default:default2
-832default:default2
+912default:default2
 12default:default2Ô
 ½/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_strb_gen.vhd2default:default2
 1182default:default8@Z8-256
@@ -14850,14 +15240,14 @@ Z
  
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_master_burst_strb_gen__parameterized02default:default2
-832default:default2
+912default:default2
 12default:default2Ô
 ½/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_strb_gen.vhd2default:default2
 1182default:default8@Z8-256
 †
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 axi_master_burst_pcc2default:default2
-842default:default2
+922default:default2
 12default:default2Ï
 ¸/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_pcc.vhd2default:default2
 3132default:default8@Z8-256
@@ -14905,7 +15295,7 @@ Y
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 axi_master_burst_addr_cntl2default:default2
-852default:default2
+932default:default2
 12default:default2Õ
 ¾/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_addr_cntl.vhd2default:default2
 3092default:default8@Z8-256
@@ -14966,14 +15356,14 @@ Z
 Š
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 axi_master_burst_rdmux2default:default2
-862default:default2
+942default:default2
 12default:default2Ñ
 º/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_rdmux.vhd2default:default2
 1372default:default8@Z8-256
 –
 %done synthesizing module '%s' (%s#%s)256*oasys20
 axi_master_burst_rddata_cntl2default:default2
-872default:default2
+952default:default2
 12default:default2×
 À/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_rddata_cntl.vhd2default:default2
 3582default:default8@Z8-256
@@ -14993,7 +15383,7 @@ W
 œ
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_master_burst_rd_status_cntl2default:default2
-882default:default2
+962default:default2
 12default:default2Ú
 Ã/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_rd_status_cntl.vhd2default:default2
 2012default:default8@Z8-256
@@ -15033,7 +15423,7 @@ Z
 
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 axi_master_burst_skid_buf2default:default2
-892default:default2
+972default:default2
 12default:default2Ô
 ½/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_skid_buf.vhd2default:default2
 1462default:default8@Z8-256
@@ -15081,7 +15471,7 @@ X
 –
 %done synthesizing module '%s' (%s#%s)256*oasys20
 axi_master_burst_wrdata_cntl2default:default2
-902default:default2
+982default:default2
 12default:default2×
 À/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_wrdata_cntl.vhd2default:default2
 3812default:default8@Z8-256
@@ -15230,7 +15620,7 @@ C
 Š
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 FDS__parameterized02default:default2
-912default:default2
+992default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 31372default:default8@Z8-256
@@ -15296,10 +15686,10 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 FDS2default:default2Ë
 ´/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
 2242default:default8@Z8-3491
-ƒ
+„
 %done synthesizing module '%s' (%s#%s)256*oasys2)
-cntr_incr_decr_addn_f2default:default2
-922default:default2
+cntr_incr_decr_addn_f2default:default2
+1002default:default2
 12default:default2Ë
 ´/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
 1462default:default8@Z8-256
@@ -15347,10 +15737,10 @@ S
 %s*synth2D
 0	Parameter INIT bound to: 16'b0000000000000000 
 2default:default
-
+
 %done synthesizing module '%s' (%s#%s)256*oasys2+
-SRLC16E__parameterized02default:default2
-932default:default2
+SRLC16E__parameterized02default:default2
+1012default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 346132default:default8@Z8-256
@@ -15367,33 +15757,33 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 SRLC16E2default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
-í
+î
 %done synthesizing module '%s' (%s#%s)256*oasys2
 
-dynshreg_f2default:default2
-942default:default2
+dynshreg_f2default:default2
+1022default:default2
 12default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 1582default:default8@Z8-256
-õ
+ö
 %done synthesizing module '%s' (%s#%s)256*oasys2"
-srl_fifo_rbu_f2default:default2
-952default:default2
+srl_fifo_rbu_f2default:default2
+1032default:default2
 12default:default2Ä
 ­/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
 1942default:default8@Z8-256
-í
+î
 %done synthesizing module '%s' (%s#%s)256*oasys2
 
-srl_fifo_f2default:default2
-962default:default2
+srl_fifo_f2default:default2
+1042default:default2
 12default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
 1652default:default8@Z8-256
-ˆ
+‰
 %done synthesizing module '%s' (%s#%s)256*oasys2)
-axi_master_burst_fifo2default:default2
-972default:default2
+axi_master_burst_fifo2default:default2
+1052default:default2
 12default:default2Ğ
 ¹/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_fifo.vhd2default:default2
 1612default:default8@Z8-256
@@ -15564,38 +15954,38 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 SRLC16E2default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 2812default:default8@Z8-3491
-ı
+ş
 %done synthesizing module '%s' (%s#%s)256*oasys2.
-dynshreg_f__parameterized02default:default2
-972default:default2
+dynshreg_f__parameterized02default:default2
+1052default:default2
 12default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 1582default:default8@Z8-256
-…
+†
 %done synthesizing module '%s' (%s#%s)256*oasys22
-srl_fifo_rbu_f__parameterized02default:default2
-972default:default2
+srl_fifo_rbu_f__parameterized02default:default2
+1052default:default2
 12default:default2Ä
 ­/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
 1942default:default8@Z8-256
-ı
+ş
 %done synthesizing module '%s' (%s#%s)256*oasys2.
-srl_fifo_f__parameterized02default:default2
-972default:default2
+srl_fifo_f__parameterized02default:default2
+1052default:default2
 12default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
 1652default:default8@Z8-256
-˜
+™
 %done synthesizing module '%s' (%s#%s)256*oasys29
-%axi_master_burst_fifo__parameterized02default:default2
-972default:default2
+%axi_master_burst_fifo__parameterized02default:default2
+1052default:default2
 12default:default2Ğ
 ¹/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_fifo.vhd2default:default2
 1612default:default8@Z8-256
-œ
+
 %done synthesizing module '%s' (%s#%s)256*oasys23
-axi_master_burst_wr_status_cntl2default:default2
-982default:default2
+axi_master_burst_wr_status_cntl2default:default2
+1062default:default2
 12default:default2Ú
 Ã/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_wr_status_cntl.vhd2default:default2
 2542default:default8@Z8-256
@@ -15657,24 +16047,24 @@ Z
 %s*synth2M
 9	Parameter C_STREAM_DWIDTH bound to: 64 - type: integer 
 2default:default
-
+‘
 %done synthesizing module '%s' (%s#%s)256*oasys2-
-axi_master_burst_wr_demux2default:default2
-992default:default2
+axi_master_burst_wr_demux2default:default2
+1072default:default2
 12default:default2Ô
 ½/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_wr_demux.vhd2default:default2
 1372default:default8@Z8-256
 —
 %done synthesizing module '%s' (%s#%s)256*oasys20
 axi_master_burst_skid2mm_buf2default:default2
-1002default:default2
+1082default:default2
 12default:default2×
 À/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_skid2mm_buf.vhd2default:default2
 1482default:default8@Z8-256
 —
 %done synthesizing module '%s' (%s#%s)256*oasys20
 axi_master_burst_rd_wr_cntlr2default:default2
-1012default:default2
+1092default:default2
 12default:default2×
 À/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_rd_wr_cntlr.vhd2default:default2
 3682default:default8@Z8-256
@@ -15690,7 +16080,7 @@ Z
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 axi_master_burst_rd_llink2default:default2
-1022default:default2
+1102default:default2
 12default:default2Ô
 ½/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_rd_llink.vhd2default:default2
 1782default:default8@Z8-256
@@ -15706,14 +16096,14 @@ Z
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 axi_master_burst_wr_llink2default:default2
-1032default:default2
+1112default:default2
 12default:default2Ô
 ½/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst_wr_llink.vhd2default:default2
 1782default:default8@Z8-256
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2$
 axi_master_burst2default:default2
-1042default:default2
+1122default:default2
 12default:default2Ë
 ´/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_master_burst_v2_0/1af76933/hdl/src/vhdl/axi_master_burst.vhd2default:default2
 3502default:default8@Z8-256
@@ -15888,7 +16278,7 @@ Y
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 cdc_sync__parameterized02default:default2
-1042default:default2
+1122default:default2
 12default:default2¾
 §/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/cdc_sync.vhd2default:default2
 1042default:default8@Z8-256
@@ -15966,7 +16356,7 @@ Y
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 cdc_sync__parameterized12default:default2
-1042default:default2
+1122default:default2
 12default:default2¾
 §/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/cdc_sync.vhd2default:default2
 1042default:default8@Z8-256
@@ -16002,7 +16392,7 @@ Y
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 cdc_sync__parameterized22default:default2
-1042default:default2
+1122default:default2
 12default:default2¾
 §/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/cdc_sync.vhd2default:default2
 1042default:default8@Z8-256
@@ -16038,7 +16428,7 @@ Y
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 cdc_sync__parameterized32default:default2
-1042default:default2
+1122default:default2
 12default:default2¾
 §/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/cdc_sync.vhd2default:default2
 1042default:default8@Z8-256
@@ -16062,7 +16452,7 @@ U
 
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 axi_tft_v2_0_slave_register2default:default2
-1052default:default2
+1132default:default2
 12default:default2Î
 ·/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_tft_v2_0/05601f17/hdl/src/verilog/axi_tft_v2_0_slave_register.v2default:default2
 1012default:default8@Z8-256
@@ -18344,7 +18734,7 @@ W
 
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !reset_blk_ramfifo__parameterized02default:default2
-1052default:default2
+1132default:default2
 12default:default2Ê
 ³/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/reset_blk_ramfifo.vhd2default:default2
 2222default:default8@Z8-256
@@ -18428,7 +18818,7 @@ Z
 ş
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 input_blk__parameterized32default:default2
-1052default:default2
+1132default:default2
 12default:default2Á
 ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
@@ -19749,7 +20139,7 @@ Y
 ÷
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 blk_mem_input_block2default:default2
-1062default:default2
+1142default:default2
 12default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_input_block.vhd2default:default2
 3922default:default8@Z8-256
@@ -20896,21 +21286,21 @@ Z
 
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 blk_mem_gen_prim_wrapper2default:default2
-1072default:default2
+1152default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 blk_mem_gen_prim_width2default:default2
-1082default:default2
+1162default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 blk_mem_gen_generic_cstr2default:default2
-1092default:default2
+1172default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_generic_cstr.vhd2default:default2
 4502default:default8@Z8-256
@@ -20962,35 +21352,35 @@ U
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 blk_mem_output_block2default:default2
-1102default:default2
+1182default:default2
 12default:default2Á
 ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_output_block.vhd2default:default2
 2142default:default8@Z8-256
 ï
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 blk_mem_gen_top2default:default2
-1112default:default2
+1192default:default2
 12default:default2¼
 ¥/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_top.vhd2default:default2
 4442default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 blk_mem_gen_v8_2_synth2default:default2
-1122default:default2
+1202default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_v8_2_synth.vhd2default:default2
 3162default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys24
  blk_mem_gen_v8_2__parameterized02default:default2
-1132default:default2
+1212default:default2
 12default:default2½
 ¦/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_v8_2.vhd2default:default2
 2572default:default8@Z8-256
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 memory__parameterized32default:default2
-1132default:default2
+1212default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/memory.vhd2default:default2
 2172default:default8@Z8-256
@@ -21035,14 +21425,14 @@ S
 Š
 %done synthesizing module '%s' (%s#%s)256*oasys23
 synchronizer_ff__parameterized02default:default2
-1132default:default2
+1212default:default2
 12default:default2Ç
 °/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/common/synchronizer_ff.vhd2default:default2
 1382default:default8@Z8-256
 ƒ
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 clk_x_pntrs__parameterized02default:default2
-1132default:default2
+1212default:default2
 12default:default2Ä
 ­/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/clk_x_pntrs.vhd2default:default2
 2132default:default8@Z8-256
@@ -21163,7 +21553,7 @@ X
 ƒ
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 rd_bin_cntr__parameterized02default:default2
-1132default:default2
+1212default:default2
 12default:default2Ä
 ­/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/rd_bin_cntr.vhd2default:default2
 1512default:default8@Z8-256
@@ -21230,14 +21620,14 @@ S
 û
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 compare__parameterized02default:default2
-1132default:default2
+1212default:default2
 12default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/compare.vhd2default:default2
 1382default:default8@Z8-256
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "rd_status_flags_as__parameterized02default:default2
-1132default:default2
+1212default:default2
 12default:default2Ë
 ´/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/rd_status_flags_as.vhd2default:default2
 1712default:default8@Z8-256
@@ -21261,7 +21651,7 @@ U
 í
 %done synthesizing module '%s' (%s#%s)256*oasys2
 rd_dc_as2default:default2
-1142default:default2
+1222default:default2
 12default:default2Á
 ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/rd_dc_as.vhd2default:default2
 1492default:default8@Z8-256
@@ -21301,14 +21691,14 @@ W
 …
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 rd_handshaking_flags2default:default2
-1152default:default2
+1232default:default2
 12default:default2Í
 ¶/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/rd_handshaking_flags.vhd2default:default2
 1562default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 rd_logic__parameterized02default:default2
-1152default:default2
+1232default:default2
 12default:default2Á
 ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/rd_logic.vhd2default:default2
 2342default:default8@Z8-256
@@ -21441,7 +21831,7 @@ Y
 ƒ
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 wr_bin_cntr__parameterized02default:default2
-1152default:default2
+1232default:default2
 12default:default2Ä
 ­/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/wr_bin_cntr.vhd2default:default2
 1562default:default8@Z8-256
@@ -21473,7 +21863,7 @@ U
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "wr_status_flags_as__parameterized02default:default2
-1152default:default2
+1232default:default2
 12default:default2Ë
 ´/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/wr_status_flags_as.vhd2default:default2
 1722default:default8@Z8-256
@@ -21497,7 +21887,7 @@ U
 í
 %done synthesizing module '%s' (%s#%s)256*oasys2
 wr_dc_as2default:default2
-1162default:default2
+1242default:default2
 12default:default2Á
 ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/wr_dc_as.vhd2default:default2
 1522default:default8@Z8-256
@@ -21533,14 +21923,14 @@ Z
 …
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 wr_handshaking_flags2default:default2
-1172default:default2
+1252default:default2
 12default:default2Í
 ¶/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/wr_handshaking_flags.vhd2default:default2
 1532default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 wr_logic__parameterized02default:default2
-1172default:default2
+1252default:default2
 12default:default2Á
 ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/wr_logic.vhd2default:default2
 2282default:default8@Z8-256
@@ -21662,49 +22052,49 @@ W
 €
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 output_blk__parameterized32default:default2
-1172default:default2
+1252default:default2
 12default:default2Â
 «/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
 ™
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &fifo_generator_ramfifo__parameterized32default:default2
-1172default:default2
+1252default:default2
 12default:default2Ï
 ¸/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3102default:default8@Z8-256
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "fifo_generator_top__parameterized32default:default2
-1172default:default2
+1252default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/fifo_generator_top.vhd2default:default2
 2752default:default8@Z8-256
 ™
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *fifo_generator_v12_0_synth__parameterized02default:default2
-1172default:default2
+1252default:default2
 12default:default2Ë
 ´/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/fifo_generator_v12_0_synth.vhd2default:default2
 6812default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $fifo_generator_v12_0__parameterized02default:default2
-1172default:default2
+1252default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/924f3d25/hdl/fifo_generator_v12_0.vhd2default:default2
 6642default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 axi_tft_v2_0_async_fifo_fg2default:default2
-1182default:default2
+1262default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_tft_v2_0/05601f17/hdl/src/vhdl/async_fifo_fg.vhd2default:default2
 2522default:default8@Z8-256
 ‡
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 axi_tft_v2_0_line_buffer2default:default2
-1192default:default2
+1272default:default2
 12default:default2Ë
 ´/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_tft_v2_0/05601f17/hdl/src/verilog/axi_tft_v2_0_line_buffer.v2default:default2
 1142default:default8@Z8-256
@@ -21736,7 +22126,7 @@ N
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 axi_tft_v2_0_h_sync2default:default2
-1202default:default2
+1282default:default2
 12default:default2Æ
 ¯/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_tft_v2_0/05601f17/hdl/src/verilog/axi_tft_v2_0_h_sync.v2default:default2
 1072default:default8@Z8-256
@@ -21768,7 +22158,7 @@ N
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 axi_tft_v2_0_v_sync2default:default2
-1212default:default2
+1292default:default2
 12default:default2Æ
 ¯/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_tft_v2_0/05601f17/hdl/src/verilog/axi_tft_v2_0_v_sync.v2default:default2
 1092default:default8@Z8-256
@@ -21809,7 +22199,7 @@ C
 û
 %done synthesizing module '%s' (%s#%s)256*oasys2
 FDS2default:default2
-1212default:default2
+1292default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 31372default:default8@Z8-256
@@ -21845,35 +22235,35 @@ M
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2
 ODDR2default:default2
-1222default:default2
+1302default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 206282default:default8@Z8-256
 ‹
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 axi_tft_v2_0_tft_interface2default:default2
-1232default:default2
+1312default:default2
 12default:default2Í
 ¶/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_tft_v2_0/05601f17/hdl/src/verilog/axi_tft_v2_0_tft_interface.v2default:default2
 1082default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 axi_tft_v2_0_tft_controller2default:default2
-1242default:default2
+1322default:default2
 12default:default2Î
 ·/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_tft_v2_0/05601f17/hdl/src/verilog/axi_tft_v2_0_tft_controller.v2default:default2
 1052default:default8@Z8-256
 ô
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 axi_tft__parameterized02default:default2
-1252default:default2
+1332default:default2
 12default:default2¹
 ¢/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_tft_v2_0/05601f17/hdl/src/vhdl/axi_tft.vhd2default:default2
 4172default:default8@Z8-256
 ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 design_1_axi_tft_0_02default:default2
-1262default:default2
+1342default:default2
 12default:default2¹
 ¢/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_tft_0_0/synth/design_1_axi_tft_0_0.vhd2default:default2
 1252default:default8@Z8-256
@@ -21884,7 +22274,7 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 612default:default2
 562default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-5752default:default8@Z8-350
+6792default:default8@Z8-350
 Â
 synthesizing module '%s'638*oasys2-
 design_1_axi_uartlite_0_02default:default2Ã
@@ -22023,7 +22413,7 @@ U
 ë
 %done synthesizing module '%s' (%s#%s)256*oasys2
 baudrate2default:default2
-1272default:default2
+1352default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_uartlite_v2_0/6e58ba99/hdl/src/vhdl/baudrate.vhd2default:default2
 1422default:default8@Z8-256
@@ -22084,7 +22474,7 @@ Y
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 cdc_sync__parameterized42default:default2
-1272default:default2
+1352default:default2
 12default:default2¾
 §/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/cdc_sync.vhd2default:default2
 1042default:default8@Z8-256
@@ -22112,7 +22502,7 @@ X
 ò
 %done synthesizing module '%s' (%s#%s)256*oasys2 
 dynshreg_i_f2default:default2
-1282default:default2
+1362default:default2
 12default:default2Â
 «/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/dynshreg_i_f.vhd2default:default2
 1942default:default8@Z8-256
@@ -22321,7 +22711,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 ”
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %cntr_incr_decr_addn_f__parameterized02default:default2
-1282default:default2
+1362default:default2
 12default:default2Ë
 ´/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/cntr_incr_decr_addn_f.vhd2default:default2
 1462default:default8@Z8-256
@@ -22345,28 +22735,28 @@ X
 ş
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 dynshreg_f__parameterized12default:default2
-1282default:default2
+1362default:default2
 12default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/dynshreg_f.vhd2default:default2
 1582default:default8@Z8-256
 †
 %done synthesizing module '%s' (%s#%s)256*oasys22
 srl_fifo_rbu_f__parameterized12default:default2
-1282default:default2
+1362default:default2
 12default:default2Ä
 ­/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/srl_fifo_rbu_f.vhd2default:default2
 1942default:default8@Z8-256
 ş
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 srl_fifo_f__parameterized12default:default2
-1282default:default2
+1362default:default2
 12default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/srl_fifo_f.vhd2default:default2
 1652default:default8@Z8-256
 ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 uartlite_rx2default:default2
-1292default:default2
+1372default:default2
 12default:default2Â
 «/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_uartlite_v2_0/6e58ba99/hdl/src/vhdl/uartlite_rx.vhd2default:default2
 1742default:default8@Z8-256
@@ -22415,35 +22805,35 @@ X
 ‚
 %done synthesizing module '%s' (%s#%s)256*oasys20
 dynshreg_i_f__parameterized02default:default2
-1292default:default2
+1372default:default2
 12default:default2Â
 «/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/dynshreg_i_f.vhd2default:default2
 1942default:default8@Z8-256
 ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 uartlite_tx2default:default2
-1302default:default2
+1382default:default2
 12default:default2Â
 «/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_uartlite_v2_0/6e58ba99/hdl/src/vhdl/uartlite_tx.vhd2default:default2
 1682default:default8@Z8-256
 õ
 %done synthesizing module '%s' (%s#%s)256*oasys2!
 uartlite_core2default:default2
-1312default:default2
+1392default:default2
 12default:default2Ä
 ­/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_uartlite_v2_0/6e58ba99/hdl/src/vhdl/uartlite_core.vhd2default:default2
 1892default:default8@Z8-256
 ƒ
 %done synthesizing module '%s' (%s#%s)256*oasys20
 axi_uartlite__parameterized02default:default2
-1322default:default2
+1402default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_uartlite_v2_0/6e58ba99/hdl/src/vhdl/axi_uartlite.vhd2default:default2
 2432default:default8@Z8-256
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 design_1_axi_uartlite_0_02default:default2
-1332default:default2
+1412default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/synth/design_1_axi_uartlite_0_0.vhd2default:default2
 862default:default8@Z8-256
@@ -22454,7 +22844,7 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 222default:default2
 212default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-6322default:default8@Z8-350
+7362default:default8@Z8-350
 ¿
 synthesizing module '%s'638*oasys2,
 design_1_blk_mem_gen_0_12default:default2Á
@@ -23696,7 +24086,7 @@ Y
 ‡
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #blk_mem_input_block__parameterized02default:default2
-1332default:default2
+1412default:default2
 12default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_input_block.vhd2default:default2
 3922default:default8@Z8-256
@@ -25143,14 +25533,14 @@ Z
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized02default:default2
-1332default:default2
+1412default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized02default:default2
-1332default:default2
+1412default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
@@ -26305,21 +26695,21 @@ Z
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized12default:default2
-1332default:default2
+1412default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized12default:default2
-1332default:default2
+1412default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_generic_cstr__parameterized02default:default2
-1332default:default2
+1412default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_generic_cstr.vhd2default:default2
 4502default:default8@Z8-256
@@ -26371,35 +26761,35 @@ U
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $blk_mem_output_block__parameterized02default:default2
-1332default:default2
+1412default:default2
 12default:default2Á
 ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_output_block.vhd2default:default2
 2142default:default8@Z8-256
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys23
 blk_mem_gen_top__parameterized02default:default2
-1332default:default2
+1412default:default2
 12default:default2¼
 ¥/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_top.vhd2default:default2
 4442default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_v8_2_synth__parameterized02default:default2
-1332default:default2
+1412default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_v8_2_synth.vhd2default:default2
 3162default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys24
  blk_mem_gen_v8_2__parameterized22default:default2
-1332default:default2
+1412default:default2
 12default:default2½
 ¦/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_v8_2.vhd2default:default2
 2572default:default8@Z8-256
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 design_1_blk_mem_gen_0_12default:default2
-1342default:default2
+1422default:default2
 12default:default2Á
 ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_blk_mem_gen_0_1/synth/design_1_blk_mem_gen_0_1.vhd2default:default2
 782default:default8@Z8-256
@@ -26410,15 +26800,15 @@ Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s
 322default:default2,
 design_1_blk_mem_gen_0_12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-6552default:default8@Z8-689
+7592default:default8@Z8-689
 ’
-Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2"
-blk_mem_gen_ai2default:default2,
-design_1_blk_mem_gen_0_12default:default2
-142default:default2
-132default:default2
+Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
+122default:default2
+addrb2default:default2
+322default:default2,
+design_1_blk_mem_gen_0_12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-6542default:default8@Z8-350
+7602default:default8@Z8-689
 «
 synthesizing module '%s'638*oasys2(
 design_1_clk_wiz_1_02default:default2±
@@ -26457,7 +26847,7 @@ Z
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2
 IBUF2default:default2
-1352default:default2
+1432default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 102502default:default8@Z8-256
@@ -26663,7 +27053,7 @@ c
 %done synthesizing module '%s' (%s#%s)256*oasys2
 
 MMCME2_ADV2default:default2
-1362default:default2
+1442default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 159942default:default8@Z8-256
@@ -26675,21 +27065,21 @@ MMCME2_ADV2default:default2
 û
 %done synthesizing module '%s' (%s#%s)256*oasys2
 BUFG2default:default2
-1372default:default2
+1452default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 6062default:default8@Z8-256
 ø
 %done synthesizing module '%s' (%s#%s)256*oasys20
 design_1_clk_wiz_1_0_clk_wiz2default:default2
-1382default:default2
+1462default:default2
 12default:default2¹
 ¢/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0_clk_wiz.v2default:default2
 692default:default8@Z8-256
 è
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 design_1_clk_wiz_1_02default:default2
-1392default:default2
+1472default:default2
 12default:default2±
 š/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0.v2default:default2
 712default:default8@Z8-256
@@ -27599,7 +27989,7 @@ N
 ç
 %done synthesizing module '%s' (%s#%s)256*oasys2%
 mdm_v3_1_SRL_FIFO2default:default2
-1402default:default2
+1482default:default2
 12default:default2²
 ›/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/mdm_v3_1/0d9386c2/hdl/vhdl/srl_fifo.vhd2default:default2
 1152default:default8@Z8-256
@@ -27623,14 +28013,14 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 ö
 %done synthesizing module '%s' (%s#%s)256*oasys20
 JTAG_CONTROL__parameterized02default:default2
-1412default:default2
+1492default:default2
 12default:default2¶
 Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/mdm_v3_1/0d9386c2/hdl/vhdl/jtag_control.vhd2default:default2
 3362default:default8@Z8-256
 î
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 MDM_Core__parameterized02default:default2
-1422default:default2
+1502default:default2
 12default:default2²
 ›/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/mdm_v3_1/0d9386c2/hdl/vhdl/mdm_core.vhd2default:default2
 6242default:default8@Z8-256
@@ -27736,7 +28126,7 @@ Z
 Š
 %done synthesizing module '%s' (%s#%s)256*oasys23
 address_decoder__parameterized12default:default2
-1422default:default2
+1502default:default2
 12default:default2Ç
 °/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v2_0/82c7a66d/hdl/src/vhdl/address_decoder.vhd2default:default2
 1882default:default8@Z8-256
@@ -27747,28 +28137,28 @@ Z
 Œ
 %done synthesizing module '%s' (%s#%s)256*oasys24
  slave_attachment__parameterized12default:default2
-1422default:default2
+1502default:default2
 12default:default2È
 ±/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v2_0/82c7a66d/hdl/src/vhdl/slave_attachment.vhd2default:default2
 2432default:default8@Z8-256
 †
 %done synthesizing module '%s' (%s#%s)256*oasys21
 axi_lite_ipif__parameterized12default:default2
-1422default:default2
+1502default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v2_0/82c7a66d/hdl/src/vhdl/axi_lite_ipif.vhd2default:default2
 2532default:default8@Z8-256
 å
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 MDM__parameterized02default:default2
-1432default:default2
+1512default:default2
 12default:default2­
 –/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/mdm_v3_1/0d9386c2/hdl/vhdl/mdm.vhd2default:default2
 10552default:default8@Z8-256
 ä
 %done synthesizing module '%s' (%s#%s)256*oasys2$
 design_1_mdm_1_02default:default2
-1442default:default2
+1522default:default2
 12default:default2±
 š/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mdm_1_0/synth/design_1_mdm_1_0.vhd2default:default2
 932default:default8@Z8-256
@@ -30220,7 +30610,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 •
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (interrupt_mode_converter__parameterized02default:default2
-1452default:default2
+1532default:default2
 12default:default2É
 ²/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/interrupt_mode_converter.vhd2default:default2
 1562default:default8@Z8-256
@@ -31924,7 +32314,7 @@ Z
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 RAM_Module__parameterized02default:default2
-1462default:default2
+1542default:default2
 12default:default2»
 ¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/ram_module.vhd2default:default2
 1982default:default8@Z8-256
@@ -31953,7 +32343,7 @@ U
 ÷
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 carry_and__parameterized02default:default2
-1472default:default2
+1552default:default2
 12default:default2º
 £/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/carry_and.vhd2default:default2
 1612default:default8@Z8-256
@@ -32000,7 +32390,7 @@ S
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 comparator__parameterized02default:default2
-1482default:default2
+1562default:default2
 12default:default2»
 ¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/comparator.vhd2default:default2
 1642default:default8@Z8-256
@@ -32042,14 +32432,14 @@ U
 õ
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 carry_or__parameterized02default:default2
-1492default:default2
+1572default:default2
 12default:default2¹
 ¢/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/carry_or.vhd2default:default2
 1612default:default8@Z8-256
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys21
 PC_Module_gti__parameterized02default:default2
-1502default:default2
+1582default:default2
 12default:default2¾
 §/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/pc_module_gti.vhd2default:default2
 2952default:default8@Z8-256
@@ -32342,7 +32732,7 @@ C
 ‹
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #PreFetch_Buffer_gti__parameterized02default:default2
-1512default:default2
+1592default:default2
 12default:default2Ä
 ­/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/prefetch_buffer_gti.vhd2default:default2
 1972default:default8@Z8-256
@@ -32605,7 +32995,7 @@ U
 %done synthesizing module '%s' (%s#%s)256*oasys2
 
 jump_logic2default:default2
-1522default:default2
+1602default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/jump_logic_gti.vhd2default:default2
 1942default:default8@Z8-256
@@ -32850,7 +33240,7 @@ L
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 Decode_gti__parameterized02default:default2
-1532default:default2
+1612default:default2
 12default:default2»
 ¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/decode_gti.vhd2default:default2
 5452default:default8@Z8-256
@@ -34034,7 +34424,7 @@ O
 ‡
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !Register_File_gti__parameterized02default:default2
-1542default:default2
+1622default:default2
 12default:default2Â
 «/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/register_file_gti.vhd2default:default2
 2182default:default8@Z8-256
@@ -34115,7 +34505,7 @@ U
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "Operand_Select_gti__parameterized02default:default2
-1552default:default2
+1632default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/operand_select_gti.vhd2default:default2
 2802default:default8@Z8-256
@@ -34203,7 +34593,7 @@ S
 ó
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 ALU_Bit__parameterized02default:default2
-1562default:default2
+1642default:default2
 12default:default2¸
 ¡/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/alu_bit.vhd2default:default2
 1872default:default8@Z8-256
@@ -34692,14 +35082,14 @@ S
 ó
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 ALU_Bit__parameterized22default:default2
-1562default:default2
+1642default:default2
 12default:default2¸
 ¡/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/alu_bit.vhd2default:default2
 1872default:default8@Z8-256
 ë
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 ALU__parameterized02default:default2
-1572default:default2
+1652default:default2
 12default:default2´
 /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/alu.vhd2default:default2
 2132default:default8@Z8-256
@@ -34899,7 +35289,7 @@ U
 Š
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &Shift_Logic_Module_gti__parameterized02default:default2
-1582default:default2
+1662default:default2
 12default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/shift_logic_gti.vhd2default:default2
 1922default:default8@Z8-256
@@ -35148,7 +35538,7 @@ W
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 dsp_module__parameterized02default:default2
-1592default:default2
+1672default:default2
 12default:default2»
 ¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/dsp_module.vhd2default:default2
 1852default:default8@Z8-256
@@ -35368,7 +35758,7 @@ W
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 dsp_module__parameterized22default:default2
-1592default:default2
+1672default:default2
 12default:default2»
 ¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/dsp_module.vhd2default:default2
 1852default:default8@Z8-256
@@ -35588,14 +35978,14 @@ W
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 dsp_module__parameterized42default:default2
-1592default:default2
+1672default:default2
 12default:default2»
 ¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/dsp_module.vhd2default:default2
 1852default:default8@Z8-256
 å
 %done synthesizing module '%s' (%s#%s)256*oasys2
 mul_unit2default:default2
-1602default:default2
+1682default:default2
 12default:default2¹
 ¢/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/mul_unit.vhd2default:default2
 1872default:default8@Z8-256
@@ -35631,7 +36021,7 @@ U
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "Barrel_Shifter_gti__parameterized02default:default2
-1612default:default2
+1692default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/barrel_shifter_gti.vhd2default:default2
 1932default:default8@Z8-256
@@ -35744,7 +36134,7 @@ X
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 WB_Mux_Bit__parameterized02default:default2
-1622default:default2
+1702default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/wb_mux_bit_gti.vhd2default:default2
 1852default:default8@Z8-256
@@ -36123,7 +36513,7 @@ X
 õ
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 WB_Mux__parameterized02default:default2
-1632default:default2
+1712default:default2
 12default:default2»
 ¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/wb_mux_gti.vhd2default:default2
 2232default:default8@Z8-256
@@ -36143,7 +36533,7 @@ U
 ƒ
 %done synthesizing module '%s' (%s#%s)256*oasys23
 Zero_Detect_gti__parameterized02default:default2
-1642default:default2
+1722default:default2
 12default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/zero_detect_gti.vhd2default:default2
 1942default:default8@Z8-256
@@ -36187,7 +36577,7 @@ X
 “
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'Byte_Doublet_Handle_gti__parameterized02default:default2
-1652default:default2
+1732default:default2
 12default:default2È
 ±/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/byte_doublet_handle_gti.vhd2default:default2
 2582default:default8@Z8-256
@@ -36735,7 +37125,7 @@ L
 ‡
 %done synthesizing module '%s' (%s#%s)256*oasys23
 Data_Flow_Logic__parameterized02default:default2
-1662default:default2
+1742default:default2
 12default:default2Ä
 ­/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/data_flow_logic_gti.vhd2default:default2
 2222default:default8@Z8-256
@@ -36999,7 +37389,7 @@ C
 û
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 msr_reg_gti__parameterized02default:default2
-1672default:default2
+1752default:default2
 12default:default2¼
 ¥/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/msr_reg_gti.vhd2default:default2
 2092default:default8@Z8-256
@@ -37180,7 +37570,7 @@ S
 ó
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 mux_bus__parameterized02default:default2
-1682default:default2
+1762default:default2
 12default:default2¸
 ¡/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/mux_bus.vhd2default:default2
 1762default:default8@Z8-256
@@ -37443,7 +37833,7 @@ C
 “
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'exception_registers_gti__parameterized02default:default2
-1692default:default2
+1772default:default2
 12default:default2È
 ±/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/exception_registers_gti.vhd2default:default2
 2092default:default8@Z8-256
@@ -37615,7 +38005,7 @@ S
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys20
 Div_unit_gti__parameterized02default:default2
-1702default:default2
+1782default:default2
 12default:default2½
 ¦/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/div_unit_gti.vhd2default:default2
 1852default:default8@Z8-256
@@ -37659,7 +38049,7 @@ X
 Û
 %done synthesizing module '%s' (%s#%s)256*oasys2
 Fpu2default:default2
-1712default:default2
+1792default:default2
 12default:default2´
 /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/fpu.vhd2default:default2
 2002default:default8@Z8-256
@@ -38359,14 +38749,14 @@ Z
 ë
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 PVR__parameterized02default:default2
-1722default:default2
+1802default:default2
 12default:default2´
 /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/pvr.vhd2default:default2
 2822default:default8@Z8-256
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys21
 Data_Flow_gti__parameterized02default:default2
-1732default:default2
+1812default:default2
 12default:default2¾
 §/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/data_flow_gti.vhd2default:default2
 6072default:default8@Z8-256
@@ -38406,7 +38796,7 @@ U
 ƒ
 %done synthesizing module '%s' (%s#%s)256*oasys21
 read_data_mux__parameterized02default:default2
-1742default:default2
+1822default:default2
 12default:default2Â
 «/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/read_data_mux_gti.vhd2default:default2
 1542default:default8@Z8-256
@@ -38466,7 +38856,7 @@ V
 
 %done synthesizing module '%s' (%s#%s)256*oasys22
 DAXI_interface__parameterized02default:default2
-1752default:default2
+1832default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/daxi_interface.vhd2default:default2
 2312default:default8@Z8-256
@@ -38759,7 +39149,7 @@ S
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 comparator__parameterized22default:default2
-1752default:default2
+1832default:default2
 12default:default2»
 ¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/comparator.vhd2default:default2
 1642default:default8@Z8-256
@@ -39787,7 +40177,7 @@ Z
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 RAM_Module__parameterized22default:default2
-1752default:default2
+1832default:default2
 12default:default2»
 ¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/ram_module.vhd2default:default2
 1982default:default8@Z8-256
@@ -41147,7 +41537,7 @@ Z
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 RAM_Module__parameterized42default:default2
-1752default:default2
+1832default:default2
 12default:default2»
 ¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/ram_module.vhd2default:default2
 1982default:default8@Z8-256
@@ -41499,14 +41889,14 @@ L
 ƒ
 %done synthesizing module '%s' (%s#%s)256*oasys23
 Cache_Interface__parameterized02default:default2
-1762default:default2
+1842default:default2
 12default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/cache_interface.vhd2default:default2
 3402default:default8@Z8-256
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 DCache_gti__parameterized02default:default2
-1772default:default2
+1852default:default2
 12default:default2»
 ¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/dcache_gti.vhd2default:default2
 3432default:default8@Z8-256
@@ -41578,7 +41968,7 @@ S
 ÷
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 instr_mux__parameterized02default:default2
-1782default:default2
+1862default:default2
 12default:default2º
 £/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/instr_mux.vhd2default:default2
 1732default:default8@Z8-256
@@ -42071,7 +42461,7 @@ N
 ƒ
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 MB_SRL16E__parameterized02default:default2
-1792default:default2
+1872default:default2
 12default:default2Æ
 ¯/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/microblaze_primitives.vhd2default:default2
 1672default:default8@Z8-256
@@ -42115,7 +42505,7 @@ N
 ƒ
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 MB_SRL16E__parameterized22default:default2
-1792default:default2
+1872default:default2
 12default:default2Æ
 ¯/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/microblaze_primitives.vhd2default:default2
 1672default:default8@Z8-256
@@ -42159,7 +42549,7 @@ N
 ƒ
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 MB_SRL16E__parameterized42default:default2
-1792default:default2
+1872default:default2
 12default:default2Æ
 ¯/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/microblaze_primitives.vhd2default:default2
 1672default:default8@Z8-256
@@ -42203,7 +42593,7 @@ N
 ƒ
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 MB_SRL16E__parameterized62default:default2
-1792default:default2
+1872default:default2
 12default:default2Æ
 ¯/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/microblaze_primitives.vhd2default:default2
 1672default:default8@Z8-256
@@ -42247,7 +42637,7 @@ N
 ƒ
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 MB_SRL16E__parameterized82default:default2
-1792default:default2
+1872default:default2
 12default:default2Æ
 ¯/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/microblaze_primitives.vhd2default:default2
 1672default:default8@Z8-256
@@ -42291,7 +42681,7 @@ N
 „
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 MB_SRL16E__parameterized102default:default2
-1792default:default2
+1872default:default2
 12default:default2Æ
 ¯/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/microblaze_primitives.vhd2default:default2
 1672default:default8@Z8-256
@@ -42347,7 +42737,7 @@ N
 „
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 MB_SRL16E__parameterized122default:default2
-1792default:default2
+1872default:default2
 12default:default2Æ
 ¯/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/microblaze_primitives.vhd2default:default2
 1672default:default8@Z8-256
@@ -42415,7 +42805,7 @@ N
 „
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 MB_SRL16E__parameterized142default:default2
-1792default:default2
+1872default:default2
 12default:default2Æ
 ¯/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/microblaze_primitives.vhd2default:default2
 1672default:default8@Z8-256
@@ -42459,7 +42849,7 @@ N
 „
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 MB_SRL16E__parameterized162default:default2
-1792default:default2
+1872default:default2
 12default:default2Æ
 ¯/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/microblaze_primitives.vhd2default:default2
 1672default:default8@Z8-256
@@ -42616,7 +43006,7 @@ N
 „
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 MB_SRLC16E__parameterized02default:default2
-1802default:default2
+1882default:default2
 12default:default2Æ
 ¯/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/microblaze_primitives.vhd2default:default2
 2432default:default8@Z8-256
@@ -42679,7 +43069,7 @@ S
 û
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 address_hit__parameterized02default:default2
-1812default:default2
+1892default:default2
 12default:default2¼
 ¥/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/address_hit.vhd2default:default2
 1752default:default8@Z8-256
@@ -42710,7 +43100,7 @@ S
 ï
 %done synthesizing module '%s' (%s#%s)256*oasys2)
 Debug__parameterized02default:default2
-1822default:default2
+1902default:default2
 12default:default2¶
 Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/debug.vhd2default:default2
 3952default:default8@Z8-256
@@ -42826,28 +43216,28 @@ Y
 ë
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 MMU__parameterized02default:default2
-1832default:default2
+1912default:default2
 12default:default2´
 /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/mmu.vhd2default:default2
 2622default:default8@Z8-256
 ƒ
 %done synthesizing module '%s' (%s#%s)256*oasys23
 MicroBlaze_Core__parameterized02default:default2
-1842default:default2
+1922default:default2
 12default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/microblaze_core.vhd2default:default2
 8652default:default8@Z8-256
 ù
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 MicroBlaze__parameterized02default:default2
-1852default:default2
+1932default:default2
 12default:default2»
 ¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/hdl/vhdl/microblaze.vhd2default:default2
 8362default:default8@Z8-256
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 design_1_microblaze_0_02default:default2
-1862default:default2
+1942default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_0/synth/design_1_microblaze_0_0.vhd2default:default2
 1522default:default8@Z8-256
@@ -42858,7 +43248,7 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 882default:default2
 862default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-7072default:default8@Z8-350
+8122default:default8@Z8-350
 ×
 synthesizing module '%s'638*oasys24
  design_1_microblaze_0_axi_intc_02default:default2Ñ
@@ -43212,14 +43602,14 @@ _
 õ
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 shared_ram_ivar2default:default2
-1872default:default2
+1952default:default2
 12default:default2Â
 «/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_intc_v4_1/28e93d3e/hdl/src/vhdl/shared_ram_ivar.vhd2default:default2
 1682default:default8@Z8-256
 é
 %done synthesizing module '%s' (%s#%s)256*oasys2
 	intc_core2default:default2
-1882default:default2
+1962default:default2
 12default:default2¼
 ¥/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_intc_v4_1/28e93d3e/hdl/src/vhdl/intc_core.vhd2default:default2
 2622default:default8@Z8-256
@@ -43346,7 +43736,7 @@ Z
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 pselect_f__parameterized32default:default2
-1882default:default2
+1962default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -43374,7 +43764,7 @@ Z
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 pselect_f__parameterized42default:default2
-1882default:default2
+1962default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -43402,7 +43792,7 @@ Z
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 pselect_f__parameterized52default:default2
-1882default:default2
+1962default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -43430,7 +43820,7 @@ Z
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 pselect_f__parameterized62default:default2
-1882default:default2
+1962default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -43458,7 +43848,7 @@ Z
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 pselect_f__parameterized72default:default2
-1882default:default2
+1962default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -43486,7 +43876,7 @@ Z
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 pselect_f__parameterized82default:default2
-1882default:default2
+1962default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -43514,7 +43904,7 @@ Z
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 pselect_f__parameterized92default:default2
-1882default:default2
+1962default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -43542,7 +43932,7 @@ Z
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 pselect_f__parameterized102default:default2
-1882default:default2
+1962default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -43570,7 +43960,7 @@ Z
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 pselect_f__parameterized112default:default2
-1882default:default2
+1962default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -43598,7 +43988,7 @@ Z
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 pselect_f__parameterized122default:default2
-1882default:default2
+1962default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -43626,7 +44016,7 @@ Z
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 pselect_f__parameterized132default:default2
-1882default:default2
+1962default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -43654,7 +44044,7 @@ Z
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 pselect_f__parameterized142default:default2
-1882default:default2
+1962default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -43682,7 +44072,7 @@ Z
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 pselect_f__parameterized152default:default2
-1882default:default2
+1962default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -43710,7 +44100,7 @@ Z
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 pselect_f__parameterized162default:default2
-1882default:default2
+1962default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -43738,7 +44128,7 @@ Z
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 pselect_f__parameterized172default:default2
-1882default:default2
+1962default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -43766,7 +44156,7 @@ Z
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 pselect_f__parameterized182default:default2
-1882default:default2
+1962default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -43794,7 +44184,7 @@ Z
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 pselect_f__parameterized192default:default2
-1882default:default2
+1962default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
@@ -43822,14 +44212,14 @@ Z
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 pselect_f__parameterized202default:default2
-1882default:default2
+1962default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_common_v4_0/bb615326/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
 Š
 %done synthesizing module '%s' (%s#%s)256*oasys23
 address_decoder__parameterized22default:default2
-1882default:default2
+1962default:default2
 12default:default2Ç
 °/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v2_0/82c7a66d/hdl/src/vhdl/address_decoder.vhd2default:default2
 1882default:default8@Z8-256
@@ -43840,28 +44230,28 @@ Z
 Œ
 %done synthesizing module '%s' (%s#%s)256*oasys24
  slave_attachment__parameterized22default:default2
-1882default:default2
+1962default:default2
 12default:default2È
 ±/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v2_0/82c7a66d/hdl/src/vhdl/slave_attachment.vhd2default:default2
 2432default:default8@Z8-256
 †
 %done synthesizing module '%s' (%s#%s)256*oasys21
 axi_lite_ipif__parameterized22default:default2
-1882default:default2
+1962default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v2_0/82c7a66d/hdl/src/vhdl/axi_lite_ipif.vhd2default:default2
 2532default:default8@Z8-256
 ÷
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 axi_intc__parameterized02default:default2
-1892default:default2
+1972default:default2
 12default:default2»
 ¤/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_intc_v4_1/28e93d3e/hdl/src/vhdl/axi_intc.vhd2default:default2
 3492default:default8@Z8-256
 ”
 %done synthesizing module '%s' (%s#%s)256*oasys24
  design_1_microblaze_0_axi_intc_02default:default2
-1902default:default2
+1982default:default2
 12default:default2Ñ
 º/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_axi_intc_0/synth/design_1_microblaze_0_axi_intc_0.vhd2default:default2
 892default:default8@Z8-256
@@ -43869,72 +44259,72 @@ Z
 synthesizing module '%s'638*oasys26
 "design_1_microblaze_0_axi_periph_12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-19092default:default8@Z8-638
+20372default:default8@Z8-638
 
 synthesizing module '%s'638*oasys2,
 m00_couplers_imp_1C4U3932default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-29772default:default8@Z8-638
+32512default:default8@Z8-638
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m00_couplers_imp_1C4U3932default:default2
-1912default:default2
+1992default:default2
 12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-29772default:default8@Z8-256
+32512default:default8@Z8-256
 
 synthesizing module '%s'638*oasys2+
 m01_couplers_imp_IIGQMH2default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-35152default:default8@Z8-638
+37892default:default8@Z8-638
 Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m01_couplers_imp_IIGQMH2default:default2
-1922default:default2
+2002default:default2
 12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-35152default:default8@Z8-256
+37892default:default8@Z8-256
 
 synthesizing module '%s'638*oasys2,
 m02_couplers_imp_1B1OY4Q2default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-36472default:default8@Z8-638
+39212default:default8@Z8-638
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m02_couplers_imp_1B1OY4Q2default:default2
-1932default:default2
+2012default:default2
 12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-36472default:default8@Z8-256
+39212default:default8@Z8-256
 
 synthesizing module '%s'638*oasys2+
 m03_couplers_imp_JI7UNO2default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-37792default:default8@Z8-638
+40532default:default8@Z8-638
 Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m03_couplers_imp_JI7UNO2default:default2
-1942default:default2
+2022default:default2
 12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-37792default:default8@Z8-256
+40532default:default8@Z8-256
 
 synthesizing module '%s'638*oasys2,
 m04_couplers_imp_19NT66L2default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-39112default:default8@Z8-638
+41852default:default8@Z8-638
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m04_couplers_imp_19NT66L2default:default2
-1952default:default2
+2032default:default2
 12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-39112default:default8@Z8-256
+41852default:default8@Z8-256
 
 synthesizing module '%s'638*oasys2+
 m05_couplers_imp_KWEOQB2default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-40432default:default8@Z8-638
+43172default:default8@Z8-638
 «
 synthesizing module '%s'638*oasys2&
 design_1_auto_pc_02default:default2³
@@ -44048,14 +44438,14 @@ X
 Å
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2
-1962default:default2
+2042default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/fcff1c57/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
 è
 %done synthesizing module '%s' (%s#%s)256*oasys2&
 design_1_auto_pc_02default:default2
-1972default:default2
+2052default:default2
 12default:default2³
 œ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v2default:default2
 572default:default8@Z8-256
@@ -44066,26 +44456,38 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 562default:default2
 522default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-42582default:default8@Z8-350
+45322default:default8@Z8-350
 Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m05_couplers_imp_KWEOQB2default:default2
-1982default:default2
+2062default:default2
 12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-40432default:default8@Z8-256
+43172default:default8@Z8-256
+
+synthesizing module '%s'638*oasys2,
+m06_couplers_imp_18I4Q7K2default:default2
+z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
+45872default:default8@Z8-638
+Í
+%done synthesizing module '%s' (%s#%s)256*oasys2,
+m06_couplers_imp_18I4Q7K2default:default2
+2072default:default2
+12default:default2
+z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
+45872default:default8@Z8-256
 
 synthesizing module '%s'638*oasys2+
 s00_couplers_imp_K2G5CL2default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-49052default:default8@Z8-638
+53252default:default8@Z8-638
 Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 s00_couplers_imp_K2G5CL2default:default2
-1992default:default2
+2082default:default2
 12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-49052default:default8@Z8-256
+53252default:default8@Z8-256
 ¢
 synthesizing module '%s'638*oasys2#
 design_1_xbar_22default:default2­
@@ -44106,7 +44508,7 @@ X
 2default:default
 ^
 %s*synth2O
-;	Parameter C_NUM_MASTER_SLOTS bound to: 6 - type: integer 
+;	Parameter C_NUM_MASTER_SLOTS bound to: 7 - type: integer 
 2default:default
 Z
 %s*synth2K
@@ -44128,13 +44530,13 @@ Z
 %s*synth2N
 :	Parameter C_NUM_ADDR_RANGES bound to: 1 - type: integer 
 2default:default
-Ó
-%s*synth2Ã
-®	Parameter C_M_AXI_BASE_ADDR bound to: 384'b000000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000100101000000000000000000000000000000000000000000000000000000100000001100000000000000000000000000000000000000000000000000000010000010100000000000000000000000000000000000000000000000000000001000001001000000000000000000000 
+“
+%s*synth2ƒ
+î	Parameter C_M_AXI_BASE_ADDR bound to: 448'b0000000000000000000000000000000001000100101000010000000000000000000000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000100101000000000000000000000000000000000000000000000000000000100000001100000000000000000000000000000000000000000000000000000010000010100000000000000000000000000000000000000000000000000000001000001001000000000000000000000 
 2default:default
-”
-%s*synth2„
-ï	Parameter C_M_AXI_ADDR_WIDTH bound to: 192'b000000000000000000000000000011000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000000110000000000000000000000000000010000 
+´
+%s*synth2¤
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 224'b00000000000000000000000000010000000000000000000000000000000011000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000000110000000000000000000000000000010000 
 2default:default
 [
 %s*synth2L
@@ -44168,13 +44570,13 @@ D	Parameter C_AXI_SUPPORTS_USER_SIGNALS bound to: 0 - type: integer
 %s*synth2N
 :	Parameter C_AXI_BUSER_WIDTH bound to: 1 - type: integer 
 2default:default
-œ
-%s*synth2Œ
-÷	Parameter C_M_AXI_WRITE_CONNECTIVITY bound to: 192'b000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
+¼
+%s*synth2¬
+—	Parameter C_M_AXI_WRITE_CONNECTIVITY bound to: 224'b00000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
 2default:default
-›
-%s*synth2‹
-ö	Parameter C_M_AXI_READ_CONNECTIVITY bound to: 192'b000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
+»
+%s*synth2«
+–	Parameter C_M_AXI_READ_CONNECTIVITY bound to: 224'b00000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
 2default:default
 X
 %s*synth2I
@@ -44192,21 +44594,21 @@ c
 %s*synth2T
 @	Parameter C_S_AXI_READ_ACCEPTANCE bound to: 1 - type: integer 
 2default:default
-—
-%s*synth2‡
-ò	Parameter C_M_AXI_WRITE_ISSUING bound to: 192'b000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
+·
+%s*synth2§
+’	Parameter C_M_AXI_WRITE_ISSUING bound to: 224'b00000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
 2default:default
-–
-%s*synth2†
-ñ	Parameter C_M_AXI_READ_ISSUING bound to: 192'b000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
+¶
+%s*synth2¦
+‘	Parameter C_M_AXI_READ_ISSUING bound to: 224'b00000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
 2default:default
 `
 %s*synth2Q
 =	Parameter C_S_AXI_ARB_PRIORITY bound to: 0 - type: integer 
 2default:default
-
-%s*synth2€
-ë	Parameter C_M_AXI_SECURE bound to: 192'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+°
+%s*synth2 
+‹	Parameter C_M_AXI_SECURE bound to: 224'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 2default:default
 _
 %s*synth2P
@@ -44244,13 +44646,13 @@ F
 %s*synth27
 #	Parameter P_INCR bound to: 2'b01 
 2default:default
+[
+%s*synth2L
+8	Parameter P_M_AXI_SUPPORTS_WRITE bound to: 7'b1111111 
+2default:default
 Z
 %s*synth2K
-7	Parameter P_M_AXI_SUPPORTS_WRITE bound to: 6'b111111 
-2default:default
-Y
-%s*synth2J
-6	Parameter P_M_AXI_SUPPORTS_READ bound to: 6'b111111 
+7	Parameter P_M_AXI_SUPPORTS_READ bound to: 7'b1111111 
 2default:default
 U
 %s*synth2F
@@ -44272,9 +44674,9 @@ Y
 %s*synth2J
 6	Parameter P_ADDR_DECODE bound to: 1 - type: integer 
 2default:default
-’
-%s*synth2‚
-í	Parameter P_M_AXI_ERR_MODE bound to: 192'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+²
+%s*synth2¢
+	Parameter P_M_AXI_ERR_MODE bound to: 224'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 2default:default
 Q
 %s*synth2B
@@ -44303,7 +44705,7 @@ X
 2default:default
 ^
 %s*synth2O
-;	Parameter C_NUM_MASTER_SLOTS bound to: 6 - type: integer 
+;	Parameter C_NUM_MASTER_SLOTS bound to: 7 - type: integer 
 2default:default
 ]
 %s*synth2N
@@ -44325,13 +44727,13 @@ Z
 %s*synth2K
 7	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
 2default:default
-Ó
-%s*synth2Ã
-®	Parameter C_M_AXI_BASE_ADDR bound to: 384'b000000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000100101000000000000000000000000000000000000000000000000000000100000001100000000000000000000000000000000000000000000000000000010000010100000000000000000000000000000000000000000000000000000001000001001000000000000000000000 
+“
+%s*synth2ƒ
+î	Parameter C_M_AXI_BASE_ADDR bound to: 448'b0000000000000000000000000000000001000100101000010000000000000000000000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000100101000000000000000000000000000000000000000000000000000000100000001100000000000000000000000000000000000000000000000000000010000010100000000000000000000000000000000000000000000000000000001000001001000000000000000000000 
 2default:default
-Ó
-%s*synth2Ã
-®	Parameter C_M_AXI_HIGH_ADDR bound to: 384'b000000000000000000000000000000001100000000000000000011111111111100000000000000000000000000000000010000000000000011111111111111110000000000000000000000000000000001000100101000001111111111111111000000000000000000000000000000000100000001100000111111111111111100000000000000000000000000000000010000010100000000001111111111110000000000000000000000000000000001000001001000001111111111111111 
+“
+%s*synth2ƒ
+î	Parameter C_M_AXI_HIGH_ADDR bound to: 448'b0000000000000000000000000000000001000100101000011111111111111111000000000000000000000000000000001100000000000000000011111111111100000000000000000000000000000000010000000000000011111111111111110000000000000000000000000000000001000100101000001111111111111111000000000000000000000000000000000100000001100000111111111111111100000000000000000000000000000000010000010100000000001111111111110000000000000000000000000000000001000001001000001111111111111111 
 2default:default
 
 %s*synth2
@@ -44373,25 +44775,25 @@ T
 %s*synth2E
 1	Parameter C_S_AXI_SUPPORTS_READ bound to: 1'b1 
 2default:default
+[
+%s*synth2L
+8	Parameter C_M_AXI_SUPPORTS_WRITE bound to: 7'b1111111 
+2default:default
 Z
 %s*synth2K
-7	Parameter C_M_AXI_SUPPORTS_WRITE bound to: 6'b111111 
-2default:default
-Y
-%s*synth2J
-6	Parameter C_M_AXI_SUPPORTS_READ bound to: 6'b111111 
+7	Parameter C_M_AXI_SUPPORTS_READ bound to: 7'b1111111 
 2default:default
 `
 %s*synth2Q
 =	Parameter C_S_AXI_ARB_PRIORITY bound to: 0 - type: integer 
 2default:default
-
-%s*synth2€
-ë	Parameter C_M_AXI_SECURE bound to: 192'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+°
+%s*synth2 
+‹	Parameter C_M_AXI_SECURE bound to: 224'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 2default:default
-’
-%s*synth2‚
-í	Parameter C_M_AXI_ERR_MODE bound to: 192'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+²
+%s*synth2¢
+	Parameter C_M_AXI_ERR_MODE bound to: 224'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 2default:default
 X
 %s*synth2I
@@ -44423,7 +44825,7 @@ U
 2default:default
 a
 %s*synth2R
->	Parameter P_NUM_MASTER_SLOTS_DE bound to: 7 - type: integer 
+>	Parameter P_NUM_MASTER_SLOTS_DE bound to: 8 - type: integer 
 2default:default
 b
 %s*synth2S
@@ -44469,13 +44871,13 @@ Z
 %s*synth2L
 8	Parameter P_NONSECURE_BIT bound to: 1 - type: integer 
 2default:default
-S
-%s*synth2D
-0	Parameter P_M_SECURE_MASK bound to: 6'b000000 
-2default:default
 T
 %s*synth2E
-1	Parameter P_M_AXILITE_MASK bound to: 6'b000000 
+1	Parameter P_M_SECURE_MASK bound to: 7'b0000000 
+2default:default
+U
+%s*synth2F
+2	Parameter P_M_AXILITE_MASK bound to: 7'b0000000 
 2default:default
 G
 %s*synth28
@@ -44537,7 +44939,7 @@ J
 
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #axi_crossbar_v2_1_addr_arbiter_sasd2default:default2
-2002default:default2
+2092default:default2
 12default:default2×
 À/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_addr_arbiter_sasd.v2default:default2
 652default:default8@Z8-256
@@ -44552,7 +44954,7 @@ X
 2default:default
 Y
 %s*synth2J
-6	Parameter C_NUM_TARGETS bound to: 6 - type: integer 
+6	Parameter C_NUM_TARGETS bound to: 7 - type: integer 
 2default:default
 ]
 %s*synth2N
@@ -44578,17 +44980,17 @@ X
 %s*synth2I
 5	Parameter C_REGION_ENC bound to: 1 - type: integer 
 2default:default
-Í
-%s*synth2½
-¨	Parameter C_BASE_ADDR bound to: 384'b000000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000100101000000000000000000000000000000000000000000000000000000100000001100000000000000000000000000000000000000000000000000000010000010100000000000000000000000000000000000000000000000000000001000001001000000000000000000000 
+
+%s*synth2ı
+è	Parameter C_BASE_ADDR bound to: 448'b0000000000000000000000000000000001000100101000010000000000000000000000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000100101000000000000000000000000000000000000000000000000000000100000001100000000000000000000000000000000000000000000000000000010000010100000000000000000000000000000000000000000000000000000001000001001000000000000000000000 
 2default:default
-Í
-%s*synth2½
-¨	Parameter C_HIGH_ADDR bound to: 384'b000000000000000000000000000000001100000000000000000011111111111100000000000000000000000000000000010000000000000011111111111111110000000000000000000000000000000001000100101000001111111111111111000000000000000000000000000000000100000001100000111111111111111100000000000000000000000000000000010000010100000000001111111111110000000000000000000000000000000001000001001000001111111111111111 
+
+%s*synth2ı
+è	Parameter C_HIGH_ADDR bound to: 448'b0000000000000000000000000000000001000100101000011111111111111111000000000000000000000000000000001100000000000000000011111111111100000000000000000000000000000000010000000000000011111111111111110000000000000000000000000000000001000100101000001111111111111111000000000000000000000000000000000100000001100000111111111111111100000000000000000000000000000000010000010100000000001111111111110000000000000000000000000000000001000001001000001111111111111111 
 2default:default
-R
-%s*synth2C
-/	Parameter C_TARGET_QUAL bound to: 7'b0111111 
+S
+%s*synth2D
+0	Parameter C_TARGET_QUAL bound to: 8'b01111111 
 2default:default
 X
 %s*synth2I
@@ -44630,7 +45032,7 @@ U
 ¿
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized02default:default2
-2002default:default2
+2092default:default2
 12default:default2ã
 Ì/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -44666,7 +45068,7 @@ U
 ¿
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized12default:default2
-2002default:default2
+2092default:default2
 12default:default2ã
 Ì/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -44702,7 +45104,7 @@ U
 ¿
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized22default:default2
-2002default:default2
+2092default:default2
 12default:default2ã
 Ì/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -44738,7 +45140,7 @@ U
 ¿
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized32default:default2
-2002default:default2
+2092default:default2
 12default:default2ã
 Ì/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -44774,7 +45176,7 @@ U
 ¿
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized42default:default2
-2002default:default2
+2092default:default2
 12default:default2ã
 Ì/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -44810,14 +45212,50 @@ U
 ¿
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized52default:default2
-2002default:default2
+2092default:default2
+12default:default2ã
+Ì/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+612default:default8@Z8-256
+‚
+synthesizing module '%s'638*oasys2M
+9generic_baseblocks_v2_1_comparator_static__parameterized62default:default2ã
+Ì/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
+612default:default8@Z8-638
+U
+%s*synth2F
+2	Parameter C_FAMILY bound to: rtl - type: string 
+2default:default
+d
+%s*synth2U
+A	Parameter C_VALUE bound to: 30'b010001001010000100000000000000 
+2default:default
+Y
+%s*synth2J
+6	Parameter C_DATA_WIDTH bound to: 30 - type: integer 
+2default:default
+Z
+%s*synth2K
+7	Parameter C_BITS_PER_LUT bound to: 6 - type: integer 
+2default:default
+U
+%s*synth2F
+2	Parameter C_NUM_LUT bound to: 5 - type: integer 
+2default:default
+]
+%s*synth2N
+:	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
+2default:default
+¿
+%done synthesizing module '%s' (%s#%s)256*oasys2M
+9generic_baseblocks_v2_1_comparator_static__parameterized62default:default2
+2092default:default2
 12default:default2ã
 Ì/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
 £
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_addr_decoder__parameterized12default:default2
-2002default:default2
+2092default:default2
 12default:default2Ò
 »/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-256
@@ -44833,7 +45271,7 @@ S
 ›
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_crossbar_v2_1_splitter__parameterized02default:default2
-2002default:default2
+2092default:default2
 12default:default2Î
 ·/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_splitter.v2default:default2
 722default:default8@Z8-256
@@ -44848,7 +45286,7 @@ U
 2default:default
 S
 %s*synth2D
-0	Parameter C_RATIO bound to: 7 - type: integer 
+0	Parameter C_RATIO bound to: 8 - type: integer 
 2default:default
 W
 %s*synth2H
@@ -44861,7 +45299,7 @@ X
 «
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized42default:default2
-2002default:default2
+2092default:default2
 12default:default2Ù
 Â/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -44889,7 +45327,7 @@ X
 «
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized52default:default2
-2002default:default2
+2092default:default2
 12default:default2Ù
 Â/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -44904,7 +45342,7 @@ U
 2default:default
 S
 %s*synth2D
-0	Parameter C_RATIO bound to: 7 - type: integer 
+0	Parameter C_RATIO bound to: 8 - type: integer 
 2default:default
 W
 %s*synth2H
@@ -44917,7 +45355,7 @@ Y
 «
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized62default:default2
-2002default:default2
+2092default:default2
 12default:default2Ù
 Â/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -44941,7 +45379,7 @@ X
 Ã
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized82default:default2
-2002default:default2
+2092default:default2
 12default:default2å
 Î/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/a2538a4c/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -44956,7 +45394,7 @@ U
 2default:default
 S
 %s*synth2D
-0	Parameter C_RATIO bound to: 7 - type: integer 
+0	Parameter C_RATIO bound to: 8 - type: integer 
 2default:default
 W
 %s*synth2H
@@ -44969,7 +45407,7 @@ X
 «
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized72default:default2
-2002default:default2
+2092default:default2
 12default:default2Ù
 Â/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/e185049c/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -45037,43 +45475,43 @@ U
 £
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_decerr_slave__parameterized02default:default2
-2002default:default2
+2092default:default2
 12default:default2Ò
 »/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
 642default:default8@Z8-256
 •
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_crossbar_v2_1_crossbar_sasd2default:default2
-2012default:default2
+2102default:default2
 12default:default2Ó
 ¼/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v2default:default2
 792default:default8@Z8-256
 £
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_axi_crossbar__parameterized02default:default2
-2012default:default2
+2102default:default2
 12default:default2Ò
 »/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/2e81f3ad/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-256
 ß
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 design_1_xbar_22default:default2
-2022default:default2
+2112default:default2
 12default:default2­
 –/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_xbar_2/synth/design_1_xbar_2.v2default:default2
 572default:default8@Z8-256
 ×
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "design_1_microblaze_0_axi_periph_12default:default2
-2032default:default2
+2122default:default2
 12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-19092default:default8@Z8-256
+20372default:default8@Z8-256
 œ
 synthesizing module '%s'638*oasys28
 $microblaze_0_local_memory_imp_Z0DGSF2default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-43132default:default8@Z8-638
+47332default:default8@Z8-638
 Î
 synthesizing module '%s'638*oasys21
 design_1_dlmb_bram_if_cntlr_02default:default2Ë
@@ -45369,28 +45807,28 @@ Q
 ‹
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #lmb_bram_if_cntlr_v4_0_pselect_mask2default:default2
-2042default:default2
+2132default:default2
 12default:default2Ä
 ­/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/lmb_bram_if_cntlr_v4_0/816dc01c/hdl/vhdl/pselect_mask.vhd2default:default2
 1102default:default8@Z8-256
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 lmb_mux__parameterized02default:default2
-2052default:default2
+2142default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/lmb_bram_if_cntlr_v4_0/816dc01c/hdl/vhdl/lmb_mux.vhd2default:default2
 1722default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !lmb_bram_if_cntlr__parameterized02default:default2
-2062default:default2
+2152default:default2
 12default:default2É
 ²/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/lmb_bram_if_cntlr_v4_0/816dc01c/hdl/vhdl/lmb_bram_if_cntlr.vhd2default:default2
 2192default:default8@Z8-256
 ‹
 %done synthesizing module '%s' (%s#%s)256*oasys21
 design_1_dlmb_bram_if_cntlr_02default:default2
-2072default:default2
+2162default:default2
 12default:default2Ë
 ´/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_0/synth/design_1_dlmb_bram_if_cntlr_0.vhd2default:default2
 842default:default8@Z8-256
@@ -45439,14 +45877,14 @@ Y
 ğ
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 lmb_v10__parameterized02default:default2
-2082default:default2
+2172default:default2
 12default:default2µ
 /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/lmb_v10_v3_0/512cab7c/hdl/vhdl/lmb_v10.vhd2default:default2
 1442default:default8@Z8-256
 í
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 design_1_dlmb_v10_02default:default2
-2092default:default2
+2182default:default2
 12default:default2·
  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_dlmb_v10_0/synth/design_1_dlmb_v10_0.vhd2default:default2
 892default:default8@Z8-256
@@ -45457,7 +45895,7 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 252default:default2
 242default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-44622default:default8@Z8-350
+48822default:default8@Z8-350
 Î
 synthesizing module '%s'638*oasys21
 design_1_ilmb_bram_if_cntlr_02default:default2Ë
@@ -45753,28 +46191,28 @@ R
 ›
 %done synthesizing module '%s' (%s#%s)256*oasys2G
 3lmb_bram_if_cntlr_v4_0_pselect_mask__parameterized02default:default2
-2092default:default2
+2182default:default2
 12default:default2Ä
 ­/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/lmb_bram_if_cntlr_v4_0/816dc01c/hdl/vhdl/pselect_mask.vhd2default:default2
 1102default:default8@Z8-256
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 lmb_mux__parameterized22default:default2
-2092default:default2
+2182default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/lmb_bram_if_cntlr_v4_0/816dc01c/hdl/vhdl/lmb_mux.vhd2default:default2
 1722default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !lmb_bram_if_cntlr__parameterized22default:default2
-2092default:default2
+2182default:default2
 12default:default2É
 ²/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/lmb_bram_if_cntlr_v4_0/816dc01c/hdl/vhdl/lmb_bram_if_cntlr.vhd2default:default2
 2192default:default8@Z8-256
 ‹
 %done synthesizing module '%s' (%s#%s)256*oasys21
 design_1_ilmb_bram_if_cntlr_02default:default2
-2102default:default2
+2192default:default2
 12default:default2Ë
 ´/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_ilmb_bram_if_cntlr_0/synth/design_1_ilmb_bram_if_cntlr_0.vhd2default:default2
 842default:default8@Z8-256
@@ -45802,7 +46240,7 @@ Y
 í
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 design_1_ilmb_v10_02default:default2
-2112default:default2
+2202default:default2
 12default:default2·
  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_ilmb_v10_0/synth/design_1_ilmb_v10_0.vhd2default:default2
 892default:default8@Z8-256
@@ -45813,7 +46251,7 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 252default:default2
 242default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-45082default:default8@Z8-350
+49282default:default8@Z8-350
 °
 synthesizing module '%s'638*oasys2'
 design_1_lmb_bram_02default:default2·
@@ -47046,7 +47484,7 @@ Y
 ‡
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #blk_mem_input_block__parameterized12default:default2
-2112default:default2
+2202default:default2
 12default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_input_block.vhd2default:default2
 3922default:default8@Z8-256
@@ -47358,7 +47796,7 @@ W
 é
 %done synthesizing module '%s' (%s#%s)256*oasys2
 bindec2default:default2
-2122default:default2
+2212default:default2
 12default:default2¿
 ¨/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_bindec.vhd2default:default2
 1672default:default8@Z8-256
@@ -48507,14 +48945,14 @@ Y
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized22default:default2
-2122default:default2
+2212default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized22default:default2
-2122default:default2
+2212default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
@@ -49663,14 +50101,14 @@ Y
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized32default:default2
-2122default:default2
+2212default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized32default:default2
-2122default:default2
+2212default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
@@ -50819,14 +51257,14 @@ Y
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized42default:default2
-2122default:default2
+2212default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized42default:default2
-2122default:default2
+2212default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
@@ -51975,14 +52413,14 @@ Y
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized52default:default2
-2122default:default2
+2212default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized52default:default2
-2122default:default2
+2212default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
@@ -53131,14 +53569,14 @@ Y
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized62default:default2
-2122default:default2
+2212default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized62default:default2
-2122default:default2
+2212default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
@@ -54287,14 +54725,14 @@ Y
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized72default:default2
-2122default:default2
+2212default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized72default:default2
-2122default:default2
+2212default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
@@ -55443,14 +55881,14 @@ Y
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized82default:default2
-2122default:default2
+2212default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized82default:default2
-2122default:default2
+2212default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
@@ -56599,14 +57037,14 @@ Y
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_prim_wrapper__parameterized92default:default2
-2122default:default2
+2212default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_prim_width__parameterized92default:default2
-2122default:default2
+2212default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
@@ -57755,14 +58193,14 @@ Y
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized102default:default2
-2122default:default2
+2212default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized102default:default2
-2122default:default2
+2212default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
@@ -58911,14 +59349,14 @@ Y
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized112default:default2
-2122default:default2
+2212default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized112default:default2
-2122default:default2
+2212default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
@@ -60067,14 +60505,14 @@ Y
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized122default:default2
-2122default:default2
+2212default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized122default:default2
-2122default:default2
+2212default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
@@ -61223,14 +61661,14 @@ Y
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized132default:default2
-2122default:default2
+2212default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized132default:default2
-2122default:default2
+2212default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
@@ -62379,14 +62817,14 @@ Y
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized142default:default2
-2122default:default2
+2212default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized142default:default2
-2122default:default2
+2212default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
@@ -63535,14 +63973,14 @@ Y
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized152default:default2
-2122default:default2
+2212default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized152default:default2
-2122default:default2
+2212default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
@@ -64691,14 +65129,14 @@ Y
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized162default:default2
-2122default:default2
+2212default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized162default:default2
-2122default:default2
+2212default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
@@ -65847,14 +66285,14 @@ Y
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )blk_mem_gen_prim_wrapper__parameterized172default:default2
-2122default:default2
+2212default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_wrapper.vhd2default:default2
 3992default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'blk_mem_gen_prim_width__parameterized172default:default2
-2122default:default2
+2212default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 4002default:default8@Z8-256
@@ -65954,7 +66392,7 @@ V
 ï
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 blk_mem_gen_mux2default:default2
-2132default:default2
+2222default:default2
 12default:default2¼
 ¥/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_mux.vhd2default:default2
 2842default:default8@Z8-256
@@ -66054,14 +66492,14 @@ V
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys23
 blk_mem_gen_mux__parameterized02default:default2
-2132default:default2
+2222default:default2
 12default:default2¼
 ¥/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_mux.vhd2default:default2
 2842default:default8@Z8-256
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (blk_mem_gen_generic_cstr__parameterized12default:default2
-2132default:default2
+2222default:default2
 12default:default2Å
 ®/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_generic_cstr.vhd2default:default2
 4502default:default8@Z8-256
@@ -66113,45 +66551,45 @@ U
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $blk_mem_output_block__parameterized12default:default2
-2132default:default2
+2222default:default2
 12default:default2Á
 ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_output_block.vhd2default:default2
 2142default:default8@Z8-256
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys23
 blk_mem_gen_top__parameterized12default:default2
-2132default:default2
+2222default:default2
 12default:default2¼
 ¥/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_top.vhd2default:default2
 4442default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &blk_mem_gen_v8_2_synth__parameterized12default:default2
-2132default:default2
+2222default:default2
 12default:default2Ã
 ¬/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_v8_2_synth.vhd2default:default2
 3162default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys24
  blk_mem_gen_v8_2__parameterized42default:default2
-2132default:default2
+2222default:default2
 12default:default2½
 ¦/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_v8_2.vhd2default:default2
 2572default:default8@Z8-256
 í
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 design_1_lmb_bram_02default:default2
-2142default:default2
+2232default:default2
 12default:default2·
  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_lmb_bram_0/synth/design_1_lmb_bram_0.vhd2default:default2
 782default:default8@Z8-256
 Ù
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $microblaze_0_local_memory_imp_Z0DGSF2default:default2
-2152default:default2
+2242default:default2
 12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-43132default:default8@Z8-256
+47332default:default8@Z8-256
 à
 synthesizing module '%s'638*oasys2,
 design_1_mig_7series_0_32default:default2â
@@ -66861,14 +67299,14 @@ IDELAYCTRL2default:default2T
 %done synthesizing module '%s' (%s#%s)256*oasys2
 
 IDELAYCTRL2default:default2
-2162default:default2
+2252default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 122462default:default8@Z8-256
 °
 %done synthesizing module '%s' (%s#%s)256*oasys21
 mig_7series_v2_0_iodelay_ctrl2default:default2
-2172default:default2
+2262default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/clocking/mig_7series_v2_0_iodelay_ctrl.v2default:default2
 802default:default8@Z8-256
@@ -66894,7 +67332,7 @@ IDELAYCTRL2default:default2
 ¨
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 mig_7series_v2_0_clk_ibuf2default:default2
-2182default:default2
+2272default:default2
 12default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/clocking/mig_7series_v2_0_clk_ibuf.v2default:default2
 682default:default8@Z8-256
@@ -67119,14 +67557,14 @@ V
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2
 XADC2default:default2
-2192default:default2
+2282default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 354882default:default8@Z8-256
 ¦
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 mig_7series_v2_0_tempmon2default:default2
-2202default:default2
+2292default:default2
 12default:default2ë
 Ô/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/clocking/mig_7series_v2_0_tempmon.v2default:default2
 692default:default8@Z8-256
@@ -67451,7 +67889,7 @@ c
 ‚
 %done synthesizing module '%s' (%s#%s)256*oasys2
 	PLLE2_ADV2default:default2
-2212default:default2
+2302default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 260572default:default8@Z8-256
@@ -67463,7 +67901,7 @@ c
 û
 %done synthesizing module '%s' (%s#%s)256*oasys2
 BUFH2default:default2
-2222default:default2
+2312default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 7952default:default8@Z8-256
@@ -67667,7 +68105,7 @@ c
 “
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 MMCME2_ADV__parameterized02default:default2
-2222default:default2
+2312default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 159942default:default8@Z8-256
@@ -67704,7 +68142,7 @@ c
 ´
 %done synthesizing module '%s' (%s#%s)256*oasys23
 mig_7series_v2_0_infrastructure2default:default2
-2232default:default2
+2322default:default2
 12default:default2ò
 Û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/clocking/mig_7series_v2_0_infrastructure.v2default:default2
 782default:default8@Z8-256
@@ -69449,14 +69887,14 @@ c
 
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 SRLC32E__parameterized02default:default2
-2232default:default2
+2322default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 346742default:default8@Z8-256
 ®
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 mig_7series_v2_0_rank_cntrl2default:default2
-2242default:default2
+2332default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_rank_cntrl.v2default:default2
 792default:default8@Z8-256
@@ -69567,7 +70005,7 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 ¹
 %done synthesizing module '%s' (%s#%s)256*oasys24
  mig_7series_v2_0_round_robin_arb2default:default2
-2252default:default2
+2342default:default2
 12default:default2õ
 Ş/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_round_robin_arb.v2default:default2
 1212default:default8@Z8-256
@@ -69597,21 +70035,21 @@ O
 É
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0mig_7series_v2_0_round_robin_arb__parameterized02default:default2
-2252default:default2
+2342default:default2
 12default:default2õ
 Ş/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_round_robin_arb.v2default:default2
 1212default:default8@Z8-256
 °
 %done synthesizing module '%s' (%s#%s)256*oasys20
 mig_7series_v2_0_rank_common2default:default2
-2262default:default2
+2352default:default2
 12default:default2ñ
 Ú/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_rank_common.v2default:default2
 722default:default8@Z8-256
 ¬
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 mig_7series_v2_0_rank_mach2default:default2
-2272default:default2
+2362default:default2
 12default:default2ï
 Ø/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_rank_mach.v2default:default2
 712default:default8@Z8-256
@@ -69968,7 +70406,7 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 ²
 %done synthesizing module '%s' (%s#%s)256*oasys21
 mig_7series_v2_0_bank_compare2default:default2
-2282default:default2
+2372default:default2
 12default:default2ò
 Û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_bank_compare.v2default:default2
 742default:default8@Z8-256
@@ -70128,7 +70566,7 @@ Z
 ¯
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 mig_7series_v2_0_bank_state2default:default2
-2292default:default2
+2382default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_bank_state.v2default:default2
 1412default:default8@Z8-256
@@ -70176,14 +70614,14 @@ J
 ¯
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 mig_7series_v2_0_bank_queue2default:default2
-2302default:default2
+2392default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_bank_queue.v2default:default2
 1742default:default8@Z8-256
 ®
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 mig_7series_v2_0_bank_cntrl2default:default2
-2312default:default2
+2402default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_bank_cntrl.v2default:default2
 702default:default8@Z8-256
@@ -70448,7 +70886,7 @@ Z
 ¿
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +mig_7series_v2_0_bank_state__parameterized02default:default2
-2312default:default2
+2402default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_bank_state.v2default:default2
 1412default:default8@Z8-256
@@ -70496,14 +70934,14 @@ J
 ¿
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +mig_7series_v2_0_bank_queue__parameterized02default:default2
-2312default:default2
+2402default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_bank_queue.v2default:default2
 1742default:default8@Z8-256
 ¾
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +mig_7series_v2_0_bank_cntrl__parameterized02default:default2
-2312default:default2
+2402default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_bank_cntrl.v2default:default2
 702default:default8@Z8-256
@@ -70768,7 +71206,7 @@ Z
 ¿
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +mig_7series_v2_0_bank_state__parameterized12default:default2
-2312default:default2
+2402default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_bank_state.v2default:default2
 1412default:default8@Z8-256
@@ -70816,14 +71254,14 @@ J
 ¿
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +mig_7series_v2_0_bank_queue__parameterized12default:default2
-2312default:default2
+2402default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_bank_queue.v2default:default2
 1742default:default8@Z8-256
 ¾
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +mig_7series_v2_0_bank_cntrl__parameterized12default:default2
-2312default:default2
+2402default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_bank_cntrl.v2default:default2
 702default:default8@Z8-256
@@ -71088,7 +71526,7 @@ Z
 ¿
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +mig_7series_v2_0_bank_state__parameterized22default:default2
-2312default:default2
+2402default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_bank_state.v2default:default2
 1412default:default8@Z8-256
@@ -71136,14 +71574,14 @@ J
 ¿
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +mig_7series_v2_0_bank_queue__parameterized22default:default2
-2312default:default2
+2402default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_bank_queue.v2default:default2
 1742default:default8@Z8-256
 ¾
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +mig_7series_v2_0_bank_cntrl__parameterized22default:default2
-2312default:default2
+2402default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_bank_cntrl.v2default:default2
 702default:default8@Z8-256
@@ -71239,7 +71677,7 @@ Q
 °
 %done synthesizing module '%s' (%s#%s)256*oasys20
 mig_7series_v2_0_bank_common2default:default2
-2322default:default2
+2412default:default2
 12default:default2ñ
 Ú/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_bank_common.v2default:default2
 732default:default8@Z8-256
@@ -71455,14 +71893,14 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 É
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0mig_7series_v2_0_round_robin_arb__parameterized12default:default2
-2322default:default2
+2412default:default2
 12default:default2õ
 Ş/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_round_robin_arb.v2default:default2
 1212default:default8@Z8-256
 °
 %done synthesizing module '%s' (%s#%s)256*oasys20
 mig_7series_v2_0_arb_row_col2default:default2
-2332default:default2
+2422default:default2
 12default:default2ñ
 Ú/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_arb_row_col.v2default:default2
 832default:default8@Z8-256
@@ -71600,21 +72038,21 @@ B
 ®
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 mig_7series_v2_0_arb_select2default:default2
-2342default:default2
+2432default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_arb_select.v2default:default2
 752default:default8@Z8-256
 ¨
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 mig_7series_v2_0_arb_mux2default:default2
-2352default:default2
+2442default:default2
 12default:default2í
 Ö/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_arb_mux.v2default:default2
 692default:default8@Z8-256
 ¬
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 mig_7series_v2_0_bank_mach2default:default2
-2362default:default2
+2452default:default2
 12default:default2ï
 Ø/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_bank_mach.v2default:default2
 722default:default8@Z8-256
@@ -71752,7 +72190,7 @@ b	Parameter INIT_D bound to: 64'b00000000000000000000000000000000000000000000000
 
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 RAM32M__parameterized02default:default2
-2372default:default2
+2462default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 279872default:default8@Z8-256
@@ -71766,14 +72204,14 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 ª
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 mig_7series_v2_0_col_mach2default:default2
-2382default:default2
+2472default:default2
 12default:default2î
 ×/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_col_mach.v2default:default2
 882default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 mig_7series_v2_0_mc2default:default2
-2392default:default2
+2482default:default2
 12default:default2è
 Ñ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/controller/mig_7series_v2_0_mc.v2default:default2
 732default:default8@Z8-256
@@ -72755,7 +73193,7 @@ R
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2
 OBUF2default:default2
-2402default:default2
+2492default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 173052default:default8@Z8-256
@@ -72783,7 +73221,7 @@ R
 ş
 %done synthesizing module '%s' (%s#%s)256*oasys2
 OBUFT2default:default2
-2412default:default2
+2502default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 174662default:default8@Z8-256
@@ -72819,7 +73257,7 @@ R
 Œ
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 IOBUF_INTERMDISABLE2default:default2
-2422default:default2
+2512default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 135282default:default8@Z8-256
@@ -72859,7 +73297,7 @@ R
 
 %done synthesizing module '%s' (%s#%s)256*oasys2)
 IOBUFDS_INTERMDISABLE2default:default2
-2432default:default2
+2522default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 131232default:default8@Z8-256
@@ -72903,7 +73341,7 @@ T
 ±
 %done synthesizing module '%s' (%s#%s)256*oasys24
  mig_7series_v2_0_ddr_of_pre_fifo2default:default2
-2442default:default2
+2532default:default2
 12default:default2î
 ×/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_of_pre_fifo.v2default:default2
 762default:default8@Z8-256
@@ -72943,7 +73381,7 @@ T
 Á
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0mig_7series_v2_0_ddr_of_pre_fifo__parameterized02default:default2
-2442default:default2
+2532default:default2
 12default:default2î
 ×/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_of_pre_fifo.v2default:default2
 762default:default8@Z8-256
@@ -74901,7 +75339,7 @@ a
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2
 BUFIO2default:default2
-2452default:default2
+2542default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 8202default:default8@Z8-256
@@ -75180,7 +75618,7 @@ T
 ³
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !mig_7series_v2_0_ddr_if_post_fifo2default:default2
-2462default:default2
+2552default:default2
 12default:default2ï
 Ø/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_if_post_fifo.v2default:default2
 682default:default8@Z8-256
@@ -75212,7 +75650,7 @@ T
 Á
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0mig_7series_v2_0_ddr_of_pre_fifo__parameterized12default:default2
-2462default:default2
+2552default:default2
 12default:default2î
 ×/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_of_pre_fifo.v2default:default2
 762default:default8@Z8-256
@@ -75284,7 +75722,7 @@ c
 †
 %done synthesizing module '%s' (%s#%s)256*oasys2!
 PHASER_IN_PHY2default:default2
-2472default:default2
+2562default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 257432default:default8@Z8-256
@@ -75356,7 +75794,7 @@ c
 ‡
 %done synthesizing module '%s' (%s#%s)256*oasys2"
 PHASER_OUT_PHY2default:default2
-2482default:default2
+2572default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 258802default:default8@Z8-256
@@ -75384,7 +75822,7 @@ _
 €
 %done synthesizing module '%s' (%s#%s)256*oasys2
 IN_FIFO2default:default2
-2492default:default2
+2582default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 128622default:default8@Z8-256
@@ -75416,7 +75854,7 @@ _
 
 %done synthesizing module '%s' (%s#%s)256*oasys2
 OUT_FIFO2default:default2
-2502default:default2
+2592default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 213142default:default8@Z8-256
@@ -75705,7 +76143,7 @@ R
 ‚
 %done synthesizing module '%s' (%s#%s)256*oasys2
 	ISERDESE22default:default2
-2512default:default2
+2602default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 152662default:default8@Z8-256
@@ -75765,7 +76203,7 @@ c
 
 %done synthesizing module '%s' (%s#%s)256*oasys2
 IDELAYE22default:default2
-2522default:default2
+2612default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 122582default:default8@Z8-256
@@ -75877,7 +76315,7 @@ Z
 ‚
 %done synthesizing module '%s' (%s#%s)256*oasys2
 	OSERDESE22default:default2
-2532default:default2
+2622default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 212002default:default8@Z8-256
@@ -75989,7 +76427,7 @@ Z
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 OSERDESE2__parameterized02default:default2
-2532default:default2
+2622default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 212002default:default8@Z8-256
@@ -76025,14 +76463,14 @@ M
 
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 ODDR__parameterized02default:default2
-2532default:default2
+2622default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 206282default:default8@Z8-256
 µ
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "mig_7series_v2_0_ddr_byte_group_io2default:default2
-2542default:default2
+2632default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_byte_group_io.v2default:default2
 692default:default8@Z8-256
@@ -76051,7 +76489,7 @@ M
 ­
 %done synthesizing module '%s' (%s#%s)256*oasys22
 mig_7series_v2_0_ddr_byte_lane2default:default2
-2552default:default2
+2642default:default2
 12default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_byte_lane.v2default:default2
 702default:default8@Z8-256
@@ -76364,7 +76802,7 @@ c
 —
 %done synthesizing module '%s' (%s#%s)256*oasys22
 PHASER_OUT_PHY__parameterized02default:default2
-2552default:default2
+2642default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 258802default:default8@Z8-256
@@ -76396,7 +76834,7 @@ _
 ‘
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 OUT_FIFO__parameterized02default:default2
-2552default:default2
+2642default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 213142default:default8@Z8-256
@@ -76689,7 +77127,7 @@ Z
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 OSERDESE2__parameterized12default:default2
-2552default:default2
+2642default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 212002default:default8@Z8-256
@@ -76720,7 +77158,7 @@ Z
 Å
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2mig_7series_v2_0_ddr_byte_group_io__parameterized02default:default2
-2552default:default2
+2642default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_byte_group_io.v2default:default2
 692default:default8@Z8-256
@@ -76769,7 +77207,7 @@ Z
 ½
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .mig_7series_v2_0_ddr_byte_lane__parameterized02default:default2
-2552default:default2
+2642default:default2
 12default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_byte_lane.v2default:default2
 702default:default8@Z8-256
@@ -77198,7 +77636,7 @@ _
 Å
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2mig_7series_v2_0_ddr_byte_group_io__parameterized12default:default2
-2552default:default2
+2642default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_byte_group_io.v2default:default2
 692default:default8@Z8-256
@@ -77217,7 +77655,7 @@ _
 ½
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .mig_7series_v2_0_ddr_byte_lane__parameterized12default:default2
-2552default:default2
+2642default:default2
 12default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_byte_lane.v2default:default2
 702default:default8@Z8-256
@@ -77670,7 +78108,7 @@ _
 Å
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2mig_7series_v2_0_ddr_byte_group_io__parameterized22default:default2
-2552default:default2
+2642default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_byte_group_io.v2default:default2
 692default:default8@Z8-256
@@ -77694,7 +78132,7 @@ R
 ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 OBUFDS2default:default2
-2562default:default2
+2652default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 173192default:default8@Z8-256
@@ -77743,7 +78181,7 @@ R
 ½
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .mig_7series_v2_0_ddr_byte_lane__parameterized22default:default2
-2562default:default2
+2652default:default2
 12default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_byte_lane.v2default:default2
 702default:default8@Z8-256
@@ -77891,7 +78329,7 @@ Y
 „
 %done synthesizing module '%s' (%s#%s)256*oasys2
 PHY_CONTROL2default:default2
-2572default:default2
+2662default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 259712default:default8@Z8-256
@@ -77913,7 +78351,7 @@ N
 %done synthesizing module '%s' (%s#%s)256*oasys2
 
 PHASER_REF2default:default2
-2582default:default2
+2672default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 259552default:default8@Z8-256
@@ -77942,14 +78380,14 @@ PHASER_REF2default:default2
 ¯
 %done synthesizing module '%s' (%s#%s)256*oasys23
 mig_7series_v2_0_ddr_phy_4lanes2default:default2
-2592default:default2
+2682default:default2
 12default:default2í
 Ö/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_phy_4lanes.v2default:default2
 722default:default8@Z8-256
 §
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 mig_7series_v2_0_ddr_mc_phy2default:default2
-2602default:default2
+2692default:default2
 12default:default2é
 Ò/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_mc_phy.v2default:default2
 702default:default8@Z8-256
@@ -77986,7 +78424,7 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 ·
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #mig_7series_v2_0_ddr_mc_phy_wrapper2default:default2
-2612default:default2
+2702default:default2
 12default:default2ñ
 Ú/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_mc_phy_wrapper.v2default:default2
 712default:default8@Z8-256
@@ -78283,7 +78721,7 @@ A	Parameter PRBS_SEQ_LEN_CYCLES_BITS bound to: 7 - type: integer
 «
 %done synthesizing module '%s' (%s#%s)256*oasys21
 mig_7series_v2_0_ddr_prbs_gen2default:default2
-2622default:default2
+2712default:default2
 12default:default2ë
 Ô/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_prbs_gen.v2default:default2
 922default:default8@Z8-256
@@ -78929,7 +79367,7 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 «
 %done synthesizing module '%s' (%s#%s)256*oasys21
 mig_7series_v2_0_ddr_phy_init2default:default2
-2632default:default2
+2722default:default2
 12default:default2ë
 Ô/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_phy_init.v2default:default2
 892default:default8@Z8-256
@@ -79049,7 +79487,7 @@ J
 ­
 %done synthesizing module '%s' (%s#%s)256*oasys22
 mig_7series_v2_0_ddr_phy_wrcal2default:default2
-2642default:default2
+2732default:default2
 12default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_phy_wrcal.v2default:default2
 772default:default8@Z8-256
@@ -79101,7 +79539,7 @@ U
 Á
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (mig_7series_v2_0_ddr_phy_wrlvl_off_delay2default:default2
-2652default:default2
+2742default:default2
 12default:default2ö
 ß/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_phy_wrlvl_off_delay.v2default:default2
 682default:default8@Z8-256
@@ -79307,7 +79745,7 @@ O
 Ã
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )mig_7series_v2_0_ddr_phy_dqs_found_cal_hr2default:default2
-2662default:default2
+2752default:default2
 12default:default2÷
 à/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_phy_dqs_found_cal_hr.v2default:default2
 792default:default8@Z8-256
@@ -79553,7 +79991,7 @@ X
 ­
 %done synthesizing module '%s' (%s#%s)256*oasys22
 mig_7series_v2_0_ddr_phy_rdlvl2default:default2
-2672default:default2
+2762default:default2
 12default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_phy_rdlvl.v2default:default2
 812default:default8@Z8-256
@@ -79637,7 +80075,7 @@ R
 ±
 %done synthesizing module '%s' (%s#%s)256*oasys24
  mig_7series_v2_0_ddr_phy_tempmon2default:default2
-2682default:default2
+2772default:default2
 12default:default2î
 ×/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_phy_tempmon.v2default:default2
 692default:default8@Z8-256
@@ -79650,7 +80088,7 @@ R
 ­
 %done synthesizing module '%s' (%s#%s)256*oasys22
 mig_7series_v2_0_ddr_calib_top2default:default2
-2692default:default2
+2782default:default2
 12default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_calib_top.v2default:default2
 822default:default8@Z8-256
@@ -79665,14 +80103,14 @@ Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s
 ©
 %done synthesizing module '%s' (%s#%s)256*oasys20
 mig_7series_v2_0_ddr_phy_top2default:default2
-2702default:default2
+2792default:default2
 12default:default2ê
 Ó/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_phy_top.v2default:default2
 702default:default8@Z8-256
 ¨
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 mig_7series_v2_0_mem_intfc2default:default2
-2712default:default2
+2802default:default2
 12default:default2ë
 Ô/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/ip_top/mig_7series_v2_0_mem_intfc.v2default:default2
 702default:default8@Z8-256
@@ -79797,7 +80235,7 @@ D	Parameter MEM_ADDR_ORDER bound to: BANK_ROW_COLUMN - type: string
 
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 mig_7series_v2_0_ui_cmd2default:default2
-2722default:default2
+2812default:default2
 12default:default2ä
 Í/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/ui/mig_7series_v2_0_ui_cmd.v2default:default2
 702default:default8@Z8-256
@@ -79887,7 +80325,7 @@ W
 §
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 mig_7series_v2_0_ui_wr_data2default:default2
-2732default:default2
+2822default:default2
 12default:default2è
 Ñ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/ui/mig_7series_v2_0_ui_wr_data.v2default:default2
 1312default:default8@Z8-256
@@ -79953,14 +80391,14 @@ W
 §
 %done synthesizing module '%s' (%s#%s)256*oasys2/
 mig_7series_v2_0_ui_rd_data2default:default2
-2742default:default2
+2832default:default2
 12default:default2è
 Ñ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/ui/mig_7series_v2_0_ui_rd_data.v2default:default2
 1402default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 mig_7series_v2_0_ui_top2default:default2
-2752default:default2
+2842default:default2
 12default:default2ä
 Í/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/ui/mig_7series_v2_0_ui_top.v2default:default2
 712default:default8@Z8-256
@@ -80486,7 +80924,7 @@ X
 Á
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (mig_7series_v2_0_ddr_axic_register_slice2default:default2
-2762default:default2
+2852default:default2
 12default:default2ö
 ß/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_axic_register_slice.v2default:default2
 612default:default8@Z8-256
@@ -80510,7 +80948,7 @@ X
 Ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2L
 8mig_7series_v2_0_ddr_axic_register_slice__parameterized02default:default2
-2762default:default2
+2852default:default2
 12default:default2ö
 ß/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_axic_register_slice.v2default:default2
 612default:default8@Z8-256
@@ -80534,7 +80972,7 @@ X
 Ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2L
 8mig_7series_v2_0_ddr_axic_register_slice__parameterized12default:default2
-2762default:default2
+2852default:default2
 12default:default2ö
 ß/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_axic_register_slice.v2default:default2
 612default:default8@Z8-256
@@ -80558,14 +80996,14 @@ X
 Ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2L
 8mig_7series_v2_0_ddr_axic_register_slice__parameterized22default:default2
-2762default:default2
+2852default:default2
 12default:default2ö
 ß/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_axic_register_slice.v2default:default2
 612default:default8@Z8-256
 ¿
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'mig_7series_v2_0_ddr_axi_register_slice2default:default2
-2772default:default2
+2862default:default2
 12default:default2õ
 Ş/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_axi_register_slice.v2default:default2
 632default:default8@Z8-256
@@ -81071,7 +81509,7 @@ X
 Ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2L
 8mig_7series_v2_0_ddr_axic_register_slice__parameterized32default:default2
-2772default:default2
+2862default:default2
 12default:default2ö
 ß/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_axic_register_slice.v2default:default2
 612default:default8@Z8-256
@@ -81095,7 +81533,7 @@ X
 Ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2L
 8mig_7series_v2_0_ddr_axic_register_slice__parameterized42default:default2
-2772default:default2
+2862default:default2
 12default:default2ö
 ß/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_axic_register_slice.v2default:default2
 612default:default8@Z8-256
@@ -81119,7 +81557,7 @@ X
 Ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2L
 8mig_7series_v2_0_ddr_axic_register_slice__parameterized52default:default2
-2772default:default2
+2862default:default2
 12default:default2ö
 ß/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_axic_register_slice.v2default:default2
 612default:default8@Z8-256
@@ -81143,14 +81581,14 @@ X
 Ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2L
 8mig_7series_v2_0_ddr_axic_register_slice__parameterized62default:default2
-2772default:default2
+2862default:default2
 12default:default2ö
 ß/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_axic_register_slice.v2default:default2
 612default:default8@Z8-256
 Ï
 %done synthesizing module '%s' (%s#%s)256*oasys2K
 7mig_7series_v2_0_ddr_axi_register_slice__parameterized02default:default2
-2772default:default2
+2862default:default2
 12default:default2õ
 Ş/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_axi_register_slice.v2default:default2
 632default:default8@Z8-256
@@ -81539,7 +81977,7 @@ X
 Ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2L
 8mig_7series_v2_0_ddr_axic_register_slice__parameterized72default:default2
-2772default:default2
+2862default:default2
 12default:default2ö
 ß/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_axic_register_slice.v2default:default2
 612default:default8@Z8-256
@@ -81563,7 +82001,7 @@ X
 Ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2L
 8mig_7series_v2_0_ddr_axic_register_slice__parameterized82default:default2
-2772default:default2
+2862default:default2
 12default:default2ö
 ß/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_axic_register_slice.v2default:default2
 612default:default8@Z8-256
@@ -81591,14 +82029,14 @@ X
 Ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2L
 8mig_7series_v2_0_ddr_axic_register_slice__parameterized92default:default2
-2772default:default2
+2862default:default2
 12default:default2ö
 ß/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_axic_register_slice.v2default:default2
 612default:default8@Z8-256
 Ï
 %done synthesizing module '%s' (%s#%s)256*oasys2K
 7mig_7series_v2_0_ddr_axi_register_slice__parameterized12default:default2
-2772default:default2
+2862default:default2
 12default:default2õ
 Ş/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_axi_register_slice.v2default:default2
 632default:default8@Z8-256
@@ -81723,7 +82161,7 @@ Y
 ş
 %done synthesizing module '%s' (%s#%s)256*oasys2
 MUXCY2default:default2
-2782default:default2
+2872default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 166462default:default8@Z8-256
@@ -81748,14 +82186,14 @@ N
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2
 AND2B1L2default:default2
-2792default:default2
+2882default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 362default:default8@Z8-256
 ¹
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $mig_7series_v2_0_ddr_carry_latch_and2default:default2
-2802default:default2
+2892default:default2
 12default:default2ò
 Û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_carry_latch_and.v2default:default2
 612default:default8@Z8-256
@@ -81771,7 +82209,7 @@ Y
 ­
 %done synthesizing module '%s' (%s#%s)256*oasys22
 mig_7series_v2_0_ddr_carry_and2default:default2
-2812default:default2
+2902default:default2
 12default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_carry_and.v2default:default2
 612default:default8@Z8-256
@@ -81821,14 +82259,14 @@ N
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2
 OR2L2default:default2
-2822default:default2
+2912default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 208572default:default8@Z8-256
 ·
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #mig_7series_v2_0_ddr_carry_latch_or2default:default2
-2832default:default2
+2922default:default2
 12default:default2ñ
 Ú/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_carry_latch_or.v2default:default2
 612default:default8@Z8-256
@@ -81856,21 +82294,21 @@ L
 Œ
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 FDRE__parameterized02default:default2
-2832default:default2
+2922default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 30142default:default8@Z8-256
 ³
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !mig_7series_v2_0_ddr_command_fifo2default:default2
-2842default:default2
+2932default:default2
 12default:default2ï
 Ø/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_command_fifo.v2default:default2
 612default:default8@Z8-256
 ­
 %done synthesizing module '%s' (%s#%s)256*oasys22
 mig_7series_v2_0_ddr_a_upsizer2default:default2
-2852default:default2
+2942default:default2
 12default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_a_upsizer.v2default:default2
 622default:default8@Z8-256
@@ -81971,7 +82409,7 @@ U
 Å
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *mig_7series_v2_0_ddr_comparator_sel_static2default:default2
-2862default:default2
+2952default:default2
 12default:default2ø
 á/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_comparator_sel_static.v2default:default2
 602default:default8@Z8-256
@@ -81987,7 +82425,7 @@ Y
 «
 %done synthesizing module '%s' (%s#%s)256*oasys21
 mig_7series_v2_0_ddr_carry_or2default:default2
-2872default:default2
+2962default:default2
 12default:default2ë
 Ô/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_carry_or.v2default:default2
 612default:default8@Z8-256
@@ -82003,7 +82441,7 @@ Y
 
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 LUT6_2__parameterized32default:default2
-2882default:default2
+2972default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 159302default:default8@Z8-256
@@ -82019,7 +82457,7 @@ Y
 
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 LUT6_2__parameterized42default:default2
-2882default:default2
+2972default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 159302default:default8@Z8-256
@@ -82035,7 +82473,7 @@ S
 
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 LUT4__parameterized32default:default2
-2892default:default2
+2982default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 158252default:default8@Z8-256
@@ -82051,7 +82489,7 @@ S
 
 %done synthesizing module '%s' (%s#%s)256*oasys2)
 LUT6__parameterized112default:default2
-2902default:default2
+2992default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 159142default:default8@Z8-256
@@ -82079,7 +82517,7 @@ L
 Œ
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 FDSE__parameterized02default:default2
-2912default:default2
+3002default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 31502default:default8@Z8-256
@@ -82115,7 +82553,7 @@ U
 Õ
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :mig_7series_v2_0_ddr_comparator_sel_static__parameterized02default:default2
-2912default:default2
+3002default:default2
 12default:default2ø
 á/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_comparator_sel_static.v2default:default2
 602default:default8@Z8-256
@@ -82147,7 +82585,7 @@ U
 ·
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #mig_7series_v2_0_ddr_comparator_sel2default:default2
-2922default:default2
+3012default:default2
 12default:default2ñ
 Ú/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_comparator_sel.v2default:default2
 602default:default8@Z8-256
@@ -82163,14 +82601,14 @@ U
 
 %done synthesizing module '%s' (%s#%s)256*oasys2)
 LUT6__parameterized122default:default2
-2922default:default2
+3012default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 159142default:default8@Z8-256
 ­
 %done synthesizing module '%s' (%s#%s)256*oasys22
 mig_7series_v2_0_ddr_w_upsizer2default:default2
-2932default:default2
+3022default:default2
 12default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_w_upsizer.v2default:default2
 632default:default8@Z8-256
@@ -82290,7 +82728,7 @@ Y
 ½
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .mig_7series_v2_0_ddr_a_upsizer__parameterized02default:default2
-2932default:default2
+3022default:default2
 12default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_a_upsizer.v2default:default2
 622default:default8@Z8-256
@@ -82366,14 +82804,14 @@ Y
 ­
 %done synthesizing module '%s' (%s#%s)256*oasys22
 mig_7series_v2_0_ddr_r_upsizer2default:default2
-2942default:default2
+3032default:default2
 12default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_r_upsizer.v2default:default2
 612default:default8@Z8-256
 ±
 %done synthesizing module '%s' (%s#%s)256*oasys24
  mig_7series_v2_0_ddr_axi_upsizer2default:default2
-2952default:default2
+3042default:default2
 12default:default2î
 ×/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_axi_upsizer.v2default:default2
 712default:default8@Z8-256
@@ -82762,7 +83200,7 @@ X
 Ò
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9mig_7series_v2_0_ddr_axic_register_slice__parameterized102default:default2
-2952default:default2
+3042default:default2
 12default:default2ö
 ß/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_axic_register_slice.v2default:default2
 612default:default8@Z8-256
@@ -82786,14 +83224,14 @@ X
 Ò
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9mig_7series_v2_0_ddr_axic_register_slice__parameterized112default:default2
-2952default:default2
+3042default:default2
 12default:default2ö
 ß/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_axic_register_slice.v2default:default2
 612default:default8@Z8-256
 Ï
 %done synthesizing module '%s' (%s#%s)256*oasys2K
 7mig_7series_v2_0_ddr_axi_register_slice__parameterized22default:default2
-2952default:default2
+3042default:default2
 12default:default2õ
 Ş/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_ddr_axi_register_slice.v2default:default2
 632default:default8@Z8-256
@@ -82919,7 +83357,7 @@ Y
 ±
 %done synthesizing module '%s' (%s#%s)256*oasys24
  mig_7series_v2_0_axi_mc_incr_cmd2default:default2
-2962default:default2
+3052default:default2
 12default:default2î
 ×/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_axi_mc_incr_cmd.v2default:default2
 642default:default8@Z8-256
@@ -82959,14 +83397,14 @@ Y
 ±
 %done synthesizing module '%s' (%s#%s)256*oasys24
  mig_7series_v2_0_axi_mc_wrap_cmd2default:default2
-2972default:default2
+3062default:default2
 12default:default2î
 ×/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_axi_mc_wrap_cmd.v2default:default2
 972default:default8@Z8-256
 ½
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &mig_7series_v2_0_axi_mc_cmd_translator2default:default2
-2982default:default2
+3072default:default2
 12default:default2ô
 İ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_axi_mc_cmd_translator.v2default:default2
 622default:default8@Z8-256
@@ -82986,14 +83424,14 @@ X
 µ
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "mig_7series_v2_0_axi_mc_wr_cmd_fsm2default:default2
-2992default:default2
+3082default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_axi_mc_wr_cmd_fsm.v2default:default2
 762default:default8@Z8-256
 µ
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "mig_7series_v2_0_axi_mc_aw_channel2default:default2
-3002default:default2
+3092default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_axi_mc_aw_channel.v2default:default2
 572default:default8@Z8-256
@@ -83035,7 +83473,7 @@ M
 ³
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !mig_7series_v2_0_axi_mc_w_channel2default:default2
-3012default:default2
+3102default:default2
 12default:default2ï
 Ø/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_axi_mc_w_channel.v2default:default2
 642default:default8@Z8-256
@@ -83116,14 +83554,14 @@ K
 ©
 %done synthesizing module '%s' (%s#%s)256*oasys20
 mig_7series_v2_0_axi_mc_fifo2default:default2
-3022default:default2
+3112default:default2
 12default:default2ê
 Ó/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_axi_mc_fifo.v2default:default2
 702default:default8@Z8-256
 ³
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !mig_7series_v2_0_axi_mc_b_channel2default:default2
-3032default:default2
+3122default:default2
 12default:default2ï
 Ø/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_axi_mc_b_channel.v2default:default2
 832default:default8@Z8-256
@@ -83241,7 +83679,7 @@ Y
 Á
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0mig_7series_v2_0_axi_mc_incr_cmd__parameterized02default:default2
-3032default:default2
+3122default:default2
 12default:default2î
 ×/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_axi_mc_incr_cmd.v2default:default2
 642default:default8@Z8-256
@@ -83281,14 +83719,14 @@ Y
 Á
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0mig_7series_v2_0_axi_mc_wrap_cmd__parameterized02default:default2
-3032default:default2
+3122default:default2
 12default:default2î
 ×/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_axi_mc_wrap_cmd.v2default:default2
 972default:default8@Z8-256
 Í
 %done synthesizing module '%s' (%s#%s)256*oasys2J
 6mig_7series_v2_0_axi_mc_cmd_translator__parameterized02default:default2
-3032default:default2
+3122default:default2
 12default:default2ô
 İ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_axi_mc_cmd_translator.v2default:default2
 622default:default8@Z8-256
@@ -83308,14 +83746,14 @@ X
 ¯
 %done synthesizing module '%s' (%s#%s)256*oasys23
 mig_7series_v2_0_axi_mc_cmd_fsm2default:default2
-3042default:default2
+3132default:default2
 12default:default2í
 Ö/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_axi_mc_cmd_fsm.v2default:default2
 722default:default8@Z8-256
 µ
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "mig_7series_v2_0_axi_mc_ar_channel2default:default2
-3052default:default2
+3142default:default2
 12default:default2ğ
 Ù/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_axi_mc_ar_channel.v2default:default2
 572default:default8@Z8-256
@@ -83436,7 +83874,7 @@ M
 ¹
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,mig_7series_v2_0_axi_mc_fifo__parameterized02default:default2
-3052default:default2
+3142default:default2
 12default:default2ê
 Ó/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_axi_mc_fifo.v2default:default2
 702default:default8@Z8-256
@@ -83476,7 +83914,7 @@ M
 ¹
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,mig_7series_v2_0_axi_mc_fifo__parameterized12default:default2
-3052default:default2
+3142default:default2
 12default:default2ê
 Ó/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_axi_mc_fifo.v2default:default2
 702default:default8@Z8-256
@@ -83493,7 +83931,7 @@ Nreplacing case/wildcard equality operator %s with logical equality operator %s
 ³
 %done synthesizing module '%s' (%s#%s)256*oasys25
 !mig_7series_v2_0_axi_mc_r_channel2default:default2
-3062default:default2
+3152default:default2
 12default:default2ï
 Ø/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_axi_mc_r_channel.v2default:default2
 672default:default8@Z8-256
@@ -83525,14 +83963,14 @@ F	Parameter C_RD_WR_ARB_ALGORITHM bound to: RD_PRI_REG - type: string
 ·
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #mig_7series_v2_0_axi_mc_cmd_arbiter2default:default2
-3072default:default2
+3162default:default2
 12default:default2ñ
 Ú/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_axi_mc_cmd_arbiter.v2default:default2
 612default:default8@Z8-256
 Ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 mig_7series_v2_0_axi_mc2default:default2
-3082default:default2
+3172default:default2
 12default:default2å
 Î/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/axi/mig_7series_v2_0_axi_mc.v2default:default2
 902default:default8@Z8-256
@@ -83551,7 +83989,7 @@ F	Parameter C_RD_WR_ARB_ALGORITHM bound to: RD_PRI_REG - type: string
 ´
 %done synthesizing module '%s' (%s#%s)256*oasys24
  mig_7series_v2_0_memc_ui_top_axi2default:default2
-3092default:default2
+3182default:default2
 12default:default2ñ
 Ú/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/ip_top/mig_7series_v2_0_memc_ui_top_axi.v2default:default2
 722default:default8@Z8-256
@@ -83624,25 +84062,25 @@ F	Parameter C_RD_WR_ARB_ALGORITHM bound to: RD_PRI_REG - type: string
 ¥
 %done synthesizing module '%s' (%s#%s)256*oasys20
 design_1_mig_7series_0_3_mig2default:default2
-3102default:default2
+3192default:default2
 12default:default2æ
 Ï/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/design_1_mig_7series_0_3_mig.v2default:default2
 742default:default8@Z8-256
 
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 design_1_mig_7series_0_32default:default2
-3112default:default2
+3202default:default2
 12default:default2â
 Ë/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/design_1_mig_7series_0_3.v2default:default2
 712default:default8@Z8-256
-‘
+’
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2!
 mig_7series_02default:default2,
 design_1_mig_7series_0_32default:default2
 612default:default2
 572default:default2
-z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-9942default:default8@Z8-350
+z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
+11202default:default8@Z8-350
 Î
 synthesizing module '%s'638*oasys21
 design_1_rst_clk_wiz_1_100M_02default:default2Ë
@@ -83758,14 +84196,14 @@ S
 ş
 %done synthesizing module '%s' (%s#%s)256*oasys2
 SRL162default:default2
-3122default:default2
+3212default:default2
 12default:default2T
 >/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v2default:default2
 345082default:default8@Z8-256
 ã
 %done synthesizing module '%s' (%s#%s)256*oasys2
 lpf2default:default2
-3132default:default2
+3222default:default2
 12default:default2¼
 ¥/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/51a8c173/hdl/src/vhdl/lpf.vhd2default:default2
 1362default:default8@Z8-256
@@ -83786,28 +84224,28 @@ R
 ë
 %done synthesizing module '%s' (%s#%s)256*oasys2
 upcnt_n2default:default2
-3142default:default2
+3232default:default2
 12default:default2À
 ©/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/51a8c173/hdl/src/vhdl/upcnt_n.vhd2default:default2
 1262default:default8@Z8-256
 í
 %done synthesizing module '%s' (%s#%s)256*oasys2
 sequence2default:default2
-3152default:default2
+3242default:default2
 12default:default2Á
 ª/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/51a8c173/hdl/src/vhdl/sequence.vhd2default:default2
 1462default:default8@Z8-256
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys22
 proc_sys_reset__parameterized02default:default2
-3162default:default2
+3252default:default2
 12default:default2Ç
 °/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/51a8c173/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
 1992default:default8@Z8-256
 ‹
 %done synthesizing module '%s' (%s#%s)256*oasys21
 design_1_rst_clk_wiz_1_100M_02default:default2
-3172default:default2
+3262default:default2
 12default:default2Ë
 ´/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/synth/design_1_rst_clk_wiz_1_100M_0.vhd2default:default2
 742default:default8@Z8-256
@@ -83818,7 +84256,7 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 102default:default2
 92default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-10522default:default8@Z8-350
+11782default:default8@Z8-350
 ×
 synthesizing module '%s'638*oasys24
  design_1_rst_mig_7series_0_81M_12default:default2Ñ
@@ -83925,21 +84363,21 @@ O
 ó
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 lpf__parameterized02default:default2
-3172default:default2
+3262default:default2
 12default:default2¼
 ¥/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/51a8c173/hdl/src/vhdl/lpf.vhd2default:default2
 1362default:default8@Z8-256
 ‰
 %done synthesizing module '%s' (%s#%s)256*oasys22
 proc_sys_reset__parameterized22default:default2
-3172default:default2
+3262default:default2
 12default:default2Ç
 °/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/51a8c173/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
 1992default:default8@Z8-256
 ”
 %done synthesizing module '%s' (%s#%s)256*oasys24
  design_1_rst_mig_7series_0_81M_12default:default2
-3182default:default2
+3272default:default2
 12default:default2Ñ
 º/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_rst_mig_7series_0_81M_1/synth/design_1_rst_mig_7series_0_81M_1.vhd2default:default2
 742default:default8@Z8-256
@@ -83950,7 +84388,41 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 102default:default2
 62default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-10622default:default8@Z8-350
+11882default:default8@Z8-350
+º
+synthesizing module '%s'638*oasys2+
+design_1_xlconstant_0_02default:default2½
+¦/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/synth/design_1_xlconstant_0_0.v2default:default2
+572default:default8@Z8-638
+ 
+synthesizing module '%s'638*oasys2
+
+xlconstant2default:default2°
+™/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/xlconstant_v1_0/632c4263/xlconstant.v2default:default2
+232default:default8@Z8-638
+U
+%s*synth2F
+2	Parameter CONST_VAL bound to: 0 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter CONST_WIDTH bound to: 14 - type: integer 
+2default:default
+İ
+%done synthesizing module '%s' (%s#%s)256*oasys2
+
+xlconstant2default:default2
+3282default:default2
+12default:default2°
+™/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/xlconstant_v1_0/632c4263/xlconstant.v2default:default2
+232default:default8@Z8-256
+÷
+%done synthesizing module '%s' (%s#%s)256*oasys2+
+design_1_xlconstant_0_02default:default2
+3292default:default2
+12default:default2½
+¦/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/synth/design_1_xlconstant_0_0.v2default:default2
+572default:default8@Z8-256
 ±
 synthesizing module '%s'638*oasys2(
 design_1_xlslice_0_02default:default2·
@@ -83976,14 +84448,14 @@ R
 Ô
 %done synthesizing module '%s' (%s#%s)256*oasys2
 xlslice2default:default2
-3192default:default2
+3302default:default2
 12default:default2ª
 “/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/xlslice_v1_0/f7be8f8d/xlslice.v2default:default2
 122default:default8@Z8-256
 î
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 design_1_xlslice_0_02default:default2
-3202default:default2
+3312default:default2
 12default:default2·
  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_0/synth/design_1_xlslice_0_0.v2default:default2
 572default:default8@Z8-256
@@ -83995,7 +84467,7 @@ R
 î
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 design_1_xlslice_0_12default:default2
-3212default:default2
+3322default:default2
 12default:default2·
  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_1/synth/design_1_xlslice_0_1.v2default:default2
 572default:default8@Z8-256
@@ -84007,27 +84479,27 @@ R
 î
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 design_1_xlslice_0_22default:default2
-3222default:default2
+3332default:default2
 12default:default2·
  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_2/synth/design_1_xlslice_0_2.v2default:default2
 572default:default8@Z8-256
 »
 %done synthesizing module '%s' (%s#%s)256*oasys2
 design_12default:default2
-3232default:default2
+3342default:default2
 12default:default2
 z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
 132default:default8@Z8-256
 Ì
 %done synthesizing module '%s' (%s#%s)256*oasys2$
 design_1_wrapper2default:default2
-3242default:default2
+3352default:default2
 12default:default2™
 ‚/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v2default:default2
 122default:default8@Z8-256
 
 %s*synth2
-yFinished RTL Elaboration : Time (s): cpu = 00:03:08 ; elapsed = 00:03:12 . Memory (MB): peak = 1346.141 ; gain = 709.223
+yFinished RTL Elaboration : Time (s): cpu = 00:03:03 ; elapsed = 00:03:06 . Memory (MB): peak = 1366.301 ; gain = 729.387
 2default:default
 ;
 %s*synth2,
@@ -84054,6 +84526,48 @@ l
 %s*synth2]
 I+------+------------------+-------+---------+-------+------------------+
 2default:default
+Ú
+'tying undriven pin %s:%s to constant 0
+3295*oasys2
+placement072default:default2 
+next_col0[0]2default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+3542default:default8@Z8-3295
+Ú
+'tying undriven pin %s:%s to constant 0
+3295*oasys2
+placement082default:default2 
+next_col0[0]2default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+3972default:default8@Z8-3295
+Ú
+'tying undriven pin %s:%s to constant 0
+3295*oasys2
+placement082default:default2 
+next_col1[0]2default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+3972default:default8@Z8-3295
+Ú
+'tying undriven pin %s:%s to constant 0
+3295*oasys2
+placement092default:default2 
+next_col0[0]2default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+4402default:default8@Z8-3295
+Ú
+'tying undriven pin %s:%s to constant 0
+3295*oasys2
+placement092default:default2 
+next_col1[0]2default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+4402default:default8@Z8-3295
+Ú
+'tying undriven pin %s:%s to constant 0
+3295*oasys2
+placement092default:default2 
+next_col2[0]2default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+4402default:default8@Z8-3295
 ë
 'tying undriven pin %s:%s to constant 0
 3295*oasys2%
@@ -84713,48 +85227,6 @@ auxout_clk2default:default2ñ
 phy_dout[118]2default:default2ñ
 Ú/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_mc_phy_wrapper.v2default:default2
 14522default:default8@Z8-3295
-™
-'tying undriven pin %s:%s to constant 0
-3295*oasys2 
-u_ddr_mc_phy2default:default2!
-phy_dout[117]2default:default2ñ
-Ú/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_mc_phy_wrapper.v2default:default2
-14522default:default8@Z8-3295
-™
-'tying undriven pin %s:%s to constant 0
-3295*oasys2 
-u_ddr_mc_phy2default:default2!
-phy_dout[116]2default:default2ñ
-Ú/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_mc_phy_wrapper.v2default:default2
-14522default:default8@Z8-3295
-™
-'tying undriven pin %s:%s to constant 0
-3295*oasys2 
-u_ddr_mc_phy2default:default2!
-phy_dout[111]2default:default2ñ
-Ú/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_mc_phy_wrapper.v2default:default2
-14522default:default8@Z8-3295
-™
-'tying undriven pin %s:%s to constant 0
-3295*oasys2 
-u_ddr_mc_phy2default:default2!
-phy_dout[110]2default:default2ñ
-Ú/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_mc_phy_wrapper.v2default:default2
-14522default:default8@Z8-3295
-™
-'tying undriven pin %s:%s to constant 0
-3295*oasys2 
-u_ddr_mc_phy2default:default2!
-phy_dout[109]2default:default2ñ
-Ú/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_mc_phy_wrapper.v2default:default2
-14522default:default8@Z8-3295
-™
-'tying undriven pin %s:%s to constant 0
-3295*oasys2 
-u_ddr_mc_phy2default:default2!
-phy_dout[108]2default:default2ñ
-Ú/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_mc_phy_wrapper.v2default:default2
-14522default:default8@Z8-3295
 Ô
 Message '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2 
@@ -85230,6 +85702,734 @@ x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test
 set_property2default:default2
 x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
 392default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[15]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+452default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+452default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[14]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+462default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+462default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[13]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+472default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+472default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[12]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+482default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+482default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[11]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+492default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+492default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[10]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+502default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+502default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[9]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+512default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+512default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[8]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+522default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+522default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[7]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+532default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+532default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[6]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+542default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+542default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[5]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+552default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+552default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[4]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+562default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+562default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[3]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+572default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+572default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[2]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+582default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+582default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[1]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+592default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+592default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[0]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+602default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+602default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[0]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+612default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+612default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[2]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+622default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+622default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[1]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+632default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+632default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[3]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+642default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+642default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[5]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+652default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+652default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[4]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+662default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+662default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[6]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+672default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+672default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[7]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+682default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+682default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[8]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+692default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+692default:default8@Z17-55
+ş
+No ports matched '%s'.
+584*	planAhead2
+LED[9]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+702default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+702default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[10]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+712default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+712default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[11]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+722default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+722default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[12]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+732default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+732default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[13]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+742default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+742default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[15]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+752default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+752default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LED[14]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+762default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+762default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[0]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+772default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+772default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[1]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+782default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+782default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[2]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+792default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+792default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[3]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+802default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+802default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[4]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+812default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+812default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[5]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+822default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+822default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[6]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+832default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+832default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[7]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+842default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+842default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[8]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+852default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+852default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[9]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+862default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+862default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+
+SWITCH[10]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+872default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+872default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+
+SWITCH[11]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+882default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+882default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+
+SWITCH[12]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+892default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+892default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+
+SWITCH[13]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+902default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+902default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+
+SWITCH[13]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+912default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+912default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+
+SWITCH[12]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+922default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+922default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+
+SWITCH[11]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+932default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+932default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+
+SWITCH[10]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+942default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+942default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[9]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+952default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+952default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[8]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+962default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+962default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[7]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+972default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+972default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[6]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+982default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+982default:default8@Z17-55
+
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[5]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+992default:default8@Z12-584
+Š
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+992default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[4]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1002default:default8@Z12-584
+‹
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1002default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[3]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1012default:default8@Z12-584
+‹
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1012default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[2]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1022default:default8@Z12-584
+‹
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1022default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[1]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1032default:default8@Z12-584
+‹
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1032default:default8@Z17-55
+‚
+No ports matched '%s'.
+584*	planAhead2
+	SWITCH[0]2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1042default:default8@Z12-584
+‹
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2
+x/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/constrs_1/new/design_1_wrapper.xdc2default:default2
+1042default:default8@Z17-55
 Ì
 Finished Parsing XDC File [%s]
 178*designutils2Œ
@@ -85320,18 +86520,108 @@ $Parsing XDC File [%s] for cell '%s'
   RAMB36 => RAMB36E1: 4 instances
   SRL16 => SRL16E: 2 instances
 2default:defaultZ1-111
-²
-%s*synth2¢
-Finished Loading Part and Timing Information : Time (s): cpu = 00:03:32 ; elapsed = 00:03:36 . Memory (MB): peak = 1591.090 ; gain = 954.172
+³
+%s*synth2£
+Finished Loading Part and Timing Information : Time (s): cpu = 00:03:46 ; elapsed = 00:03:46 . Memory (MB): peak = 2033.172 ; gain = 1396.258
 2default:default
-¶
-%s*synth2¦
-‘Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:03:35 ; elapsed = 00:03:38 . Memory (MB): peak = 1591.090 ; gain = 954.172
+·
+%s*synth2§
+’Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:03:49 ; elapsed = 00:03:47 . Memory (MB): peak = 2033.172 ; gain = 1396.258
 2default:default
-
-%s*synth2
-zFinished RTL Optimization : Time (s): cpu = 00:03:35 ; elapsed = 00:03:38 . Memory (MB): peak = 1591.090 ; gain = 954.172
+Ÿ
+%s*synth2
+{Finished RTL Optimization : Time (s): cpu = 00:03:49 ; elapsed = 00:03:47 . Memory (MB): peak = 2033.172 ; gain = 1396.258
 2default:default
+Ÿ
+3inferred FSM for state register '%s' in module '%s'802*oasys2
+	state_reg2default:default24
+ Board_Analyzer_BRAM_v1_0_S00_AXI2default:defaultZ8-802
+ˆ
+3inferred FSM for state register '%s' in module '%s'802*oasys2
+	state_reg2default:default2
+	placement2default:defaultZ8-802
+‰
+}HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
+adder2default:default2¶
+Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/eval_block.v2default:default2
+1782default:default8@Z8-3537
+‰
+}HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
+adder2default:default2¶
+Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/eval_block.v2default:default2
+1782default:default8@Z8-3537
+‰
+}HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
+adder2default:default2¶
+Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/eval_block.v2default:default2
+1782default:default8@Z8-3537
+‰
+}HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
+adder2default:default2¶
+Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/eval_block.v2default:default2
+1782default:default8@Z8-3537
+‰
+}HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
+adder2default:default2¶
+Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/eval_block.v2default:default2
+1782default:default8@Z8-3537
+‰
+}HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
+adder2default:default2¶
+Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/eval_block.v2default:default2
+1782default:default8@Z8-3537
+‰
+}HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
+adder2default:default2¶
+Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/eval_block.v2default:default2
+1782default:default8@Z8-3537
+‰
+}HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
+adder2default:default2¶
+Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/eval_block.v2default:default2
+1782default:default8@Z8-3537
+‰
+}HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
+adder2default:default2¶
+Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/eval_block.v2default:default2
+1782default:default8@Z8-3537
+‰
+}HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
+adder2default:default2¶
+Ÿ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/eval_block.v2default:default2
+1782default:default8@Z8-3537
+ˆ
+3inferred FSM for state register '%s' in module '%s'802*oasys2
+	state_reg2default:default2
+	score_ten2default:defaultZ8-802
+ï
+merging register '%s' into '%s'3619*oasys2-
+next_array3_rot1_reg[3:0]2default:default2-
+next_array2_rot1_reg[3:0]2default:default2¸
+¡/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/new/aicontroller.v2default:default2
+892default:default8@Z8-4471
+ï
+merging register '%s' into '%s'3619*oasys2-
+next_array3_rot2_reg[3:0]2default:default2-
+next_array2_rot1_reg[3:0]2default:default2¸
+¡/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/new/aicontroller.v2default:default2
+932default:default8@Z8-4471
+ï
+merging register '%s' into '%s'3619*oasys2-
+next_array2_rot3_reg[3:0]2default:default2-
+next_array2_rot1_reg[3:0]2default:default2¸
+¡/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/new/aicontroller.v2default:default2
+962default:default8@Z8-4471
+ï
+merging register '%s' into '%s'3619*oasys2-
+next_array3_rot3_reg[3:0]2default:default2-
+next_array2_rot1_reg[3:0]2default:default2¸
+¡/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/new/aicontroller.v2default:default2
+972default:default8@Z8-4471
+‹
+3inferred FSM for state register '%s' in module '%s'802*oasys2
+	state_reg2default:default2 
+aicontroller2default:defaultZ8-802
 Œ
 3inferred FSM for state register '%s' in module '%s'802*oasys2#
 rlast_sm_cs_reg2default:default2
@@ -85841,30 +87131,6 @@ $gen_div4_ca_tieoff.phy_we_n_reg[3:2]2default:default29
 po_fine_tap_cnt_reg[0][5:0]2default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_phy_wrcal.v2default:default2
 4122default:default8@Z8-4471
-ñ
-merging register '%s' into '%s'3619*oasys2U
-Agen_pat_match_div4.gen_pat_match[0].early1_match_fall2_r_reg[0:0]2default:default2R
->gen_pat_match_div4.gen_pat_match[0].pat_match_fall2_r_reg[0:0]2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_phy_wrcal.v2default:default2
-7812default:default8@Z8-4471
-ñ
-merging register '%s' into '%s'3619*oasys2U
-Agen_pat_match_div4.gen_pat_match[0].early1_match_rise2_r_reg[0:0]2default:default2R
->gen_pat_match_div4.gen_pat_match[0].pat_match_rise2_r_reg[0:0]2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_phy_wrcal.v2default:default2
-7762default:default8@Z8-4471
-ñ
-merging register '%s' into '%s'3619*oasys2U
-Agen_pat_match_div4.gen_pat_match[0].early1_match_rise3_r_reg[0:0]2default:default2R
->gen_pat_match_div4.gen_pat_match[0].pat_match_rise3_r_reg[0:0]2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_phy_wrcal.v2default:default2
-7862default:default8@Z8-4471
-ñ
-merging register '%s' into '%s'3619*oasys2U
-Agen_pat_match_div4.gen_pat_match[0].early2_match_fall0_r_reg[0:0]2default:default2R
->gen_pat_match_div4.gen_pat_match[0].pat_match_fall0_r_reg[0:0]2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_phy_wrcal.v2default:default2
-8032default:default8@Z8-4471
 Ô
 Message '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2 
@@ -85902,6 +87168,38 @@ Agen_pat_match_div4.gen_pat_match[0].early2_match_fall0_r_reg[0:0]2default:def
 3inferred FSM for state register '%s' in module '%s'802*oasys2
 	state_reg2default:default25
 !mig_7series_v2_0_axi_mc_r_channel2default:defaultZ8-802
+Ò
+Gencoded FSM with state register '%s' using encoding '%s' in module '%s'3353*oasys2
+	state_reg2default:default2
+one-hot2default:default24
+ Board_Analyzer_BRAM_v1_0_S00_AXI2default:defaultZ8-3354
+Œ
+0Net %s in module/entity %s does not have driver.3422*oasys2
+slv_reg32default:default24
+ Board_Analyzer_BRAM_v1_0_S00_AXI2default:default2Í
+¶/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_0/d224aeb9/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v2default:default2
+1352default:default8@Z8-3848
+»
+Gencoded FSM with state register '%s' using encoding '%s' in module '%s'3353*oasys2
+	state_reg2default:default2
+one-hot2default:default2
+	placement2default:defaultZ8-3354
+»
+Gencoded FSM with state register '%s' using encoding '%s' in module '%s'3353*oasys2
+	state_reg2default:default2
+one-hot2default:default2
+	score_ten2default:defaultZ8-3354
+Ş
+0Net %s in module/entity %s does not have driver.3422*oasys2
+	dummy_arr2default:default2
+	score_ten2default:default2µ
+/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v2default:default2
+3622default:default8@Z8-3848
+¾
+Gencoded FSM with state register '%s' using encoding '%s' in module '%s'3353*oasys2
+	state_reg2default:default2
+one-hot2default:default2 
+aicontroller2default:defaultZ8-3354
 ¿
 Gencoded FSM with state register '%s' using encoding '%s' in module '%s'3353*oasys2#
 rlast_sm_cs_reg2default:default2
@@ -86199,30 +87497,6 @@ Gencoded FSM with state register '%s' using encoding '%s' in module '%s'3353
  mig_7series_v2_0_memc_ui_top_axi2default:default2ñ
 Ú/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/ip_top/mig_7series_v2_0_memc_ui_top_axi.v2default:default2
 5192default:default8@Z8-3848
-¸
-0Net %s in module/entity %s does not have driver.3422*oasys2$
-app_correct_en_i2default:default24
- mig_7series_v2_0_memc_ui_top_axi2default:default2ñ
-Ú/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/ip_top/mig_7series_v2_0_memc_ui_top_axi.v2default:default2
-4652default:default8@Z8-3848
-«
-0Net %s in module/entity %s does not have driver.3422*oasys2&
-s_axi_ctrl_awvalid2default:default20
-design_1_mig_7series_0_3_mig2default:default2æ
-Ï/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/design_1_mig_7series_0_3_mig.v2default:default2
-6692default:default8@Z8-3848
-ª
-0Net %s in module/entity %s does not have driver.3422*oasys2%
-s_axi_ctrl_awaddr2default:default20
-design_1_mig_7series_0_3_mig2default:default2æ
-Ï/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/design_1_mig_7series_0_3_mig.v2default:default2
-6712default:default8@Z8-3848
-ª
-0Net %s in module/entity %s does not have driver.3422*oasys2%
-s_axi_ctrl_wvalid2default:default20
-design_1_mig_7series_0_3_mig2default:default2æ
-Ï/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/design_1_mig_7series_0_3_mig.v2default:default2
-6732default:default8@Z8-3848
 Ô
 Message '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2 
@@ -86247,47 +87521,63 @@ V+------+----------------------------------------------------+------------+-----
 2default:default
 y
 %s*synth2j
-V|1     |design_1_clk_wiz_1_0_clk_wiz__GC0                   |           1|         6|
+V|1     |score_ten__GBM0                                     |           1|     42780|
 2default:default
 y
 %s*synth2j
-V|2     |mig_7series_v2_0_ddr_byte_lane__parameterized2__GC0 |           1|       499|
+V|2     |score_ten__GBM1                                     |           1|     15690|
 2default:default
 y
 %s*synth2j
-V|3     |mig_7series_v2_0_ddr_phy_4lanes__GC0                |           1|      2876|
+V|3     |score_ten__GBM2                                     |           1|     23535|
 2default:default
 y
 %s*synth2j
-V|4     |mig_7series_v2_0_ddr_mc_phy__GC0                    |           1|       115|
+V|4     |aicontroller__GC0                                   |           1|      1031|
 2default:default
 y
 %s*synth2j
-V|5     |mig_7series_v2_0_ddr_mc_phy_wrapper__GC0            |           1|       633|
+V|5     |design_1_clk_wiz_1_0_clk_wiz__GC0                   |           1|         6|
 2default:default
 y
 %s*synth2j
-V|6     |mig_7series_v2_0_ddr_phy_top__GC0                   |           1|     13969|
+V|6     |mig_7series_v2_0_ddr_byte_lane__parameterized2__GC0 |           1|       499|
 2default:default
 y
 %s*synth2j
-V|7     |mig_7series_v2_0_mc                                 |           1|      4146|
+V|7     |mig_7series_v2_0_ddr_phy_4lanes__GC0                |           1|      2876|
 2default:default
 y
 %s*synth2j
-V|8     |mig_7series_v2_0_memc_ui_top_axi__GC0               |           1|      6824|
+V|8     |mig_7series_v2_0_ddr_mc_phy__GC0                    |           1|       115|
 2default:default
 y
 %s*synth2j
-V|9     |design_1_mig_7series_0_3_mig__GC0                   |           1|       329|
+V|9     |mig_7series_v2_0_ddr_mc_phy_wrapper__GC0            |           1|       633|
 2default:default
 y
 %s*synth2j
-V|10    |design_1__GCB0                                      |           1|     29852|
+V|10    |mig_7series_v2_0_ddr_phy_top__GC0                   |           1|     13969|
 2default:default
 y
 %s*synth2j
-V|11    |design_1__GCB1                                      |           1|     11190|
+V|11    |mig_7series_v2_0_mc                                 |           1|      4146|
+2default:default
+y
+%s*synth2j
+V|12    |mig_7series_v2_0_memc_ui_top_axi__GC0               |           1|      6824|
+2default:default
+y
+%s*synth2j
+V|13    |design_1_mig_7series_0_3_mig__GC0                   |           1|       329|
+2default:default
+y
+%s*synth2j
+V|14    |design_1__GCB0                                      |           1|     29958|
+2default:default
+y
+%s*synth2j
+V|15    |design_1__GCB1                                      |           1|     14219|
 2default:default
 y
 %s*synth2j
@@ -86312,11 +87602,15 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   2 Input     32 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
 .	   3 Input     32 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit       Adders := 2     
+.	  20 Input     23 Bit       Adders := 80    
 2default:default
 Q
 %s*synth2B
@@ -86324,15 +87618,19 @@ Q
 2default:default
 Q
 %s*synth2B
+.	  10 Input     14 Bit       Adders := 80    
+2default:default
+Q
+%s*synth2B
 .	   2 Input     13 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
-.	   3 Input     12 Bit       Adders := 1     
+.	   2 Input     12 Bit       Adders := 16    
 2default:default
 Q
 %s*synth2B
-.	   2 Input     12 Bit       Adders := 15    
+.	   3 Input     12 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
@@ -86352,7 +87650,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit       Adders := 17    
+.	   2 Input      8 Bit       Adders := 18    
 2default:default
 Q
 %s*synth2B
@@ -86364,23 +87662,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      6 Bit       Adders := 31    
-2default:default
-Q
-%s*synth2B
 .	   3 Input      6 Bit       Adders := 3     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit       Adders := 43    
+.	   2 Input      6 Bit       Adders := 351   
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit       Adders := 49    
+.	   2 Input      5 Bit       Adders := 1044  
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit       Adders := 32    
+.	   2 Input      4 Bit       Adders := 1649  
 2default:default
 Q
 %s*synth2B
@@ -86388,7 +87682,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input      2 Bit       Adders := 3     
+.	   2 Input      3 Bit       Adders := 32    
+2default:default
+Q
+%s*synth2B
+.	   8 Input      2 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
@@ -86404,7 +87702,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input      2 Bit       Adders := 1     
+.	   3 Input      2 Bit       Adders := 3     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      1 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
@@ -86416,7 +87722,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  10 Input      1 Bit       Adders := 1     
+.	   8 Input      1 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
@@ -86428,23 +87734,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   5 Input      1 Bit       Adders := 1     
+.	   7 Input      1 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
 .	   9 Input      1 Bit       Adders := 1     
 2default:default
-Q
-%s*synth2B
-.	   7 Input      1 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      1 Bit       Adders := 1     
-2default:default
 /
 %s*synth2 
 +---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit         XORs := 400   
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit         XORs := 800   
 2default:default
 Q
 %s*synth2B
@@ -86556,7 +87862,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               32 Bit    Registers := 57    
+.	               32 Bit    Registers := 111   
 2default:default
 Q
 %s*synth2B
@@ -86576,7 +87882,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               16 Bit    Registers := 19    
+.	               20 Bit    Registers := 570   
+2default:default
+Q
+%s*synth2B
+.	               16 Bit    Registers := 20    
 2default:default
 Q
 %s*synth2B
@@ -86588,7 +87898,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               12 Bit    Registers := 32    
+.	               12 Bit    Registers := 33    
 2default:default
 Q
 %s*synth2B
@@ -86604,35 +87914,35 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                8 Bit    Registers := 68    
+.	                8 Bit    Registers := 70    
 2default:default
 Q
 %s*synth2B
-.	                7 Bit    Registers := 4     
+.	                7 Bit    Registers := 3     
 2default:default
 Q
 %s*synth2B
-.	                6 Bit    Registers := 66    
+.	                6 Bit    Registers := 226   
 2default:default
 Q
 %s*synth2B
-.	                5 Bit    Registers := 65    
+.	                5 Bit    Registers := 946   
 2default:default
 Q
 %s*synth2B
-.	                4 Bit    Registers := 202   
+.	                4 Bit    Registers := 1827  
 2default:default
 Q
 %s*synth2B
-.	                3 Bit    Registers := 80    
+.	                3 Bit    Registers := 81    
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 154   
+.	                2 Bit    Registers := 163   
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 2635  
+.	                1 Bit    Registers := 2933  
 2default:default
 6
 %s*synth2'
@@ -86668,7 +87978,15 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   2 Input     32 Bit        Muxes := 62    
+2default:default
+Q
+%s*synth2B
 .	   8 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input     32 Bit        Muxes := 41    
 2default:default
 Q
 %s*synth2B
@@ -86676,11 +87994,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 60    
+.	  12 Input     32 Bit        Muxes := 8     
 2default:default
 Q
 %s*synth2B
-.	   4 Input     32 Bit        Muxes := 5     
+.	   4 Input     32 Bit        Muxes := 8     
 2default:default
 Q
 %s*synth2B
@@ -86696,7 +88014,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     20 Bit        Muxes := 22    
+.	   6 Input     20 Bit        Muxes := 400   
+2default:default
+Q
+%s*synth2B
+.	   8 Input     20 Bit        Muxes := 211   
+2default:default
+Q
+%s*synth2B
+.	   2 Input     20 Bit        Muxes := 222   
 2default:default
 Q
 %s*synth2B
@@ -86704,7 +88030,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  16 Input     16 Bit        Muxes := 1     
+.	   2 Input     16 Bit        Muxes := 36    
 2default:default
 Q
 %s*synth2B
@@ -86712,7 +88038,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     16 Bit        Muxes := 34    
+.	  16 Input     16 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -86720,15 +88046,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     13 Bit        Muxes := 14    
-2default:default
-Q
-%s*synth2B
 .	   8 Input     13 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     12 Bit        Muxes := 10    
+.	   2 Input     13 Bit        Muxes := 14    
+2default:default
+Q
+%s*synth2B
+.	   8 Input     12 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     12 Bit        Muxes := 18    
 2default:default
 Q
 %s*synth2B
@@ -86736,11 +88066,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  12 Input     11 Bit        Muxes := 1     
+.	  11 Input     12 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
 .	   3 Input     11 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  12 Input     11 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -86768,19 +88102,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 154   
-2default:default
-Q
-%s*synth2B
-.	   7 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
 .	   4 Input      8 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      8 Bit        Muxes := 2     
+.	   8 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 317   
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 41    
 2default:default
 Q
 %s*synth2B
@@ -86788,7 +88122,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      7 Bit        Muxes := 5     
+.	   8 Input      7 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      7 Bit        Muxes := 6     
 2default:default
 Q
 %s*synth2B
@@ -86796,27 +88134,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      6 Bit        Muxes := 85    
-2default:default
-Q
-%s*synth2B
-.	  36 Input      6 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      6 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      6 Bit        Muxes := 6     
-2default:default
-Q
-%s*synth2B
 .	   3 Input      6 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	  16 Input      6 Bit        Muxes := 1     
+.	   6 Input      6 Bit        Muxes := 160   
+2default:default
+Q
+%s*synth2B
+.	   5 Input      6 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit        Muxes := 86    
 2default:default
 Q
 %s*synth2B
@@ -86824,7 +88154,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input      5 Bit        Muxes := 2     
+.	  16 Input      6 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  36 Input      6 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      6 Bit        Muxes := 6     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      5 Bit        Muxes := 400   
 2default:default
 Q
 %s*synth2B
@@ -86832,7 +88174,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  34 Input      5 Bit        Muxes := 1     
+.	   8 Input      5 Bit        Muxes := 43    
 2default:default
 Q
 %s*synth2B
@@ -86844,7 +88186,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input      5 Bit        Muxes := 2     
+.	  34 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      5 Bit        Muxes := 802   
+2default:default
+Q
+%s*synth2B
+.	  12 Input      4 Bit        Muxes := 12    
+2default:default
+Q
+%s*synth2B
+.	   4 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      4 Bit        Muxes := 13    
 2default:default
 Q
 %s*synth2B
@@ -86856,31 +88214,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input      4 Bit        Muxes := 2     
+.	   2 Input      4 Bit        Muxes := 125   
 2default:default
 Q
 %s*synth2B
-.	   3 Input      4 Bit        Muxes := 1     
+.	   6 Input      4 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
-.	   4 Input      4 Bit        Muxes := 1     
+.	   3 Input      4 Bit        Muxes := 801   
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit        Muxes := 85    
-2default:default
-Q
-%s*synth2B
-.	   6 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 10    
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 67    
+.	   7 Input      4 Bit        Muxes := 1600  
 2default:default
 Q
 %s*synth2B
@@ -86888,15 +88234,23 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   6 Input      3 Bit        Muxes := 41    
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 51    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 185   
+2default:default
+Q
+%s*synth2B
 .	   5 Input      3 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   3 Input      2 Bit        Muxes := 10    
-2default:default
-Q
-%s*synth2B
-.	   8 Input      2 Bit        Muxes := 5     
+.	   9 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -86904,15 +88258,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  10 Input      2 Bit        Muxes := 1     
+.	   6 Input      2 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   5 Input      2 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 202   
+.	   2 Input      2 Bit        Muxes := 362   
 2default:default
 Q
 %s*synth2B
@@ -86920,27 +88270,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input      1 Bit        Muxes := 28    
+.	   5 Input      2 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      1 Bit        Muxes := 12    
+.	   8 Input      2 Bit        Muxes := 8     
 2default:default
 Q
 %s*synth2B
-.	  12 Input      1 Bit        Muxes := 4     
+.	  10 Input      2 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 1258  
-2default:default
-Q
-%s*synth2B
-.	  53 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   7 Input      1 Bit        Muxes := 7     
+.	   3 Input      2 Bit        Muxes := 10    
 2default:default
 Q
 %s*synth2B
@@ -86948,7 +88290,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  16 Input      1 Bit        Muxes := 26    
+.	  12 Input      1 Bit        Muxes := 20    
 2default:default
 Q
 %s*synth2B
@@ -86956,7 +88298,27 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input      1 Bit        Muxes := 9     
+.	  16 Input      1 Bit        Muxes := 26    
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 28    
+2default:default
+Q
+%s*synth2B
+.	  34 Input      1 Bit        Muxes := 32    
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 260   
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1526  
+2default:default
+Q
+%s*synth2B
+.	   6 Input      1 Bit        Muxes := 1016  
 2default:default
 Q
 %s*synth2B
@@ -86964,7 +88326,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  34 Input      1 Bit        Muxes := 32    
+.	   7 Input      1 Bit        Muxes := 7     
+2default:default
+Q
+%s*synth2B
+.	  53 Input      1 Bit        Muxes := 1     
 2default:default
 Ê
 -Detected potentially large (wide) register %s3414*oasys2$
@@ -86978,6 +88344,2186 @@ F
 <
 %s*synth2-
 Module design_1_wrapper 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+8
+%s*synth2)
+Module placement__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 5     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 6     
+2default:default
+9
+%s*synth2*
+Module eval_block__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	  20 Input     23 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	  10 Input     14 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 40    
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit         XORs := 10    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit         XORs := 20    
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 10    
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 21    
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 40    
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   6 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input     20 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      6 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      5 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   7 Input      4 Bit        Muxes := 40    
+2default:default
+Q
+%s*synth2B
+.	   3 Input      4 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      1 Bit        Muxes := 25    
+2default:default
+8
+%s*synth2)
+Module placement__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 5     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 6     
+2default:default
+9
+%s*synth2*
+Module eval_block__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	  20 Input     23 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	  10 Input     14 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 40    
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit         XORs := 10    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit         XORs := 20    
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 10    
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 21    
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 40    
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   6 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input     20 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      6 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      5 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   7 Input      4 Bit        Muxes := 40    
+2default:default
+Q
+%s*synth2B
+.	   3 Input      4 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      1 Bit        Muxes := 25    
+2default:default
+8
+%s*synth2)
+Module placement__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 5     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 6     
+2default:default
+9
+%s*synth2*
+Module eval_block__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	  20 Input     23 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	  10 Input     14 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 40    
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit         XORs := 10    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit         XORs := 20    
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 10    
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 21    
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 40    
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   6 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input     20 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      6 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      5 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   7 Input      4 Bit        Muxes := 40    
+2default:default
+Q
+%s*synth2B
+.	   3 Input      4 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      1 Bit        Muxes := 25    
+2default:default
+8
+%s*synth2)
+Module placement__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 5     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 6     
+2default:default
+9
+%s*synth2*
+Module eval_block__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	  20 Input     23 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	  10 Input     14 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 40    
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit         XORs := 10    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit         XORs := 20    
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 10    
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 21    
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 40    
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   6 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input     20 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      6 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      5 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   7 Input      4 Bit        Muxes := 40    
+2default:default
+Q
+%s*synth2B
+.	   3 Input      4 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      1 Bit        Muxes := 25    
+2default:default
+8
+%s*synth2)
+Module placement__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 5     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 6     
+2default:default
+9
+%s*synth2*
+Module eval_block__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	  20 Input     23 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	  10 Input     14 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 40    
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit         XORs := 10    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit         XORs := 20    
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 10    
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 21    
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 40    
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   6 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input     20 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      6 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      5 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   7 Input      4 Bit        Muxes := 40    
+2default:default
+Q
+%s*synth2B
+.	   3 Input      4 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      1 Bit        Muxes := 25    
+2default:default
+9
+%s*synth2*
+Module eval_block__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	  20 Input     23 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	  10 Input     14 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 40    
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit         XORs := 10    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit         XORs := 20    
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 10    
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 21    
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 40    
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   6 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input     20 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      6 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      5 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   7 Input      4 Bit        Muxes := 40    
+2default:default
+Q
+%s*synth2B
+.	   3 Input      4 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      1 Bit        Muxes := 25    
+2default:default
+8
+%s*synth2)
+Module placement__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 5     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 6     
+2default:default
+9
+%s*synth2*
+Module eval_block__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	  20 Input     23 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	  10 Input     14 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 40    
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit         XORs := 10    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit         XORs := 20    
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 10    
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 21    
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 40    
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   6 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input     20 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      6 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      5 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   7 Input      4 Bit        Muxes := 40    
+2default:default
+Q
+%s*synth2B
+.	   3 Input      4 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      1 Bit        Muxes := 25    
+2default:default
+8
+%s*synth2)
+Module placement__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 5     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 6     
+2default:default
+9
+%s*synth2*
+Module eval_block__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	  20 Input     23 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	  10 Input     14 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 40    
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit         XORs := 10    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit         XORs := 20    
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 10    
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 21    
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 40    
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   6 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input     20 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      6 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      5 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   7 Input      4 Bit        Muxes := 40    
+2default:default
+Q
+%s*synth2B
+.	   3 Input      4 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      1 Bit        Muxes := 25    
+2default:default
+8
+%s*synth2)
+Module placement__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 5     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 6     
+2default:default
+9
+%s*synth2*
+Module eval_block__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	  20 Input     23 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	  10 Input     14 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 40    
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit         XORs := 10    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit         XORs := 20    
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 10    
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 21    
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 40    
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   6 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input     20 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      6 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      5 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   7 Input      4 Bit        Muxes := 40    
+2default:default
+Q
+%s*synth2B
+.	   3 Input      4 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      1 Bit        Muxes := 25    
+2default:default
+8
+%s*synth2)
+Module placement__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 5     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 6     
+2default:default
+6
+%s*synth2'
+Module eval_block 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	  20 Input     23 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	  10 Input     14 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 40    
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit         XORs := 10    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit         XORs := 20    
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 10    
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 21    
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 40    
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   6 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input     20 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      6 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      5 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   7 Input      4 Bit        Muxes := 40    
+2default:default
+Q
+%s*synth2B
+.	   3 Input      4 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      1 Bit        Muxes := 25    
+2default:default
+5
+%s*synth2&
+Module placement 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 5     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input     20 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 6     
+2default:default
+5
+%s*synth2&
+Module score_ten 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	  12 Input     32 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	  11 Input     12 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     12 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	  12 Input      4 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 13    
+2default:default
+Q
+%s*synth2B
+.	  12 Input      1 Bit        Muxes := 4     
+2default:default
+8
+%s*synth2)
+Module aicontroller 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               16 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 14    
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 7     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   6 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      6 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      4 Bit        Muxes := 11    
+2default:default
+Q
+%s*synth2B
+.	   6 Input      4 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      2 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      1 Bit        Muxes := 4     
+2default:default
+E
+%s*synth26
+"Module design_1_aicontroller_0_0 
 2default:default
 B
 %s*synth23
@@ -87061,26 +90607,6 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   7 Input      1 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      1 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
 .	   8 Input      1 Bit       Adders := 1     
 2default:default
 Q
@@ -87089,11 +90615,31 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  10 Input      1 Bit       Adders := 1     
+.	   5 Input      1 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      1 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
 .	   6 Input      1 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -89097,19 +92643,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input     13 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
 .	   2 Input     13 Bit        Muxes := 8     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     12 Bit        Muxes := 2     
+.	   8 Input     13 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
 .	   4 Input     12 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     12 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -89121,11 +92667,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input      7 Bit        Muxes := 1     
+.	   2 Input      7 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      7 Bit        Muxes := 1     
+.	   3 Input      7 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -89141,11 +92687,15 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   2 Input      3 Bit        Muxes := 6     
+2default:default
+Q
+%s*synth2B
 .	   4 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 6     
+.	   8 Input      2 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -89157,7 +92707,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input      2 Bit        Muxes := 1     
+.	   3 Input      1 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
@@ -89165,15 +92715,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input      1 Bit        Muxes := 3     
+.	   2 Input      1 Bit        Muxes := 36    
 2default:default
 Q
 %s*synth2B
 .	   4 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 36    
 2default:default
 J
 %s*synth2;
@@ -89493,6 +93039,10 @@ Q
 2default:default
 Q
 %s*synth2B
+.	  34 Input      6 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
 .	   2 Input      6 Bit        Muxes := 6     
 2default:default
 Q
@@ -89501,7 +93051,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  34 Input      6 Bit        Muxes := 3     
+.	   4 Input      5 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -89513,15 +93063,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input      5 Bit        Muxes := 1     
+.	   3 Input      4 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      4 Bit        Muxes := 9     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      4 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -89589,11 +93135,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     11 Bit        Muxes := 1     
+.	  12 Input     11 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	  12 Input     11 Bit        Muxes := 1     
+.	   2 Input     11 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -89621,11 +93167,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  12 Input      1 Bit        Muxes := 4     
+.	   2 Input      1 Bit        Muxes := 7     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 7     
+.	  12 Input      1 Bit        Muxes := 4     
 2default:default
 J
 %s*synth2;
@@ -91971,6 +95517,118 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
+6
+%s*synth2'
+Module xlconstant 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module design_1_xlconstant_0_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+?
+%s*synth20
+Module lpf__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 13    
+2default:default
+3
+%s*synth2$
+Module upcnt_n 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+4
+%s*synth2%
+Module sequence 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+J
+%s*synth2;
+'Module proc_sys_reset__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+L
+%s*synth2=
+)Module design_1_rst_mig_7series_0_81M_1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
 8
 %s*synth2)
 Module pselect_f__3 
@@ -92445,11 +96103,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   5 Input      6 Bit        Muxes := 1     
+.	   2 Input      6 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      6 Bit        Muxes := 3     
+.	   5 Input      6 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -92465,7 +96123,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input      1 Bit        Muxes := 2     
+.	  10 Input      1 Bit        Muxes := 18    
 2default:default
 Q
 %s*synth2B
@@ -92473,7 +96131,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  10 Input      1 Bit        Muxes := 18    
+.	   6 Input      1 Bit        Muxes := 2     
 2default:default
 8
 %s*synth2)
@@ -95453,7 +99111,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__31 
+.Module generic_baseblocks_v2_1_carry_and__36 
 2default:default
 B
 %s*synth23
@@ -95461,7 +99119,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__32 
+.Module generic_baseblocks_v2_1_carry_and__37 
 2default:default
 B
 %s*synth23
@@ -95469,7 +99127,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__33 
+.Module generic_baseblocks_v2_1_carry_and__38 
 2default:default
 B
 %s*synth23
@@ -95477,7 +99135,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__34 
+.Module generic_baseblocks_v2_1_carry_and__39 
 2default:default
 B
 %s*synth23
@@ -95681,7 +99339,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__49 
+.Module generic_baseblocks_v2_1_carry_and__54 
 2default:default
 B
 %s*synth23
@@ -95689,7 +99347,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__48 
+.Module generic_baseblocks_v2_1_carry_and__53 
 2default:default
 B
 %s*synth23
@@ -95697,7 +99355,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__47 
+.Module generic_baseblocks_v2_1_carry_and__52 
 2default:default
 B
 %s*synth23
@@ -95705,7 +99363,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__46 
+.Module generic_baseblocks_v2_1_carry_and__51 
 2default:default
 B
 %s*synth23
@@ -95713,7 +99371,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__45 
+.Module generic_baseblocks_v2_1_carry_and__50 
 2default:default
 B
 %s*synth23
@@ -96073,7 +99731,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__44 
+.Module generic_baseblocks_v2_1_carry_and__49 
 2default:default
 B
 %s*synth23
@@ -96081,7 +99739,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__43 
+.Module generic_baseblocks_v2_1_carry_and__48 
 2default:default
 B
 %s*synth23
@@ -96089,7 +99747,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__42 
+.Module generic_baseblocks_v2_1_carry_and__47 
 2default:default
 B
 %s*synth23
@@ -96097,7 +99755,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__41 
+.Module generic_baseblocks_v2_1_carry_and__46 
 2default:default
 B
 %s*synth23
@@ -96105,7 +99763,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__40 
+.Module generic_baseblocks_v2_1_carry_and__45 
 2default:default
 B
 %s*synth23
@@ -96301,7 +99959,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__39 
+.Module generic_baseblocks_v2_1_carry_and__44 
 2default:default
 B
 %s*synth23
@@ -96309,7 +99967,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__38 
+.Module generic_baseblocks_v2_1_carry_and__43 
 2default:default
 B
 %s*synth23
@@ -96317,7 +99975,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__37 
+.Module generic_baseblocks_v2_1_carry_and__42 
 2default:default
 B
 %s*synth23
@@ -96325,7 +99983,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__36 
+.Module generic_baseblocks_v2_1_carry_and__41 
 2default:default
 B
 %s*synth23
@@ -96333,7 +99991,7 @@ B
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__35 
+.Module generic_baseblocks_v2_1_carry_and__40 
 2default:default
 B
 %s*synth23
@@ -97375,9 +101033,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-?
-%s*synth20
-Module lpf__parameterized0 
+/
+%s*synth2 
+Module lpf 
 2default:default
 B
 %s*synth23
@@ -97391,9 +101049,9 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 13    
 2default:default
-3
-%s*synth2$
-Module upcnt_n 
+6
+%s*synth2'
+Module upcnt_n__1 
 2default:default
 B
 %s*synth23
@@ -97427,9 +101085,9 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 1     
 2default:default
-4
-%s*synth2%
-Module sequence 
+7
+%s*synth2(
+Module sequence__1 
 2default:default
 B
 %s*synth23
@@ -97449,7 +101107,7 @@ Q
 2default:default
 J
 %s*synth2;
-'Module proc_sys_reset__parameterized2 
+'Module proc_sys_reset__parameterized0 
 2default:default
 B
 %s*synth23
@@ -97463,9 +101121,9 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 5     
 2default:default
-L
-%s*synth2=
-)Module design_1_rst_mig_7series_0_81M_1 
+I
+%s*synth2:
+&Module design_1_rst_clk_wiz_1_100M_0 
 2default:default
 B
 %s*synth23
@@ -97897,7 +101555,119 @@ B
 2default:default
 O
 %s*synth2@
-,Module blk_mem_input_block__parameterized0 
+,Module lmb_bram_if_cntlr_v4_0_pselect_mask 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module lmb_mux__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+M
+%s*synth2>
+*Module lmb_bram_if_cntlr__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+I
+%s*synth2:
+&Module design_1_dlmb_bram_if_cntlr_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module lmb_v10__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+?
+%s*synth20
+Module design_1_dlmb_v10_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+_
+%s*synth2P
+<Module lmb_bram_if_cntlr_v4_0_pselect_mask__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module lmb_mux__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+M
+%s*synth2>
+*Module lmb_bram_if_cntlr__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+I
+%s*synth2:
+&Module design_1_ilmb_bram_if_cntlr_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module lmb_v10__parameterized0__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+?
+%s*synth20
+Module design_1_ilmb_v10_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+O
+%s*synth2@
+,Module blk_mem_input_block__parameterized1 
 2default:default
 B
 %s*synth23
@@ -97905,15 +101675,47 @@ B
 2default:default
 P
 %s*synth2A
--Module blk_mem_output_block__parameterized0 
+-Module blk_mem_output_block__parameterized1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
+5
+%s*synth2&
+Module bindec__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+2
+%s*synth2#
+Module bindec 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
 T
 %s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized0 
+1Module blk_mem_gen_prim_wrapper__parameterized2 
 2default:default
 B
 %s*synth23
@@ -97921,7 +101723,7 @@ B
 2default:default
 R
 %s*synth2C
-/Module blk_mem_gen_prim_width__parameterized0 
+/Module blk_mem_gen_prim_width__parameterized2 
 2default:default
 B
 %s*synth23
@@ -97929,7 +101731,7 @@ B
 2default:default
 T
 %s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized1 
+1Module blk_mem_gen_prim_wrapper__parameterized3 
 2default:default
 B
 %s*synth23
@@ -97937,7 +101739,7 @@ B
 2default:default
 R
 %s*synth2C
-/Module blk_mem_gen_prim_width__parameterized1 
+/Module blk_mem_gen_prim_width__parameterized3 
 2default:default
 B
 %s*synth23
@@ -97945,7 +101747,279 @@ B
 2default:default
 T
 %s*synth2E
-1Module blk_mem_gen_generic_cstr__parameterized0 
+1Module blk_mem_gen_prim_wrapper__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module blk_mem_gen_prim_wrapper__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module blk_mem_gen_prim_wrapper__parameterized6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module blk_mem_gen_prim_wrapper__parameterized7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module blk_mem_gen_prim_wrapper__parameterized8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module blk_mem_gen_prim_wrapper__parameterized9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized12 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized12 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized13 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized13 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized14 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized14 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module blk_mem_gen_prim_wrapper__parameterized17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module blk_mem_gen_mux 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+K
+%s*synth2<
+(Module blk_mem_gen_mux__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+T
+%s*synth2E
+1Module blk_mem_gen_generic_cstr__parameterized1 
 2default:default
 B
 %s*synth23
@@ -97953,7 +102027,7 @@ B
 2default:default
 K
 %s*synth2<
-(Module blk_mem_gen_top__parameterized0 
+(Module blk_mem_gen_top__parameterized1 
 2default:default
 B
 %s*synth23
@@ -97961,7 +102035,7 @@ B
 2default:default
 R
 %s*synth2C
-/Module blk_mem_gen_v8_2_synth__parameterized0 
+/Module blk_mem_gen_v8_2_synth__parameterized1 
 2default:default
 B
 %s*synth23
@@ -97969,15 +102043,23 @@ B
 2default:default
 L
 %s*synth2=
-)Module blk_mem_gen_v8_2__parameterized2 
+)Module blk_mem_gen_v8_2__parameterized4 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-D
-%s*synth25
-!Module design_1_blk_mem_gen_0_1 
+?
+%s*synth20
+Module design_1_lmb_bram_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module microblaze_0_local_memory_imp_Z0DGSF 
 2default:default
 B
 %s*synth23
@@ -100883,6 +104965,14 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
+D
+%s*synth25
+!Module m06_couplers_imp_18I4Q7K 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
 C
 %s*synth24
  Module s00_couplers_imp_K2G5CL 
@@ -100922,6 +105012,54 @@ Q
 Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__31 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__32 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__33 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__34 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__35 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+e
+%s*synth2V
+BModule generic_baseblocks_v2_1_comparator_static__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 Q
 %s*synth2B
@@ -100965,7 +105103,7 @@ B
 2default:default
 e
 %s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized0 
+BModule generic_baseblocks_v2_1_comparator_static__parameterized1 
 2default:default
 B
 %s*synth23
@@ -101013,7 +105151,7 @@ B
 2default:default
 e
 %s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized1 
+BModule generic_baseblocks_v2_1_comparator_static__parameterized2 
 2default:default
 B
 %s*synth23
@@ -101061,7 +105199,7 @@ B
 2default:default
 e
 %s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized2 
+BModule generic_baseblocks_v2_1_comparator_static__parameterized3 
 2default:default
 B
 %s*synth23
@@ -101109,7 +105247,7 @@ B
 2default:default
 e
 %s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized3 
+BModule generic_baseblocks_v2_1_comparator_static__parameterized4 
 2default:default
 B
 %s*synth23
@@ -101157,7 +105295,7 @@ B
 2default:default
 e
 %s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized4 
+BModule generic_baseblocks_v2_1_comparator_static__parameterized5 
 2default:default
 B
 %s*synth23
@@ -101205,7 +105343,7 @@ B
 2default:default
 e
 %s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized5 
+BModule generic_baseblocks_v2_1_comparator_static__parameterized6 
 2default:default
 B
 %s*synth23
@@ -101225,7 +105363,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      6 Bit        Muxes := 1     
+.	   2 Input      7 Bit        Muxes := 1     
 2default:default
 V
 %s*synth2G
@@ -101273,7 +105411,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 7     
+.	   2 Input      1 Bit        Muxes := 8     
 2default:default
 ^
 %s*synth2O
@@ -101289,7 +105427,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 7     
+.	   2 Input      1 Bit        Muxes := 8     
 2default:default
 ^
 %s*synth2O
@@ -101305,7 +105443,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 7     
+.	   2 Input      1 Bit        Muxes := 8     
 2default:default
 ^
 %s*synth2O
@@ -101337,7 +105475,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 7     
+.	   2 Input      1 Bit        Muxes := 8     
 2default:default
 [
 %s*synth2L
@@ -101353,7 +105491,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 7     
+.	   2 Input      1 Bit        Muxes := 8     
 2default:default
 g
 %s*synth2X
@@ -101401,7 +105539,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 7     
+.	   2 Input      1 Bit        Muxes := 8     
 2default:default
 [
 %s*synth2L
@@ -101417,7 +105555,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 7     
+.	   2 Input      1 Bit        Muxes := 8     
 2default:default
 Z
 %s*synth2K
@@ -101457,7 +105595,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	                7 Bit    Registers := 1     
+.	                8 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -101473,11 +105611,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      7 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
+.	   2 Input      8 Bit        Muxes := 1     
 2default:default
 Z
 %s*synth2K
@@ -101505,119 +105639,7 @@ B
 2default:default
 O
 %s*synth2@
-,Module lmb_bram_if_cntlr_v4_0_pselect_mask 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module lmb_mux__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-M
-%s*synth2>
-*Module lmb_bram_if_cntlr__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-I
-%s*synth2:
-&Module design_1_dlmb_bram_if_cntlr_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module lmb_v10__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-?
-%s*synth20
-Module design_1_dlmb_v10_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-_
-%s*synth2P
-<Module lmb_bram_if_cntlr_v4_0_pselect_mask__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module lmb_mux__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-M
-%s*synth2>
-*Module lmb_bram_if_cntlr__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-I
-%s*synth2:
-&Module design_1_ilmb_bram_if_cntlr_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module lmb_v10__parameterized0__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-?
-%s*synth20
-Module design_1_ilmb_v10_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-O
-%s*synth2@
-,Module blk_mem_input_block__parameterized1 
+,Module blk_mem_input_block__parameterized0 
 2default:default
 B
 %s*synth23
@@ -101625,47 +105647,15 @@ B
 2default:default
 P
 %s*synth2A
--Module blk_mem_output_block__parameterized1 
+-Module blk_mem_output_block__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
-2default:default
-5
-%s*synth2&
-Module bindec__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-2
-%s*synth2#
-Module bindec 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
 2default:default
 T
 %s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized2 
+1Module blk_mem_gen_prim_wrapper__parameterized0 
 2default:default
 B
 %s*synth23
@@ -101673,7 +105663,7 @@ B
 2default:default
 R
 %s*synth2C
-/Module blk_mem_gen_prim_width__parameterized2 
+/Module blk_mem_gen_prim_width__parameterized0 
 2default:default
 B
 %s*synth23
@@ -101681,7 +105671,7 @@ B
 2default:default
 T
 %s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized3 
+1Module blk_mem_gen_prim_wrapper__parameterized1 
 2default:default
 B
 %s*synth23
@@ -101689,7 +105679,7 @@ B
 2default:default
 R
 %s*synth2C
-/Module blk_mem_gen_prim_width__parameterized3 
+/Module blk_mem_gen_prim_width__parameterized1 
 2default:default
 B
 %s*synth23
@@ -101697,279 +105687,7 @@ B
 2default:default
 T
 %s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module blk_mem_gen_prim_wrapper__parameterized9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module blk_mem_gen_prim_wrapper__parameterized17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module blk_mem_gen_mux 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-K
-%s*synth2<
-(Module blk_mem_gen_mux__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-T
-%s*synth2E
-1Module blk_mem_gen_generic_cstr__parameterized1 
+1Module blk_mem_gen_generic_cstr__parameterized0 
 2default:default
 B
 %s*synth23
@@ -101977,7 +105695,7 @@ B
 2default:default
 K
 %s*synth2<
-(Module blk_mem_gen_top__parameterized1 
+(Module blk_mem_gen_top__parameterized0 
 2default:default
 B
 %s*synth23
@@ -101985,7 +105703,7 @@ B
 2default:default
 R
 %s*synth2C
-/Module blk_mem_gen_v8_2_synth__parameterized1 
+/Module blk_mem_gen_v8_2_synth__parameterized0 
 2default:default
 B
 %s*synth23
@@ -101993,119 +105711,15 @@ B
 2default:default
 L
 %s*synth2=
-)Module blk_mem_gen_v8_2__parameterized4 
+)Module blk_mem_gen_v8_2__parameterized2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-?
-%s*synth20
-Module design_1_lmb_bram_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module microblaze_0_local_memory_imp_Z0DGSF 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-Module lpf 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 13    
-2default:default
-6
-%s*synth2'
-Module upcnt_n__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-7
-%s*synth2(
-Module sequence__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-J
-%s*synth2;
-'Module proc_sys_reset__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-I
-%s*synth2:
-&Module design_1_rst_clk_wiz_1_100M_0 
+D
+%s*synth25
+!Module design_1_blk_mem_gen_0_1 
 2default:default
 B
 %s*synth23
@@ -104025,11 +107639,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input      5 Bit        Muxes := 1     
+.	   2 Input      5 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit        Muxes := 4     
+.	   6 Input      5 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -104041,15 +107655,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input      1 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
 .	   2 Input      1 Bit        Muxes := 7     
 2default:default
 Q
 %s*synth2B
 .	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      1 Bit        Muxes := 5     
 2default:default
 ?
 %s*synth20
@@ -104235,6 +107849,142 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
+L
+%s*synth2=
+)Module Board_Analyzer_BRAM_v1_0_S00_AXI 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     12 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 5     
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 10    
+2default:default
+Q
+%s*synth2B
+.	               12 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 8     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input     32 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   8 Input     20 Bit        Muxes := 11    
+2default:default
+Q
+%s*synth2B
+.	   8 Input     12 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      8 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      7 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      7 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   9 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 6     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 7     
+2default:default
+D
+%s*synth25
+!Module Board_Analyzer_BRAM_v1_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module design_1_Board_Analyzer_BRAM_0_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
 3
 %s*synth2$
 Module xlslice 
@@ -104245,7 +107995,7 @@ B
 2default:default
 @
 %s*synth21
-Module design_1_xlslice_0_0 
+Module design_1_xlslice_0_2 
 2default:default
 B
 %s*synth23
@@ -104261,7 +108011,7 @@ B
 2default:default
 @
 %s*synth21
-Module design_1_xlslice_0_1 
+Module design_1_xlslice_0_0 
 2default:default
 B
 %s*synth23
@@ -104277,7 +108027,7 @@ B
 2default:default
 @
 %s*synth21
-Module design_1_xlslice_0_2 
+Module design_1_xlslice_0_1 
 2default:default
 B
 %s*synth23
@@ -104413,6 +108163,14 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2>
 *\gen_master_slots[0].r_issuing_cnt_reg[4] 2default:default2.
 axi_crossbar_v2_1_crossbar2default:defaultZ8-3332
+é
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2K
+7\has_mux_a.A/no_softecc_sel_reg.ce_pri.sel_pipe_reg[0] 2default:default2<
+(blk_mem_gen_generic_cstr__parameterized12default:defaultZ8-3332
+é
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2K
+7\has_mux_b.B/no_softecc_sel_reg.ce_pri.sel_pipe_reg[0] 2default:default2<
+(blk_mem_gen_generic_cstr__parameterized12default:defaultZ8-3332
 Ş
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2N
 :\Using_New_CacheInterface_for_AXI.mem_mch_byte_access_reg 2default:default2.
@@ -104613,95 +108371,887 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2%
 \sample_2_reg[8] 2default:default2)
 Debug__parameterized02default:defaultZ8-3332
-é
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2K
-7\has_mux_a.A/no_softecc_sel_reg.ce_pri.sel_pipe_reg[0] 2default:default2<
-(blk_mem_gen_generic_cstr__parameterized12default:defaultZ8-3332
-é
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2K
-7\has_mux_b.B/no_softecc_sel_reg.ce_pri.sel_pipe_reg[0] 2default:default2<
-(blk_mem_gen_generic_cstr__parameterized12default:defaultZ8-3332
-Ã
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys25
-!\arb_row_col0/sent_col_lcl_r_reg 2default:default2,
-mig_7series_v2_0_arb_mux2default:defaultZ8-3332
-Å
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys27
-#\arb_select0/col_mux.col_rmw_r_reg 2default:default2,
-mig_7series_v2_0_arb_mux2default:defaultZ8-3332
-Æ
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys28
-$\arb_select0/col_mux.col_size_r_reg 2default:default2,
-mig_7series_v2_0_arb_mux2default:defaultZ8-3332
-Å
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys24
- \bank_compare0/req_cmd_r_reg[2] 2default:default2/
-mig_7series_v2_0_bank_cntrl2default:defaultZ8-3332
-Å
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys24
- \bank_compare0/req_cmd_r_reg[2] 2default:default2/
-mig_7series_v2_0_bank_cntrl2default:defaultZ8-3332
-Õ
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys24
- \bank_compare0/req_cmd_r_reg[2] 2default:default2?
-+mig_7series_v2_0_bank_cntrl__parameterized02default:defaultZ8-3332
-Õ
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys24
- \bank_compare0/req_cmd_r_reg[2] 2default:default2?
-+mig_7series_v2_0_bank_cntrl__parameterized02default:defaultZ8-3332
-Õ
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys24
- \bank_compare0/req_cmd_r_reg[2] 2default:default2?
-+mig_7series_v2_0_bank_cntrl__parameterized12default:defaultZ8-3332
-Õ
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys24
- \bank_compare0/req_cmd_r_reg[2] 2default:default2?
-+mig_7series_v2_0_bank_cntrl__parameterized12default:defaultZ8-3332
-Õ
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys24
- \bank_compare0/req_cmd_r_reg[2] 2default:default2?
-+mig_7series_v2_0_bank_cntrl__parameterized22default:defaultZ8-3332
-Õ
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys24
- \bank_compare0/req_cmd_r_reg[2] 2default:default2?
-+mig_7series_v2_0_bank_cntrl__parameterized22default:defaultZ8-3332
-ì
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2c
-O\rank_mach0/rank_common0/periodic_read_request.periodic_rd_arb0/grant_r_reg[0] 2default:default2'
-mig_7series_v2_0_mc2default:defaultZ8-3332
-ê
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2F
-2\of_pre_fifo_gen.u_ddr_of_pre_fifo/my_full_reg[4] 2default:default2B
-.mig_7series_v2_0_ddr_byte_lane__parameterized02default:defaultZ8-3332
-ë
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2G
-3\of_pre_fifo_gen.u_ddr_of_pre_fifo/my_empty_reg[7] 2default:default2B
-.mig_7series_v2_0_ddr_byte_lane__parameterized02default:defaultZ8-3332
-ë
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2G
-3\of_pre_fifo_gen.u_ddr_of_pre_fifo/my_empty_reg[7] 2default:default2B
-.mig_7series_v2_0_ddr_byte_lane__parameterized02default:defaultZ8-3332
-ê
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2F
-2\of_pre_fifo_gen.u_ddr_of_pre_fifo/my_full_reg[4] 2default:default2B
-.mig_7series_v2_0_ddr_byte_lane__parameterized02default:defaultZ8-3332
-Æ
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys23
-\oclkdelay_start_dly_r_reg[14] 2default:default21
-mig_7series_v2_0_ddr_phy_init2default:defaultZ8-3332
-Æ
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys23
-\oclkdelay_start_dly_r_reg[13] 2default:default21
-mig_7series_v2_0_ddr_phy_init2default:defaultZ8-3332
-Æ
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys23
-\oclkdelay_start_dly_r_reg[12] 2default:default21
-mig_7series_v2_0_ddr_phy_init2default:defaultZ8-3332
+§
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\num_rmv_reg[5] 2default:default2!
+eval_block__12default:defaultZ8-3332
+§
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\num_rmv_reg[4] 2default:default2!
+eval_block__12default:defaultZ8-3332
+§
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\num_rmv_reg[3] 2default:default2!
+eval_block__12default:defaultZ8-3332
+§
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\num_rmv_reg[2] 2default:default2!
+eval_block__12default:defaultZ8-3332
+§
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\num_rmv_reg[1] 2default:default2!
+eval_block__12default:defaultZ8-3332
+§
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\num_rmv_reg[0] 2default:default2!
+eval_block__12default:defaultZ8-3332
+~
+%s*synth2o
+[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+l
+%s*synth2]
+IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+2default:default
+j
+%s*synth2[
+GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+o
+%s*synth2`
+LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+§
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\num_rmv_reg[5] 2default:default2!
+eval_block__22default:defaultZ8-3332
+§
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\num_rmv_reg[4] 2default:default2!
+eval_block__22default:defaultZ8-3332
+§
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\num_rmv_reg[3] 2default:default2!
+eval_block__22default:defaultZ8-3332
+§
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\num_rmv_reg[2] 2default:default2!
+eval_block__22default:defaultZ8-3332
+§
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\num_rmv_reg[1] 2default:default2!
+eval_block__22default:defaultZ8-3332
+§
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
+\num_rmv_reg[0] 2default:default2!
+eval_block__22default:defaultZ8-3332
+~
+%s*synth2o
+[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+l
+%s*synth2]
+IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+2default:default
+j
+%s*synth2[
+GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+o
+%s*synth2`
+LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+¨
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2&
+\col_out0_reg[19] 2default:default2 
+placement__32default:defaultZ8-3332
+¨
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2&
+\col_out0_reg[18] 2default:default2 
+placement__32default:defaultZ8-3332
+¨
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2&
+\col_out0_reg[17] 2default:default2 
+placement__32default:defaultZ8-3332
+¨
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2&
+\col_out0_reg[16] 2default:default2 
+placement__32default:defaultZ8-3332
+¨
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2&
+\col_out0_reg[15] 2default:default2 
+placement__32default:defaultZ8-3332
+¨
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2&
+\col_out0_reg[14] 2default:default2 
+placement__32default:defaultZ8-3332
+¨
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2&
+\col_out0_reg[13] 2default:default2 
+placement__32default:defaultZ8-3332
 Ô
 Message '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2 
 Synth 8-33322default:default2
 1002default:defaultZ17-14
+~
+%s*synth2o
+[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+l
+%s*synth2]
+IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+2default:default
+j
+%s*synth2[
+GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+o
+%s*synth2`
+LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+~
+%s*synth2o
+[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+l
+%s*synth2]
+IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+2default:default
+j
+%s*synth2[
+GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+o
+%s*synth2`
+LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+~
+%s*synth2o
+[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+l
+%s*synth2]
+IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+2default:default
+j
+%s*synth2[
+GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+o
+%s*synth2`
+LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+~
+%s*synth2o
+[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+l
+%s*synth2]
+IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+2default:default
+j
+%s*synth2[
+GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+o
+%s*synth2`
+LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+~
+%s*synth2o
+[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+l
+%s*synth2]
+IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+2default:default
+j
+%s*synth2[
+GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+o
+%s*synth2`
+LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+~
+%s*synth2o
+[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+l
+%s*synth2]
+IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+2default:default
+j
+%s*synth2[
+GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+o
+%s*synth2`
+LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+~
+%s*synth2o
+[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+l
+%s*synth2]
+IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+2default:default
+j
+%s*synth2[
+GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+o
+%s*synth2`
+LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+~
+%s*synth2o
+[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+l
+%s*synth2]
+IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+2default:default
+j
+%s*synth2[
+GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+o
+%s*synth2`
+LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
 Ø
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2-
 oclkdelay_start_dly_r_reg2default:default2
@@ -104730,9 +109280,1711 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 352default:default2å
 Î/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/a2538a4c/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 1212default:default8@Z8-3936
-ª
-%s*synth2š
-…Finished Cross Boundary Optimization : Time (s): cpu = 00:04:00 ; elapsed = 00:03:58 . Memory (MB): peak = 1591.090 ; gain = 954.172
+Ø
+tResources of type %s have been overutilized. Used = %s, Available = %s. Use report_utilization command for details.
+3323*oasys2
+DSP2default:default2
+3232default:default2
+2402default:defaultZ8-3323
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+‡
+%s*synth2x
+dDSP Report: Generating DSP score_reg1, operation Mode is (post resource management): (A:0x1194)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg4, operation Mode is (post resource management): (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+‡
+%s*synth2x
+dDSP Report: Generating DSP score_reg1, operation Mode is (post resource management): (A:0x1194)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg4, operation Mode is (post resource management): (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+‡
+%s*synth2x
+dDSP Report: Generating DSP score_reg1, operation Mode is (post resource management): (A:0x1194)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg4, operation Mode is (post resource management): (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+‡
+%s*synth2x
+dDSP Report: Generating DSP score_reg1, operation Mode is (post resource management): (A:0x1194)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg4, operation Mode is (post resource management): (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+‡
+%s*synth2x
+dDSP Report: Generating DSP score_reg1, operation Mode is (post resource management): (A:0x1194)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg4, operation Mode is (post resource management): (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+‡
+%s*synth2x
+dDSP Report: Generating DSP score_reg1, operation Mode is (post resource management): (A:0x1194)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg4, operation Mode is (post resource management): (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+‡
+%s*synth2x
+dDSP Report: Generating DSP score_reg1, operation Mode is (post resource management): (A:0x1194)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg4, operation Mode is (post resource management): (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+‡
+%s*synth2x
+dDSP Report: Generating DSP score_reg1, operation Mode is (post resource management): (A:0x1194)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg4, operation Mode is (post resource management): (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+š
+%s*synth2Š
+vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+…
+%s*synth2v
+bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+†
+%s*synth2w
+cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+„
+%s*synth2u
+aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+Š
+%s*synth2{
+gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+«
+%s*synth2›
+†Finished Cross Boundary Optimization : Time (s): cpu = 00:04:22 ; elapsed = 00:04:16 . Memory (MB): peak = 2033.172 ; gain = 1396.258
 2default:default
 ¢
 %s*synth2’
@@ -104817,9 +111069,351 @@ Distributed RAM:
 Ö+----------------------------------------------------+----------------------------------------------------------------------------------------------------+--------------------+----------------------+-----------------+--------------------------------------------------------------------------------------------------------------------------+
 
 2default:default
-¹
-%s*synth2©
-”Note: The table shows RAMs generated at current stage. Some RAM generation could be reversed due to later optimizations. Mutiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the hierarchical modules names of the RAM and only part of it is displayed.
+¾
+%s*synth2®
+™Note: The table shows RAMs generated at current stage. Some RAM generation could be reversed due to later optimizations. Mutiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the hierarchical modules names of the RAM and only part of it is displayed.
+DSP:
+2default:default
+¿
+%s*synth2¯
+š+------------+---------------------------------+--------------+------------------+--------+--------+--------+--------+------+------+------+------+------+
+2default:default
+À
+%s*synth2°
+›|Module Name | OP MODE                         | Neg Edge Clk | A Size (Signed?) | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | PREG | 
+2default:default
+¿
+%s*synth2¯
+š+------------+---------------------------------+--------------+------------------+--------+--------+--------+--------+------+------+------+------+------+
+2default:default
+À
+%s*synth2°
+›|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+2default:default
+À
+%s*synth2°
+›+------------+---------------------------------+--------------+------------------+--------+--------+--------+--------+------+------+------+------+------+
+
+2default:default
+Ğ
+%s*synth2À
+«Note: The table shows DSPs generated at current stage. Some DSP generation could be reversed due to later optimizations. Mutiple instantiated DSPs are reported only once.
 2default:default
 ¦
 %s*synth2–
@@ -105118,81 +111712,138 @@ Rdesign_1_i/mig_7series_0/u_memc_ui_top_axii_5/\u_ui_top/ui_cmd0/app_hi_pri_r1_r
 6propagating constant %s across sequential element (%s)3333*oasys2
 02default:default2—
 ‚design_1_i/mig_7series_0/u_memc_ui_top_axii_5/\u_axi_mc/USE_UPSIZER.upsizer_d2/mi_register_slice_inst/r_pipe/storage_data1_reg[1] 2default:defaultZ8-3333
+¬
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2D
+0score_ten__GBM2:/eval_block03/\cur_state_reg[4] 2default:defaultZ8-3333
+¬
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2D
+0score_ten__GBM2:/eval_block04/\cur_state_reg[4] 2default:defaultZ8-3333
+¬
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2D
+0score_ten__GBM2:/eval_block06/\cur_state_reg[4] 2default:defaultZ8-3333
+¯
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2G
+3score_ten__GBM2__1:/eval_block03/\cur_state_reg[4] 2default:defaultZ8-3333
+¯
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2G
+3score_ten__GBM2__1:/eval_block04/\cur_state_reg[4] 2default:defaultZ8-3333
+¯
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2G
+3score_ten__GBM2__1:/eval_block06/\cur_state_reg[4] 2default:defaultZ8-3333
+¬
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2D
+0score_ten__GBM1:/eval_block02/\cur_state_reg[4] 2default:defaultZ8-3333
+¬
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2D
+0score_ten__GBM1:/eval_block05/\cur_state_reg[4] 2default:defaultZ8-3333
+¯
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2G
+3score_ten__GBM1__1:/eval_block02/\cur_state_reg[4] 2default:defaultZ8-3333
+¯
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2G
+3score_ten__GBM1__1:/eval_block05/\cur_state_reg[4] 2default:defaultZ8-3333
+¬
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2D
+0score_ten__GBM0:/eval_block01/\cur_state_reg[4] 2default:defaultZ8-3333
+¬
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2D
+0score_ten__GBM0:/eval_block00/\cur_state_reg[4] 2default:defaultZ8-3333
+¬
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2D
+0score_ten__GBM0:/eval_block07/\cur_state_reg[4] 2default:defaultZ8-3333
+¬
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2D
+0score_ten__GBM0:/eval_block09/\cur_state_reg[4] 2default:defaultZ8-3333
+¬
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2D
+0score_ten__GBM0:/eval_block08/\cur_state_reg[4] 2default:defaultZ8-3333
+Ã
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2[
+Gdesign_1_i/aicontroller_0/score_rot2i_6/eval_block01/\cur_state_reg[4] 2default:defaultZ8-3333
+Ã
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2[
+Gdesign_1_i/aicontroller_0/score_rot2i_6/eval_block00/\cur_state_reg[4] 2default:defaultZ8-3333
+Ã
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2[
+Gdesign_1_i/aicontroller_0/score_rot2i_6/eval_block07/\cur_state_reg[4] 2default:defaultZ8-3333
+Ã
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2[
+Gdesign_1_i/aicontroller_0/score_rot2i_6/eval_block09/\cur_state_reg[4] 2default:defaultZ8-3333
+Ã
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2[
+Gdesign_1_i/aicontroller_0/score_rot2i_6/eval_block08/\cur_state_reg[4] 2default:defaultZ8-3333
 
 6propagating constant %s across sequential element (%s)3333*oasys2
 02default:default2¦
 ‘design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_migi_6/\temp_mon_enabled.u_tempmon/FSM_onehot_xadc_supplied_temperature.tempmon_state_reg[4] 2default:defaultZ8-3333
-€
+Ã
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2—
-‚design_1_i/mig_7series_0/\u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/mc0 /\cmd_pipe_plus.mc_data_offset_1_reg[5] 2default:defaultZ8-3333
-ƒ
+02default:default2[
+Gdesign_1_i/aicontroller_0/score_rot0i_0/eval_block01/\cur_state_reg[4] 2default:defaultZ8-3333
+Ã
 6propagating constant %s across sequential element (%s)3333*oasys2
-12default:default2š
-…design_1_i/mig_7series_0/ddr_phy_top0i_4/u_ddr_calib_top/\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr/pi_dqs_found_lanes_r1_reg[1] 2default:defaultZ8-3333
-Ü
+02default:default2[
+Gdesign_1_i/aicontroller_0/score_rot0i_0/eval_block00/\cur_state_reg[4] 2default:defaultZ8-3333
+Ã
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2t
-`design_1_i/mig_7series_0/ddr_phy_top0i_4/u_ddr_calib_top/u_ddr_phy_rdlvl/\cal1_cnt_cpt_r_reg[1] 2default:defaultZ8-3333
-ô
+02default:default2[
+Gdesign_1_i/aicontroller_0/score_rot0i_0/eval_block07/\cur_state_reg[4] 2default:defaultZ8-3333
+Ã
 6propagating constant %s across sequential element (%s)3333*oasys2
-12default:default2‹
-wdesign_1_i/mig_7series_0/ddr_phy_top0i_4/u_ddr_calib_top/\u_ddr_phy_init/wrdq_div2_4to1_rdlvl_first.phy_wrdata_reg[95] 2default:defaultZ8-3333
-õ
+02default:default2[
+Gdesign_1_i/aicontroller_0/score_rot0i_0/eval_block09/\cur_state_reg[4] 2default:defaultZ8-3333
+Ã
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2Œ
-xdesign_1_i/mig_7series_0/ddr_phy_top0i_4/u_ddr_calib_top/\u_ddr_phy_init/wrdq_div2_4to1_rdlvl_first.phy_wrdata_reg[124] 2default:defaultZ8-3333
-Ú
+02default:default2[
+Gdesign_1_i/aicontroller_0/score_rot0i_0/eval_block08/\cur_state_reg[4] 2default:defaultZ8-3333
+¸
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2r
-^design_1_i/mig_7series_0/ddr_phy_top0i_4/u_ddr_calib_top/u_ddr_phy_rdlvl/\rd_mux_sel_r_reg[1] 2default:defaultZ8-3333
-˜
+02default:default2P
+<design_1_i/aicontroller_0/insti_12/\next_array0_rot2_reg[3] 2default:defaultZ8-3333
+¸
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2¯
-šdesign_1_i/mig_7series_0/\u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/mc0 /\bank_mach0/bank_cntrl[1].bank0/bank_compare0/req_col_r_reg[2] 2default:defaultZ8-3333
-˜
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2¯
-šdesign_1_i/mig_7series_0/\u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/mc0 /\bank_mach0/bank_cntrl[0].bank0/bank_compare0/req_col_r_reg[2] 2default:defaultZ8-3333
-˜
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2¯
-šdesign_1_i/mig_7series_0/\u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/mc0 /\bank_mach0/bank_cntrl[2].bank0/bank_compare0/req_col_r_reg[2] 2default:defaultZ8-3333
-˜
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2¯
-šdesign_1_i/mig_7series_0/\u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/mc0 /\bank_mach0/bank_cntrl[3].bank0/bank_compare0/req_col_r_reg[2] 2default:defaultZ8-3333
-ÿ
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2–
-design_1_i/mig_7series_0/\u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/mc0 /\rank_mach0/rank_common0/app_zq_r_reg 2default:defaultZ8-3333
-ÿ
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2–
-design_1_i/mig_7series_0/\u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/mc0 /\rank_mach0/rank_common0/app_zq_r_reg 2default:defaultZ8-3333
-Ä
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2\
-Hdesign_1_i/mig_7series_0/u_ddr_mc_phy_wrapperi_3/\phy_ctl_wd_i1_reg[26] 2default:defaultZ8-3333
-Ä
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2\
-Hdesign_1_i/mig_7series_0/u_ddr_mc_phy_wrapperi_3/\phy_ctl_wd_i1_reg[26] 2default:defaultZ8-3333
+02default:default2P
+<design_1_i/aicontroller_0/insti_12/\next_array2_rot1_reg[0] 2default:defaultZ8-3333
+Ô
+Message '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
+14*common2 
+Synth 8-33332default:default2
+1002default:defaultZ17-14
  
 %s*synth2
-|Finished Area Optimization : Time (s): cpu = 00:04:34 ; elapsed = 00:04:33 . Memory (MB): peak = 1690.062 ; gain = 1053.145
+|Finished Area Optimization : Time (s): cpu = 00:07:10 ; elapsed = 00:07:05 . Memory (MB): peak = 2887.043 ; gain = 2250.129
 2default:default
 ¯
 %s*synth2Ÿ
-ŠFinished Applying XDC Timing Constraints : Time (s): cpu = 00:04:38 ; elapsed = 00:04:37 . Memory (MB): peak = 1711.062 ; gain = 1074.145
+ŠFinished Applying XDC Timing Constraints : Time (s): cpu = 00:07:16 ; elapsed = 00:07:11 . Memory (MB): peak = 2932.043 ; gain = 2295.129
 2default:default
 ¢
 %s*synth2’
-~Finished Timing Optimization : Time (s): cpu = 00:04:41 ; elapsed = 00:04:40 . Memory (MB): peak = 1719.062 ; gain = 1082.145
+~Finished Timing Optimization : Time (s): cpu = 00:07:31 ; elapsed = 00:07:26 . Memory (MB): peak = 3034.043 ; gain = 2397.129
 2default:default
 ¡
 %s*synth2‘
-}Finished Technology Mapping : Time (s): cpu = 00:04:59 ; elapsed = 00:04:58 . Memory (MB): peak = 1732.445 ; gain = 1095.527
+}Finished Technology Mapping : Time (s): cpu = 00:09:42 ; elapsed = 00:09:38 . Memory (MB): peak = 3315.777 ; gain = 2678.863
 2default:default
 î
 eFound max_fanout attribute set to %s on net %s. Fanout reduced from %s to %s by creating %s replicas.3744*oasys2
@@ -105208,13 +111859,13 @@ Y\u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/u_axi_mc/USE_UPSIZER.upsizer_
 6772default:default2
 1002default:default2
 72default:defaultZ8-4618
-Ş
+İ
 eFound max_fanout attribute set to %s on net %s. Fanout reduced from %s to %s by creating %s replicas.3744*oasys2
 402default:default2ı
-è\u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/my_empty [4]2default:default2
-1282default:default2
+è\u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/my_empty [4]2default:default2
+642default:default2
 322default:default2
-32default:defaultZ8-4618
+12default:defaultZ8-4618
 Ş
 eFound max_fanout attribute set to %s on net %s. Fanout reduced from %s to %s by creating %s replicas.3744*oasys2
 402default:default2ı
@@ -105222,30 +111873,30 @@ eFound max_fanout attribute set to %s on net %s. Fanout reduced from %s to %s by
 1922default:default2
 392default:default2
 42default:defaultZ8-4618
-ì
+ğ
 eFound max_fanout attribute set to %s on net %s. Fanout reduced from %s to %s by creating %s replicas.3744*oasys2
-502default:default2Š
-v\n_0_u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/init_calib_complete_reg 2default:default2
-5532default:default2
-462default:default2
-122default:defaultZ8-4618
+502default:default2
+z\n_37345_u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/init_calib_complete_reg 2default:default2
+4772default:default2
+482default:default2
+102default:defaultZ8-4618
 î
 eFound max_fanout attribute set to %s on net %s. Fanout reduced from %s to %s by creating %s replicas.3744*oasys2
 502default:default2
 y\u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/u_axi_mc/USE_UPSIZER.upsizer_d2/mi_register_slice_inst/r_pipe/state [0]2default:default2
-1392default:default2
+1412default:default2
 472default:default2
 22default:defaultZ8-4618
 »
 eFound max_fanout attribute set to %s on net %s. Fanout reduced from %s to %s by creating %s replicas.3744*oasys2
 502default:default2Z
 F\u_design_1_mig_7series_0_3_mig/u_ddr2_infrastructure/rstdiv0_sync_r1 2default:default2
-6792default:default2
+6162default:default2
 502default:default2
-132default:defaultZ8-4618
+122default:defaultZ8-4618
 ›
 %s*synth2‹
-wFinished IO Insertion : Time (s): cpu = 00:05:01 ; elapsed = 00:05:00 . Memory (MB): peak = 1732.445 ; gain = 1095.527
+wFinished IO Insertion : Time (s): cpu = 00:09:51 ; elapsed = 00:09:47 . Memory (MB): peak = 3315.777 ; gain = 2678.863
 2default:default
 ;
 %s*synth2,
@@ -105274,11 +111925,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ¬
 %s*synth2œ
-‡Finished Renaming Generated Instances : Time (s): cpu = 00:05:01 ; elapsed = 00:05:00 . Memory (MB): peak = 1732.445 ; gain = 1095.527
+‡Finished Renaming Generated Instances : Time (s): cpu = 00:09:52 ; elapsed = 00:09:48 . Memory (MB): peak = 3315.777 ; gain = 2678.863
 2default:default
 ©
 %s*synth2™
-„Finished Rebuilding User Hierarchy : Time (s): cpu = 00:05:03 ; elapsed = 00:05:02 . Memory (MB): peak = 1732.445 ; gain = 1095.527
+„Finished Rebuilding User Hierarchy : Time (s): cpu = 00:10:01 ; elapsed = 00:09:57 . Memory (MB): peak = 3315.777 ; gain = 2678.863
 2default:default
 ¢
 %s*synth2’
@@ -105542,259 +112193,267 @@ J
 2default:default
 J
 %s*synth2;
-'|6     |CARRY4                |   145|
+'|6     |CARRY4                |  1207|
 2default:default
 J
 %s*synth2;
-'|7     |DSP48E1               |     1|
+'|7     |DSP48E1               |    37|
 2default:default
 J
 %s*synth2;
-'|8     |DSP48E1_1             |     1|
+'|8     |DSP48E1_1             |   108|
 2default:default
 J
 %s*synth2;
-'|9     |DSP48E1_2             |     1|
+'|9     |DSP48E1_2             |    74|
 2default:default
 J
 %s*synth2;
-'|10    |GND                   |     2|
+'|10    |DSP48E1_3             |     1|
 2default:default
 J
 %s*synth2;
-'|11    |IDELAYCTRL            |     1|
+'|11    |DSP48E1_4             |     1|
 2default:default
 J
 %s*synth2;
-'|12    |IDELAYE2              |    16|
+'|12    |DSP48E1_5             |     1|
 2default:default
 J
 %s*synth2;
-'|13    |INV                   |     4|
+'|13    |GND                   |     2|
 2default:default
 J
 %s*synth2;
-'|14    |IN_FIFO               |     2|
+'|14    |IDELAYCTRL            |     1|
 2default:default
 J
 %s*synth2;
-'|15    |ISERDESE2             |    16|
+'|15    |IDELAYE2              |    16|
 2default:default
 J
 %s*synth2;
-'|16    |LUT1                  |   540|
+'|16    |INV                   |     4|
 2default:default
 J
 %s*synth2;
-'|17    |LUT2                  |  1724|
+'|17    |IN_FIFO               |     2|
 2default:default
 J
 %s*synth2;
-'|18    |LUT3                  |  2198|
+'|18    |ISERDESE2             |    16|
 2default:default
 J
 %s*synth2;
-'|19    |LUT4                  |  2074|
+'|19    |LUT1                  |  1473|
 2default:default
 J
 %s*synth2;
-'|20    |LUT5                  |  2091|
+'|20    |LUT2                  |  4970|
 2default:default
 J
 %s*synth2;
-'|21    |LUT6                  |  3381|
+'|21    |LUT3                  | 11638|
 2default:default
 J
 %s*synth2;
-'|22    |LUT6_2                |   104|
+'|22    |LUT4                  | 10091|
 2default:default
 J
 %s*synth2;
-'|23    |MMCME2_ADV            |     2|
+'|23    |LUT5                  | 16361|
 2default:default
 J
 %s*synth2;
-'|24    |MULT_AND              |     1|
+'|24    |LUT6                  | 25803|
 2default:default
 J
 %s*synth2;
-'|25    |MUXCY                 |   160|
+'|25    |LUT6_2                |   104|
 2default:default
 J
 %s*synth2;
-'|26    |MUXCY_L               |   239|
+'|26    |MMCME2_ADV            |     2|
 2default:default
 J
 %s*synth2;
-'|27    |MUXF7                 |   162|
+'|27    |MULT_AND              |     1|
 2default:default
 J
 %s*synth2;
-'|28    |MUXF8                 |     3|
+'|28    |MUXCY                 |   160|
 2default:default
 J
 %s*synth2;
-'|29    |ODDR                  |     5|
+'|29    |MUXCY_L               |   239|
 2default:default
 J
 %s*synth2;
-'|30    |ODDR_1                |     1|
+'|30    |MUXF7                 |   642|
 2default:default
 J
 %s*synth2;
-'|31    |OR2L                  |     2|
+'|31    |ODDR                  |     5|
 2default:default
 J
 %s*synth2;
-'|32    |OSERDESE2             |    22|
+'|32    |ODDR_1                |     1|
 2default:default
 J
 %s*synth2;
-'|33    |OSERDESE2_1           |     2|
+'|33    |OR2L                  |     2|
 2default:default
 J
 %s*synth2;
-'|34    |OSERDESE2_2           |    18|
+'|34    |OSERDESE2             |    22|
 2default:default
 J
 %s*synth2;
-'|35    |OUT_FIFO              |     2|
+'|35    |OSERDESE2_1           |     2|
 2default:default
 J
 %s*synth2;
-'|36    |OUT_FIFO_1            |     2|
+'|36    |OSERDESE2_2           |    18|
 2default:default
 J
 %s*synth2;
-'|37    |PHASER_IN_PHY         |     2|
+'|37    |OUT_FIFO              |     2|
 2default:default
 J
 %s*synth2;
-'|38    |PHASER_OUT_PHY        |     2|
+'|38    |OUT_FIFO_1            |     2|
 2default:default
 J
 %s*synth2;
-'|39    |PHASER_OUT_PHY_1      |     2|
+'|39    |PHASER_IN_PHY         |     2|
 2default:default
 J
 %s*synth2;
-'|40    |PHASER_REF            |     1|
+'|40    |PHASER_OUT_PHY        |     2|
 2default:default
 J
 %s*synth2;
-'|41    |PHY_CONTROL           |     1|
+'|41    |PHASER_OUT_PHY_1      |     2|
 2default:default
 J
 %s*synth2;
-'|42    |PLLE2_ADV             |     1|
+'|42    |PHASER_REF            |     1|
 2default:default
 J
 %s*synth2;
-'|43    |RAM16X1D              |    32|
+'|43    |PHY_CONTROL           |     1|
 2default:default
 J
 %s*synth2;
-'|44    |RAM32M                |   198|
+'|44    |PLLE2_ADV             |     1|
 2default:default
 J
 %s*synth2;
-'|45    |RAMB18E1              |     1|
+'|45    |RAM16X1D              |    32|
 2default:default
 J
 %s*synth2;
-'|46    |RAMB36                |     4|
+'|46    |RAM32M                |   198|
 2default:default
 J
 %s*synth2;
-'|47    |RAMB36E1              |     2|
+'|47    |RAMB18E1              |     1|
 2default:default
 J
 %s*synth2;
-'|48    |RAMB36E1_1            |    16|
+'|48    |RAMB36                |     4|
 2default:default
 J
 %s*synth2;
-'|49    |SRL16                 |     2|
+'|49    |RAMB36E1              |    16|
 2default:default
 J
 %s*synth2;
-'|50    |SRL16E                |   227|
+'|50    |RAMB36E1_1            |     2|
 2default:default
 J
 %s*synth2;
-'|51    |SRLC16E               |    13|
+'|51    |SRL16                 |     2|
 2default:default
 J
 %s*synth2;
-'|52    |SRLC32E               |   259|
+'|52    |SRL16E                |   227|
 2default:default
 J
 %s*synth2;
-'|53    |XADC                  |     1|
+'|53    |SRLC16E               |    13|
 2default:default
 J
 %s*synth2;
-'|54    |XORCY                 |   240|
+'|54    |SRLC32E               |   259|
 2default:default
 J
 %s*synth2;
-'|55    |FDCE                  |   644|
+'|55    |XADC                  |     1|
 2default:default
 J
 %s*synth2;
-'|56    |FDC_1                 |     1|
+'|56    |XORCY                 |   240|
 2default:default
 J
 %s*synth2;
-'|57    |FDE                   |    32|
+'|57    |FDCE                  |   644|
 2default:default
 J
 %s*synth2;
-'|58    |FDPE                  |   145|
+'|58    |FDC_1                 |     1|
 2default:default
 J
 %s*synth2;
-'|59    |FDR                   |   149|
+'|59    |FDE                   |    32|
 2default:default
 J
 %s*synth2;
-'|60    |FDRE                  | 13765|
+'|60    |FDPE                  |   144|
 2default:default
 J
 %s*synth2;
-'|61    |FDRE_1                |     1|
+'|61    |FDR                   |   149|
 2default:default
 J
 %s*synth2;
-'|62    |FDS                   |    21|
+'|62    |FDRE                  | 37010|
 2default:default
 J
 %s*synth2;
-'|63    |FDSE                  |   258|
+'|63    |FDRE_1                |     1|
 2default:default
 J
 %s*synth2;
-'|64    |IBUF                  |     8|
+'|64    |FDS                   |    21|
 2default:default
 J
 %s*synth2;
-'|65    |IOBUFDS_INTERMDISABLE |     2|
+'|65    |FDSE                  |   487|
 2default:default
 J
 %s*synth2;
-'|66    |IOBUF_INTERMDISABLE   |    16|
+'|66    |IBUF                  |     8|
 2default:default
 J
 %s*synth2;
-'|67    |OBUF                  |    37|
+'|67    |IOBUFDS_INTERMDISABLE |     2|
 2default:default
 J
 %s*synth2;
-'|68    |OBUFDS                |     1|
+'|68    |IOBUF_INTERMDISABLE   |    16|
 2default:default
 J
 %s*synth2;
-'|69    |OBUFT                 |     2|
+'|69    |OBUF                  |    37|
+2default:default
+J
+%s*synth2;
+'|70    |OBUFDS                |     1|
+2default:default
+J
+%s*synth2;
+'|71    |OBUFT                 |     2|
 2default:default
 J
 %s*synth2;
@@ -105805,258 +112464,270 @@ J
 
 Report Instance Areas: 
 2default:default
-Õ
-%s*synth2Å
-°+------+-----------------------------------------------------------------------------------------------------------------+---------------------------------------------+------+
+Ö
+%s*synth2Æ
+±+------+-----------------------------------------------------------------------------------------------------------------+---------------------------------------------+-------+
 2default:default
-Õ
-%s*synth2Å
-°|      |Instance                                                                                                         |Module                                       |Cells |
+Ö
+%s*synth2Æ
+±|      |Instance                                                                                                         |Module                                       |Cells  |
 2default:default
-Õ
-%s*synth2Å
-°+------+-----------------------------------------------------------------------------------------------------------------+---------------------------------------------+------+
+Ö
+%s*synth2Æ
+±+------+-----------------------------------------------------------------------------------------------------------------+---------------------------------------------+-------+
 2default:default
-Õ
-%s*synth2Å
-°|1     |top                                                                                                              |                                             | 29032|
+Ö
+%s*synth2Æ
+±|1     |top                                                                                                              |                                             | 112591|
 2default:default
-Õ
-%s*synth2Å
-°|2     |  design_1_i                                                                                                     |design_1                                     | 29010|
+Ö
+%s*synth2Æ
+±|2     |  design_1_i                                                                                                     |design_1                                     | 112569|
 2default:default
-Õ
-%s*synth2Å
-°|3     |    clk_wiz_1                                                                                                    |design_1_clk_wiz_1_0                         |     7|
+Ö
+%s*synth2Æ
+±|3     |    aicontroller_0                                                                                               |design_1_aicontroller_0_0                    |  83080|
 2default:default
-Õ
-%s*synth2Å
-°|4     |      inst                                                                                                       |design_1_clk_wiz_1_0_clk_wiz                 |     7|
+Ö
+%s*synth2Æ
+±|4     |    clk_wiz_1                                                                                                    |design_1_clk_wiz_1_0                         |      7|
 2default:default
-Õ
-%s*synth2Å
-°|5     |    mig_7series_0                                                                                                |design_1_mig_7series_0_3                     | 11607|
+Ö
+%s*synth2Æ
+±|5     |      inst                                                                                                       |design_1_clk_wiz_1_0_clk_wiz                 |      7|
 2default:default
-Õ
-%s*synth2Å
-°|6     |      \u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/u_ddr_phy_rdlvl  |mig_7series_v2_0_ddr_phy_rdlvl               |  1756|
+Ö
+%s*synth2Æ
+±|6     |    mig_7series_0                                                                                                |design_1_mig_7series_0_3                     |  11333|
 2default:default
-Õ
-%s*synth2Å
-°|7     |    axi_5but                                                                                                     |design_1_axi_gpio_0_0                        |   101|
+Ö
+%s*synth2Æ
+±|7     |      \u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/u_ddr_phy_rdlvl  |mig_7series_v2_0_ddr_phy_rdlvl               |   1742|
 2default:default
-Õ
-%s*synth2Å
-°|8     |      U0                                                                                                         |axi_gpio__parameterized0                     |   101|
+Ö
+%s*synth2Æ
+±|8     |    xlconstant_0                                                                                                 |design_1_xlconstant_0_0                      |      0|
 2default:default
-Õ
-%s*synth2Å
-°|9     |        \gpio_core_1/Not_Dual.INPUT_DOUBLE_REGS3                                                                 |cdc_sync                                     |    20|
+Ö
+%s*synth2Æ
+±|9     |    rst_mig_7series_0_81M                                                                                        |design_1_rst_mig_7series_0_81M_1             |     64|
 2default:default
-Õ
-%s*synth2Å
-°|10    |    axi_bram_ai_cntrl                                                                                            |design_1_axi_bram_ctrl_0_0                   |   461|
+Ö
+%s*synth2Æ
+±|10    |    axi_5but                                                                                                     |design_1_axi_gpio_0_0                        |    101|
 2default:default
-Õ
-%s*synth2Å
-°|11    |    axi_mem_intercon                                                                                             |design_1_axi_mem_intercon_1                  |  3542|
+Ö
+%s*synth2Æ
+±|11    |      U0                                                                                                         |axi_gpio__parameterized0                     |    101|
 2default:default
-Õ
-%s*synth2Å
-°|12    |      \m00_couplers/auto_cc                                                                                      |design_1_auto_cc_0                           |  1191|
+Ö
+%s*synth2Æ
+±|12    |        \gpio_core_1/Not_Dual.INPUT_DOUBLE_REGS3                                                                 |cdc_sync                                     |     20|
 2default:default
-Õ
-%s*synth2Å
-°|13    |        inst                                                                                                     |axi_clock_converter_v2_1_axi_clock_converter |  1191|
+Ö
+%s*synth2Æ
+±|13    |    axi_bram_ai_cntrl                                                                                            |design_1_axi_bram_ctrl_0_0                   |    461|
 2default:default
-Õ
-%s*synth2Å
-°|14    |          \gen_clock_conv.gen_async_conv.asyncfifo_axi                                                           |fifo_generator_v12_0                         |  1190|
+Ö
+%s*synth2Æ
+±|14    |    axi_mem_intercon                                                                                             |design_1_axi_mem_intercon_1                  |   3491|
 2default:default
-Õ
-%s*synth2Å
-°|15    |      \s00_couplers/auto_us                                                                                      |design_1_auto_us_0                           |  1201|
+Ö
+%s*synth2Æ
+±|15    |      \m00_couplers/auto_cc                                                                                      |design_1_auto_cc_0                           |   1191|
 2default:default
-Õ
-%s*synth2Å
-°|16    |        inst                                                                                                     |axi_dwidth_converter_v2_1_top                |  1201|
+Ö
+%s*synth2Æ
+±|16    |        inst                                                                                                     |axi_clock_converter_v2_1_axi_clock_converter |   1191|
 2default:default
-Õ
-%s*synth2Å
-°|17    |      xbar                                                                                                       |design_1_xbar_3                              |  1148|
+Ö
+%s*synth2Æ
+±|17    |          \gen_clock_conv.gen_async_conv.asyncfifo_axi                                                           |fifo_generator_v12_0                         |   1190|
 2default:default
-Õ
-%s*synth2Å
-°|18    |    rst_mig_7series_0_81M                                                                                        |design_1_rst_mig_7series_0_81M_1             |    64|
+Ö
+%s*synth2Æ
+±|18    |      \s00_couplers/auto_us                                                                                      |design_1_auto_us_0                           |   1162|
 2default:default
-Õ
-%s*synth2Å
-°|19    |    axi_uartlite_0                                                                                               |design_1_axi_uartlite_0_0                    |   229|
+Ö
+%s*synth2Æ
+±|19    |        inst                                                                                                     |axi_dwidth_converter_v2_1_top                |   1162|
 2default:default
-Õ
-%s*synth2Å
-°|20    |      U0                                                                                                         |axi_uartlite__parameterized0                 |   229|
+Ö
+%s*synth2Æ
+±|20    |      xbar                                                                                                       |design_1_xbar_3                              |   1136|
 2default:default
-Õ
-%s*synth2Å
-°|21    |        \UARTLITE_CORE_I/UARTLITE_RX_I/INPUT_DOUBLE_REGS3                                                        |cdc_sync__parameterized4                     |     4|
+Ö
+%s*synth2Æ
+±|21    |    rst_clk_wiz_1_100M                                                                                           |design_1_rst_clk_wiz_1_100M_0                |     64|
 2default:default
-Õ
-%s*synth2Å
-°|22    |    blk_mem_gen_ai                                                                                               |design_1_blk_mem_gen_0_1                     |     2|
+Ö
+%s*synth2Æ
+±|22    |    axi_uartlite_0                                                                                               |design_1_axi_uartlite_0_0                    |    229|
 2default:default
-Õ
-%s*synth2Å
-°|23    |    mdm_1                                                                                                        |design_1_mdm_1_0                             |   381|
+Ö
+%s*synth2Æ
+±|23    |      U0                                                                                                         |axi_uartlite__parameterized0                 |    229|
 2default:default
-Õ
-%s*synth2Å
-°|24    |      U0                                                                                                         |MDM__parameterized0                          |   381|
+Ö
+%s*synth2Æ
+±|24    |        \UARTLITE_CORE_I/UARTLITE_RX_I/INPUT_DOUBLE_REGS3                                                        |cdc_sync__parameterized4                     |      4|
 2default:default
-Õ
-%s*synth2Å
-°|25    |    microblaze_0                                                                                                 |design_1_microblaze_0_0                      |  9308|
+Ö
+%s*synth2Æ
+±|25    |    mdm_1                                                                                                        |design_1_mdm_1_0                             |    381|
 2default:default
-Õ
-%s*synth2Å
-°|26    |      U0                                                                                                         |MicroBlaze__parameterized0                   |  9308|
+Ö
+%s*synth2Æ
+±|26    |      U0                                                                                                         |MDM__parameterized0                          |    381|
 2default:default
-Õ
-%s*synth2Å
-°|27    |        \MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I                                               |Register_File_gti__parameterized0            |    16|
+Ö
+%s*synth2Æ
+±|27    |    microblaze_0                                                                                                 |design_1_microblaze_0_0                      |   9299|
 2default:default
-Õ
-%s*synth2Å
-°|28    |    microblaze_0_axi_intc                                                                                        |design_1_microblaze_0_axi_intc_0             |   342|
+Ö
+%s*synth2Æ
+±|28    |      U0                                                                                                         |MicroBlaze__parameterized0                   |   9299|
 2default:default
-Õ
-%s*synth2Å
-°|29    |      U0                                                                                                         |axi_intc__parameterized0                     |   342|
+Ö
+%s*synth2Æ
+±|29    |        \MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I                                               |Register_File_gti__parameterized0            |     16|
 2default:default
-Õ
-%s*synth2Å
-°|30    |    microblaze_0_axi_periph                                                                                      |design_1_microblaze_0_axi_periph_1           |   440|
+Ö
+%s*synth2Æ
+±|30    |    microblaze_0_axi_intc                                                                                        |design_1_microblaze_0_axi_intc_0             |    346|
 2default:default
-Õ
-%s*synth2Å
-°|31    |      \m05_couplers/auto_pc                                                                                      |design_1_auto_pc_0                           |     0|
+Ö
+%s*synth2Æ
+±|31    |      U0                                                                                                         |axi_intc__parameterized0                     |    346|
 2default:default
-Õ
-%s*synth2Å
-°|32    |      xbar                                                                                                       |design_1_xbar_2                              |   440|
+Ö
+%s*synth2Æ
+±|32    |    microblaze_0_axi_periph                                                                                      |design_1_microblaze_0_axi_periph_1           |    470|
 2default:default
-Õ
-%s*synth2Å
-°|33    |    rst_clk_wiz_1_100M                                                                                           |design_1_rst_clk_wiz_1_100M_0                |    64|
+Ö
+%s*synth2Æ
+±|33    |      \m05_couplers/auto_pc                                                                                      |design_1_auto_pc_0                           |      0|
 2default:default
-Õ
-%s*synth2Å
-°|34    |    axi_tft_0                                                                                                    |design_1_axi_tft_0_0                         |  2429|
+Ö
+%s*synth2Æ
+±|34    |      xbar                                                                                                       |design_1_xbar_2                              |    470|
 2default:default
-Õ
-%s*synth2Å
-°|35    |      U0                                                                                                         |axi_tft__parameterized0                      |  2429|
+Ö
+%s*synth2Æ
+±|35    |    blk_mem_gen_ai                                                                                               |design_1_blk_mem_gen_0_1                     |      2|
 2default:default
-Õ
-%s*synth2Å
-°|36    |        \TFT_CTRL_I/INTR_EN_SYNC                                                                                 |cdc_sync__parameterized0__2                  |     4|
+Ö
+%s*synth2Æ
+±|36    |    axi_tft_0                                                                                                    |design_1_axi_tft_0_0                         |   2452|
 2default:default
-Õ
-%s*synth2Å
-°|37    |        \TFT_CTRL_I/GET_LINE_SYNC                                                                                |cdc_sync__parameterized1__4                  |    10|
+Ö
+%s*synth2Æ
+±|37    |      U0                                                                                                         |axi_tft__parameterized0                      |   2452|
 2default:default
-Õ
-%s*synth2Å
-°|38    |        \TFT_CTRL_I/V_P_SYNC                                                                                     |cdc_sync__parameterized1__5                  |    10|
+Ö
+%s*synth2Æ
+±|38    |        \TFT_CTRL_I/INTR_EN_SYNC                                                                                 |cdc_sync__parameterized0__2                  |      4|
 2default:default
-Õ
-%s*synth2Å
-°|39    |        \TFT_CTRL_I/V_BP_SYNC                                                                                    |cdc_sync__parameterized1__6                  |    10|
+Ö
+%s*synth2Æ
+±|39    |        \TFT_CTRL_I/GET_LINE_SYNC                                                                                |cdc_sync__parameterized1__4                  |     10|
 2default:default
-Õ
-%s*synth2Å
-°|40    |        \TFT_CTRL_I/TFT_ON_MAXI_SYNC                                                                             |cdc_sync__parameterized0                     |     4|
+Ö
+%s*synth2Æ
+±|40    |        \TFT_CTRL_I/V_P_SYNC                                                                                     |cdc_sync__parameterized1__5                  |     10|
 2default:default
-Õ
-%s*synth2Å
-°|41    |        \TFT_CTRL_I/BASE_ADDR_SYNC                                                                               |cdc_sync__parameterized2                     |    44|
+Ö
+%s*synth2Æ
+±|41    |        \TFT_CTRL_I/V_BP_SYNC                                                                                    |cdc_sync__parameterized1__6                  |     10|
 2default:default
-Õ
-%s*synth2Å
-°|42    |        \TFT_CTRL_I/TFT_ON_TFT_SYNC                                                                              |cdc_sync__parameterized3__2                  |     2|
+Ö
+%s*synth2Æ
+±|42    |        \TFT_CTRL_I/TFT_ON_MAXI_SYNC                                                                             |cdc_sync__parameterized0                     |      4|
 2default:default
-Õ
-%s*synth2Å
-°|43    |        \TFT_CTRL_I/V_INTR_SYNC                                                                                  |cdc_sync__parameterized1                     |    10|
+Ö
+%s*synth2Æ
+±|43    |        \TFT_CTRL_I/BASE_ADDR_SYNC                                                                               |cdc_sync__parameterized2                     |     44|
 2default:default
-Õ
-%s*synth2Å
-°|44    |        \TFT_CTRL_I/I2C_DONE_SYNC                                                                                |cdc_sync__parameterized3                     |     2|
+Ö
+%s*synth2Æ
+±|44    |        \TFT_CTRL_I/TFT_ON_TFT_SYNC                                                                              |cdc_sync__parameterized3__2                  |      2|
 2default:default
-Õ
-%s*synth2Å
-°|45    |    xlslice_0                                                                                                    |design_1_xlslice_0_0                         |     0|
+Ö
+%s*synth2Æ
+±|45    |        \TFT_CTRL_I/V_INTR_SYNC                                                                                  |cdc_sync__parameterized1                     |     10|
 2default:default
-Õ
-%s*synth2Å
-°|46    |    xlslice_1                                                                                                    |design_1_xlslice_0_1                         |     0|
+Ö
+%s*synth2Æ
+±|46    |        \TFT_CTRL_I/I2C_DONE_SYNC                                                                                |cdc_sync__parameterized3                     |      2|
 2default:default
-Õ
-%s*synth2Å
-°|47    |    xlslice_2                                                                                                    |design_1_xlslice_0_2                         |     0|
+Ö
+%s*synth2Æ
+±|47    |    Board_Analyzer_BRAM_0                                                                                        |design_1_Board_Analyzer_BRAM_0_0             |    756|
 2default:default
-Õ
-%s*synth2Å
-°|48    |    microblaze_0_local_memory                                                                                    |microblaze_0_local_memory_imp_Z0DGSF         |    33|
+Ö
+%s*synth2Æ
+±|48    |    xlslice_2                                                                                                    |design_1_xlslice_0_2                         |      0|
 2default:default
-Õ
-%s*synth2Å
-°|49    |      dlmb_bram_if_cntlr                                                                                         |design_1_dlmb_bram_if_cntlr_0                |     8|
+Ö
+%s*synth2Æ
+±|49    |    xlslice_0                                                                                                    |design_1_xlslice_0_0                         |      0|
 2default:default
-Õ
-%s*synth2Å
-°|50    |      dlmb_v10                                                                                                   |design_1_dlmb_v10_0                          |     1|
+Ö
+%s*synth2Æ
+±|50    |    xlslice_1                                                                                                    |design_1_xlslice_0_1                         |      0|
 2default:default
-Õ
-%s*synth2Å
-°|51    |        U0                                                                                                       |lmb_v10__parameterized0                      |     1|
+Ö
+%s*synth2Æ
+±|51    |    microblaze_0_local_memory                                                                                    |microblaze_0_local_memory_imp_Z0DGSF         |     33|
 2default:default
-Õ
-%s*synth2Å
-°|52    |      ilmb_bram_if_cntlr                                                                                         |design_1_ilmb_bram_if_cntlr_0                |     7|
+Ö
+%s*synth2Æ
+±|52    |      dlmb_bram_if_cntlr                                                                                         |design_1_dlmb_bram_if_cntlr_0                |      8|
 2default:default
-Õ
-%s*synth2Å
-°|53    |      ilmb_v10                                                                                                   |design_1_ilmb_v10_0                          |     1|
+Ö
+%s*synth2Æ
+±|53    |      dlmb_v10                                                                                                   |design_1_dlmb_v10_0                          |      1|
 2default:default
-Õ
-%s*synth2Å
-°|54    |        U0                                                                                                       |lmb_v10__parameterized0__1                   |     1|
+Ö
+%s*synth2Æ
+±|54    |        U0                                                                                                       |lmb_v10__parameterized0                      |      1|
 2default:default
-Õ
-%s*synth2Å
-°|55    |      lmb_bram                                                                                                   |design_1_lmb_bram_0                          |    16|
+Ö
+%s*synth2Æ
+±|55    |      ilmb_bram_if_cntlr                                                                                         |design_1_ilmb_bram_if_cntlr_0                |      7|
 2default:default
-Õ
-%s*synth2Å
-°+------+-----------------------------------------------------------------------------------------------------------------+---------------------------------------------+------+
+Ö
+%s*synth2Æ
+±|56    |      ilmb_v10                                                                                                   |design_1_ilmb_v10_0                          |      1|
+2default:default
+Ö
+%s*synth2Æ
+±|57    |        U0                                                                                                       |lmb_v10__parameterized0__1                   |      1|
+2default:default
+Ö
+%s*synth2Æ
+±|58    |      lmb_bram                                                                                                   |design_1_lmb_bram_0                          |     16|
+2default:default
+Ö
+%s*synth2Æ
+±+------+-----------------------------------------------------------------------------------------------------------------+---------------------------------------------+-------+
 2default:default
 ¨
 %s*synth2˜
-ƒFinished Writing Synthesis Report : Time (s): cpu = 00:05:03 ; elapsed = 00:05:03 . Memory (MB): peak = 1732.445 ; gain = 1095.527
+ƒFinished Writing Synthesis Report : Time (s): cpu = 00:10:08 ; elapsed = 00:10:05 . Memory (MB): peak = 3315.777 ; gain = 2678.863
 2default:default
 l
 %s*synth2]
-ISynthesis finished with 0 errors, 0 critical warnings and 1378 warnings.
+ISynthesis finished with 0 errors, 0 critical warnings and 2901 warnings.
 2default:default
 ¦
 %s*synth2–
-Synthesis Optimization Complete : Time (s): cpu = 00:05:03 ; elapsed = 00:05:03 . Memory (MB): peak = 1732.445 ; gain = 1095.527
+Synthesis Optimization Complete : Time (s): cpu = 00:10:08 ; elapsed = 00:10:05 . Memory (MB): peak = 3315.777 ; gain = 2678.863
 2default:default
-^
+_
 -Analyzing %s Unisim elements for replacement
-17*netlist2
-8752default:defaultZ29-17
+17*netlist2
+10942default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -106102,27 +112773,27 @@ L
 Â
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
-18012default:default2
-3192default:default2
-182default:default2
+18582default:default2
+3982default:default2
+782default:default2
 02default:defaultZ4-41
 U
 %s completed successfully
 29*	vivadotcl2 
 synth_design2default:defaultZ4-42
-ı
+ş
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:05:052default:default2
-00:05:042default:default2
-1732.4492default:default2
-905.7972default:defaultZ17-268
+00:10:222default:default2
+00:10:192default:default2
+3315.7812default:default2
+2488.1332default:defaultZ17-268
 ‚
-vreport_utilization: Time (s): cpu = 00:00:00.28 ; elapsed = 00:00:00.33 . Memory (MB): peak = 1732.449 ; gain = 0.000
+vreport_utilization: Time (s): cpu = 00:00:00.83 ; elapsed = 00:00:00.93 . Memory (MB): peak = 3315.781 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Tue Mar 10 01:46:31 20152default:defaultZ17-206
+Sun Mar 15 13:08:48 20152default:defaultZ17-206

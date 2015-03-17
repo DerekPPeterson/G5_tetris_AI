@@ -55,6 +55,7 @@
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="design_1_wrapper"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="IPRepoPath" Val="$PPRDIR/../../../../ip_repo"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
