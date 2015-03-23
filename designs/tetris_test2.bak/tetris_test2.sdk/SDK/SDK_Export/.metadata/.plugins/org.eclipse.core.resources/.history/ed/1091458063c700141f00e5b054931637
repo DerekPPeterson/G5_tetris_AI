@@ -1,0 +1,47 @@
+/*
+ * tetris_ai_io.c
+ *
+ *  Created on: 2015-03-10
+ *      Author: derek
+ */
+
+#include "tetris_ai_io.h"
+#include "xparameters.h"
+
+// TODO deterine ai_cntrl reg and bram address
+//volatile unsigned int * ai_cntrl = (unsigned int*) XPAR_AXI_TFT_0_BASEADDR + 1;
+volatile unsigned int * ai_cntrl = (unsigned int*) 0; // TODO what is this
+//volatile unsigned int * ai_bram = (unsigned int*) XPAR_BRA;
+volatile unsigned int * ai_bram = (unsigned int*) 0xC0000000; // TODO xparameters not working for this
+
+void write_state(board_t board, int next_piece)
+{
+    // Write board state
+    int i;
+    for (i = 0; i < N_ROWS -1; i++) {
+        ai_bram[i] = board[i];
+    }
+    // Write next piece
+    *(ai_bram + N_ROWS) = next_piece;
+
+    // Write address of bram to control reg
+    *ai_cntrl = (unsigned int) ai_bram;
+    // Raise go bit
+    *(ai_cntrl + 1) = 1;
+}
+
+// TODO finish this function
+void get_moves(int * moves)
+{
+    // bit 0 - done
+    // bits 1:2 - rotations
+    // bits 3:6 - shifts_left (MSB to LSB)
+    int done = 0;
+    while (!done) {
+        int ai_result = *(aicntrl + 2);
+    }
+    int ai_results = *(ai_cntrl + 2);
+    moves[0] = shifts_left;
+    moves[1] = rotations;
+}
+

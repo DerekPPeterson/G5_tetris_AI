@@ -159,3 +159,388 @@ WARNING: [Hsm 55-1559] Software Design already exists with Name /home/derek/Docu
 17:04:17 INFO  : Processor reset is completed for microblaze_0
 17:05:54 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
 17:05:56 INFO  : Processor reset is completed for microblaze_0
+17:09:09 ERROR : Unable to load properties file .sdkproject for project tetris_bsp.
+17:09:09 ERROR : Unable to load properties file .sdkproject for project tetris_bsp.
+17:09:09 ERROR : Unable to load properties file .sdkproject for project tetris_bsp.
+17:09:09 ERROR : Unable to load properties file .sdkproject for project tetris_bsp.
+17:09:09 ERROR : Unable to load properties file .sdkproject for project tetris_bsp.
+17:09:09 ERROR : Unable to load properties file .sdkproject for project tetris_bsp.
+17:09:22 ERROR : Unable to load properties file .sdkproject for project tetris_bsp.
+17:09:22 ERROR : Unable to load properties file .sdkproject for project tetris_bsp.
+17:09:22 ERROR : Unable to load properties file .sdkproject for project tetris_bsp.
+17:09:32 ERROR : Unable to load properties file .sdkproject for project tetris_bsp.
+17:09:32 ERROR : Unable to load properties file .sdkproject for project tetris_bsp.
+17:09:32 ERROR : Unable to load properties file .sdkproject for project tetris_bsp.
+17:09:32 ERROR : Unable to load properties file .sdkproject for project tetris_bsp.
+17:09:32 ERROR : Unable to load properties file .sdkproject for project tetris_bsp.
+17:09:32 ERROR : Unable to load properties file .sdkproject for project tetris_bsp.
+17:09:44 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:140)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:324)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:313)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:206)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:57)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+17:09:44 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:16:42 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+17:16:43 ERROR :  License Feature SDK is not available.
+
+17:17:11 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+18:18:49 INFO  : Project hw_platform_0's source hardware specification located at /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+18:18:52 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+18:18:56 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit.
+18:18:56 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper_bd.bmm into /hw_platform_0/design_1_wrapper_bd.bmm.
+18:19:03 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:19:04 INFO  : 
+18:19:05 INFO  : Updating hardware inferred compiler options for tetris.
+18:19:05 INFO  : Clearing existing target manager status.
+18:19:08 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+18:19:32 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+18:19:41 INFO  : Processor reset is completed for microblaze_0
+18:20:59 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:21:01 INFO  : Processor reset is completed for microblaze_0
+18:21:56 INFO  : Processor reset is completed for microblaze_0
+18:24:58 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:24:59 INFO  : Processor reset is completed for microblaze_0
+18:25:19 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:25:23 INFO  : Processor reset is completed for microblaze_0
+18:25:55 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:25:56 INFO  : Processor reset is completed for microblaze_0
+18:27:02 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:27:04 INFO  : Processor reset is completed for microblaze_0
+18:29:27 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:29:30 INFO  : Processor reset is completed for microblaze_0
+18:34:12 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:34:13 INFO  : Processor reset is completed for microblaze_0
+18:39:07 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:39:09 INFO  : Processor reset is completed for microblaze_0
+18:41:31 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:41:33 INFO  : Processor reset is completed for microblaze_0
+18:42:21 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:43:09 INFO  : Processor reset is completed for microblaze_0
+18:44:16 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:44:18 INFO  : Processor reset is completed for microblaze_0
+18:44:29 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:44:31 INFO  : Processor reset is completed for microblaze_0
+18:44:40 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:44:42 INFO  : Processor reset is completed for microblaze_0
+18:45:09 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:45:12 INFO  : Processor reset is completed for microblaze_0
+18:45:34 INFO  : Inferring section assignments and sizes from elf file: /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2.bak/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf
+18:45:47 INFO  : Successfully generated /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2.bak/tetris_test2.sdk/SDK/SDK_Export/tetris/src/lscript.ld.
+18:45:47 INFO  : Applying linker script to all configurations of project tetris.
+18:45:47 INFO  : Setting rebuild state to true for all configurations of project tetris.
+18:45:55 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:45:56 INFO  : Processor reset is completed for microblaze_0
+18:46:17 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:46:18 INFO  : Processor reset is completed for microblaze_0
+18:47:08 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:47:10 INFO  : Processor reset is completed for microblaze_0
+18:48:07 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:48:09 INFO  : Processor reset is completed for microblaze_0
+18:53:14 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:53:16 INFO  : Processor reset is completed for microblaze_0
+18:56:41 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:56:43 INFO  : Processor reset is completed for microblaze_0
+18:57:35 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:57:37 INFO  : Processor reset is completed for microblaze_0
+19:05:36 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:05:38 INFO  : Processor reset is completed for microblaze_0
+19:06:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:06:02 INFO  : Processor reset is completed for microblaze_0
+19:07:24 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:07:25 INFO  : Processor reset is completed for microblaze_0
+19:08:23 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:08:25 INFO  : Processor reset is completed for microblaze_0
+19:09:13 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:09:15 INFO  : Processor reset is completed for microblaze_0
+19:09:49 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:09:51 INFO  : Processor reset is completed for microblaze_0
+19:10:41 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:10:49 INFO  : Processor reset is completed for microblaze_0
+19:11:53 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:11:54 INFO  : Processor reset is completed for microblaze_0
+19:16:33 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:16:35 INFO  : Processor reset is completed for microblaze_0
+19:17:28 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:17:29 INFO  : Processor reset is completed for microblaze_0
+19:17:45 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:17:47 INFO  : Processor reset is completed for microblaze_0
+19:18:21 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:18:23 INFO  : Processor reset is completed for microblaze_0
+19:19:05 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:19:06 INFO  : Processor reset is completed for microblaze_0
+19:29:15 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:29:17 INFO  : Processor reset is completed for microblaze_0
+19:30:00 INFO  : Processor reset is completed for microblaze_0
+19:30:05 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:30:07 INFO  : Processor reset is completed for microblaze_0
+00:14:04 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:14:04 ERROR :  License Feature SDK is not available.
+
+00:14:37 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:14:53 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+00:15:07 INFO  : Processor reset is completed for microblaze_0
+00:16:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:16:02 INFO  : Processor reset is completed for microblaze_0
+00:19:30 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:19:31 INFO  : Processor reset is completed for microblaze_0
+00:19:54 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:19:55 INFO  : Processor reset is completed for microblaze_0
+00:20:16 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:20:17 INFO  : Processor reset is completed for microblaze_0
+00:20:38 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:20:40 INFO  : Processor reset is completed for microblaze_0
+00:21:23 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:21:25 INFO  : Processor reset is completed for microblaze_0
+00:22:03 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:22:04 INFO  : Processor reset is completed for microblaze_0
+00:22:58 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:23:00 INFO  : Processor reset is completed for microblaze_0
+02:15:51 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:140)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:331)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:313)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:206)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:57)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+02:15:51 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:59:18 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+15:59:52 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+16:00:00 INFO  : Inferring section assignments and sizes from elf file: /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2.bak/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf
+16:10:14 INFO  : Processor reset is completed for microblaze_0
+16:19:59 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:20:00 INFO  : Processor reset is completed for microblaze_0
+16:20:31 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:20:32 INFO  : Processor reset is completed for microblaze_0
+16:21:12 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:21:14 INFO  : Processor reset is completed for microblaze_0
+16:21:44 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:21:45 INFO  : Processor reset is completed for microblaze_0
+16:21:59 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:22:00 INFO  : Processor reset is completed for microblaze_0
+16:22:12 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:22:14 INFO  : Processor reset is completed for microblaze_0
+16:22:56 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:22:57 INFO  : Processor reset is completed for microblaze_0
+16:23:19 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:23:21 INFO  : Processor reset is completed for microblaze_0
+16:23:49 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:23:51 INFO  : Processor reset is completed for microblaze_0
+16:25:02 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:25:03 INFO  : Processor reset is completed for microblaze_0
+16:26:06 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:26:07 INFO  : Processor reset is completed for microblaze_0
+16:26:19 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:26:20 INFO  : Processor reset is completed for microblaze_0
+16:27:32 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:27:34 INFO  : Processor reset is completed for microblaze_0
+16:27:56 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:27:58 INFO  : Processor reset is completed for microblaze_0
+16:28:19 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:28:20 INFO  : Processor reset is completed for microblaze_0
+16:28:35 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:28:36 INFO  : Processor reset is completed for microblaze_0
+16:32:04 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:32:05 INFO  : Processor reset is completed for microblaze_0
+16:32:51 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:32:52 INFO  : Processor reset is completed for microblaze_0
+16:34:00 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:34:01 INFO  : Processor reset is completed for microblaze_0
+16:34:26 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:34:27 INFO  : Processor reset is completed for microblaze_0
+16:35:04 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:35:05 INFO  : Processor reset is completed for microblaze_0
+16:38:46 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:38:47 INFO  : Processor reset is completed for microblaze_0
+16:39:49 INFO  : Processor reset is completed for microblaze_0
+16:40:30 INFO  : Processor reset is completed for microblaze_0
+16:58:33 INFO  : Processor reset is completed for microblaze_0
+17:00:35 INFO  : Processor reset is completed for microblaze_0
+17:26:03 INFO  : Processor reset is completed for microblaze_0
+17:27:51 INFO  : Processor reset is completed for microblaze_0
+17:29:21 INFO  : Processor reset is completed for microblaze_0
+17:29:57 INFO  : Processor reset is completed for microblaze_0
+17:30:46 INFO  : Processor reset is completed for microblaze_0
+17:31:23 INFO  : Processor reset is completed for microblaze_0
+17:32:33 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:32:35 INFO  : Processor reset is completed for microblaze_0
+19:24:46 INFO  : Processor reset is completed for microblaze_0
+00:08:56 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:08:57 ERROR :  License Feature SDK is not available.
+
+00:09:15 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:09:30 INFO  : Processor reset is completed for microblaze_0
+00:30:53 INFO  : Processor reset is completed for microblaze_0
+00:31:23 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:31:24 INFO  : Processor reset is completed for microblaze_0
+00:31:29 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:31:31 INFO  : Processor reset is completed for microblaze_0
+00:31:55 INFO  : Processor reset is completed for microblaze_0
+00:32:45 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:32:46 INFO  : Processor reset is completed for microblaze_0
+00:32:55 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:32:56 INFO  : Processor reset is completed for microblaze_0
+00:34:32 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:34:33 INFO  : Processor reset is completed for microblaze_0
+00:35:07 INFO  : Processor reset is completed for microblaze_0
+00:36:02 INFO  : Processor reset is completed for microblaze_0
+00:38:32 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:38:33 INFO  : Processor reset is completed for microblaze_0
+00:42:28 INFO  : Successfully generated /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2.bak/tetris_test2.sdk/SDK/SDK_Export/tetris/src/lscript.ld.
+00:42:28 INFO  : Applying linker script to all configurations of project tetris.
+00:42:28 INFO  : Setting rebuild state to true for all configurations of project tetris.
+00:42:58 INFO  : Successfully generated /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2.bak/tetris_test2.sdk/SDK/SDK_Export/tetris/src/lscript.ld.
+00:42:58 INFO  : Applying linker script to all configurations of project tetris.
+00:42:58 INFO  : Setting rebuild state to true for all configurations of project tetris.
+00:44:06 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:480)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+00:49:37 WARN  : Terminating existing sessions on processor microblaze_0
+00:49:47 WARN  : Terminating existing sessions on processor microblaze_0
+00:50:00 WARN  : Terminating existing sessions on processor microblaze_0
+00:50:04 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+00:50:16 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:50:26 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+00:50:45 INFO  : Processor reset is completed for microblaze_0
+00:51:32 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:51:33 INFO  : Processor reset is completed for microblaze_0
+00:52:02 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:52:03 INFO  : Processor reset is completed for microblaze_0
+00:53:45 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:53:46 INFO  : Processor reset is completed for microblaze_0
+00:54:03 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:54:04 INFO  : Processor reset is completed for microblaze_0
+00:54:41 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:54:42 INFO  : Processor reset is completed for microblaze_0
+00:57:06 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:57:07 INFO  : Processor reset is completed for microblaze_0
+00:57:33 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:57:34 INFO  : Processor reset is completed for microblaze_0
+00:59:00 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:59:01 INFO  : Processor reset is completed for microblaze_0
+00:59:35 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:59:37 INFO  : Processor reset is completed for microblaze_0
+00:59:59 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:00:01 INFO  : Processor reset is completed for microblaze_0
+01:00:20 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:00:22 INFO  : Processor reset is completed for microblaze_0
+01:00:47 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:00:48 INFO  : Processor reset is completed for microblaze_0
+01:00:54 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:00:55 INFO  : Processor reset is completed for microblaze_0
+01:01:38 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:01:39 INFO  : Processor reset is completed for microblaze_0
+01:02:10 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:02:12 INFO  : Processor reset is completed for microblaze_0
+01:02:44 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:02:47 INFO  : Processor reset is completed for microblaze_0
+01:03:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:03:03 INFO  : Processor reset is completed for microblaze_0
+01:03:21 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:03:22 INFO  : Processor reset is completed for microblaze_0
+01:04:10 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:04:12 INFO  : Processor reset is completed for microblaze_0
+01:04:24 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:04:26 INFO  : Processor reset is completed for microblaze_0
+01:05:22 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:05:24 INFO  : Processor reset is completed for microblaze_0
+01:05:55 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:05:56 INFO  : Processor reset is completed for microblaze_0
+01:06:05 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:06:07 INFO  : Processor reset is completed for microblaze_0
+01:07:09 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:07:12 INFO  : Processor reset is completed for microblaze_0
+01:13:17 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:13:19 INFO  : Processor reset is completed for microblaze_0
+01:14:14 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:14:16 INFO  : Processor reset is completed for microblaze_0
+01:14:59 INFO  : Processor reset is completed for microblaze_0
+01:15:53 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:15:54 INFO  : Processor reset is completed for microblaze_0
+01:31:12 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:31:13 INFO  : Processor reset is completed for microblaze_0
+01:32:15 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:32:16 INFO  : Processor reset is completed for microblaze_0
+02:03:22 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:140)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:324)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:313)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:206)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:57)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+02:03:22 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

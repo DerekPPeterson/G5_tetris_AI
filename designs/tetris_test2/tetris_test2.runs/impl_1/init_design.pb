@@ -107,9 +107,9 @@ $Parsing XDC File [%s] for cell '%s'
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2 
 get_clocks: 2default:default2
-00:00:142default:default2
-00:00:142default:default2
-1756.8792default:default2
+00:00:312default:default2
+00:00:332default:default2
+1756.8282default:default2
 570.1092default:defaultZ17-268
  
 -Finished Parsing XDC File [%s] for cell '%s'
@@ -126,6 +126,14 @@ $Parsing XDC File [%s] for cell '%s'
 2*timing2³
 œ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0.xdc2default:default2
 562default:default8@Z38-2
+ù
+I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
+268*common2 
+get_clocks: 2default:default2
+00:00:172default:default2
+00:00:102default:default2
+1762.8282default:default2
+5.9962default:defaultZ17-268
 ®
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2±
@@ -1359,6 +1367,14 @@ $Parsing XDC File [%s] for cell '%s'
 848*designutils2¸
 £/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_axi_tft_0_0/design_1_axi_tft_0_0_clocks.xdc2default:default2+
 design_1_i/axi_tft_0/U02default:defaultZ20-848
+ù
+I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
+268*common2 
+get_clocks: 2default:default2
+00:00:112default:default2
+00:00:062default:default2
+1768.8282default:default2
+5.0002default:defaultZ17-268
 ³
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2¸
@@ -1410,10 +1426,10 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2!
 link_design: 2default:default2
-00:00:412default:default2
-00:00:372default:default2
-1767.8832default:default2
-1023.0472default:defaultZ17-268
+00:01:442default:default2
+00:01:352default:default2
+1768.8322default:default2
+1024.0002default:defaultZ17-268
 
 
 End Record

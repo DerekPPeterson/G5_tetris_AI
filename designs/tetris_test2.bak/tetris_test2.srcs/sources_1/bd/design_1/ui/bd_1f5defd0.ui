@@ -1,0 +1,113 @@
+{
+   Display-PortTypeClock: "true",
+   Display-PortTypeInterrupt: "true",
+   Display-PortTypeOthers: "true",
+   Display-PortTypeReset: "true",
+   guistr: "# # String gsaved with Nlview version 6.3.10  2014-03-03 bk=1.3043 VDI=34 GEI=35 GUI=JA:1.7
+#  -string -flagsOSRD
+preplace port tft_vsync -pg 1 -y 1840 -defaultsOSRD
+preplace port tft_hsync -pg 1 -y 1740 -defaultsOSRD
+preplace port Push_Buttons_5Bits -pg 1 -y 1220 -defaultsOSRD
+preplace port USB_Uart -pg 1 -y 1340 -defaultsOSRD
+preplace port sys_clock -pg 1 -y 1420 -defaultsOSRD
+preplace port DDR2 -pg 1 -y 1000 -defaultsOSRD
+preplace port reset -pg 1 -y 1540 -defaultsOSRD
+preplace portBus tft_vga_r -pg 1 -y 1810 -defaultsOSRD
+preplace portBus tft_vga_g -pg 1 -y 1720 -defaultsOSRD
+preplace portBus tft_vga_b -pg 1 -y 1580 -defaultsOSRD
+preplace inst axi_tft_0 -pg 1 -lvl 5 -y 1640 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 8 -y 1580 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 6 -y 340 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 8 -y 1040 -defaultsOSRD
+preplace inst axi_5but -pg 1 -lvl 8 -y 1220 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 8 -y 1720 -defaultsOSRD
+preplace inst axi_bram_ai_cntrl -pg 1 -lvl 7 -y 1610 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 8 -y 1810 -defaultsOSRD
+preplace inst rst_mig_7series_0_81M -pg 1 -lvl 5 -y 640 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 3 -y 1230 -defaultsOSRD
+preplace inst Board_Analyzer_BRAM_0 -pg 1 -lvl 5 -y 240 -defaultsOSRD
+preplace inst aicontroller_0 -pg 1 -lvl 7 -y 460 -defaultsOSRD
+preplace inst blk_mem_gen_ai -pg 1 -lvl 7 -y 130 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 4 -y 930 -defaultsOSRD
+preplace inst microblaze_0_axi_intc -pg 1 -lvl 4 -y 1300 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 8 -y 1350 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 5 -y 920 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 2 -y 1520 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 7 -y 1180 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -y 1430 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 8 -y 850 -defaultsOSRD
+preplace netloc mig_7series_0_DDR2 1 8 1 N
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 3 5 1200 1170 NJ 1170 NJ 1170 NJ 1010 NJ
+preplace netloc xlslice_2_Dout 1 8 1 N
+preplace netloc microblaze_0_axi_periph_M03_AXI 1 3 2 1150 1590 NJ
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 3 1 1180
+preplace netloc Board_Analyzer_BRAM_0_col0 1 5 2 NJ 200 2720
+preplace netloc axi_tft_0_tft_vga_r 1 5 3 NJ 1670 NJ 1810 N
+preplace netloc sys_clock_1 1 0 1 N
+preplace netloc Board_Analyzer_BRAM_0_col1 1 5 2 NJ 210 2710
+preplace netloc Board_Analyzer_BRAM_0_col2 1 5 2 NJ 220 2700
+preplace netloc microblaze_0_axi_periph_M00_AXI 1 3 1 1170
+preplace netloc Board_Analyzer_BRAM_0_bram_wdata 1 5 2 2360 130 NJ
+preplace netloc Board_Analyzer_BRAM_0_col3 1 5 2 NJ 230 2690
+preplace netloc Board_Analyzer_BRAM_0_col4 1 5 2 NJ 240 2680
+preplace netloc microblaze_0_M_AXI_DP 1 2 4 780 940 NJ 1020 NJ 1020 2320
+preplace netloc Board_Analyzer_BRAM_0_col5 1 5 2 NJ 250 2660
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 2 3 750 990 1160 1040 NJ
+preplace netloc Board_Analyzer_BRAM_0_col6 1 5 2 NJ 260 2650
+preplace netloc mig_7series_0_mmcm_locked 1 4 5 1610 1100 NJ 1100 NJ 990 NJ 1140 3480
+preplace netloc axi_gpio_0_GPIO 1 8 1 N
+preplace netloc Board_Analyzer_BRAM_0_col7 1 5 2 NJ 270 2640
+preplace netloc Board_Analyzer_BRAM_0_col8 1 5 2 NJ 280 2620
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 2 6 740 840 NJ 840 NJ 840 NJ 880 NJ 880 NJ
+preplace netloc Board_Analyzer_BRAM_0_col9 1 5 2 NJ 550 N
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 4 5 1600 1030 NJ 1030 NJ 940 NJ 940 3490
+preplace netloc microblaze_0_dlmb__1 1 5 3 2380 820 NJ 820 NJ
+preplace netloc microblaze_0_interrupt 1 4 1 1570
+preplace netloc aicontroller_0_algo_rot 1 4 4 1600 470 NJ 290 NJ 280 3150
+preplace netloc axi_tft_0_tft_vsync 1 5 4 NJ 1680 NJ 1820 NJ 1670 3480
+preplace netloc mdm_1_debug_sys_rst 1 1 4 320 950 NJ 950 NJ 1070 1520
+preplace netloc xlslice_1_Dout 1 8 1 N
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 6 2 2780 650 3150
+preplace netloc rst_mig_7series_0_81M_peripheral_aresetn 1 5 3 2350 1210 2620 980 NJ
+preplace netloc axi_uartlite_0_UART 1 8 1 N
+preplace netloc Board_Analyzer_BRAM_0_bram_rst 1 5 2 2330 170 NJ
+preplace netloc xlslice_0_Dout 1 8 1 N
+preplace netloc Board_Analyzer_BRAM_0_next_piece 1 5 2 NJ 560 2600
+preplace netloc xlconstant_0_const 1 6 1 2670
+preplace netloc Board_Analyzer_BRAM_0_bram_en 1 5 2 2340 160 NJ
+preplace netloc aicontroller_0_algo_rshift 1 4 4 1610 490 NJ 660 NJ 660 3210
+preplace netloc clk_wiz_1_locked 1 1 1 280
+preplace netloc microblaze_0_debug 1 4 1 N
+preplace netloc Board_Analyzer_BRAM_0_algo_en 1 5 2 NJ 410 2610
+preplace netloc axi_tft_0_tft_hsync 1 5 4 NJ 1660 NJ 1730 NJ 1660 3490
+preplace netloc microblaze_0_ilmb__1 1 5 3 2390 840 NJ 840 NJ
+preplace netloc axi_tft_0_tft_vga_b 1 5 3 NJ 1640 NJ 1690 3180
+preplace netloc rst_clk_wiz_1_100M_interconnect_aresetn 1 2 5 770 980 NJ 1200 NJ 1200 NJ 1200 NJ
+preplace netloc clk_wiz_1_clk_out1 1 1 7 300 1400 730 920 1240 1050 1550 1500 NJ 1600 2770 1000 3210
+preplace netloc microblaze_0_axi_periph_M06_AXI 1 3 2 1130 1030 NJ
+preplace netloc clk_wiz_1_clk_out2 1 1 7 280 970 NJ 970 NJ 1090 NJ 1090 NJ 1090 NJ 970 NJ
+preplace netloc clk_wiz_1_clk_out3 1 1 4 290 1690 NJ 1690 NJ 1690 NJ
+preplace netloc microblaze_0_axi_periph_M04_AXI 1 3 5 1140 1180 NJ 1180 NJ 1180 NJ 1020 NJ
+preplace netloc mig_7series_0_ui_clk 1 4 5 1590 1010 NJ 1010 2700 950 NJ 950 3480
+preplace netloc axi_tft_0_tft_vga_g 1 5 3 NJ 1650 NJ 1720 N
+preplace netloc blk_mem_gen_ai_doutb 1 4 3 1550 10 NJ 150 NJ
+preplace netloc Board_Analyzer_BRAM_0_bram_clk 1 5 2 2370 110 2750
+preplace netloc axi_mem_intercon_M00_AXI 1 7 1 3190
+preplace netloc microblaze_0_M_AXI_DC 1 5 2 NJ 950 2630
+preplace netloc aicontroller_0_algo_done 1 4 4 1560 20 NJ 190 NJ 270 3210
+preplace netloc mdm_1_Interrupt 1 3 2 1250 1060 1530
+preplace netloc microblaze_0_axi_periph_M05_AXI 1 3 4 1140 1490 NJ 1490 NJ 1590 NJ
+preplace netloc Board_Analyzer_BRAM_0_bram_we 1 5 2 2320 180 NJ
+preplace netloc reset_1 1 0 8 120 1350 310 960 NJ 960 NJ 1080 NJ 1080 NJ 1080 NJ 960 NJ
+preplace netloc axi_tft_0_M_AXI_MM 1 5 2 2390 1190 NJ
+preplace netloc Board_Analyzer_BRAM_0_bram_addr 1 5 2 2390 90 NJ
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 2 6 760 930 1210 1410 1560 1510 NJ 1610 2750 1030 3160
+levelinfo -pg 1 100 200 560 960 1390 2090 2530 2980 3360 3510
+",
+}
+{
+   da_axi4_cnt: "31",
+   da_board_cnt: "15",
+   da_bram_cntlr_cnt: "2",
+   da_mb_cnt: "1",
+}

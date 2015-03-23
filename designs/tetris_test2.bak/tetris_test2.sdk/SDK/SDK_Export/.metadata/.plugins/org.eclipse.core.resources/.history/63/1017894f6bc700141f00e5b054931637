@@ -1,0 +1,15 @@
+/*
+ * tetris_ai_io.h
+ *
+ *  Created on: 2015-03-10
+ *      Author: derek
+ */
+#ifndef TETRIS_AI_IO_H_
+#define TETRIS_AI_IO_H_
+
+#include "tetrominoes.h"
+
+void write_state(board_t board, int next_piece);
+void get_moves(int * moves);
+
+#endif /* TETRIS_AI_IO_H_ */

@@ -1,0 +1,17 @@
+/*
+ * tetris_ai_io.c
+ *
+ *  Created on: 2015-03-10
+ *      Author: derek
+ */
+
+#include "tetris_ai_io.h"
+
+volatile unsigned int * ai_cntrl = (unsigned int*) XPAR_AXI_TFT_0_BASEADDR + 1;
+
+void write_state(board_t board, int * next_pieces)
+{
+}
+
+int * get_moves();
+

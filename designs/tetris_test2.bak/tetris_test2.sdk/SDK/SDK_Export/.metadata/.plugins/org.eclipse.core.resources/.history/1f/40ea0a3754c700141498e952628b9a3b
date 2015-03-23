@@ -1,0 +1,21 @@
+/*
+ * tetris_ai_io.c
+ *
+ *  Created on: 2015-03-10
+ *      Author: derek
+ */
+
+#include "tetris_ai_io.h"
+#include "xparameters.h"
+
+// TODO deterine ai_cntrl reg and bram address
+//volatile unsigned int * ai_cntrl = (unsigned int*) XPAR_AXI_TFT_0_BASEADDR + 1;
+//volatile unsigned int * ai_bram = (unsigned int*) XPAR_AXI_BRAM_AI_CNTRL;
+
+void write_state(board_t board, int next_piece)
+{
+    *ai_bram = next_piece;
+}
+
+int * get_moves();
+

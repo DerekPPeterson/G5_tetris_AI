@@ -1,4 +1,4 @@
-16:58:37 **** Auto Build of project tetris_bsp ****
+00:50:27 **** Auto Build of project tetris_bsp ****
 make -k all 
 Running Make include in microblaze_0/libsrc/bram_v4_0/src
 make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
@@ -58,5 +58,5 @@ rm -rf *.o
 make[2]: Leaving directory `/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2.bak/tetris_test2.sdk/SDK/SDK_Export/tetris_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
 Finished building libraries
 
-16:58:40 Build Finished (took 3s.48ms)
+00:50:29 Build Finished (took 1s.817ms)
 

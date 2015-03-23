@@ -47,8 +47,8 @@
 // DO NOT MODIFY THIS FILE.
 
 
-// IP VLNV: user:user:Board_Analyzer_BRAM:1.0
-// IP Revision: 8
+// IP VLNV: user:user:Board_Analyzer_BRAM:1.1
+// IP Revision: 1
 
 (* X_CORE_INFO = "Board_Analyzer_BRAM_v1_0,Vivado 2014.1" *)
 (* CHECK_LICENSE_TYPE = "design_1_Board_Analyzer_BRAM_0_0,Board_Analyzer_BRAM_v1_0,{}" *)

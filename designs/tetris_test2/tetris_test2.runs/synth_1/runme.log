@@ -18,11 +18,16 @@ source design_1_wrapper.tcl
 # set_property board_part digilentinc.com:nexys4_ddr:part0:1.1 [current_project]
 # set_param project.compositeFile.enableAutoGeneration 0
 # set_property default_lib xil_defaultlib [current_project]
-# set_property ip_repo_paths /home/derek/Documents/year_4/ECE532/ip_repo [current_fileset]
+# set_property ip_repo_paths {
+#   /home/derek/Documents/year_4/ECE532/ip_repo
+#   /home/derek/Documents/year_4/ECE532/ip_repo/ip_repo/Board_Analyzer_BRAM_1.0
+# } [current_fileset]
 # add_files /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/design_1.bd
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/derek/Documents/year_4/ECE532/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/derek/Documents/year_4/ECE532/ip_repo/ip_repo/Board_Analyzer_BRAM_1.0'. The path is contained within another repository.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/derek/Xilinx/Vivado/2014.1/data/ip'.
+add_files: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 827.648 ; gain = 90.820
 # set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0.xdc]
 # set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0_ooc.xdc]
 # set_property used_in_implementation false [get_files -all /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_dlmb_v10_0/design_1_dlmb_v10_0.xdc]
@@ -87,17 +92,17 @@ Starting synthesis...
 
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
-WARNING: [Synth 8-2507] parameter declaration becomes local in Board_Analyzer_BRAM_v1_0_S00_AXI with formal parameter declaration list [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_0/d224aeb9/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v:475]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Board_Analyzer_BRAM_v1_0_S00_AXI with formal parameter declaration list [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_1/bb5a7295/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v:475]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 902.504 ; gain = 265.590
+Starting RTL Elaboration : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 902.504 ; gain = 265.590
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 INFO: [Synth 8-638] synthesizing module 'design_1' [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v:13]
 INFO: [Synth 8-638] synthesizing module 'design_1_Board_Analyzer_BRAM_0_0' [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_Board_Analyzer_BRAM_0_0/synth/design_1_Board_Analyzer_BRAM_0_0.v:56]
-INFO: [Synth 8-638] synthesizing module 'Board_Analyzer_BRAM_v1_0' [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_0/d224aeb9/hdl/Board_Analyzer_BRAM_v1_0.v:4]
+INFO: [Synth 8-638] synthesizing module 'Board_Analyzer_BRAM_v1_0' [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_1/bb5a7295/hdl/Board_Analyzer_BRAM_v1_0.v:4]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'Board_Analyzer_BRAM_v1_0_S00_AXI' [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_0/d224aeb9/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v:6]
+INFO: [Synth 8-638] synthesizing module 'Board_Analyzer_BRAM_v1_0_S00_AXI' [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_1/bb5a7295/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v:6]
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 	Parameter ADDR_LSB bound to: 2 - type: integer 
@@ -110,11 +115,11 @@ INFO: [Synth 8-638] synthesizing module 'Board_Analyzer_BRAM_v1_0_S00_AXI' [/hom
 	Parameter STARTALGO bound to: 5 - type: integer 
 	Parameter WAITALGO bound to: 6 - type: integer 
 	Parameter FINISH bound to: 7 - type: integer 
-INFO: [Synth 8-226] default block is never used [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_0/d224aeb9/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v:248]
-INFO: [Synth 8-226] default block is never used [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_0/d224aeb9/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v:395]
-WARNING: [Synth 8-3848] Net slv_reg3 in module/entity Board_Analyzer_BRAM_v1_0_S00_AXI does not have driver. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_0/d224aeb9/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v:135]
-INFO: [Synth 8-256] done synthesizing module 'Board_Analyzer_BRAM_v1_0_S00_AXI' (1#1) [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_0/d224aeb9/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v:6]
-INFO: [Synth 8-256] done synthesizing module 'Board_Analyzer_BRAM_v1_0' (2#1) [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_0/d224aeb9/hdl/Board_Analyzer_BRAM_v1_0.v:4]
+INFO: [Synth 8-226] default block is never used [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_1/bb5a7295/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v:248]
+INFO: [Synth 8-226] default block is never used [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_1/bb5a7295/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v:395]
+WARNING: [Synth 8-3848] Net slv_reg3 in module/entity Board_Analyzer_BRAM_v1_0_S00_AXI does not have driver. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_1/bb5a7295/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v:135]
+INFO: [Synth 8-256] done synthesizing module 'Board_Analyzer_BRAM_v1_0_S00_AXI' (1#1) [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_1/bb5a7295/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v:6]
+INFO: [Synth 8-256] done synthesizing module 'Board_Analyzer_BRAM_v1_0' (2#1) [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_1/bb5a7295/hdl/Board_Analyzer_BRAM_v1_0.v:4]
 INFO: [Synth 8-256] done synthesizing module 'design_1_Board_Analyzer_BRAM_0_0' (3#1) [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_Board_Analyzer_BRAM_0_0/synth/design_1_Board_Analyzer_BRAM_0_0.v:56]
 INFO: [Synth 8-638] synthesizing module 'GND' [/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v:3852]
 INFO: [Synth 8-256] done synthesizing module 'GND' (4#1) [/home/derek/Xilinx/Vivado/2014.1/scripts/rt/data/unisim_comp.v:3852]
@@ -20282,7 +20287,7 @@ INFO: [Synth 8-256] done synthesizing module 'design_1_xlslice_0_2' (333#1) [/ho
 INFO: [Synth 8-256] done synthesizing module 'design_1' (334#1) [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1.v:13]
 INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (335#1) [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:03:03 ; elapsed = 00:03:06 . Memory (MB): peak = 1366.301 ; gain = 729.387
+Finished RTL Elaboration : Time (s): cpu = 00:05:55 ; elapsed = 00:06:01 . Memory (MB): peak = 1367.832 ; gain = 730.918
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -20421,6 +20426,7 @@ Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/design
 Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0.xdc] for cell 'design_1_i/clk_wiz_1/inst'
 Finished Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0.xdc] for cell 'design_1_i/clk_wiz_1/inst'
 INFO: [Timing 38-2] Deriving generated clocks
+write_xdc: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 1981.715 ; gain = 17.996
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
 Resolution: To avoid this message, exclude constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Parsing XDC File [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0_board.xdc] for cell 'design_1_i/clk_wiz_1/inst'
@@ -20654,7 +20660,7 @@ Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:03:46 ; elapsed = 00:03:46 . Memory (MB): peak = 2033.172 ; gain = 1396.258
+Finished Loading Part and Timing Information : Time (s): cpu = 00:07:38 ; elapsed = 00:07:39 . Memory (MB): peak = 2033.719 ; gain = 1396.805
 ---------------------------------------------------------------------------------
 
 
@@ -20704,11 +20710,11 @@ Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/derek/Doc
 Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 204).
 Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.runs/synth_1/dont_touch.xdc, line 209).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:03:49 ; elapsed = 00:03:47 . Memory (MB): peak = 2033.172 ; gain = 1396.258
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:07:45 ; elapsed = 00:07:43 . Memory (MB): peak = 2033.719 ; gain = 1396.805
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
-Finished RTL Optimization : Time (s): cpu = 00:03:49 ; elapsed = 00:03:47 . Memory (MB): peak = 2033.172 ; gain = 1396.258
+Finished RTL Optimization : Time (s): cpu = 00:07:45 ; elapsed = 00:07:43 . Memory (MB): peak = 2033.719 ; gain = 1396.805
 ---------------------------------------------------------------------------------
 
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Board_Analyzer_BRAM_v1_0_S00_AXI'
@@ -20826,7 +20832,7 @@ INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To p
 INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/ui/mig_7series_v2_0_ui_rd_data.v:392]
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'mig_7series_v2_0_axi_mc_r_channel'
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'Board_Analyzer_BRAM_v1_0_S00_AXI'
-WARNING: [Synth 8-3848] Net slv_reg3 in module/entity Board_Analyzer_BRAM_v1_0_S00_AXI does not have driver. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_0/d224aeb9/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v:135]
+WARNING: [Synth 8-3848] Net slv_reg3 in module/entity Board_Analyzer_BRAM_v1_0_S00_AXI does not have driver. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/user/Board_Analyzer_BRAM_v1_1/bb5a7295/hdl/Board_Analyzer_BRAM_v1_0_S00_AXI.v:135]
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'placement'
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'score_ten'
 WARNING: [Synth 8-3848] Net dummy_arr in module/entity score_ten does not have driver. [/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_2/511f0bee/src/score_ten.v:362]
@@ -20902,7 +20908,7 @@ Report RTL Partitions:
 |12    |mig_7series_v2_0_memc_ui_top_axi__GC0               |           1|      6824|
 |13    |design_1_mig_7series_0_3_mig__GC0                   |           1|       329|
 |14    |design_1__GCB0                                      |           1|     29958|
-|15    |design_1__GCB1                                      |           1|     14219|
+|15    |design_1__GCB1                                      |           1|     14500|
 +------+----------------------------------------------------+------------+----------+
 
 ---------------------------------------------------------------------------------
@@ -20924,29 +20930,29 @@ Detailed RTL Component Info :
 	   2 Input     10 Bit       Adders := 10    
 	   3 Input      9 Bit       Adders := 2     
 	   2 Input      9 Bit       Adders := 6     
-	   2 Input      8 Bit       Adders := 18    
 	   3 Input      8 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 18    
 	   2 Input      7 Bit       Adders := 5     
 	   3 Input      6 Bit       Adders := 3     
 	   2 Input      6 Bit       Adders := 351   
 	   2 Input      5 Bit       Adders := 1044  
 	   2 Input      4 Bit       Adders := 1649  
-	   3 Input      3 Bit       Adders := 1     
 	   2 Input      3 Bit       Adders := 32    
+	   3 Input      3 Bit       Adders := 1     
 	   8 Input      2 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 3     
+	   2 Input      2 Bit       Adders := 59    
 	   5 Input      2 Bit       Adders := 1     
 	   4 Input      2 Bit       Adders := 5     
-	   2 Input      2 Bit       Adders := 59    
-	   3 Input      2 Bit       Adders := 3     
-	  10 Input      1 Bit       Adders := 1     
-	   5 Input      1 Bit       Adders := 1     
-	   2 Input      1 Bit       Adders := 7     
-	   3 Input      1 Bit       Adders := 1     
-	   8 Input      1 Bit       Adders := 1     
 	   6 Input      1 Bit       Adders := 1     
-	   4 Input      1 Bit       Adders := 1     
+	  10 Input      1 Bit       Adders := 1     
 	   7 Input      1 Bit       Adders := 1     
+	   3 Input      1 Bit       Adders := 1     
 	   9 Input      1 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 7     
+	   4 Input      1 Bit       Adders := 1     
+	   8 Input      1 Bit       Adders := 1     
+	   5 Input      1 Bit       Adders := 1     
 +---XORs : 
 	   2 Input      5 Bit         XORs := 400   
 	   2 Input      4 Bit         XORs := 800   
@@ -21006,18 +21012,18 @@ Detailed RTL Component Info :
 	   2 Input     52 Bit        Muxes := 1     
 	   2 Input     36 Bit        Muxes := 3     
 	   2 Input     33 Bit        Muxes := 7     
-	   2 Input     32 Bit        Muxes := 62    
-	   8 Input     32 Bit        Muxes := 1     
-	   6 Input     32 Bit        Muxes := 41    
-	   3 Input     32 Bit        Muxes := 1     
+	   8 Input     32 Bit        Muxes := 3     
 	  12 Input     32 Bit        Muxes := 8     
 	   4 Input     32 Bit        Muxes := 8     
+	   3 Input     32 Bit        Muxes := 1     
+	   6 Input     32 Bit        Muxes := 41    
+	   2 Input     32 Bit        Muxes := 63    
 	   2 Input     30 Bit        Muxes := 3     
 	   2 Input     27 Bit        Muxes := 1     
 	   2 Input     23 Bit        Muxes := 2     
 	   6 Input     20 Bit        Muxes := 400   
-	   8 Input     20 Bit        Muxes := 211   
 	   2 Input     20 Bit        Muxes := 222   
+	   8 Input     20 Bit        Muxes := 211   
 	   2 Input     17 Bit        Muxes := 3     
 	   2 Input     16 Bit        Muxes := 36    
 	   3 Input     16 Bit        Muxes := 1     
@@ -21025,76 +21031,75 @@ Detailed RTL Component Info :
 	   2 Input     15 Bit        Muxes := 10    
 	   8 Input     13 Bit        Muxes := 1     
 	   2 Input     13 Bit        Muxes := 14    
+	   4 Input     12 Bit        Muxes := 1     
 	   8 Input     12 Bit        Muxes := 1     
 	   2 Input     12 Bit        Muxes := 18    
-	   4 Input     12 Bit        Muxes := 1     
 	  11 Input     12 Bit        Muxes := 4     
-	   3 Input     11 Bit        Muxes := 1     
-	  12 Input     11 Bit        Muxes := 1     
 	   2 Input     11 Bit        Muxes := 2     
-	   2 Input     10 Bit        Muxes := 13    
+	  12 Input     11 Bit        Muxes := 1     
+	   3 Input     11 Bit        Muxes := 1     
 	   5 Input     10 Bit        Muxes := 2     
-	   2 Input      9 Bit        Muxes := 20    
+	   2 Input     10 Bit        Muxes := 13    
 	   4 Input      9 Bit        Muxes := 6     
 	   3 Input      9 Bit        Muxes := 1     
-	   4 Input      8 Bit        Muxes := 2     
-	   8 Input      8 Bit        Muxes := 4     
+	   2 Input      9 Bit        Muxes := 20    
 	   2 Input      8 Bit        Muxes := 317   
 	   7 Input      8 Bit        Muxes := 41    
+	   8 Input      8 Bit        Muxes := 4     
+	   4 Input      8 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 5     
 	  36 Input      7 Bit        Muxes := 1     
-	   8 Input      7 Bit        Muxes := 1     
-	   2 Input      7 Bit        Muxes := 6     
 	   3 Input      7 Bit        Muxes := 1     
-	   3 Input      6 Bit        Muxes := 1     
 	   6 Input      6 Bit        Muxes := 160   
 	   5 Input      6 Bit        Muxes := 2     
+	   3 Input      6 Bit        Muxes := 1     
+	  16 Input      6 Bit        Muxes := 1     
 	   2 Input      6 Bit        Muxes := 86    
 	  34 Input      6 Bit        Muxes := 3     
-	  16 Input      6 Bit        Muxes := 1     
 	  36 Input      6 Bit        Muxes := 3     
 	   4 Input      6 Bit        Muxes := 6     
-	   7 Input      5 Bit        Muxes := 400   
+	   6 Input      5 Bit        Muxes := 802   
 	   4 Input      5 Bit        Muxes := 7     
 	   8 Input      5 Bit        Muxes := 43    
+	   7 Input      5 Bit        Muxes := 400   
+	  34 Input      5 Bit        Muxes := 1     
 	   3 Input      5 Bit        Muxes := 1     
 	   2 Input      5 Bit        Muxes := 78    
-	  34 Input      5 Bit        Muxes := 1     
-	   6 Input      5 Bit        Muxes := 802   
-	  12 Input      4 Bit        Muxes := 12    
-	   4 Input      4 Bit        Muxes := 1     
-	   8 Input      4 Bit        Muxes := 13    
-	  17 Input      4 Bit        Muxes := 1     
 	   9 Input      4 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 125   
+	   4 Input      4 Bit        Muxes := 1     
+	  12 Input      4 Bit        Muxes := 12    
 	   6 Input      4 Bit        Muxes := 3     
-	   3 Input      4 Bit        Muxes := 801   
+	   8 Input      4 Bit        Muxes := 13    
+	  17 Input      4 Bit        Muxes := 1     
 	   7 Input      4 Bit        Muxes := 1600  
-	   4 Input      3 Bit        Muxes := 3     
-	   6 Input      3 Bit        Muxes := 41    
+	   3 Input      4 Bit        Muxes := 801   
 	   8 Input      3 Bit        Muxes := 51    
-	   2 Input      3 Bit        Muxes := 185   
+	   6 Input      3 Bit        Muxes := 41    
 	   5 Input      3 Bit        Muxes := 4     
+	   4 Input      3 Bit        Muxes := 3     
 	   9 Input      3 Bit        Muxes := 1     
-	   4 Input      2 Bit        Muxes := 24    
-	   6 Input      2 Bit        Muxes := 2     
-	   2 Input      2 Bit        Muxes := 362   
+	   2 Input      3 Bit        Muxes := 185   
 	  34 Input      2 Bit        Muxes := 2     
-	   5 Input      2 Bit        Muxes := 5     
 	   8 Input      2 Bit        Muxes := 8     
-	  10 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 362   
+	   6 Input      2 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 24    
 	   3 Input      2 Bit        Muxes := 10    
+	  10 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 250   
+	   2 Input      1 Bit        Muxes := 1526  
+	  34 Input      1 Bit        Muxes := 32    
+	   5 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 28    
+	   6 Input      1 Bit        Muxes := 1016  
+	  53 Input      1 Bit        Muxes := 1     
+	  16 Input      1 Bit        Muxes := 26    
+	   7 Input      1 Bit        Muxes := 7     
+	   8 Input      1 Bit        Muxes := 260   
 	  10 Input      1 Bit        Muxes := 38    
 	  12 Input      1 Bit        Muxes := 20    
-	   5 Input      1 Bit        Muxes := 4     
-	  16 Input      1 Bit        Muxes := 26    
-	   3 Input      1 Bit        Muxes := 28    
-	  34 Input      1 Bit        Muxes := 32    
-	   8 Input      1 Bit        Muxes := 260   
-	   2 Input      1 Bit        Muxes := 1526  
-	   6 Input      1 Bit        Muxes := 1016  
-	   4 Input      1 Bit        Muxes := 250   
-	   7 Input      1 Bit        Muxes := 7     
-	  53 Input      1 Bit        Muxes := 1     
 
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -21119,15 +21124,15 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   2 Input     20 Bit        Muxes := 5     
 	   8 Input     20 Bit        Muxes := 5     
-	   2 Input      8 Bit        Muxes := 4     
 	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
 	   8 Input      5 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 1     
 	   8 Input      3 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 2     
 	   2 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 5     
 	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
 Module eval_block__1 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -21150,12 +21155,12 @@ Detailed RTL Component Info :
 	   6 Input     32 Bit        Muxes := 1     
 	   6 Input     20 Bit        Muxes := 10    
 	   6 Input      6 Bit        Muxes := 4     
-	   7 Input      5 Bit        Muxes := 10    
 	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      5 Bit        Muxes := 10    
 	   7 Input      4 Bit        Muxes := 40    
 	   3 Input      4 Bit        Muxes := 20    
-	   2 Input      3 Bit        Muxes := 1     
 	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
 	   2 Input      2 Bit        Muxes := 2     
 	   6 Input      1 Bit        Muxes := 25    
 Module placement__2 
@@ -21170,15 +21175,15 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   2 Input     20 Bit        Muxes := 5     
 	   8 Input     20 Bit        Muxes := 5     
-	   2 Input      8 Bit        Muxes := 4     
 	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
 	   8 Input      5 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 1     
 	   8 Input      3 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 2     
 	   2 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 5     
 	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
 Module eval_block__2 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -21201,12 +21206,12 @@ Detailed RTL Component Info :
 	   6 Input     32 Bit        Muxes := 1     
 	   6 Input     20 Bit        Muxes := 10    
 	   6 Input      6 Bit        Muxes := 4     
-	   7 Input      5 Bit        Muxes := 10    
 	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      5 Bit        Muxes := 10    
 	   7 Input      4 Bit        Muxes := 40    
 	   3 Input      4 Bit        Muxes := 20    
-	   2 Input      3 Bit        Muxes := 1     
 	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
 	   2 Input      2 Bit        Muxes := 2     
 	   6 Input      1 Bit        Muxes := 25    
 Module placement__3 
@@ -21221,15 +21226,15 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   2 Input     20 Bit        Muxes := 5     
 	   8 Input     20 Bit        Muxes := 5     
-	   2 Input      8 Bit        Muxes := 4     
 	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
 	   8 Input      5 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 1     
 	   8 Input      3 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 2     
 	   2 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 5     
 	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
 Module eval_block__3 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -21252,12 +21257,12 @@ Detailed RTL Component Info :
 	   6 Input     32 Bit        Muxes := 1     
 	   6 Input     20 Bit        Muxes := 10    
 	   6 Input      6 Bit        Muxes := 4     
-	   7 Input      5 Bit        Muxes := 10    
 	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      5 Bit        Muxes := 10    
 	   7 Input      4 Bit        Muxes := 40    
 	   3 Input      4 Bit        Muxes := 20    
-	   2 Input      3 Bit        Muxes := 1     
 	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
 	   2 Input      2 Bit        Muxes := 2     
 	   6 Input      1 Bit        Muxes := 25    
 Module placement__4 
@@ -21272,15 +21277,15 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   2 Input     20 Bit        Muxes := 5     
 	   8 Input     20 Bit        Muxes := 5     
-	   2 Input      8 Bit        Muxes := 4     
 	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
 	   8 Input      5 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 1     
 	   8 Input      3 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 2     
 	   2 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 5     
 	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
 Module eval_block__4 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -21303,12 +21308,12 @@ Detailed RTL Component Info :
 	   6 Input     32 Bit        Muxes := 1     
 	   6 Input     20 Bit        Muxes := 10    
 	   6 Input      6 Bit        Muxes := 4     
-	   7 Input      5 Bit        Muxes := 10    
 	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      5 Bit        Muxes := 10    
 	   7 Input      4 Bit        Muxes := 40    
 	   3 Input      4 Bit        Muxes := 20    
-	   2 Input      3 Bit        Muxes := 1     
 	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
 	   2 Input      2 Bit        Muxes := 2     
 	   6 Input      1 Bit        Muxes := 25    
 Module placement__5 
@@ -21323,15 +21328,15 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   2 Input     20 Bit        Muxes := 5     
 	   8 Input     20 Bit        Muxes := 5     
-	   2 Input      8 Bit        Muxes := 4     
 	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
 	   8 Input      5 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 1     
 	   8 Input      3 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 2     
 	   2 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 5     
 	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
 Module eval_block__5 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -21354,12 +21359,12 @@ Detailed RTL Component Info :
 	   6 Input     32 Bit        Muxes := 1     
 	   6 Input     20 Bit        Muxes := 10    
 	   6 Input      6 Bit        Muxes := 4     
-	   7 Input      5 Bit        Muxes := 10    
 	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      5 Bit        Muxes := 10    
 	   7 Input      4 Bit        Muxes := 40    
 	   3 Input      4 Bit        Muxes := 20    
-	   2 Input      3 Bit        Muxes := 1     
 	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
 	   2 Input      2 Bit        Muxes := 2     
 	   6 Input      1 Bit        Muxes := 25    
 Module eval_block__6 
@@ -21384,12 +21389,12 @@ Detailed RTL Component Info :
 	   6 Input     32 Bit        Muxes := 1     
 	   6 Input     20 Bit        Muxes := 10    
 	   6 Input      6 Bit        Muxes := 4     
-	   7 Input      5 Bit        Muxes := 10    
 	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      5 Bit        Muxes := 10    
 	   7 Input      4 Bit        Muxes := 40    
 	   3 Input      4 Bit        Muxes := 20    
-	   2 Input      3 Bit        Muxes := 1     
 	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
 	   2 Input      2 Bit        Muxes := 2     
 	   6 Input      1 Bit        Muxes := 25    
 Module placement__6 
@@ -21404,15 +21409,15 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   2 Input     20 Bit        Muxes := 5     
 	   8 Input     20 Bit        Muxes := 5     
-	   2 Input      8 Bit        Muxes := 4     
 	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
 	   8 Input      5 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 1     
 	   8 Input      3 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 2     
 	   2 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 5     
 	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
 Module eval_block__7 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -21435,12 +21440,12 @@ Detailed RTL Component Info :
 	   6 Input     32 Bit        Muxes := 1     
 	   6 Input     20 Bit        Muxes := 10    
 	   6 Input      6 Bit        Muxes := 4     
-	   7 Input      5 Bit        Muxes := 10    
 	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      5 Bit        Muxes := 10    
 	   7 Input      4 Bit        Muxes := 40    
 	   3 Input      4 Bit        Muxes := 20    
-	   2 Input      3 Bit        Muxes := 1     
 	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
 	   2 Input      2 Bit        Muxes := 2     
 	   6 Input      1 Bit        Muxes := 25    
 Module placement__7 
@@ -21455,15 +21460,15 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   2 Input     20 Bit        Muxes := 5     
 	   8 Input     20 Bit        Muxes := 5     
-	   2 Input      8 Bit        Muxes := 4     
 	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
 	   8 Input      5 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 1     
 	   8 Input      3 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 2     
 	   2 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 5     
 	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
 Module eval_block__8 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -21486,12 +21491,12 @@ Detailed RTL Component Info :
 	   6 Input     32 Bit        Muxes := 1     
 	   6 Input     20 Bit        Muxes := 10    
 	   6 Input      6 Bit        Muxes := 4     
-	   7 Input      5 Bit        Muxes := 10    
 	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      5 Bit        Muxes := 10    
 	   7 Input      4 Bit        Muxes := 40    
 	   3 Input      4 Bit        Muxes := 20    
-	   2 Input      3 Bit        Muxes := 1     
 	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
 	   2 Input      2 Bit        Muxes := 2     
 	   6 Input      1 Bit        Muxes := 25    
 Module placement__8 
@@ -21506,15 +21511,15 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   2 Input     20 Bit        Muxes := 5     
 	   8 Input     20 Bit        Muxes := 5     
-	   2 Input      8 Bit        Muxes := 4     
 	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
 	   8 Input      5 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 1     
 	   8 Input      3 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 2     
 	   2 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 5     
 	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
 Module eval_block__9 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -21537,12 +21542,12 @@ Detailed RTL Component Info :
 	   6 Input     32 Bit        Muxes := 1     
 	   6 Input     20 Bit        Muxes := 10    
 	   6 Input      6 Bit        Muxes := 4     
-	   7 Input      5 Bit        Muxes := 10    
 	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      5 Bit        Muxes := 10    
 	   7 Input      4 Bit        Muxes := 40    
 	   3 Input      4 Bit        Muxes := 20    
-	   2 Input      3 Bit        Muxes := 1     
 	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
 	   2 Input      2 Bit        Muxes := 2     
 	   6 Input      1 Bit        Muxes := 25    
 Module placement__9 
@@ -21557,15 +21562,15 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   2 Input     20 Bit        Muxes := 5     
 	   8 Input     20 Bit        Muxes := 5     
-	   2 Input      8 Bit        Muxes := 4     
 	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
 	   8 Input      5 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 1     
 	   8 Input      3 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 2     
 	   2 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 5     
 	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
 Module eval_block 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -21588,12 +21593,12 @@ Detailed RTL Component Info :
 	   6 Input     32 Bit        Muxes := 1     
 	   6 Input     20 Bit        Muxes := 10    
 	   6 Input      6 Bit        Muxes := 4     
-	   7 Input      5 Bit        Muxes := 10    
 	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      5 Bit        Muxes := 10    
 	   7 Input      4 Bit        Muxes := 40    
 	   3 Input      4 Bit        Muxes := 20    
-	   2 Input      3 Bit        Muxes := 1     
 	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
 	   2 Input      2 Bit        Muxes := 2     
 	   6 Input      1 Bit        Muxes := 25    
 Module placement 
@@ -21608,15 +21613,15 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   2 Input     20 Bit        Muxes := 5     
 	   8 Input     20 Bit        Muxes := 5     
-	   2 Input      8 Bit        Muxes := 4     
 	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
 	   8 Input      5 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 1     
 	   8 Input      3 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 2     
 	   2 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 5     
 	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
 Module score_ten 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -21641,14 +21646,14 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   6 Input     32 Bit        Muxes := 1     
 	   2 Input     16 Bit        Muxes := 2     
-	   2 Input      6 Bit        Muxes := 2     
 	   5 Input      6 Bit        Muxes := 1     
-	   8 Input      4 Bit        Muxes := 11    
+	   2 Input      6 Bit        Muxes := 2     
 	   6 Input      4 Bit        Muxes := 3     
+	   8 Input      4 Bit        Muxes := 11    
 	   8 Input      2 Bit        Muxes := 3     
 	   6 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 3     
 	   8 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 3     
 	   6 Input      1 Bit        Muxes := 4     
 Module design_1_aicontroller_0_0 
 Detailed RTL Component Info : 
@@ -21671,15 +21676,15 @@ Detailed RTL Component Info :
 +---Adders : 
 	   2 Input      6 Bit       Adders := 1     
 	   2 Input      5 Bit       Adders := 1     
+	  10 Input      1 Bit       Adders := 1     
+	   6 Input      1 Bit       Adders := 1     
 	   8 Input      1 Bit       Adders := 1     
 	   9 Input      1 Bit       Adders := 1     
-	   5 Input      1 Bit       Adders := 1     
+	   3 Input      1 Bit       Adders := 1     
 	   7 Input      1 Bit       Adders := 1     
 	   2 Input      1 Bit       Adders := 1     
-	   6 Input      1 Bit       Adders := 1     
 	   4 Input      1 Bit       Adders := 1     
-	   3 Input      1 Bit       Adders := 1     
-	  10 Input      1 Bit       Adders := 1     
+	   5 Input      1 Bit       Adders := 1     
 +---Registers : 
 	                6 Bit    Registers := 1     
 	                5 Bit    Registers := 1     
@@ -22186,20 +22191,20 @@ Detailed RTL Component Info :
 	   2 Input     12 Bit        Muxes := 2     
 	   2 Input     10 Bit        Muxes := 1     
 	   2 Input      9 Bit        Muxes := 2     
-	   2 Input      7 Bit        Muxes := 1     
 	   3 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
 	   2 Input      6 Bit        Muxes := 27    
 	   2 Input      5 Bit        Muxes := 18    
 	   2 Input      4 Bit        Muxes := 5     
-	   2 Input      3 Bit        Muxes := 6     
 	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 6     
+	   2 Input      2 Bit        Muxes := 5     
 	   8 Input      2 Bit        Muxes := 1     
 	   4 Input      2 Bit        Muxes := 3     
-	   2 Input      2 Bit        Muxes := 5     
-	   3 Input      1 Bit        Muxes := 3     
 	  53 Input      1 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 36    
 	   4 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 36    
+	   3 Input      1 Bit        Muxes := 3     
 Module mig_7series_v2_0_ddr_phy_wrcal 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -22279,20 +22284,20 @@ Detailed RTL Component Info :
 	   2 Input     12 Bit        Muxes := 4     
 	   2 Input      8 Bit        Muxes := 48    
 	  36 Input      7 Bit        Muxes := 1     
-	  34 Input      6 Bit        Muxes := 3     
-	   2 Input      6 Bit        Muxes := 6     
 	  36 Input      6 Bit        Muxes := 3     
+	   2 Input      6 Bit        Muxes := 6     
+	  34 Input      6 Bit        Muxes := 3     
 	   4 Input      5 Bit        Muxes := 1     
-	   2 Input      5 Bit        Muxes := 16    
 	  34 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 16    
 	   3 Input      4 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 9     
 	   2 Input      3 Bit        Muxes := 2     
 	   2 Input      2 Bit        Muxes := 7     
 	  34 Input      2 Bit        Muxes := 2     
 	  34 Input      1 Bit        Muxes := 32    
-	   2 Input      1 Bit        Muxes := 168   
 	   4 Input      1 Bit        Muxes := 64    
+	   2 Input      1 Bit        Muxes := 168   
 Module mig_7series_v2_0_ddr_phy_tempmon 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -22311,8 +22316,8 @@ Detailed RTL Component Info :
 	   2 Input      7 Bit        Muxes := 1     
 	   2 Input      6 Bit        Muxes := 1     
 	   2 Input      5 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 7     
 	  12 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 7     
 Module mig_7series_v2_0_ddr_calib_top 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -23045,11 +23050,11 @@ Detailed RTL Component Info :
 	   2 Input     32 Bit        Muxes := 1     
 	   2 Input     10 Bit        Muxes := 1     
 	   2 Input      8 Bit        Muxes := 2     
-	   2 Input      6 Bit        Muxes := 3     
 	   5 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 3     
 	   2 Input      4 Bit        Muxes := 4     
-	   2 Input      3 Bit        Muxes := 3     
 	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
 	  10 Input      1 Bit        Muxes := 18    
 	   2 Input      1 Bit        Muxes := 28    
 	   6 Input      1 Bit        Muxes := 2     
@@ -25929,12 +25934,12 @@ Detailed RTL Component Info :
 	   3 Input     11 Bit        Muxes := 1     
 	   2 Input      7 Bit        Muxes := 1     
 	   2 Input      6 Bit        Muxes := 3     
-	   2 Input      5 Bit        Muxes := 4     
 	   6 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
 	   2 Input      4 Bit        Muxes := 2     
 	   2 Input      3 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 7     
 	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
 	   6 Input      1 Bit        Muxes := 5     
 Module axi_tft_v2_0_v_sync 
 Detailed RTL Component Info : 
@@ -26000,18 +26005,17 @@ Detailed RTL Component Info :
 	                1 Bit    Registers := 8     
 +---Muxes : 
 	   4 Input     32 Bit        Muxes := 3     
-	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 3     
+	   8 Input     32 Bit        Muxes := 2     
 	   8 Input     20 Bit        Muxes := 11    
 	   8 Input     12 Bit        Muxes := 1     
 	   2 Input      8 Bit        Muxes := 2     
 	   8 Input      8 Bit        Muxes := 2     
-	   8 Input      7 Bit        Muxes := 1     
-	   2 Input      7 Bit        Muxes := 1     
 	   8 Input      5 Bit        Muxes := 1     
 	   8 Input      3 Bit        Muxes := 1     
 	   9 Input      3 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 6     
 	   8 Input      1 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 6     
 Module Board_Analyzer_BRAM_v1_0 
 Detailed RTL Component Info : 
 Module design_1_Board_Analyzer_BRAM_0_0 
@@ -26780,7 +26784,7 @@ DSP Report: Generating DSP score_reg0, operation Mode is (post resource manageme
 DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
 DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:04:22 ; elapsed = 00:04:16 . Memory (MB): peak = 2033.172 ; gain = 1396.258
+Finished Cross Boundary Optimization : Time (s): cpu = 00:09:02 ; elapsed = 00:08:49 . Memory (MB): peak = 2033.719 ; gain = 1396.805
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -27003,7 +27007,7 @@ INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_1_
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_1_i/aicontroller_0/insti_12/\next_array2_rot1_reg[0] )
 INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:07:10 ; elapsed = 00:07:05 . Memory (MB): peak = 2887.043 ; gain = 2250.129
+Finished Area Optimization : Time (s): cpu = 00:15:10 ; elapsed = 00:15:10 . Memory (MB): peak = 2887.785 ; gain = 2250.871
 ---------------------------------------------------------------------------------
 
 
@@ -27015,11 +27019,11 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:07:16 ; elapsed = 00:07:11 . Memory (MB): peak = 2932.043 ; gain = 2295.129
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:15:26 ; elapsed = 00:15:31 . Memory (MB): peak = 2932.785 ; gain = 2295.871
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:07:31 ; elapsed = 00:07:26 . Memory (MB): peak = 3034.043 ; gain = 2397.129
+Finished Timing Optimization : Time (s): cpu = 00:16:05 ; elapsed = 00:16:13 . Memory (MB): peak = 3034.785 ; gain = 2397.871
 ---------------------------------------------------------------------------------
 
 
@@ -27031,7 +27035,7 @@ F7D5B391E6C4A280
 F7D5B391E6C4A280
 F7D5B391E6C4A280
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:09:42 ; elapsed = 00:09:38 . Memory (MB): peak = 3315.777 ; gain = 2678.863
+Finished Technology Mapping : Time (s): cpu = 00:21:33 ; elapsed = 00:22:00 . Memory (MB): peak = 3317.652 ; gain = 2680.738
 ---------------------------------------------------------------------------------
 
 
@@ -27062,7 +27066,7 @@ INFO: [Synth 8-4618] Found max_fanout attribute set to 50 on net \u_design_1_mig
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:09:51 ; elapsed = 00:09:47 . Memory (MB): peak = 3315.777 ; gain = 2678.863
+Finished IO Insertion : Time (s): cpu = 00:21:56 ; elapsed = 00:22:24 . Memory (MB): peak = 3317.652 ; gain = 2680.738
 ---------------------------------------------------------------------------------
 
 
@@ -27077,7 +27081,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:09:52 ; elapsed = 00:09:48 . Memory (MB): peak = 3315.777 ; gain = 2678.863
+Finished Renaming Generated Instances : Time (s): cpu = 00:21:58 ; elapsed = 00:22:26 . Memory (MB): peak = 3317.652 ; gain = 2680.738
 ---------------------------------------------------------------------------------
 
 
@@ -27085,7 +27089,7 @@ Finished Renaming Generated Instances : Time (s): cpu = 00:09:52 ; elapsed = 00:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:10:01 ; elapsed = 00:09:57 . Memory (MB): peak = 3315.777 ; gain = 2678.863
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:22:25 ; elapsed = 00:22:53 . Memory (MB): peak = 3317.652 ; gain = 2680.738
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -27177,11 +27181,11 @@ Report Cell Usage:
 |17    |IN_FIFO               |     2|
 |18    |ISERDESE2             |    16|
 |19    |LUT1                  |  1473|
-|20    |LUT2                  |  4970|
-|21    |LUT3                  | 11638|
+|20    |LUT2                  |  4971|
+|21    |LUT3                  | 11639|
 |22    |LUT4                  | 10091|
-|23    |LUT5                  | 16361|
-|24    |LUT6                  | 25803|
+|23    |LUT5                  | 16368|
+|24    |LUT6                  | 25798|
 |25    |LUT6_2                |   104|
 |26    |MMCME2_ADV            |     2|
 |27    |MULT_AND              |     1|
@@ -27235,8 +27239,8 @@ Report Instance Areas:
 +------+-----------------------------------------------------------------------------------------------------------------+---------------------------------------------+-------+
 |      |Instance                                                                                                         |Module                                       |Cells  |
 +------+-----------------------------------------------------------------------------------------------------------------+---------------------------------------------+-------+
-|1     |top                                                                                                              |                                             | 112591|
-|2     |  design_1_i                                                                                                     |design_1                                     | 112569|
+|1     |top                                                                                                              |                                             | 112595|
+|2     |  design_1_i                                                                                                     |design_1                                     | 112573|
 |3     |    aicontroller_0                                                                                               |design_1_aicontroller_0_0                    |  83080|
 |4     |    clk_wiz_1                                                                                                    |design_1_clk_wiz_1_0                         |      7|
 |5     |      inst                                                                                                       |design_1_clk_wiz_1_0_clk_wiz                 |      7|
@@ -27281,7 +27285,7 @@ Report Instance Areas:
 |44    |        \TFT_CTRL_I/TFT_ON_TFT_SYNC                                                                              |cdc_sync__parameterized3__2                  |      2|
 |45    |        \TFT_CTRL_I/V_INTR_SYNC                                                                                  |cdc_sync__parameterized1                     |     10|
 |46    |        \TFT_CTRL_I/I2C_DONE_SYNC                                                                                |cdc_sync__parameterized3                     |      2|
-|47    |    Board_Analyzer_BRAM_0                                                                                        |design_1_Board_Analyzer_BRAM_0_0             |    756|
+|47    |    Board_Analyzer_BRAM_0                                                                                        |design_1_Board_Analyzer_BRAM_0_0             |    760|
 |48    |    xlslice_2                                                                                                    |design_1_xlslice_0_2                         |      0|
 |49    |    xlslice_0                                                                                                    |design_1_xlslice_0_0                         |      0|
 |50    |    xlslice_1                                                                                                    |design_1_xlslice_0_1                         |      0|
@@ -27295,13 +27299,13 @@ Report Instance Areas:
 |58    |      lmb_bram                                                                                                   |design_1_lmb_bram_0                          |     16|
 +------+-----------------------------------------------------------------------------------------------------------------+---------------------------------------------+-------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:10:08 ; elapsed = 00:10:05 . Memory (MB): peak = 3315.777 ; gain = 2678.863
+Finished Writing Synthesis Report : Time (s): cpu = 00:22:43 ; elapsed = 00:23:11 . Memory (MB): peak = 3317.652 ; gain = 2680.738
 ---------------------------------------------------------------------------------
 
 Synthesis finished with 0 errors, 0 critical warnings and 2901 warnings.
-Synthesis Optimization Complete : Time (s): cpu = 00:10:08 ; elapsed = 00:10:05 . Memory (MB): peak = 3315.777 ; gain = 2678.863
+Synthesis Optimization Complete : Time (s): cpu = 00:22:43 ; elapsed = 00:23:12 . Memory (MB): peak = 3317.652 ; gain = 2680.738
 INFO: [Netlist 29-17] Analyzing 1094 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
 INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
 INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
 INFO: [Opt 31-138] Pushed 49 inverter(s).
@@ -27330,8 +27334,9 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 1858 Infos, 398 Warnings, 78 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:10:22 ; elapsed = 00:10:19 . Memory (MB): peak = 3315.781 ; gain = 2488.133
+synth_design: Time (s): cpu = 00:23:25 ; elapsed = 00:24:03 . Memory (MB): peak = 3317.656 ; gain = 2490.008
 # write_checkpoint design_1_wrapper.dcp
+write_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 3317.656 ; gain = 0.000
 # report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.83 ; elapsed = 00:00:00.93 . Memory (MB): peak = 3315.781 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Sun Mar 15 13:08:48 2015...
+report_utilization: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3317.656 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 17 17:50:45 2015...

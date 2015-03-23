@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Mar 15 13:24:23 2015" VIVADOVERSION="2014.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Mar 17 18:18:45 2015" VIVADOVERSION="2014.1">
 
   <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:nexys4_ddr:part0:1.1" DEVICE="7a100t" NAME="design_1_imp" PACKAGE="csg324" SPEEDGRADE="-1"/>
 
@@ -61,7 +61,7 @@
   </EXTERNALPORTS>
 
   <MODULES>
-    <MODULE FULLNAME="/Board_Analyzer_BRAM_0" HWVERSION="1.0" INSTANCE="Board_Analyzer_BRAM_0" IPTYPE="PERIPHERAL" MODCLASS="PERIPHERAL" MODTYPE="Board_Analyzer_BRAM" VLNV="user:user:Board_Analyzer_BRAM:1.0">
+    <MODULE FULLNAME="/Board_Analyzer_BRAM_0" HWVERSION="1.1" INSTANCE="Board_Analyzer_BRAM_0" IPTYPE="PERIPHERAL" MODCLASS="PERIPHERAL" MODTYPE="Board_Analyzer_BRAM" VLNV="user:user:Board_Analyzer_BRAM:1.1">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="C_S00_AXI_DATA_WIDTH" VALUE="32"/>
