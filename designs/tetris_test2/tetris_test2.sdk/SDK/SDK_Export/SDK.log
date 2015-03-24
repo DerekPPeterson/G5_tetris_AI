@@ -544,3 +544,79 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 02:03:22 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+00:46:11 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:46:12 INFO  : The hardware specification for project 'hw_platform_0' is different from /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+00:46:12 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+00:46:15 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit.
+00:46:15 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper_bd.bmm into /hw_platform_0/design_1_wrapper_bd.bmm.
+00:46:17 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+00:46:18 INFO  : 
+00:46:19 INFO  : Updating hardware inferred compiler options for tetris.
+00:46:19 INFO  : Clearing existing target manager status.
+00:46:20 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+00:46:37 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+00:46:57 INFO  : Processor reset is completed for microblaze_0
+00:47:25 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:47:27 INFO  : Processor reset is completed for microblaze_0
+00:47:40 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:47:41 INFO  : Processor reset is completed for microblaze_0
+00:48:21 INFO  : Processor reset is completed for microblaze_0
+00:48:49 INFO  : Processor reset is completed for microblaze_0
+00:49:49 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:49:56 INFO  : Processor reset is completed for microblaze_0
+00:50:00 INFO  : Inferring section assignments and sizes from elf file: /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2.bak/tetris_test2.sdk/SDK/SDK_Export/tetris/Debug/tetris.elf
+00:50:26 INFO  : Successfully generated /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2.bak/tetris_test2.sdk/SDK/SDK_Export/tetris/src/lscript.ld.
+00:50:26 INFO  : Applying linker script to all configurations of project tetris.
+00:50:26 INFO  : Setting rebuild state to true for all configurations of project tetris.
+00:50:32 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:50:33 INFO  : Processor reset is completed for microblaze_0
+00:50:57 INFO  : Processor reset is completed for microblaze_0
+00:51:56 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:51:59 INFO  : Processor reset is completed for microblaze_0
+00:52:43 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:52:45 INFO  : Processor reset is completed for microblaze_0
+00:53:24 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:53:26 INFO  : Processor reset is completed for microblaze_0
+00:56:29 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:56:30 INFO  : Processor reset is completed for microblaze_0
+00:57:40 WARN  : Terminating existing sessions on processor microblaze_0
+00:57:45 INFO  : FPGA configured successfully with bitstream "/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+01:31:08 INFO  : Project hw_platform_0's source hardware specification located at /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+01:31:12 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml into /hw_platform_0/system.xml.
+01:31:15 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit.
+01:31:15 INFO  : Copied contents of /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1_wrapper_bd.bmm into /hw_platform_0/design_1_wrapper_bd.bmm.
+01:31:18 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+01:31:21 INFO  : 
+01:31:22 INFO  : Updating hardware inferred compiler options for tetris.
+01:31:22 INFO  : Clearing existing target manager status.
+01:31:22 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+01:31:31 INFO  : Processor reset is completed for microblaze_0
+15:11:50 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+15:11:53 ERROR :  License Feature SDK is not available.
+
+15:12:25 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+15:12:40 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+15:12:58 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+15:13:12 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+15:14:57 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+

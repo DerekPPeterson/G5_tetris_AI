@@ -333,13 +333,6 @@
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
-        <spirit:instanceName>aicontroller_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="aicontroller" spirit:vendor="xilinx.com" spirit:version="1.2"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_aicontroller_0_0</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
         <spirit:instanceName>xlconstant_0</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="xlconstant" spirit:vendor="xilinx.com" spirit:version="1.0"/>
         <spirit:configurableElementValues>
@@ -349,10 +342,24 @@
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
+        <spirit:instanceName>aicontroller_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="aicontroller" spirit:vendor="xilinx.com" spirit:version="1.5"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_aicontroller_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
         <spirit:instanceName>Board_Analyzer_BRAM_0</spirit:instanceName>
         <spirit:componentRef spirit:library="user" spirit:name="Board_Analyzer_BRAM" spirit:vendor="user" spirit:version="1.1"/>
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_Board_Analyzer_BRAM_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xlconcat_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="xlconcat" spirit:vendor="xilinx.com" spirit:version="2.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_xlconcat_0_0</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -504,11 +511,6 @@
         <spirit:name>xlslice_2_Dout</spirit:name>
         <spirit:internalPortReference spirit:componentRef="xlslice_2" spirit:portRef="Dout"/>
         <spirit:externalPortReference spirit:portRef="tft_vga_r"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>mdm_1_Interrupt</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="mdm_1" spirit:portRef="Interrupt"/>
-        <spirit:internalPortReference spirit:componentRef="microblaze_0_axi_intc" spirit:portRef="intr"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>clk_wiz_1_clk_out1</spirit:name>
@@ -668,8 +670,8 @@
       <spirit:adHocConnection>
         <spirit:name>Board_Analyzer_BRAM_0_bram_clk</spirit:name>
         <spirit:internalPortReference spirit:componentRef="Board_Analyzer_BRAM_0" spirit:portRef="bram_clk"/>
-        <spirit:internalPortReference spirit:componentRef="aicontroller_0" spirit:portRef="clk"/>
         <spirit:internalPortReference spirit:componentRef="blk_mem_gen_ai" spirit:portRef="clkb"/>
+        <spirit:internalPortReference spirit:componentRef="aicontroller_0" spirit:portRef="clk"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>Board_Analyzer_BRAM_0_bram_addr</spirit:name>
@@ -720,6 +722,21 @@
         <spirit:name>xlconstant_0_const</spirit:name>
         <spirit:internalPortReference spirit:componentRef="xlconstant_0" spirit:portRef="const"/>
         <spirit:internalPortReference spirit:componentRef="aicontroller_0" spirit:portRef="SWITCH"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>mdm_1_Interrupt</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="mdm_1" spirit:portRef="Interrupt"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_0" spirit:portRef="In0"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xlconcat_0_dout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_0" spirit:portRef="dout"/>
+        <spirit:internalPortReference spirit:componentRef="microblaze_0_axi_intc" spirit:portRef="intr"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>axi_uartlite_0_interrupt</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="axi_uartlite_0" spirit:portRef="interrupt"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_0" spirit:portRef="In1"/>
       </spirit:adHocConnection>
     </spirit:adHocConnections>
     <spirit:hierConnections>

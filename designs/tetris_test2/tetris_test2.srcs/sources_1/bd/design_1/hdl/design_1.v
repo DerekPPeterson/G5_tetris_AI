@@ -1,15 +1,15 @@
 //Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2014.1 (lin64) Build 881834 Fri Apr  4 14:00:25 MDT 2014
-//Date        : Tue Mar 17 17:25:58 2015
-//Host        : derek-laptop running 64-bit Ubuntu 14.04.2 LTS
+//Date        : Tue Mar 24 01:03:17 2015
+//Host        : derek-pc2 running 64-bit Ubuntu 14.04.2 LTS
 //Command     : generate_target design_1.bd
 //Design      : design_1
 //Purpose     : IP block netlist
 //--------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLanguage=VERILOG,numBlks=42,numReposBlks=28,numNonXlnxBlks=1,numHierBlks=14,maxHierDepth=1,da_axi4_cnt=31,da_board_cnt=15,da_bram_cntlr_cnt=2,da_mb_cnt=1}" *) 
+(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLanguage=VERILOG,numBlks=43,numReposBlks=29,numNonXlnxBlks=1,numHierBlks=14,maxHierDepth=1,da_axi4_cnt=31,da_board_cnt=15,da_bram_cntlr_cnt=2,da_mb_cnt=1}" *) 
 module design_1
    (DDR2_addr,
     DDR2_ba,
@@ -164,6 +164,7 @@ module design_1
   wire axi_tft_0_tft_vsync;
   wire axi_uartlite_0_UART_RxD;
   wire axi_uartlite_0_UART_TxD;
+  wire axi_uartlite_0_interrupt;
   wire [31:0]blk_mem_gen_ai_doutb;
   wire clk_wiz_1_clk_out1;
   wire clk_wiz_1_clk_out2;
@@ -412,6 +413,7 @@ module design_1
   wire [0:0]rst_clk_wiz_1_100M_peripheral_aresetn;
   wire [0:0]rst_mig_7series_0_81M_peripheral_aresetn;
   wire sys_clock_1;
+  wire [1:0]xlconcat_0_dout;
   wire [13:0]xlconstant_0_const;
   wire [3:0]xlslice_0_Dout;
   wire [3:0]xlslice_1_Dout;
@@ -734,7 +736,8 @@ design_1_axi_tft_0_0 axi_tft_0
         .tft_vga_r(axi_tft_0_tft_vga_r),
         .tft_vsync(axi_tft_0_tft_vsync));
 design_1_axi_uartlite_0_0 axi_uartlite_0
-       (.rx(axi_uartlite_0_UART_RxD),
+       (.interrupt(axi_uartlite_0_interrupt),
+        .rx(axi_uartlite_0_UART_RxD),
         .s_axi_aclk(clk_wiz_1_clk_out1),
         .s_axi_araddr(microblaze_0_axi_periph_M02_AXI_ARADDR),
         .s_axi_aresetn(rst_clk_wiz_1_100M_peripheral_aresetn),
@@ -898,7 +901,7 @@ design_1_mdm_1_0 mdm_1
         .Write_Strobe(microblaze_0_dlmb__1_WRITESTROBE));
 design_1_microblaze_0_axi_intc_0 microblaze_0_axi_intc
        (.interrupt_address(microblaze_0_interrupt_ADDRESS),
-        .intr(mdm_1_Interrupt),
+        .intr(xlconcat_0_dout),
         .irq(microblaze_0_interrupt_INTERRUPT),
         .processor_ack({microblaze_0_interrupt_ACK[0],microblaze_0_interrupt_ACK[1]}),
         .processor_clk(clk_wiz_1_clk_out1),
@@ -1192,6 +1195,10 @@ design_1_rst_mig_7series_0_81M_1 rst_mig_7series_0_81M
         .mb_debug_sys_rst(GND_1),
         .peripheral_aresetn(rst_mig_7series_0_81M_peripheral_aresetn),
         .slowest_sync_clk(mig_7series_0_ui_clk));
+design_1_xlconcat_0_0 xlconcat_0
+       (.In0(mdm_1_Interrupt),
+        .In1(axi_uartlite_0_interrupt),
+        .dout(xlconcat_0_dout));
 design_1_xlconstant_0_0 xlconstant_0
        (.const(xlconstant_0_const));
 design_1_xlslice_0_0 xlslice_0

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Mar 17 18:18:45 2015" VIVADOVERSION="2014.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Mar 24 01:30:44 2015" VIVADOVERSION="2014.1">
 
   <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:nexys4_ddr:part0:1.1" DEVICE="7a100t" NAME="design_1_imp" PACKAGE="csg324" SPEEDGRADE="-1"/>
 
@@ -79,8 +79,8 @@
         </PORT>
         <PORT DIR="O" NAME="bram_clk" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_bram_clk">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="aicontroller_0" PORT="clk"/>
             <CONNECTION INSTANCE="blk_mem_gen_ai" PORT="clkb"/>
+            <CONNECTION INSTANCE="aicontroller_0" PORT="clk"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="bram_wdata" SIGIS="undef" SIGNAME="Board_Analyzer_BRAM_0_bram_wdata">
@@ -315,7 +315,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE FULLNAME="/aicontroller_0" HWVERSION="1.2" INSTANCE="aicontroller_0" IPTYPE="PERIPHERAL" MODCLASS="PERIPHERAL" MODTYPE="aicontroller" VLNV="xilinx.com:user:aicontroller:1.2">
+    <MODULE FULLNAME="/aicontroller_0" HWVERSION="1.5" INSTANCE="aicontroller_0" IPTYPE="PERIPHERAL" MODCLASS="PERIPHERAL" MODTYPE="aicontroller" VLNV="xilinx.com:user:aicontroller:1.5">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="INIT" VALUE="0"/>
@@ -3796,7 +3796,11 @@
             <CONNECTION INSTANCE="rst_clk_wiz_1_100M" PORT="peripheral_aresetn"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="interrupt" SENSITIVITY="EDGE_RISING" SIGIS="INTERRUPT"/>
+        <PORT DIR="O" NAME="interrupt" SENSITIVITY="EDGE_RISING" SIGIS="INTERRUPT" SIGNAME="axi_uartlite_0_interrupt">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="microblaze_0_axi_intc" PORT="intr"/>
+          </CONNECTIONS>
+        </PORT>
         <PORT DIR="I" NAME="s_axi_awaddr" SIGIS="undef" SIGNAME="axi_uartlite_0_s_axi_awaddr">
           <CONNECTIONS>
             <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_awaddr"/>
@@ -3914,6 +3918,9 @@
           </PORTMAPS>
         </BUSINTERFACE>
       </BUSINTERFACES>
+      <INTERRUPTINFO TYPE="SOURCE">
+        <TARGET INSTANCE="microblaze_0_axi_intc" INTC_INDEX="0" PRIORITY="1"/>
+      </INTERRUPTINFO>
     </MODULE>
     <MODULE FULLNAME="/blk_mem_gen_ai" HWVERSION="8.2" INSTANCE="blk_mem_gen_ai" IPTYPE="PERIPHERAL" MODCLASS="MEMORY" MODTYPE="blk_mem_gen" VLNV="xilinx.com:ip:blk_mem_gen:8.2">
       <DOCUMENTS>
@@ -5658,12 +5665,12 @@
         <PARAMETER NAME="C_INSTANCE" VALUE="axi_intc_inst"/>
         <PARAMETER NAME="C_S_AXI_ADDR_WIDTH" VALUE="9"/>
         <PARAMETER NAME="C_S_AXI_DATA_WIDTH" VALUE="32"/>
-        <PARAMETER NAME="C_NUM_INTR_INPUTS" VALUE="1"/>
+        <PARAMETER NAME="C_NUM_INTR_INPUTS" VALUE="2"/>
         <PARAMETER NAME="C_NUM_SW_INTR" VALUE="0"/>
         <PARAMETER NAME="C_KIND_OF_INTR" VALUE="0xffffffff"/>
         <PARAMETER NAME="C_KIND_OF_EDGE" VALUE="0xffffffff"/>
         <PARAMETER NAME="C_KIND_OF_LVL" VALUE="0xffffffff"/>
-        <PARAMETER NAME="C_ASYNC_INTR" VALUE="0xFFFFFFFE"/>
+        <PARAMETER NAME="C_ASYNC_INTR" VALUE="0xFFFFFFFC"/>
         <PARAMETER NAME="C_NUM_SYNC_FF" VALUE="2"/>
         <PARAMETER NAME="C_IVAR_RESET_VALUE" VALUE="0x00000010"/>
         <PARAMETER NAME="C_ENABLE_ASYNC" VALUE="0"/>
@@ -5783,8 +5790,9 @@
             <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_rready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="intr" SENSITIVITY="EDGE_RISING" SIGIS="INTERRUPT" SIGNAME="mdm_1_Interrupt">
+        <PORT DIR="I" NAME="intr" SENSITIVITY="EDGE_RISING:EDGE_RISING" SIGIS="INTERRUPT" SIGNAME="axi_uartlite_0_interrupt &amp; mdm_1_Interrupt">
           <CONNECTIONS>
+            <CONNECTION INSTANCE="axi_uartlite_0" PORT="interrupt"/>
             <CONNECTION INSTANCE="mdm_1" PORT="Interrupt"/>
           </CONNECTIONS>
         </PORT>
@@ -5846,6 +5854,7 @@
       </BUSINTERFACES>
       <INTERRUPTINFO INTC_INDEX="0" TYPE="CONTROLLER">
         <SOURCE INSTANCE="mdm_1" PRIORITY="0" SIGNAME="mdm_1_Interrupt"/>
+        <SOURCE INSTANCE="axi_uartlite_0" PRIORITY="1" SIGNAME="axi_uartlite_0_interrupt"/>
       </INTERRUPTINFO>
     </MODULE>
     <MODULE FULLNAME="/microblaze_0_axi_periph/m05_couplers/auto_pc" HWVERSION="2.1" INSTANCE="microblaze_0_axi_periph_m05_couplers_auto_pc" IPTYPE="BUS" MODCLASS="BUS" MODTYPE="axi_protocol_converter" VLNV="xilinx.com:ip:axi_protocol_converter:2.1">

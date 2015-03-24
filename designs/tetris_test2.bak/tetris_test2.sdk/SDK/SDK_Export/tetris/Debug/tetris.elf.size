@@ -1,2 +1,2 @@
    text	   data	    bss	    dec	    hex	filename
-  22360	   1832	   2200	  26392	   6718	tetris.elf
+  22344	   1832	   4248	  28424	   6f08	tetris.elf

@@ -41,7 +41,7 @@ void get_moves(int * moves)
     int done = 0;
     int rotations, shifts;
     while (!done) {
-    	counter--;
+    	//counter--;
     	if (counter == 0) {
     		moves[0] = 0;
     		moves[1] = 1;

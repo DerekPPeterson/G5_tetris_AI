@@ -497,6 +497,7 @@
             algo_en <= 0;
             addr_increment <= 0;
             counter <= 0;
+            tetris_done <= 0;
           end
         else
           begin
@@ -521,7 +522,6 @@
                   algo_en <= 0;
                   addr_increment <= 0;
                   counter <= 0;
-                  tetris_done <= 0;
                 end
                 INIT: begin
                   bram_addr <= tetris_addr[11:0];

@@ -1,8 +1,8 @@
 Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2014.1 (lin64) Build 881834 Fri Apr  4 14:00:25 MDT 2014
-| Date             : Tue Mar 17 18:13:53 2015
-| Host             : derek-laptop running 64-bit unknown
+| Date             : Tue Mar 24 01:25:42 2015
+| Host             : derek-pc2 running 64-bit Ubuntu 14.04.2 LTS
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb
 | Design           : design_1_wrapper
 | Device           : xc7a100tcsg324-1
@@ -30,8 +30,8 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 1.111 |
-| Dynamic (W)              | 1.003 |
+| Total On-Chip Power (W)  | 1.114 |
+| Dynamic (W)              | 1.005 |
 | Device Static (W)        | 0.108 |
 | Total Off-Chip Power (W) | 0.633 |
 | Effective TJA (C/W)      | 4.6   |
@@ -50,16 +50,16 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.088 |       26 |       --- |             --- |
-| Slice Logic              |     0.026 |   107059 |       --- |             --- |
-|   LUT as Logic           |     0.025 |    55641 |     63400 |           87.76 |
-|   Register               |     0.001 |    33763 |    126800 |           26.62 |
+| Clocks                   |     0.091 |       26 |       --- |             --- |
+| Slice Logic              |     0.027 |   106811 |       --- |             --- |
+|   LUT as Logic           |     0.025 |    55496 |     63400 |           87.53 |
+|   Register               |     0.001 |    33778 |    126800 |           26.63 |
 |   LUT as Distributed RAM |    <0.001 |      824 |     19000 |            4.33 |
 |   LUT as Shift Register  |    <0.001 |      407 |     19000 |            2.14 |
 |   CARRY4                 |    <0.001 |     1328 |     15850 |            8.37 |
-|   F7/F8 Muxes            |    <0.001 |      642 |     63400 |            1.01 |
+|   F7/F8 Muxes            |    <0.001 |      663 |     63400 |            1.04 |
 |   Others                 |     0.000 |      374 |       --- |             --- |
-| Signals                  |     0.024 |    85979 |       --- |             --- |
+| Signals                  |     0.024 |    85611 |       --- |             --- |
 | Block RAM                |     0.014 |     22.5 |       135 |           16.66 |
 | MMCM                     |     0.107 |        2 |         6 |           33.33 |
 | PLL                      |     0.113 |        1 |         6 |           16.66 |
@@ -74,7 +74,7 @@ Table of Contents
 |   IN_FIFO                |     0.002 |        2 |       --- |             --- |
 | XADC                     |     0.004 |        1 |       --- |             --- |
 | Static Power             |     0.108 |          |           |                 |
-| Total                    |     1.111 |          |           |                 |
+| Total                    |     1.114 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -84,7 +84,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.199 |       0.181 |      0.018 |
+| Vccint    |       1.000 |     0.202 |       0.184 |      0.018 |
 | Vccaux    |       1.800 |     0.237 |       0.219 |      0.018 |
 | Vcco33    |       3.300 |     0.004 |       0.000 |      0.004 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -178,8 +178,8 @@ Table of Contents
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+
 | Name                                                                                                                                                                                                                                               | Power (W) |
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| design_1_wrapper                                                                                                                                                                                                                                   |     1.003 |
-|   design_1_i                                                                                                                                                                                                                                       |     1.002 |
+| design_1_wrapper                                                                                                                                                                                                                                   |     1.005 |
+|   design_1_i                                                                                                                                                                                                                                       |     1.005 |
 |     Board_Analyzer_BRAM_0                                                                                                                                                                                                                          |    <0.001 |
 |     aicontroller_0                                                                                                                                                                                                                                 |     0.082 |
 |     axi_5but                                                                                                                                                                                                                                       |    <0.001 |
@@ -241,8 +241,8 @@ Table of Contents
 |       s00_couplers/auto_us                                                                                                                                                                                                                         |     0.002 |
 |         inst                                                                                                                                                                                                                                       |     0.002 |
 |       xbar                                                                                                                                                                                                                                         |     0.001 |
-|     axi_tft_0                                                                                                                                                                                                                                      |     0.003 |
-|       U0                                                                                                                                                                                                                                           |     0.003 |
+|     axi_tft_0                                                                                                                                                                                                                                      |     0.004 |
+|       U0                                                                                                                                                                                                                                           |     0.004 |
 |         TFT_CTRL_I/BASE_ADDR_SYNC                                                                                                                                                                                                                  |    <0.001 |
 |         TFT_CTRL_I/GET_LINE_SYNC                                                                                                                                                                                                                   |    <0.001 |
 |         TFT_CTRL_I/I2C_DONE_SYNC                                                                                                                                                                                                                   |    <0.001 |
@@ -409,7 +409,7 @@ Table of Contents
 |       ilmb_v10                                                                                                                                                                                                                                     |     0.000 |
 |         U0                                                                                                                                                                                                                                         |     0.000 |
 |       lmb_bram                                                                                                                                                                                                                                     |    <0.001 |
-|     mig_7series_0                                                                                                                                                                                                                                  |     0.773 |
+|     mig_7series_0                                                                                                                                                                                                                                  |     0.774 |
 |       u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/u_ddr_phy_rdlvl                                                                                                                                     |     0.004 |
 |       u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_dq_iobuf_HR.gen_dq_iobuf[0].u_iobuf_dq                                                                                                     |     0.012 |
 |       u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_dq_iobuf_HR.gen_dq_iobuf[10].u_iobuf_dq                                                                                                    |     0.012 |
@@ -579,6 +579,7 @@ Table of Contents
 |       u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[9].RAM32M0                                                                                                                                  |    <0.001 |
 |     rst_clk_wiz_1_100M                                                                                                                                                                                                                             |    <0.001 |
 |     rst_mig_7series_0_81M                                                                                                                                                                                                                          |    <0.001 |
+|     xlconcat_0                                                                                                                                                                                                                                     |     0.000 |
 |     xlslice_0                                                                                                                                                                                                                                      |     0.000 |
 |     xlslice_1                                                                                                                                                                                                                                      |     0.000 |
 |     xlslice_2                                                                                                                                                                                                                                      |     0.000 |
