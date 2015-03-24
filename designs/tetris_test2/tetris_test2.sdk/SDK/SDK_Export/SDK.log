@@ -664,3 +664,5 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 17:19:52 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:21:25 INFO  : Processing command line option -hwspec /home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.sdk/SDK/SDK_Export/hw/design_1.xml.
+17:21:36 INFO  : Processor reset is completed for microblaze_0

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;tetris/src/tetrominoes&apos; to &apos;tetrominoes.h&apos;" description="Rename resource &apos;tetrominoes&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/tetrominoes" name="tetrominoes.h" stamp="1425959250685" updateReferences="true"/>
-</session>
