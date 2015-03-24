@@ -218,6 +218,8 @@ GAME_START:
 	}
 
 	n_played++;
+	gen_number_string(n_played, score_string);
+	print(score_string);
 	float new_score;
 
 	if (n_played == 1) {
@@ -231,8 +233,6 @@ GAME_START:
 	int temp;
 	temp = avg_score;
 	gen_number_string(temp, score_string);
-	print(score_string);
-	gen_number_string(n_played, score_string);
 	print(score_string);
 
 	print("\r\n");
