@@ -342,13 +342,6 @@
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
-        <spirit:instanceName>aicontroller_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="aicontroller" spirit:vendor="xilinx.com" spirit:version="1.5"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_aicontroller_0_0</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
         <spirit:instanceName>Board_Analyzer_BRAM_0</spirit:instanceName>
         <spirit:componentRef spirit:library="user" spirit:name="Board_Analyzer_BRAM" spirit:vendor="user" spirit:version="1.1"/>
         <spirit:configurableElementValues>
@@ -360,6 +353,13 @@
         <spirit:componentRef spirit:library="ip" spirit:name="xlconcat" spirit:vendor="xilinx.com" spirit:version="2.0"/>
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_xlconcat_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>aicontroller_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="aicontroller" spirit:vendor="xilinx.com" spirit:version="2.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_aicontroller_0_0</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>

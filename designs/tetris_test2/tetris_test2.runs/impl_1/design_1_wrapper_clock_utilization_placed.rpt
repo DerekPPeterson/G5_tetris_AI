@@ -1,8 +1,8 @@
 Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2014.1 (lin64) Build 881834 Fri Apr  4 14:00:25 MDT 2014
-| Date         : Tue Mar 24 01:21:28 2015
-| Host         : derek-pc2 running 64-bit Ubuntu 14.04.2 LTS
+| Date         : Tue Mar 24 15:41:43 2015
+| Host         : derek-laptop running 64-bit Ubuntu 14.04.2 LTS
 | Command      : report_clock_utilization -file design_1_wrapper_clock_utilization_placed.rpt
 | Design       : design_1_wrapper
 | Device       : xc7a100t
@@ -25,8 +25,6 @@ Table of Contents
 11. Net wise resources used in clock region X1Y1
 12. Net wise resources used in clock region X0Y2
 13. Net wise resources used in clock region X1Y2
-14. Net wise resources used in clock region X0Y3
-15. Net wise resources used in clock region X1Y3
 
 1. Clock Primitive Utilization
 ------------------------------
@@ -47,19 +45,19 @@ Table of Contents
 2. Details of Global Clocks
 ---------------------------
 
-+-------+----------------------------------------------------------------------------------------------+-------------------------------------------------------------+---------------+--------+---------------+-----------+
-|       |                                                                                              |                                                             |   Num Loads   |        |               |           |
-+-------+----------------------------------------------------------------------------------------------+-------------------------------------------------------------+-------+-------+--------+---------------+-----------+
-| Index | BUFG Cell                                                                                    | Net Name                                                    |  BELs | Sites | Locked | MaxDelay (ns) | Skew (ns) |
-+-------+----------------------------------------------------------------------------------------------+-------------------------------------------------------------+-------+-------+--------+---------------+-----------+
-|     1 | design_1_i/clk_wiz_1/inst/clkf_buf                                                           | design_1_i/clk_wiz_1/inst/clkfbout_buf_design_1_clk_wiz_1_0 |     1 |     1 |     no |         1.711 |     0.086 |
-|     2 | design_1_i/mdm_1/U0/Ext_JTAG_UPDATE_BUFG_inst                                                | design_1_i/mdm_1/U0/Ext_JTAG_UPDATE                         |    42 |    18 |     no |         1.966 |     0.350 |
-|     3 | design_1_i/clk_wiz_1/inst/clkout2_buf                                                        | design_1_i/clk_wiz_1/inst/clk_out2                          |    63 |    24 |     no |         1.871 |     1.871 |
-|     4 | design_1_i/clk_wiz_1/inst/clkout3_buf                                                        | design_1_i/clk_wiz_1/inst/clk_out3                          |   227 |    62 |     no |         2.013 |     0.375 |
-|     5 | design_1_i/mdm_1/U0/No_Dbg_Reg_Access.BUFG_DRCK                                              | design_1_i/mdm_1/U0/Ext_JTAG_DRCK                           |   274 |    73 |     no |         1.958 |     0.327 |
-|     6 | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_ddr2_infrastructure/u_bufg_clkdiv0 | design_1_i/mig_7series_0/ui_clk                             |  6594 |  1663 |     no |         2.013 |     0.395 |
-|     7 | design_1_i/clk_wiz_1/inst/clkout1_buf                                                        | design_1_i/clk_wiz_1/inst/clk_out1                          | 28808 | 10320 |     no |         2.056 |     0.483 |
-+-------+----------------------------------------------------------------------------------------------+-------------------------------------------------------------+-------+-------+--------+---------------+-----------+
++-------+----------------------------------------------------------------------------------------------+-------------------------------------------------------------+--------------+--------+---------------+-----------+
+|       |                                                                                              |                                                             |   Num Loads  |        |               |           |
++-------+----------------------------------------------------------------------------------------------+-------------------------------------------------------------+------+-------+--------+---------------+-----------+
+| Index | BUFG Cell                                                                                    | Net Name                                                    | BELs | Sites | Locked | MaxDelay (ns) | Skew (ns) |
++-------+----------------------------------------------------------------------------------------------+-------------------------------------------------------------+------+-------+--------+---------------+-----------+
+|     1 | design_1_i/clk_wiz_1/inst/clkf_buf                                                           | design_1_i/clk_wiz_1/inst/clkfbout_buf_design_1_clk_wiz_1_0 |    1 |     1 |     no |         1.711 |     0.086 |
+|     2 | design_1_i/mdm_1/U0/Ext_JTAG_UPDATE_BUFG_inst                                                | design_1_i/mdm_1/U0/Ext_JTAG_UPDATE                         |   42 |    21 |     no |         1.924 |     0.296 |
+|     3 | design_1_i/clk_wiz_1/inst/clkout2_buf                                                        | design_1_i/clk_wiz_1/inst/clk_out2                          |   63 |    18 |     no |         1.871 |     1.871 |
+|     4 | design_1_i/clk_wiz_1/inst/clkout3_buf                                                        | design_1_i/clk_wiz_1/inst/clk_out3                          |  227 |    65 |     no |         1.893 |     0.273 |
+|     5 | design_1_i/mdm_1/U0/No_Dbg_Reg_Access.BUFG_DRCK                                              | design_1_i/mdm_1/U0/Ext_JTAG_DRCK                           |  274 |    85 |     no |         1.966 |     0.336 |
+|     6 | design_1_i/clk_wiz_1/inst/clkout1_buf                                                        | design_1_i/clk_wiz_1/inst/clk_out1                          | 5370 |  1589 |     no |         1.970 |     0.397 |
+|     7 | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_ddr2_infrastructure/u_bufg_clkdiv0 | design_1_i/mig_7series_0/ui_clk                             | 6594 |  1784 |     no |         2.013 |     0.410 |
++-------+----------------------------------------------------------------------------------------------+-------------------------------------------------------------+------+-------+--------+---------------+-----------+
 
 
 +-------+-----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+--------------+--------+---------------+-----------+
@@ -121,8 +119,8 @@ Table of Contents
 |     4 | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_in_gen.phaser_in | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/iserdes_clk         |    8 |    16 |    yes |         0.476 |     0.028 |
 |     5 | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_out              | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clk         |   11 |    11 |    yes |         0.456 |     0.029 |
 |     6 | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_out              | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk         |   12 |    12 |    yes |         0.440 |     0.029 |
-|     7 | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_out              | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk         |   18 |    18 |    yes |         0.438 |     0.029 |
-|     8 | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_out              | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk         |   18 |    18 |    yes |         0.454 |     0.029 |
+|     7 | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_out              | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk         |   18 |    18 |    yes |         0.454 |     0.029 |
+|     8 | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_out              | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk         |   18 |    18 |    yes |         0.438 |     0.029 |
 +-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+-------+--------+---------------+-----------+
 
 
@@ -134,14 +132,14 @@ Table of Contents
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
 | Clock Region Name | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail |
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
-| X0Y0              |    5 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 | 4600 | 20800 |   21 |  2400 |    0 |    20 |    0 |    10 |   17 |    20 |
-| X1Y0              |    3 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     5 |    0 |     0 |    0 |     0 |    0 |     0 | 3078 | 12000 |    9 |  2200 |    0 |    40 |    1 |    20 |   33 |    40 |
-| X0Y1              |    5 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 | 5539 | 16000 |  573 |  2400 |    0 |    20 |    4 |    10 |   19 |    20 |
-| X1Y1              |    6 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    1 |     1 |    1 |     1 |    0 |     0 |    0 |     0 |   16 |    50 |   45 |    50 | 5950 | 15200 | 1544 |  2600 |    1 |    60 |   17 |    30 |   36 |    40 |
-| X0Y2              |    2 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 | 3771 | 16000 |    0 |  2400 |    0 |    20 |    0 |    10 |   20 |    20 |
-| X1Y2              |    4 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    1 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 | 3674 | 15200 |    0 |  2600 |    0 |    60 |    0 |    30 |   38 |    40 |
-| X0Y3              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 | 4668 | 20800 |    0 |  2400 |    0 |    20 |    0 |    10 |   20 |    20 |
-| X1Y3              |    1 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     5 |    0 |     1 |    0 |     0 |    0 |     0 | 2483 | 10800 |    0 |  2000 |    0 |    30 |    0 |    15 |   39 |    40 |
+| X0Y0              |    3 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  110 | 20800 |    0 |  2400 |    0 |    20 |    0 |    10 |    0 |    20 |
+| X1Y0              |    2 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     5 |    0 |     0 |    0 |     0 |    0 |     0 |  901 | 12000 |    4 |  2200 |    0 |    40 |    1 |    20 |    0 |    40 |
+| X0Y1              |    5 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 | 3264 | 16000 |  555 |  2400 |    0 |    20 |    2 |    10 |    0 |    20 |
+| X1Y1              |    6 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    1 |     1 |    1 |     1 |    0 |     0 |    0 |     0 |   16 |    50 |   45 |    50 | 4996 | 15200 | 1567 |  2600 |    1 |    60 |   19 |    30 |    3 |    40 |
+| X0Y2              |    3 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  136 | 16000 |    1 |  2400 |    0 |    20 |    0 |    10 |    0 |    20 |
+| X1Y2              |    5 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    1 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  955 | 15200 |   20 |  2600 |    0 |    60 |    0 |    30 |    0 |    40 |
+| X0Y3              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 | 20800 |    0 |  2400 |    0 |    20 |    0 |    10 |    0 |    20 |
+| X1Y3              |    0 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     5 |    0 |     1 |    0 |     0 |    0 |     0 |    0 | 10800 |    0 |  2000 |    0 |    30 |    0 |    15 |    0 |    40 |
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
 * RAMB36 site can be used as two RAMB18/FIFO18 sites
 
@@ -149,27 +147,24 @@ Table of Contents
 8. Net wise resources used in clock region X0Y0
 -----------------------------------------------
 
-+-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+-------------------------------------+
-| Source Type | BUFHCE Site | Locked | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s |            Clock Net Name           |
-+-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+-------------------------------------+
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |    2 |     0 |        0 | design_1_i/mdm_1/U0/Ext_JTAG_UPDATE |
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |    2 |     0 |        0 | design_1_i/clk_wiz_1/inst/clk_out3  |
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |    7 |     0 |        0 | design_1_i/mig_7series_0/ui_clk     |
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |   10 |     0 |        0 | design_1_i/mdm_1/U0/Ext_JTAG_DRCK   |
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 | 4579 |    21 |        3 | design_1_i/clk_wiz_1/inst/clk_out1  |
-+-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+-------------------------------------+
++-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+-------------------------------------+
+| Source Type | BUFHCE Site | Locked | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s |            Clock Net Name           |
++-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+-------------------------------------+
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |   1 |     0 |        0 | design_1_i/mdm_1/U0/Ext_JTAG_UPDATE |
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |  43 |     0 |        0 | design_1_i/mdm_1/U0/Ext_JTAG_DRCK   |
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |  66 |     0 |        0 | design_1_i/clk_wiz_1/inst/clk_out1  |
++-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+-------------------------------------+
 
 
 9. Net wise resources used in clock region X1Y0
 -----------------------------------------------
 
-+-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+------------------------------------+
-| Source Type | BUFHCE Site | Locked | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s |           Clock Net Name           |
-+-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+------------------------------------+
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |   66 |     0 |        0 | design_1_i/clk_wiz_1/inst/clk_out3 |
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |  271 |     9 |        0 | design_1_i/mig_7series_0/ui_clk    |
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         2 |       0 |       0 | 2741 |     0 |        6 | design_1_i/clk_wiz_1/inst/clk_out1 |
-+-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+------------------------------------+
++-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+------------------------------------+
+| Source Type | BUFHCE Site | Locked | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s |           Clock Net Name           |
++-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+------------------------------------+
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         2 |       0 |       0 |  12 |     0 |        0 | design_1_i/clk_wiz_1/inst/clk_out1 |
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 | 889 |     4 |        0 | design_1_i/mig_7series_0/ui_clk    |
++-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+------------------------------------+
 
 
 10. Net wise resources used in clock region X0Y1
@@ -178,11 +173,11 @@ Table of Contents
 +-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+-------------------------------------+
 | Source Type | BUFHCE Site | Locked | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s |            Clock Net Name           |
 +-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+-------------------------------------+
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |   39 |     0 |        0 | design_1_i/mdm_1/U0/Ext_JTAG_UPDATE |
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |   69 |     0 |        0 | design_1_i/clk_wiz_1/inst/clk_out3  |
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |  186 |    26 |        0 | design_1_i/mdm_1/U0/Ext_JTAG_DRCK   |
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |  312 |     0 |        0 | design_1_i/mig_7series_0/ui_clk     |
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         8 |       0 |       0 | 4933 |   547 |        3 | design_1_i/clk_wiz_1/inst/clk_out1  |
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |    4 |     0 |        0 | design_1_i/clk_wiz_1/inst/clk_out3  |
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |   40 |     0 |        0 | design_1_i/mdm_1/U0/Ext_JTAG_UPDATE |
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |  146 |    26 |        0 | design_1_i/mdm_1/U0/Ext_JTAG_DRCK   |
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |  248 |     0 |        0 | design_1_i/mig_7series_0/ui_clk     |
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         4 |       0 |       0 | 2826 |   529 |        0 | design_1_i/clk_wiz_1/inst/clk_out1  |
 +-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+-------------------------------------+
 
 
@@ -192,57 +187,39 @@ Table of Contents
 +-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+----------------------------------------------------------------------------------------+
 | Source Type | BUFHCE Site | Locked | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s |                                     Clock Net Name                                     |
 +-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+----------------------------------------------------------------------------------------+
+| BUFG        |     ---     |   no   |         0 |        1 |       0 |         0 |       0 |       0 |    0 |     0 |        0 | design_1_i/clk_wiz_1/inst/clk_out2                                                     |
 | BUFH        |     ---     |   no   |         1 |        0 |       0 |         0 |       0 |       0 |    0 |     0 |        0 | design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_ddr2_infrastructure/pll_clk3 |
-| BUFG        |     ---     |   no   |         0 |        1 |       0 |         0 |       0 |       0 |   12 |     0 |        0 | design_1_i/clk_wiz_1/inst/clk_out2                                                     |
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |   52 |     0 |        0 | design_1_i/mdm_1/U0/Ext_JTAG_DRCK                                                      |
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         1 |       0 |       0 |   89 |     0 |        0 | design_1_i/clk_wiz_1/inst/clk_out3                                                     |
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |        35 |       0 |       0 | 1226 |   209 |        9 | design_1_i/clk_wiz_1/inst/clk_out1                                                     |
-| BUFG        |     ---     |   no   |         1 |        0 |       0 |         0 |       0 |       0 | 4571 |  1335 |        0 | design_1_i/mig_7series_0/ui_clk                                                        |
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |   59 |     0 |        0 | design_1_i/mdm_1/U0/Ext_JTAG_DRCK                                                      |
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         1 |       0 |       0 |  132 |     0 |        0 | design_1_i/clk_wiz_1/inst/clk_out3                                                     |
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |        39 |       0 |       0 | 1626 |   247 |        3 | design_1_i/clk_wiz_1/inst/clk_out1                                                     |
+| BUFG        |     ---     |   no   |         1 |        0 |       0 |         0 |       0 |       0 | 3179 |  1320 |        0 | design_1_i/mig_7series_0/ui_clk                                                        |
 +-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+----------------------------------------------------------------------------------------+
 
 
 12. Net wise resources used in clock region X0Y2
 ------------------------------------------------
 
-+-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+------------------------------------+
-| Source Type | BUFHCE Site | Locked | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s |           Clock Net Name           |
-+-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+------------------------------------+
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |   12 |     0 |        0 | design_1_i/clk_wiz_1/inst/clk_out2 |
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 | 3759 |     0 |        4 | design_1_i/clk_wiz_1/inst/clk_out1 |
-+-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+------------------------------------+
++-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+------------------------------------+
+| Source Type | BUFHCE Site | Locked | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s |           Clock Net Name           |
++-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+------------------------------------+
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |  33 |     1 |        0 | design_1_i/clk_wiz_1/inst/clk_out1 |
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |  43 |     0 |        0 | design_1_i/clk_wiz_1/inst/clk_out2 |
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |  60 |     0 |        0 | design_1_i/clk_wiz_1/inst/clk_out3 |
++-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+------------------------------------+
 
 
 13. Net wise resources used in clock region X1Y2
 ------------------------------------------------
 
-+-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+-------------------------------------------------------------+
-| Source Type | BUFHCE Site | Locked | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s |                        Clock Net Name                       |
-+-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+-------------------------------------------------------------+
-| BUFG        |     ---     |   no   |         1 |        0 |       0 |         0 |       0 |       0 |    0 |     0 |        0 | design_1_i/clk_wiz_1/inst/clkfbout_buf_design_1_clk_wiz_1_0 |
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |   36 |     0 |        0 | design_1_i/clk_wiz_1/inst/clk_out2                          |
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |   59 |     0 |        0 | design_1_i/mig_7series_0/ui_clk                             |
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 | 3579 |     0 |        5 | design_1_i/clk_wiz_1/inst/clk_out1                          |
-+-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+-------------------------------------------------------------+
-
-
-14. Net wise resources used in clock region X0Y3
-------------------------------------------------
-
-+-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+------------------------------------+
-| Source Type | BUFHCE Site | Locked | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s |           Clock Net Name           |
-+-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+------------------------------------+
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 | 4668 |     0 |        4 | design_1_i/clk_wiz_1/inst/clk_out1 |
-+-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+------------------------------------+
-
-
-15. Net wise resources used in clock region X1Y3
-------------------------------------------------
-
-+-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+------------------------------------+
-| Source Type | BUFHCE Site | Locked | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s |           Clock Net Name           |
-+-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+------------------------------------+
-| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 | 2483 |     0 |        6 | design_1_i/clk_wiz_1/inst/clk_out1 |
-+-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+------------------------------------+
++-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+-------------------------------------------------------------+
+| Source Type | BUFHCE Site | Locked | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s |                        Clock Net Name                       |
++-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+-------------------------------------------------------------+
+| BUFG        |     ---     |   no   |         1 |        0 |       0 |         0 |       0 |       0 |   0 |     0 |        0 | design_1_i/clk_wiz_1/inst/clkfbout_buf_design_1_clk_wiz_1_0 |
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |   4 |     0 |        0 | design_1_i/clk_wiz_1/inst/clk_out1                          |
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |  17 |     0 |        0 | design_1_i/clk_wiz_1/inst/clk_out2                          |
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 |  30 |     0 |        0 | design_1_i/clk_wiz_1/inst/clk_out3                          |
+| BUFG        |     ---     |   no   |         0 |        0 |       0 |         0 |       0 |       0 | 904 |    20 |        0 | design_1_i/mig_7series_0/ui_clk                             |
++-------------+-------------+--------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+-------------------------------------------------------------+
 
 
 
@@ -252,14 +229,14 @@ set_property LOC BUFGCTRL_X0Y2 [get_cells design_1_i/mdm_1/U0/Ext_JTAG_UPDATE_BU
 set_property LOC BUFGCTRL_X0Y16 [get_cells design_1_i/clk_wiz_1/inst/clkout2_buf]
 set_property LOC BUFGCTRL_X0Y18 [get_cells design_1_i/clk_wiz_1/inst/clkout3_buf]
 set_property LOC BUFGCTRL_X0Y1 [get_cells design_1_i/mdm_1/U0/No_Dbg_Reg_Access.BUFG_DRCK]
-set_property LOC BUFGCTRL_X0Y0 [get_cells design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_ddr2_infrastructure/u_bufg_clkdiv0]
 set_property LOC BUFGCTRL_X0Y17 [get_cells design_1_i/clk_wiz_1/inst/clkout1_buf]
+set_property LOC BUFGCTRL_X0Y0 [get_cells design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_ddr2_infrastructure/u_bufg_clkdiv0]
 
 # Location of IO Clock Primitives
 
 # Location of MMCM Clock Primitives
-set_property LOC MMCME2_ADV_X1Y2 [get_cells design_1_i/clk_wiz_1/inst/mmcm_adv_inst]
 set_property LOC MMCME2_ADV_X1Y1 [get_cells design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_ddr2_infrastructure/gen_mmcm.mmcm_i]
+set_property LOC MMCME2_ADV_X1Y2 [get_cells design_1_i/clk_wiz_1/inst/mmcm_adv_inst]
 
 # Location of BUFH Clock Primitives
 set_property LOC BUFHCE_X1Y12 [get_cells design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_ddr2_infrastructure/u_bufh_pll_clk3]
@@ -339,11 +316,11 @@ add_cells_to_pblock [get_pblocks  CLKAG_design_1_i/mig_7series_0/u_design_1_mig_
 resize_pblock [get_pblocks CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/sync_pulse] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X1Y3:CLOCKREGION_X1Y3}
 #endgroup
 
-# Clock net "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk" driven by instance "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_out" located at site "PHASER_OUT_PHY_X1Y6"
+# Clock net "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clk" driven by instance "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_out" located at site "PHASER_OUT_PHY_X1Y7"
 #startgroup
-create_pblock CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk
-add_cells_to_pblock [get_pblocks  CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk"}]]]
-resize_pblock [get_pblocks CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X1Y3:CLOCKREGION_X1Y3}
+create_pblock CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clk
+add_cells_to_pblock [get_pblocks  CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clk] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clk"}]]]
+resize_pblock [get_pblocks CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clk] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X1Y3:CLOCKREGION_X1Y3}
 #endgroup
 
 # Clock net "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/iserdes_clk" driven by instance "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_in_gen.phaser_in" located at site "PHASER_IN_PHY_X1Y6"
@@ -360,11 +337,11 @@ add_cells_to_pblock [get_pblocks  CLKAG_design_1_i/mig_7series_0/u_design_1_mig_
 resize_pblock [get_pblocks CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk_delayed] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X1Y3:CLOCKREGION_X1Y3}
 #endgroup
 
-# Clock net "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk" driven by instance "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_out" located at site "PHASER_OUT_PHY_X1Y4"
+# Clock net "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk" driven by instance "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_out" located at site "PHASER_OUT_PHY_X1Y5"
 #startgroup
-create_pblock CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk
-add_cells_to_pblock [get_pblocks  CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk"}]]]
-resize_pblock [get_pblocks CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X1Y3:CLOCKREGION_X1Y3}
+create_pblock CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk
+add_cells_to_pblock [get_pblocks  CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk"}]]]
+resize_pblock [get_pblocks CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X1Y3:CLOCKREGION_X1Y3}
 #endgroup
 
 # Clock net "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/iserdes_clk" driven by instance "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_in_gen.phaser_in" located at site "PHASER_IN_PHY_X1Y4"
@@ -381,16 +358,16 @@ add_cells_to_pblock [get_pblocks  CLKAG_design_1_i/mig_7series_0/u_design_1_mig_
 resize_pblock [get_pblocks CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk_delayed] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X1Y3:CLOCKREGION_X1Y3}
 #endgroup
 
-# Clock net "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clk" driven by instance "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_out" located at site "PHASER_OUT_PHY_X1Y7"
+# Clock net "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk" driven by instance "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_out" located at site "PHASER_OUT_PHY_X1Y4"
 #startgroup
-create_pblock CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clk
-add_cells_to_pblock [get_pblocks  CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clk] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clk"}]]]
-resize_pblock [get_pblocks CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clk] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X1Y3:CLOCKREGION_X1Y3}
+create_pblock CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk
+add_cells_to_pblock [get_pblocks  CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk"}]]]
+resize_pblock [get_pblocks CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X1Y3:CLOCKREGION_X1Y3}
 #endgroup
 
-# Clock net "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk" driven by instance "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_out" located at site "PHASER_OUT_PHY_X1Y5"
+# Clock net "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk" driven by instance "design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_out" located at site "PHASER_OUT_PHY_X1Y6"
 #startgroup
-create_pblock CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk
-add_cells_to_pblock [get_pblocks  CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk"}]]]
-resize_pblock [get_pblocks CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X1Y3:CLOCKREGION_X1Y3}
+create_pblock CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk
+add_cells_to_pblock [get_pblocks  CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk"}]]]
+resize_pblock [get_pblocks CLKAG_design_1_i/mig_7series_0/u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X1Y3:CLOCKREGION_X1Y3}
 #endgroup

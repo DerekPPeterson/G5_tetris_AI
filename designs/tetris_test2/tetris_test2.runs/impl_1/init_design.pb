@@ -10,7 +10,7 @@ a
 ^
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-6482default:defaultZ29-17
+4292default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -107,10 +107,10 @@ $Parsing XDC File [%s] for cell '%s'
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2 
 get_clocks: 2default:default2
-00:00:142default:default2
-00:00:152default:default2
-1754.6562default:default2
-567.9382default:defaultZ17-268
+00:00:172default:default2
+00:00:182default:default2
+1473.5082default:default2
+410.3752default:defaultZ17-268
  
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2©
@@ -216,6 +216,69 @@ $Parsing XDC File [%s] for cell '%s'
 848*designutils2ê
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2,
 design_1_i/mig_7series_02default:defaultZ20-848
+ì
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2w
+adesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_en_i_1	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
+3372default:default8@Z18-402
+í
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2x
+bdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_clr_i_1	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
+3372default:default8@Z18-402
+á
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2l
+Vdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_reg_i_1	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
+3372default:default8@Z18-402
+Ý
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2h
+Rdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_5	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
+3372default:default8@Z18-402
+Ý
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2h
+Rdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_4	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
+3372default:default8@Z18-402
+Ý
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2h
+Rdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_3	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
+3372default:default8@Z18-402
+Ý
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2h
+Rdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_2	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
+3372default:default8@Z18-402
+Ó
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2^
+Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[9]_i_1	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
+3372default:default8@Z18-402
+Ó
+$%s: '%s' is not a valid startpoint.
+402*constraints2!
+set_max_delay2default:default2^
+Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[8]_i_1	2default:default2ì
+Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
+3372default:default8@Z18-402
 Ó
 $%s: '%s' is not a valid startpoint.
 402*constraints2!
@@ -284,69 +347,6 @@ $%s: '%s' is not a valid startpoint.
 402*constraints2!
 set_max_delay2default:default2_
 Idesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[10]_i_1	2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
-3372default:default8@Z18-402
-ì
-$%s: '%s' is not a valid startpoint.
-402*constraints2!
-set_max_delay2default:default2w
-adesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_en_i_1	2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
-3372default:default8@Z18-402
-í
-$%s: '%s' is not a valid startpoint.
-402*constraints2!
-set_max_delay2default:default2x
-bdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/xadc_supplied_temperature.sample_timer_clr_i_1	2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
-3372default:default8@Z18-402
-á
-$%s: '%s' is not a valid startpoint.
-402*constraints2!
-set_max_delay2default:default2l
-Vdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_reg_i_1	2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
-3372default:default8@Z18-402
-Ý
-$%s: '%s' is not a valid startpoint.
-402*constraints2!
-set_max_delay2default:default2h
-Rdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_5	2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
-3372default:default8@Z18-402
-Ý
-$%s: '%s' is not a valid startpoint.
-402*constraints2!
-set_max_delay2default:default2h
-Rdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_4	2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
-3372default:default8@Z18-402
-Ý
-$%s: '%s' is not a valid startpoint.
-402*constraints2!
-set_max_delay2default:default2h
-Rdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_3	2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
-3372default:default8@Z18-402
-Ý
-$%s: '%s' is not a valid startpoint.
-402*constraints2!
-set_max_delay2default:default2h
-Rdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_sync_r4_neq_r3_i_2	2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
-3372default:default8@Z18-402
-Ó
-$%s: '%s' is not a valid startpoint.
-402*constraints2!
-set_max_delay2default:default2^
-Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[9]_i_1	2default:default2ì
-Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
-3372default:default8@Z18-402
-Ó
-$%s: '%s' is not a valid startpoint.
-402*constraints2!
-set_max_delay2default:default2^
-Hdesign_1_i/mig_7series_0/temp_mon_enabled.u_tempmon/device_temp_r[8]_i_1	2default:default2ì
 Õ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc2default:default2
 3372default:default8@Z18-402
 æ
@@ -1406,14 +1406,14 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
   RAM16X1D => RAM32X1D (RAMD32, RAMD32): 32 instances
   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 198 instances
 2default:defaultZ1-111
-ý
+ü
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2!
 link_design: 2default:default2
-00:00:412default:default2
-00:00:372default:default2
-1767.6602default:default2
-1022.8282default:defaultZ17-268
+00:00:472default:default2
+00:00:462default:default2
+1497.5122default:default2
+752.6722default:defaultZ17-268
 
 
 End Record

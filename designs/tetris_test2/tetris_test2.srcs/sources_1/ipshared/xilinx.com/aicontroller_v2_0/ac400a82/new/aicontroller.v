@@ -41,10 +41,10 @@ module aicontroller(
     output reg [3:0] algo_rshift
     );
 
-    reg [3:0]next_array0;
-    reg [3:0]next_array1;
-    reg [3:0]next_array2;
-    reg [3:0]next_array3;
+    reg [3:0] next_array0_rot0;
+    reg [3:0] next_array1_rot0;
+    reg [3:0] next_array2_rot0;
+    reg [3:0] next_array3_rot0;
     reg [3:0] next_array0_rot1;
     reg [3:0] next_array1_rot1;
     reg [3:0] next_array2_rot1;
@@ -73,10 +73,10 @@ module aicontroller(
     begin
       if (algo_en == 0)
         begin
-          next_array0 <= 0;
-          next_array1 <= 0;
-          next_array2 <= 0;
-          next_array3 <= 0;
+          next_array0_rot0 <= 0;
+          next_array1_rot0 <= 0;
+          next_array2_rot0 <= 0;
+          next_array3_rot0 <= 0;
           next_ready <= 0;
           rot_enable <= 0;
           shift_rot0_en <= 0;
@@ -101,18 +101,18 @@ module aicontroller(
         begin
           case(next_piece)
             0: begin    //I
-              next_array0[0] <= 1;
-              next_array1[0] <= 1;
-              next_array2[0] <= 1;
-              next_array3[0] <= 1;
+              next_array0_rot0[0] <= 1;
+              next_array1_rot0[0] <= 1;
+              next_array2_rot0[0] <= 1;
+              next_array3_rot0[0] <= 1;
               next_array0_rot1 <= 4'b1111;
               rot_enable <= 1;
               shift_rot1_en <= 3;
             end
             1: begin    //L
-              next_array0 <= 4'b0001;
-              next_array1[0] <= 1;
-              next_array2 <= 4'b0011;
+              next_array0_rot0 <= 4'b0001;
+              next_array1_rot0[0] <= 1;
+              next_array2_rot0 <= 4'b0011;
               next_array0_rot1 <= 4'b0111;
               next_array1_rot1 <= 4'b0001;
               next_array0_rot2 <= 4'b0011;
@@ -127,9 +127,9 @@ module aicontroller(
               shift_rot3_en <= 2;
             end
             2: begin    //J
-              next_array0 <= 4'b0011;
-              next_array1 <= 4'b0001;
-              next_array2 <= 4'b0001;
+              next_array0_rot0 <= 4'b0011;
+              next_array1_rot0 <= 4'b0001;
+              next_array2_rot0 <= 4'b0001;
               next_array0_rot1 <= 4'b0111;
               next_array1_rot1 <= 4'b0100;
               next_array0_rot2 <= 4'b0010;
@@ -144,9 +144,9 @@ module aicontroller(
               shift_rot3_en <= 2;
             end
             3: begin    //S
-              next_array0[0] <= 1;
-              next_array1 <= 4'b0011;
-              next_array2[1] <= 1;
+              next_array0_rot0[0] <= 1;
+              next_array1_rot0 <= 4'b0011;
+              next_array2_rot0[1] <= 1;
               next_array0_rot1 <= 4'b0110;
               next_array1_rot1 <= 4'b0011;
               rot_enable <= 1;
@@ -154,9 +154,9 @@ module aicontroller(
               shift_rot1_en <= 2;
             end
             4: begin    //Z
-              next_array0[1] <= 1;
-              next_array1 <= 4'b0011;
-              next_array2[0] <= 1;
+              next_array0_rot0[1] <= 1;
+              next_array1_rot0 <= 4'b0011;
+              next_array2_rot0[0] <= 1;
               next_array0_rot1 <= 4'b0011;
               next_array1_rot1 <= 4'b0110;
               rot_enable <= 1;
@@ -164,14 +164,14 @@ module aicontroller(
               shift_rot1_en <= 2;
             end
             5: begin    //O
-              next_array0 <= 4'b0011;
-              next_array1 <= 4'b0011;
+              next_array0_rot0 <= 4'b0011;
+              next_array1_rot0 <= 4'b0011;
               shift_rot0_en <= 2;
             end
             6: begin    //T
-              next_array0[0] <= 1;
-              next_array1 <= 4'b0011;
-              next_array2[0] <= 1;
+              next_array0_rot0[0] <= 1;
+              next_array1_rot0 <= 4'b0011;
+              next_array2_rot0[0] <= 1;
               next_array0_rot1 <= 4'b0111;
               next_array1_rot1 <= 4'b0010;
               next_array0_rot2 <= 4'b0010;
@@ -186,10 +186,10 @@ module aicontroller(
               shift_rot3_en <= 2;
             end
             default: begin
-              next_array0 <= 0;
-              next_array1 <= 0;
-              next_array2 <= 0;
-              next_array3 <= 0;
+              next_array0_rot0 <= 0;
+              next_array1_rot0 <= 0;
+              next_array2_rot0 <= 0;
+              next_array3_rot0 <= 0;
             end
           endcase
           next_ready <= 1;
@@ -200,10 +200,19 @@ module aicontroller(
     wire [3:0] shift0;
     wire done0;
     
+    reg score_en0;
+    reg score_en1;
+    reg shift_en0;
+    reg shift_en1;
+    reg [3:0] next_array00;
+    reg [3:0] next_array01;
+    reg [3:0] next_array02;
+    reg [3:0] next_array03;
+    
     score_ten score_rot0(
         .clk(clk),
-        .algo_en(algo_en),
-        .next_ready(next_ready),
+        .algo_en(score_en0),
+        .next_ready(score_en0),
         .col0(col0),
         .col1(col1),
         .col2(col2),
@@ -214,11 +223,11 @@ module aicontroller(
         .col7(col7),
         .col8(col8),
         .col9(col9),
-        .next_array0(next_array0),
-        .next_array1(next_array1),
-        .next_array2(next_array2),
-        .next_array3(next_array3),
-        .shift_en(shift_rot0_en),
+        .next_array0(next_array00),
+        .next_array1(next_array01),
+        .next_array2(next_array02),
+        .next_array3(next_array03),
+        .shift_en(shift_en0),
         .score(score0),
         .shift(shift0),
         .done(done0)
@@ -227,11 +236,15 @@ module aicontroller(
     wire [31:0] score1;
     wire [3:0] shift1;
     wire done1;
+    reg [3:0] next_array10;
+    reg [3:0] next_array11;
+    reg [3:0] next_array12;
+    reg [3:0] next_array13;
     
     score_ten score_rot1(
         .clk(clk),
-        .algo_en(algo_en),
-        .next_ready(next_ready&(rot_enable[0]|rot_enable[1])),
+        .algo_en(score_en1),
+        .next_ready(score_en1),
         .col0(col0),
         .col1(col1),
         .col2(col2),
@@ -242,80 +255,25 @@ module aicontroller(
         .col7(col7),
         .col8(col8),
         .col9(col9),
-        .next_array0(next_array0_rot1),
-        .next_array1(next_array1_rot1),
-        .next_array2(next_array2_rot1),
-        .next_array3(next_array3_rot1),
-        .shift_en(shift_rot1_en),
+        .next_array0(next_array10),
+        .next_array1(next_array11),
+        .next_array2(next_array12),
+        .next_array3(next_array13),
+        .shift_en(shift_en1),
         .score(score1),
         .shift(shift1),
         .done(done1)
     );
     
-    wire [31:0] score2;
-    wire [3:0] shift2;
-    wire done2;
-    
-    score_ten score_rot2(
-        .clk(clk),
-        .algo_en(algo_en),
-        .next_ready(next_ready&(rot_enable[1])),
-        .col0(col0),
-        .col1(col1),
-        .col2(col2),
-        .col3(col3),
-        .col4(col4),
-        .col5(col5),
-        .col6(col6),
-        .col7(col7),
-        .col8(col8),
-        .col9(col9),
-        .next_array0(next_array0_rot2),
-        .next_array1(next_array1_rot2),
-        .next_array2(next_array2_rot2),
-        .next_array3(next_array3_rot2),
-        .shift_en(shift_rot2_en),
-        .score(score2),
-        .shift(shift2),
-        .done(done2)
-    );
-    
-    wire [31:0] score3;
-    wire [3:0] shift3;
-    wire done3;
-    
-    score_ten score_rot3(
-        .clk(clk),
-        .algo_en(algo_en),
-        .next_ready(next_ready&(rot_enable[1]&rot_enable[0])),
-        .col0(col0),
-        .col1(col1),
-        .col2(col2),
-        .col3(col3),
-        .col4(col4),
-        .col5(col5),
-        .col6(col6),
-        .col7(col7),
-        .col8(col8),
-        .col9(col9),
-        .next_array0(next_array0_rot3),
-        .next_array1(next_array1_rot3),
-        .next_array2(next_array2_rot3),
-        .next_array3(next_array3_rot3),
-        .shift_en(shift_rot3_en),
-        .score(score3),
-        .shift(shift3),
-        .done(done3)
-    );
-    
-    reg [3:0] state;
+    reg [2:0] state;
     reg [31:0] best_score;
     reg [3:0] best_shift;
     reg [1:0] best_rot;
+    reg [2:0] counter;
     
     parameter
         INIT = 0,
-        DONE = 4;
+        DONE = 7;
     
     always @ (posedge clk) begin
         if (!algo_en | !next_ready)
@@ -327,21 +285,53 @@ module aicontroller(
               algo_rshift <= 0;
               algo_rot <= 0;
               algo_done <= 0;
+              shift_en0 <= 0;
+              shift_en1 <= 0;
+              score_en0 <= 0;
+              score_en1 <= 0;
+              next_array00 <= 0;
+              next_array01 <= 0;
+              next_array02 <= 0;
+              next_array03 <= 0;
+              next_array10 <= 0;
+              next_array11 <= 0;
+              next_array12 <= 0;
+              next_array13 <= 0;
+              counter <= 0;
             end
         else
             begin
               case (state)
                 INIT: begin
+                    if (next_ready)
+                      begin
+                        score_en0 <= 1;
+                        score_en1 <= rot_enable[0]|rot_enable[1];
+                        shift_en0 <= shift_rot0_en;
+                        shift_en1 <= shift_rot1_en;
+                        next_array00 <= next_array0_rot0;
+                        next_array01 <= next_array1_rot0;
+                        next_array02 <= next_array2_rot0;
+                        next_array03 <= next_array3_rot0;
+                        next_array10 <= next_array0_rot1;
+                        next_array11 <= next_array1_rot1;
+                        next_array12 <= next_array2_rot1;
+                        next_array13 <= next_array3_rot1;
+                        
+                        state <= 1;
+                      end
+                  end
+                1: begin
                     if (done0)
                       begin
-                        state <= 1;
+                        state <= 2;
                         best_score <= score0;
                         best_shift <= shift0;
                         best_rot <= 0;
                       end
                   end
-                1: begin
-                    if (!(rot_enable[0]|rot_enable[1]))
+                2: begin
+                    if (!score_en1)
                         state <= DONE;
                     if (done1)
                       begin
@@ -351,35 +341,58 @@ module aicontroller(
                             best_shift <= shift1;
                             best_rot <= 1;
                           end
-                        state <= 2;
-                      end
-                  end
-                2: begin
-                    if (!rot_enable[1])
-                        state <= DONE;
-                    if (done2)
-                      begin
-                        if (score2 > best_score)
-                          begin
-                            best_score <= score2;
-                            best_shift <= shift2;
-                            best_rot <= 2;
-                          end
                         state <= 3;
                       end
                   end
                 3: begin
+                    score_en0 <= 0;
+                    score_en1 <= 0;
+                    if (counter == 1)
+                        state <= 4;
+                    else
+                        counter <= counter + 1;
+                end
+                4: begin
+                    score_en0 <= rot_enable[1];
+                    score_en1 <= rot_enable[1]&rot_enable[0];
+                    shift_en0 <= shift_rot2_en;
+                    shift_en1 <= shift_rot3_en;
+                    next_array00 <= next_array0_rot2;
+                    next_array01 <= next_array1_rot2;
+                    next_array02 <= next_array2_rot2;
+                    next_array03 <= next_array3_rot2;
+                    next_array10 <= next_array0_rot3;
+                    next_array11 <= next_array1_rot3;
+                    next_array12 <= next_array2_rot3;
+                    next_array13 <= next_array3_rot3;
+                    state <= 5;
+                end
+                5: begin
+                    if (!rot_enable[1])
+                        state <= DONE;
+                    if (done0)
+                      begin
+                        if (score0 > best_score)
+                          begin
+                            best_score <= score0;
+                            best_shift <= shift0;
+                            best_rot <= 2;
+                          end
+                        state <= 6;
+                      end
+                  end
+                6: begin
                     if (!(rot_enable[0]&rot_enable[1]))
                         state <= DONE;
-                    if (done3)
+                    if (done1)
                       begin
-                        if (score3 > best_score)
+                        if (score1 > best_score)
                           begin
-                            best_score <= score3;
-                            best_shift <= shift3;
+                            best_score <= score1;
+                            best_shift <= shift1;
                             best_rot <= 3;
                           end
-                        state <= 4;
+                        state <= DONE;
                       end
                   end
                 DONE: begin

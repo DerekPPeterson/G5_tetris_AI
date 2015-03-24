@@ -13,6 +13,14 @@ K/home/derek/Documents/year_4/ECE532/ip_repo/ip_repo/Board_Analyzer_BRAM_1.02de
 "Loaded Vivado IP repository '%s'.
 1332*coregen2<
 (/home/derek/Xilinx/Vivado/2014.1/data/ip2default:defaultZ19-2313
+¯
+I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
+268*common2
+add_files: 2default:default2
+00:00:082default:default2
+00:00:092default:default2
+825.6562default:default2
+88.8202default:defaultZ17-268
 u
 Command: %s
 53*	vivadotcl2M
@@ -39,7 +47,7 @@ Pparameter declaration becomes local in %s with formal parameter declaration lis
 4752default:default8@Z8-2507
 ú
 %s*synth2å
-xStarting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 900.512 ; gain = 263.594
+xStarting RTL Elaboration : Time (s): cpu = 00:00:34 ; elapsed = 00:00:40 . Memory (MB): peak = 900.516 ; gain = 263.594
 2default:default
 è
 synthesizing module '%s'638*oasys2$
@@ -189,7 +197,7 @@ R
 ™
 synthesizing module '%s'638*oasys2 
 aicontroller2default:default2∏
-°/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/new/aicontroller.v2default:default2
+°/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/new/aicontroller.v2default:default2
 232default:default8@Z8-638
 d
 %s*synth2U
@@ -202,7 +210,7 @@ P
 §
 synthesizing module '%s'638*oasys2
 	score_ten2default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
+û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/score_ten.v2default:default2
 232default:default8@Z8-638
 d
 %s*synth2U
@@ -215,7 +223,7 @@ Q
 ¨
 synthesizing module '%s'638*oasys2
 	placement2default:default2Ω
-¶/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/imports/new/placement.v2default:default2
+¶/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/imports/new/placement.v2default:default2
 232default:default8@Z8-638
 P
 %s*synth2A
@@ -250,13 +258,13 @@ P
 	placement2default:default2
 62default:default2
 12default:default2Ω
-¶/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/imports/new/placement.v2default:default2
+¶/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/imports/new/placement.v2default:default2
 232default:default8@Z8-256
 ¶
 synthesizing module '%s'638*oasys2
 
 eval_block2default:default2∂
-ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/eval_block.v2default:default2
+ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/eval_block.v2default:default2
 252default:default8@Z8-638
 P
 %s*synth2A
@@ -264,19 +272,35 @@ P
 2default:default
 Q
 %s*synth2B
-.	Parameter SHFTR bound to: 1 - type: integer 
+.	Parameter CALCF bound to: 1 - type: integer 
 2default:default
 Q
 %s*synth2B
-.	Parameter SHFTD bound to: 2 - type: integer 
+.	Parameter FILLD bound to: 2 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter CALCR bound to: 3 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter SHFTR bound to: 4 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter CALCD bound to: 5 - type: integer 
+2default:default
+Q
+%s*synth2B
+.	Parameter SHFTD bound to: 6 - type: integer 
 2default:default
 R
 %s*synth2C
-/	Parameter ADJUST bound to: 3 - type: integer 
+/	Parameter ADJUST bound to: 7 - type: integer 
 2default:default
 P
 %s*synth2A
--	Parameter DONE bound to: 4 - type: integer 
+-	Parameter DONE bound to: 8 - type: integer 
 2default:default
 ·
 %done synthesizing module '%s' (%s#%s)256*oasys2
@@ -284,95 +308,23 @@ P
 eval_block2default:default2
 72default:default2
 12default:default2∂
-ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/eval_block.v2default:default2
+ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/eval_block.v2default:default2
 252default:default8@Z8-256
-¶
-Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
-eval_block002default:default2
-
-eval_block2default:default2
-172default:default2
-152default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
-722default:default8@Z8-350
-ß
-Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
-eval_block012default:default2
-
-eval_block2default:default2
-172default:default2
-152default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
-1152default:default8@Z8-350
-ß
-Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
-eval_block022default:default2
-
-eval_block2default:default2
-172default:default2
-152default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
-1582default:default8@Z8-350
-ß
-Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
-eval_block032default:default2
-
-eval_block2default:default2
-172default:default2
-152default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
-2012default:default8@Z8-350
-ß
-Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
-eval_block042default:default2
-
-eval_block2default:default2
-172default:default2
-152default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
-2442default:default8@Z8-350
-ß
-Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
-eval_block052default:default2
-
-eval_block2default:default2
-172default:default2
-152default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
-2872default:default8@Z8-350
-ß
-Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
-eval_block062default:default2
-
-eval_block2default:default2
-172default:default2
-152default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
-3302default:default8@Z8-350
 ™
 Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
 12default:default2
 	next_col02default:default2
 42default:default2
 	placement2default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
+û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/score_ten.v2default:default2
 3612default:default8@Z8-689
-ß
-Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
-eval_block072default:default2
-
-eval_block2default:default2
-172default:default2
-152default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
-3732default:default8@Z8-350
 ™
 Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
 12default:default2
 	next_col02default:default2
 42default:default2
 	placement2default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
+û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/score_ten.v2default:default2
 4042default:default8@Z8-689
 ™
 Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
@@ -380,24 +332,15 @@ Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s
 	next_col12default:default2
 42default:default2
 	placement2default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
+û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/score_ten.v2default:default2
 4052default:default8@Z8-689
-ß
-Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
-eval_block082default:default2
-
-eval_block2default:default2
-172default:default2
-152default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
-4162default:default8@Z8-350
 ™
 Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
 12default:default2
 	next_col02default:default2
 42default:default2
 	placement2default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
+û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/score_ten.v2default:default2
 4472default:default8@Z8-689
 ™
 Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
@@ -405,7 +348,7 @@ Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s
 	next_col12default:default2
 42default:default2
 	placement2default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
+û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/score_ten.v2default:default2
 4482default:default8@Z8-689
 ™
 Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
@@ -413,36 +356,48 @@ Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s
 	next_col22default:default2
 42default:default2
 	placement2default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
+û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/score_ten.v2default:default2
 4492default:default8@Z8-689
-ß
-Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
-eval_block092default:default2
-
-eval_block2default:default2
-172default:default2
-152default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
-4592default:default8@Z8-350
 ﬁ
 0Net %s in module/entity %s does not have driver.3422*oasys2
 	dummy_arr2default:default2
 	score_ten2default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
+û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/score_ten.v2default:default2
 3612default:default8@Z8-3848
 ﬂ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 	score_ten2default:default2
 82default:default2
 12default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
+û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/score_ten.v2default:default2
 232default:default8@Z8-256
+¨
+Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
+12default:default2
+shift_en2default:default2
+22default:default2
+	score_ten2default:default2∏
+°/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/new/aicontroller.v2default:default2
+2302default:default8@Z8-689
+¨
+Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
+12default:default2
+shift_en2default:default2
+22default:default2
+	score_ten2default:default2∏
+°/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/new/aicontroller.v2default:default2
+2622default:default8@Z8-689
+∆
+case item %s is unreachable151*oasys28
+$32'b000000000000000000000000000001002default:default2∏
+°/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/new/aicontroller.v2default:default2
+3042default:default8@Z8-151
 Â
 %done synthesizing module '%s' (%s#%s)256*oasys2 
 aicontroller2default:default2
 92default:default2
 12default:default2∏
-°/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/new/aicontroller.v2default:default2
+°/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/new/aicontroller.v2default:default2
 232default:default8@Z8-256
 ¸
 %done synthesizing module '%s' (%s#%s)256*oasys2-
@@ -84590,7 +84545,7 @@ z/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test
 122default:default8@Z8-256
 ù
 %s*synth2ç
-yFinished RTL Elaboration : Time (s): cpu = 00:03:16 ; elapsed = 00:03:22 . Memory (MB): peak = 1365.695 ; gain = 728.777
+yFinished RTL Elaboration : Time (s): cpu = 00:06:23 ; elapsed = 00:06:42 . Memory (MB): peak = 1366.699 ; gain = 729.777
 2default:default
 ;
 %s*synth2,
@@ -84622,42 +84577,42 @@ I+------+------------------+-------+---------+-------+------------------+
 3295*oasys2
 placement072default:default2 
 next_col0[0]2default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
+û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/score_ten.v2default:default2
 3532default:default8@Z8-3295
 ⁄
 'tying undriven pin %s:%s to constant 0
 3295*oasys2
 placement082default:default2 
 next_col0[0]2default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
+û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/score_ten.v2default:default2
 3962default:default8@Z8-3295
 ⁄
 'tying undriven pin %s:%s to constant 0
 3295*oasys2
 placement082default:default2 
 next_col1[0]2default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
+û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/score_ten.v2default:default2
 3962default:default8@Z8-3295
 ⁄
 'tying undriven pin %s:%s to constant 0
 3295*oasys2
 placement092default:default2 
 next_col0[0]2default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
+û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/score_ten.v2default:default2
 4392default:default8@Z8-3295
 ⁄
 'tying undriven pin %s:%s to constant 0
 3295*oasys2
 placement092default:default2 
 next_col1[0]2default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
+û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/score_ten.v2default:default2
 4392default:default8@Z8-3295
 ⁄
 'tying undriven pin %s:%s to constant 0
 3295*oasys2
 placement092default:default2 
 next_col2[0]2default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
+û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/score_ten.v2default:default2
 4392default:default8@Z8-3295
 Î
 'tying undriven pin %s:%s to constant 0
@@ -85435,6 +85390,14 @@ $Parsing XDC File [%s] for cell '%s'
 /
 Deriving generated clocks
 2*timingZ38-2
+˘
+I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
+268*common2
+write_xdc: 2default:default2
+00:00:102default:default2
+00:00:062default:default2
+1803.0042default:default2
+10.9962default:defaultZ17-268
 ﬂ
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
 233*project2±
@@ -86613,15 +86576,15 @@ $Parsing XDC File [%s] for cell '%s'
 2default:defaultZ1-111
 ≥
 %s*synth2£
-éFinished Loading Part and Timing Information : Time (s): cpu = 00:04:02 ; elapsed = 00:04:08 . Memory (MB): peak = 2032.551 ; gain = 1395.633
+éFinished Loading Part and Timing Information : Time (s): cpu = 00:07:49 ; elapsed = 00:08:13 . Memory (MB): peak = 1854.008 ; gain = 1217.086
 2default:default
 ∑
 %s*synth2ß
-íFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:04:05 ; elapsed = 00:04:09 . Memory (MB): peak = 2032.551 ; gain = 1395.633
+íFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:07:58 ; elapsed = 00:08:17 . Memory (MB): peak = 1854.008 ; gain = 1217.086
 2default:default
 ü
 %s*synth2è
-{Finished RTL Optimization : Time (s): cpu = 00:04:05 ; elapsed = 00:04:09 . Memory (MB): peak = 2032.551 ; gain = 1395.633
+{Finished RTL Optimization : Time (s): cpu = 00:07:58 ; elapsed = 00:08:17 . Memory (MB): peak = 1854.008 ; gain = 1217.086
 2default:default
 ü
 3inferred FSM for state register '%s' in module '%s'802*oasys2
@@ -86634,53 +86597,48 @@ $Parsing XDC File [%s] for cell '%s'
 â
 }HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
 adder2default:default2∂
-ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/eval_block.v2default:default2
-1782default:default8@Z8-3537
+ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/eval_block.v2default:default2
+1712default:default8@Z8-3537
 â
 }HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
 adder2default:default2∂
-ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/eval_block.v2default:default2
-1782default:default8@Z8-3537
+ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/eval_block.v2default:default2
+1712default:default8@Z8-3537
 â
 }HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
 adder2default:default2∂
-ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/eval_block.v2default:default2
-1782default:default8@Z8-3537
+ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/eval_block.v2default:default2
+1712default:default8@Z8-3537
 â
 }HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
 adder2default:default2∂
-ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/eval_block.v2default:default2
-1782default:default8@Z8-3537
+ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/eval_block.v2default:default2
+1712default:default8@Z8-3537
 â
 }HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
 adder2default:default2∂
-ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/eval_block.v2default:default2
-1782default:default8@Z8-3537
+ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/eval_block.v2default:default2
+1712default:default8@Z8-3537
 â
 }HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
 adder2default:default2∂
-ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/eval_block.v2default:default2
-1782default:default8@Z8-3537
+ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/eval_block.v2default:default2
+1712default:default8@Z8-3537
 â
 }HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
 adder2default:default2∂
-ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/eval_block.v2default:default2
-1782default:default8@Z8-3537
+ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/eval_block.v2default:default2
+1712default:default8@Z8-3537
 â
 }HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
 adder2default:default2∂
-ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/eval_block.v2default:default2
-1782default:default8@Z8-3537
+ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/eval_block.v2default:default2
+1712default:default8@Z8-3537
 â
 }HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
 adder2default:default2∂
-ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/eval_block.v2default:default2
-1782default:default8@Z8-3537
-â
-}HDL ADVISOR - The operator resource <%s> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator3413*oasys2
-adder2default:default2∂
-ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/eval_block.v2default:default2
-1782default:default8@Z8-3537
+ü/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/eval_block.v2default:default2
+1712default:default8@Z8-3537
 à
 3inferred FSM for state register '%s' in module '%s'802*oasys2
 	state_reg2default:default2
@@ -86689,26 +86647,32 @@ $Parsing XDC File [%s] for cell '%s'
 merging register '%s' into '%s'3619*oasys2-
 next_array3_rot1_reg[3:0]2default:default2-
 next_array2_rot1_reg[3:0]2default:default2∏
-°/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/new/aicontroller.v2default:default2
+°/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/new/aicontroller.v2default:default2
 892default:default8@Z8-4471
 Ô
 merging register '%s' into '%s'3619*oasys2-
 next_array3_rot2_reg[3:0]2default:default2-
 next_array2_rot1_reg[3:0]2default:default2∏
-°/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/new/aicontroller.v2default:default2
+°/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/new/aicontroller.v2default:default2
 932default:default8@Z8-4471
 Ô
 merging register '%s' into '%s'3619*oasys2-
 next_array2_rot3_reg[3:0]2default:default2-
 next_array2_rot1_reg[3:0]2default:default2∏
-°/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/new/aicontroller.v2default:default2
+°/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/new/aicontroller.v2default:default2
 962default:default8@Z8-4471
 Ô
 merging register '%s' into '%s'3619*oasys2-
 next_array3_rot3_reg[3:0]2default:default2-
 next_array2_rot1_reg[3:0]2default:default2∏
-°/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/new/aicontroller.v2default:default2
+°/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/new/aicontroller.v2default:default2
 972default:default8@Z8-4471
+Ë
+merging register '%s' into '%s'3619*oasys2)
+next_array12_reg[3:0]2default:default2)
+next_array13_reg[3:0]2default:default2∏
+°/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/new/aicontroller.v2default:default2
+2602default:default8@Z8-4471
 ã
 3inferred FSM for state register '%s' in module '%s'802*oasys2
 	state_reg2default:default2 
@@ -87216,12 +87180,6 @@ $gen_div4_ca_tieoff.phy_we_n_reg[3:2]2default:default29
 po_coarse_tap_cnt_reg[0][2:0]2default:default2Ï
 ’/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_phy_wrcal.v2default:default2
 4112default:default8@Z8-4471
-®
-merging register '%s' into '%s'3619*oasys2/
-po_fine_tap_cnt_reg[1][5:0]2default:default2/
-po_fine_tap_cnt_reg[0][5:0]2default:default2Ï
-’/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/rtl/phy/mig_7series_v2_0_ddr_phy_wrcal.v2default:default2
-4122default:default8@Z8-4471
 ‘
 ÅMessage '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2 
@@ -87284,7 +87242,7 @@ Gencoded FSM with state register '%s' using encoding '%s' in module '%s'3353
 0Net %s in module/entity %s does not have driver.3422*oasys2
 	dummy_arr2default:default2
 	score_ten2default:default2µ
-û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v1_5/1d0a881e/src/score_ten.v2default:default2
+û/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/aicontroller_v2_0/ac400a82/src/score_ten.v2default:default2
 3612default:default8@Z8-3848
 æ
 Gencoded FSM with state register '%s' using encoding '%s' in module '%s'3353*oasys2
@@ -87612,63 +87570,67 @@ V+------+----------------------------------------------------+------------+-----
 2default:default
 y
 %s*synth2j
-V|1     |score_ten__GBM0                                     |           1|     42750|
+V|1     |score_ten__GBM0                                     |           1|     29172|
 2default:default
 y
 %s*synth2j
-V|2     |score_ten__GBM1                                     |           1|     15690|
+V|2     |score_ten__GBM1                                     |           1|     17098|
 2default:default
 y
 %s*synth2j
-V|3     |score_ten__GBM2                                     |           1|     23535|
+V|3     |score_ten__GBM2                                     |           1|     17098|
 2default:default
 y
 %s*synth2j
-V|4     |aicontroller__GC0                                   |           1|      1024|
+V|4     |score_ten__GBM3                                     |           1|     25647|
 2default:default
 y
 %s*synth2j
-V|5     |design_1_clk_wiz_1_0_clk_wiz__GC0                   |           1|         6|
+V|5     |aicontroller__GC0                                   |           1|       447|
 2default:default
 y
 %s*synth2j
-V|6     |mig_7series_v2_0_ddr_byte_lane__parameterized2__GC0 |           1|       499|
+V|6     |design_1_clk_wiz_1_0_clk_wiz__GC0                   |           1|         6|
 2default:default
 y
 %s*synth2j
-V|7     |mig_7series_v2_0_ddr_phy_4lanes__GC0                |           1|      2876|
+V|7     |mig_7series_v2_0_ddr_byte_lane__parameterized2__GC0 |           1|       499|
 2default:default
 y
 %s*synth2j
-V|8     |mig_7series_v2_0_ddr_mc_phy__GC0                    |           1|       115|
+V|8     |mig_7series_v2_0_ddr_phy_4lanes__GC0                |           1|      2876|
 2default:default
 y
 %s*synth2j
-V|9     |mig_7series_v2_0_ddr_mc_phy_wrapper__GC0            |           1|       633|
+V|9     |mig_7series_v2_0_ddr_mc_phy__GC0                    |           1|       115|
 2default:default
 y
 %s*synth2j
-V|10    |mig_7series_v2_0_ddr_phy_top__GC0                   |           1|     13969|
+V|10    |mig_7series_v2_0_ddr_mc_phy_wrapper__GC0            |           1|       633|
 2default:default
 y
 %s*synth2j
-V|11    |mig_7series_v2_0_mc                                 |           1|      4146|
+V|11    |mig_7series_v2_0_ddr_phy_top__GC0                   |           1|     13969|
 2default:default
 y
 %s*synth2j
-V|12    |mig_7series_v2_0_memc_ui_top_axi__GC0               |           1|      6824|
+V|12    |mig_7series_v2_0_mc                                 |           1|      4146|
 2default:default
 y
 %s*synth2j
-V|13    |design_1_mig_7series_0_3_mig__GC0                   |           1|       329|
+V|13    |mig_7series_v2_0_memc_ui_top_axi__GC0               |           1|      6824|
 2default:default
 y
 %s*synth2j
-V|14    |design_1__GCB0                                      |           1|     30039|
+V|14    |design_1_mig_7series_0_3_mig__GC0                   |           1|       329|
 2default:default
 y
 %s*synth2j
-V|15    |design_1__GCB1                                      |           1|     14236|
+V|15    |design_1__GCB0                                      |           1|     30039|
+2default:default
+y
+%s*synth2j
+V|16    |design_1__GCB1                                      |           1|     14236|
 2default:default
 y
 %s*synth2j
@@ -87693,7 +87655,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input     32 Bit       Adders := 1     
+.	   3 Input     32 Bit       Adders := 21    
 2default:default
 Q
 %s*synth2B
@@ -87701,7 +87663,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  20 Input     23 Bit       Adders := 80    
+.	  20 Input     23 Bit       Adders := 40    
 2default:default
 Q
 %s*synth2B
@@ -87709,7 +87671,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  10 Input     14 Bit       Adders := 80    
+.	  10 Input     14 Bit       Adders := 40    
 2default:default
 Q
 %s*synth2B
@@ -87717,11 +87679,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input     12 Bit       Adders := 1     
+.	   2 Input     12 Bit       Adders := 16    
 2default:default
 Q
 %s*synth2B
-.	   2 Input     12 Bit       Adders := 16    
+.	   3 Input     12 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
@@ -87741,11 +87703,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input      8 Bit       Adders := 1     
+.	   2 Input      8 Bit       Adders := 18    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit       Adders := 18    
+.	   3 Input      8 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
@@ -87753,7 +87715,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      6 Bit       Adders := 351   
+.	   2 Input      6 Bit       Adders := 191   
 2default:default
 Q
 %s*synth2B
@@ -87761,11 +87723,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit       Adders := 1044  
+.	   2 Input      5 Bit       Adders := 164   
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit       Adders := 1649  
+.	   4 Input      5 Bit       Adders := 400   
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 849   
 2default:default
 Q
 %s*synth2B
@@ -87773,7 +87739,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit       Adders := 32    
+.	   2 Input      3 Bit       Adders := 33    
+2default:default
+Q
+%s*synth2B
+.	   8 Input      2 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
@@ -87785,19 +87755,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit       Adders := 59    
-2default:default
-Q
-%s*synth2B
 .	   4 Input      2 Bit       Adders := 5     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      2 Bit       Adders := 1     
+.	   2 Input      2 Bit       Adders := 59    
 2default:default
 Q
 %s*synth2B
-.	   8 Input      1 Bit       Adders := 1     
+.	   3 Input      1 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
@@ -87809,11 +87775,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  10 Input      1 Bit       Adders := 1     
+.	   4 Input      1 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
-.	   4 Input      1 Bit       Adders := 1     
+.	  10 Input      1 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
@@ -87821,15 +87787,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   5 Input      1 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
 .	   7 Input      1 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
-.	   3 Input      1 Bit       Adders := 1     
+.	   5 Input      1 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit       Adders := 1     
 2default:default
 /
 %s*synth2 
@@ -87837,11 +87803,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit         XORs := 400   
+.	   2 Input      5 Bit         XORs := 600   
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit         XORs := 800   
+.	   2 Input      4 Bit         XORs := 400   
 2default:default
 Q
 %s*synth2B
@@ -87953,7 +87919,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               32 Bit    Registers := 111   
+.	               32 Bit    Registers := 86    
 2default:default
 Q
 %s*synth2B
@@ -87973,7 +87939,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               20 Bit    Registers := 570   
+.	               20 Bit    Registers := 310   
 2default:default
 Q
 %s*synth2B
@@ -88013,31 +87979,35 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                6 Bit    Registers := 226   
+.	                6 Bit    Registers := 166   
 2default:default
 Q
 %s*synth2B
-.	                5 Bit    Registers := 946   
+.	                5 Bit    Registers := 506   
 2default:default
 Q
 %s*synth2B
-.	                4 Bit    Registers := 1827  
+.	                4 Bit    Registers := 1029  
 2default:default
 Q
 %s*synth2B
-.	                3 Bit    Registers := 81    
+.	                3 Bit    Registers := 82    
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 165   
+.	                2 Bit    Registers := 164   
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 2935  
+.	                1 Bit    Registers := 2737  
 2default:default
 6
 %s*synth2'
 +---Multipliers : 
+2default:default
+Q
+%s*synth2B
+.	                13x32  Multipliers := 20    
 2default:default
 Q
 %s*synth2B
@@ -88069,7 +88039,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 62    
+.	  12 Input     32 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
@@ -88077,19 +88047,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  12 Input     32 Bit        Muxes := 8     
-2default:default
-Q
-%s*synth2B
 .	   3 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input     32 Bit        Muxes := 41    
+.	   4 Input     32 Bit        Muxes := 8     
 2default:default
 Q
 %s*synth2B
-.	   4 Input     32 Bit        Muxes := 8     
+.	  10 Input     32 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 82    
 2default:default
 Q
 %s*synth2B
@@ -88105,23 +88075,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input     20 Bit        Muxes := 400   
+.	  10 Input     20 Bit        Muxes := 240   
 2default:default
 Q
 %s*synth2B
-.	   8 Input     20 Bit        Muxes := 211   
+.	   8 Input     20 Bit        Muxes := 111   
 2default:default
 Q
 %s*synth2B
-.	   2 Input     20 Bit        Muxes := 222   
+.	   2 Input     20 Bit        Muxes := 122   
 2default:default
 Q
 %s*synth2B
 .	   2 Input     17 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit        Muxes := 36    
 2default:default
 Q
 %s*synth2B
@@ -88130,6 +88096,10 @@ Q
 Q
 %s*synth2B
 .	   3 Input     16 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit        Muxes := 36    
 2default:default
 Q
 %s*synth2B
@@ -88145,23 +88115,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input     12 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	  11 Input     12 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     12 Bit        Muxes := 18    
-2default:default
-Q
-%s*synth2B
 .	   8 Input     12 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   3 Input     11 Bit        Muxes := 1     
+.	   2 Input     12 Bit        Muxes := 14    
+2default:default
+Q
+%s*synth2B
+.	  11 Input     12 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   4 Input     12 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -88169,11 +88135,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     11 Bit        Muxes := 2     
+.	   3 Input     11 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   5 Input     10 Bit        Muxes := 2     
+.	   2 Input     11 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -88181,11 +88147,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      9 Bit        Muxes := 20    
+.	   5 Input     10 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   3 Input      9 Bit        Muxes := 1     
+.	   2 Input      9 Bit        Muxes := 20    
 2default:default
 Q
 %s*synth2B
@@ -88193,7 +88159,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 317   
+.	   3 Input      9 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 239   
 2default:default
 Q
 %s*synth2B
@@ -88201,15 +88171,11 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   7 Input      8 Bit        Muxes := 22    
+2default:default
+Q
+%s*synth2B
 .	   4 Input      8 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   7 Input      8 Bit        Muxes := 41    
-2default:default
-Q
-%s*synth2B
-.	  36 Input      7 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -88217,27 +88183,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      7 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
 .	   3 Input      7 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      6 Bit        Muxes := 160   
+.	   2 Input      7 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
-.	   4 Input      6 Bit        Muxes := 6     
+.	  36 Input      7 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   5 Input      6 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      6 Bit        Muxes := 1     
+.	  11 Input      6 Bit        Muxes := 20    
 2default:default
 Q
 %s*synth2B
@@ -88245,11 +88203,19 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   4 Input      6 Bit        Muxes := 6     
+2default:default
+Q
+%s*synth2B
 .	  34 Input      6 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      6 Bit        Muxes := 86    
+.	   2 Input      6 Bit        Muxes := 84    
+2default:default
+Q
+%s*synth2B
+.	   5 Input      6 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -88257,11 +88223,35 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input      5 Bit        Muxes := 43    
+.	   3 Input      6 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit        Muxes := 78    
+.	  10 Input      6 Bit        Muxes := 80    
+2default:default
+Q
+%s*synth2B
+.	  10 Input      5 Bit        Muxes := 200   
+2default:default
+Q
+%s*synth2B
+.	  12 Input      5 Bit        Muxes := 720   
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 98    
+2default:default
+Q
+%s*synth2B
+.	  11 Input      5 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit        Muxes := 7     
+2default:default
+Q
+%s*synth2B
+.	   6 Input      5 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -88273,15 +88263,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input      5 Bit        Muxes := 802   
-2default:default
-Q
-%s*synth2B
-.	   4 Input      5 Bit        Muxes := 7     
-2default:default
-Q
-%s*synth2B
-.	   7 Input      5 Bit        Muxes := 400   
+.	   8 Input      5 Bit        Muxes := 23    
 2default:default
 Q
 %s*synth2B
@@ -88289,11 +88271,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   7 Input      4 Bit        Muxes := 1600  
-2default:default
-Q
-%s*synth2B
-.	   4 Input      4 Bit        Muxes := 1     
+.	  10 Input      4 Bit        Muxes := 820   
 2default:default
 Q
 %s*synth2B
@@ -88301,11 +88279,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input      4 Bit        Muxes := 801   
+.	   8 Input      4 Bit        Muxes := 19    
 2default:default
 Q
 %s*synth2B
-.	  12 Input      4 Bit        Muxes := 12    
+.	  12 Input      4 Bit        Muxes := 6     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      4 Bit        Muxes := 401   
 2default:default
 Q
 %s*synth2B
@@ -88313,23 +88299,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input      4 Bit        Muxes := 13    
-2default:default
-Q
-%s*synth2B
-.	   6 Input      4 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   9 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   6 Input      3 Bit        Muxes := 41    
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 51    
+.	   6 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -88341,35 +88311,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 185   
+.	   8 Input      3 Bit        Muxes := 32    
 2default:default
 Q
 %s*synth2B
-.	  34 Input      2 Bit        Muxes := 2     
+.	   2 Input      3 Bit        Muxes := 145   
 2default:default
 Q
 %s*synth2B
-.	   6 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 367   
-2default:default
-Q
-%s*synth2B
-.	  10 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 24    
-2default:default
-Q
-%s*synth2B
-.	   3 Input      2 Bit        Muxes := 10    
-2default:default
-Q
-%s*synth2B
-.	   8 Input      2 Bit        Muxes := 8     
+.	   9 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -88377,23 +88327,39 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  12 Input      1 Bit        Muxes := 20    
+.	   4 Input      2 Bit        Muxes := 24    
 2default:default
 Q
 %s*synth2B
-.	   3 Input      1 Bit        Muxes := 28    
+.	   2 Input      2 Bit        Muxes := 267   
 2default:default
 Q
 %s*synth2B
-.	   7 Input      1 Bit        Muxes := 7     
+.	   8 Input      2 Bit        Muxes := 8     
 2default:default
 Q
 %s*synth2B
-.	  10 Input      1 Bit        Muxes := 38    
+.	  10 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  34 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      2 Bit        Muxes := 10    
 2default:default
 Q
 %s*synth2B
 .	  34 Input      1 Bit        Muxes := 32    
+2default:default
+Q
+%s*synth2B
+.	  53 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1383  
 2default:default
 Q
 %s*synth2B
@@ -88405,23 +88371,31 @@ Q
 2default:default
 Q
 %s*synth2B
+.	  12 Input      1 Bit        Muxes := 12    
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 28    
+2default:default
+Q
+%s*synth2B
 .	   4 Input      1 Bit        Muxes := 250   
 2default:default
 Q
 %s*synth2B
-.	   6 Input      1 Bit        Muxes := 1016  
+.	   7 Input      1 Bit        Muxes := 7     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      1 Bit        Muxes := 260   
+.	   8 Input      1 Bit        Muxes := 150   
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 1487  
+.	   6 Input      1 Bit        Muxes := 12    
 2default:default
 Q
 %s*synth2B
-.	  53 Input      1 Bit        Muxes := 1     
+.	  10 Input      1 Bit        Muxes := 498   
 2default:default
  
 -Detected potentially large (wide) register %s3414*oasys2$
@@ -88482,19 +88456,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     20 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
 .	   8 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      8 Bit        Muxes := 1     
+.	   2 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -88506,11 +88480,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
+.	   8 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -88538,6 +88512,10 @@ B
 2default:default
 Q
 %s*synth2B
+.	   3 Input     32 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
 .	  20 Input     23 Bit       Adders := 2     
 2default:default
 Q
@@ -88550,7 +88528,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit       Adders := 20    
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit       Adders := 20    
 2default:default
 Q
 %s*synth2B
@@ -88562,7 +88544,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit         XORs := 10    
+.	   2 Input      5 Bit         XORs := 30    
 2default:default
 Q
 %s*synth2B
@@ -88578,11 +88560,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               20 Bit    Registers := 10    
+.	               20 Bit    Registers := 11    
 2default:default
 Q
 %s*synth2B
-.	                6 Bit    Registers := 4     
+.	                6 Bit    Registers := 5     
 2default:default
 Q
 %s*synth2B
@@ -88594,7 +88576,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 5     
+.	                1 Bit    Registers := 2     
+2default:default
+6
+%s*synth2'
++---Multipliers : 
+2default:default
+Q
+%s*synth2B
+.	                13x32  Multipliers := 1     
 2default:default
 0
 %s*synth2!
@@ -88602,27 +88592,39 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input     32 Bit        Muxes := 1     
+.	  10 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input     20 Bit        Muxes := 10    
+.	   2 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      6 Bit        Muxes := 4     
+.	  10 Input     20 Bit        Muxes := 12    
 2default:default
 Q
 %s*synth2B
-.	   7 Input      5 Bit        Muxes := 10    
+.	  10 Input      6 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      5 Bit        Muxes := 20    
+.	  11 Input      6 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      4 Bit        Muxes := 40    
+.	  11 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	  12 Input      5 Bit        Muxes := 36    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -88630,19 +88632,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
+.	   2 Input      4 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      3 Bit        Muxes := 1     
+.	  10 Input      4 Bit        Muxes := 41    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      1 Bit        Muxes := 25    
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit        Muxes := 23    
 2default:default
 8
 %s*synth2)
@@ -88686,19 +88692,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     20 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
 .	   8 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      8 Bit        Muxes := 1     
+.	   2 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -88710,11 +88716,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
+.	   8 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -88742,6 +88748,10 @@ B
 2default:default
 Q
 %s*synth2B
+.	   3 Input     32 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
 .	  20 Input     23 Bit       Adders := 2     
 2default:default
 Q
@@ -88754,7 +88764,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit       Adders := 20    
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit       Adders := 20    
 2default:default
 Q
 %s*synth2B
@@ -88766,7 +88780,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit         XORs := 10    
+.	   2 Input      5 Bit         XORs := 30    
 2default:default
 Q
 %s*synth2B
@@ -88782,11 +88796,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               20 Bit    Registers := 10    
+.	               20 Bit    Registers := 11    
 2default:default
 Q
 %s*synth2B
-.	                6 Bit    Registers := 4     
+.	                6 Bit    Registers := 5     
 2default:default
 Q
 %s*synth2B
@@ -88798,7 +88812,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 5     
+.	                1 Bit    Registers := 2     
+2default:default
+6
+%s*synth2'
++---Multipliers : 
+2default:default
+Q
+%s*synth2B
+.	                13x32  Multipliers := 1     
 2default:default
 0
 %s*synth2!
@@ -88806,27 +88828,39 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input     32 Bit        Muxes := 1     
+.	  10 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input     20 Bit        Muxes := 10    
+.	   2 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      6 Bit        Muxes := 4     
+.	  10 Input     20 Bit        Muxes := 12    
 2default:default
 Q
 %s*synth2B
-.	   7 Input      5 Bit        Muxes := 10    
+.	  10 Input      6 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      5 Bit        Muxes := 20    
+.	  11 Input      6 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      4 Bit        Muxes := 40    
+.	  11 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	  12 Input      5 Bit        Muxes := 36    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -88834,19 +88868,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
+.	   2 Input      4 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      3 Bit        Muxes := 1     
+.	  10 Input      4 Bit        Muxes := 41    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      1 Bit        Muxes := 25    
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit        Muxes := 23    
 2default:default
 8
 %s*synth2)
@@ -88890,19 +88928,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     20 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
 .	   8 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      8 Bit        Muxes := 1     
+.	   2 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -88914,11 +88952,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
+.	   8 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -88946,6 +88984,10 @@ B
 2default:default
 Q
 %s*synth2B
+.	   3 Input     32 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
 .	  20 Input     23 Bit       Adders := 2     
 2default:default
 Q
@@ -88958,7 +89000,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit       Adders := 20    
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit       Adders := 20    
 2default:default
 Q
 %s*synth2B
@@ -88970,7 +89016,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit         XORs := 10    
+.	   2 Input      5 Bit         XORs := 30    
 2default:default
 Q
 %s*synth2B
@@ -88986,11 +89032,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               20 Bit    Registers := 10    
+.	               20 Bit    Registers := 11    
 2default:default
 Q
 %s*synth2B
-.	                6 Bit    Registers := 4     
+.	                6 Bit    Registers := 5     
 2default:default
 Q
 %s*synth2B
@@ -89002,7 +89048,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 5     
+.	                1 Bit    Registers := 2     
+2default:default
+6
+%s*synth2'
++---Multipliers : 
+2default:default
+Q
+%s*synth2B
+.	                13x32  Multipliers := 1     
 2default:default
 0
 %s*synth2!
@@ -89010,27 +89064,39 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input     32 Bit        Muxes := 1     
+.	  10 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input     20 Bit        Muxes := 10    
+.	   2 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      6 Bit        Muxes := 4     
+.	  10 Input     20 Bit        Muxes := 12    
 2default:default
 Q
 %s*synth2B
-.	   7 Input      5 Bit        Muxes := 10    
+.	  10 Input      6 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      5 Bit        Muxes := 20    
+.	  11 Input      6 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      4 Bit        Muxes := 40    
+.	  11 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	  12 Input      5 Bit        Muxes := 36    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -89038,19 +89104,175 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
+.	   2 Input      4 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      3 Bit        Muxes := 1     
+.	  10 Input      4 Bit        Muxes := 41    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      1 Bit        Muxes := 25    
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit        Muxes := 23    
+2default:default
+9
+%s*synth2*
+Module eval_block__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   3 Input     32 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	  20 Input     23 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	  10 Input     14 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit       Adders := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 40    
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit         XORs := 30    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit         XORs := 20    
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               20 Bit    Registers := 11    
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 5     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 21    
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 40    
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+6
+%s*synth2'
++---Multipliers : 
+2default:default
+Q
+%s*synth2B
+.	                13x32  Multipliers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	  10 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input     20 Bit        Muxes := 12    
+2default:default
+Q
+%s*synth2B
+.	  10 Input      6 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	  11 Input      6 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  11 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	  12 Input      5 Bit        Muxes := 36    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      4 Bit        Muxes := 20    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      4 Bit        Muxes := 41    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit        Muxes := 23    
 2default:default
 8
 %s*synth2)
@@ -89094,19 +89316,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     20 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
 .	   8 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      8 Bit        Muxes := 1     
+.	   2 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -89118,11 +89340,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
+.	   8 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -89138,7 +89360,7 @@ Q
 2default:default
 9
 %s*synth2*
-Module eval_block__4 
+Module eval_block__5 
 2default:default
 B
 %s*synth23
@@ -89147,6 +89369,10 @@ B
 1
 %s*synth2"
 +---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   3 Input     32 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
@@ -89162,7 +89388,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit       Adders := 20    
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit       Adders := 20    
 2default:default
 Q
 %s*synth2B
@@ -89174,7 +89404,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit         XORs := 10    
+.	   2 Input      5 Bit         XORs := 30    
 2default:default
 Q
 %s*synth2B
@@ -89190,11 +89420,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               20 Bit    Registers := 10    
+.	               20 Bit    Registers := 11    
 2default:default
 Q
 %s*synth2B
-.	                6 Bit    Registers := 4     
+.	                6 Bit    Registers := 5     
 2default:default
 Q
 %s*synth2B
@@ -89206,7 +89436,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 5     
+.	                1 Bit    Registers := 2     
+2default:default
+6
+%s*synth2'
++---Multipliers : 
+2default:default
+Q
+%s*synth2B
+.	                13x32  Multipliers := 1     
 2default:default
 0
 %s*synth2!
@@ -89214,27 +89452,39 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input     32 Bit        Muxes := 1     
+.	  10 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input     20 Bit        Muxes := 10    
+.	   2 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      6 Bit        Muxes := 4     
+.	  10 Input     20 Bit        Muxes := 12    
 2default:default
 Q
 %s*synth2B
-.	   7 Input      5 Bit        Muxes := 10    
+.	  10 Input      6 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      5 Bit        Muxes := 20    
+.	  11 Input      6 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      4 Bit        Muxes := 40    
+.	  11 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	  12 Input      5 Bit        Muxes := 36    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -89242,19 +89492,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
+.	   2 Input      4 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      3 Bit        Muxes := 1     
+.	  10 Input      4 Bit        Muxes := 41    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      1 Bit        Muxes := 25    
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit        Muxes := 23    
 2default:default
 8
 %s*synth2)
@@ -89298,19 +89552,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     20 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
 .	   8 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      8 Bit        Muxes := 1     
+.	   2 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -89322,11 +89576,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
+.	   8 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -89342,126 +89596,6 @@ Q
 2default:default
 9
 %s*synth2*
-Module eval_block__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	  20 Input     23 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	  10 Input     14 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 20    
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 40    
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit         XORs := 10    
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit         XORs := 20    
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	               20 Bit    Registers := 10    
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 21    
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 40    
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   6 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   6 Input     20 Bit        Muxes := 10    
-2default:default
-Q
-%s*synth2B
-.	   6 Input      6 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   7 Input      5 Bit        Muxes := 10    
-2default:default
-Q
-%s*synth2B
-.	   6 Input      5 Bit        Muxes := 20    
-2default:default
-Q
-%s*synth2B
-.	   7 Input      4 Bit        Muxes := 40    
-2default:default
-Q
-%s*synth2B
-.	   3 Input      4 Bit        Muxes := 20    
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   6 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   6 Input      1 Bit        Muxes := 25    
-2default:default
-9
-%s*synth2*
 Module eval_block__6 
 2default:default
 B
@@ -89474,6 +89608,10 @@ B
 2default:default
 Q
 %s*synth2B
+.	   3 Input     32 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
 .	  20 Input     23 Bit       Adders := 2     
 2default:default
 Q
@@ -89486,7 +89624,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit       Adders := 20    
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit       Adders := 20    
 2default:default
 Q
 %s*synth2B
@@ -89498,7 +89640,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit         XORs := 10    
+.	   2 Input      5 Bit         XORs := 30    
 2default:default
 Q
 %s*synth2B
@@ -89514,11 +89656,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               20 Bit    Registers := 10    
+.	               20 Bit    Registers := 11    
 2default:default
 Q
 %s*synth2B
-.	                6 Bit    Registers := 4     
+.	                6 Bit    Registers := 5     
 2default:default
 Q
 %s*synth2B
@@ -89530,7 +89672,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 5     
+.	                1 Bit    Registers := 2     
+2default:default
+6
+%s*synth2'
++---Multipliers : 
+2default:default
+Q
+%s*synth2B
+.	                13x32  Multipliers := 1     
 2default:default
 0
 %s*synth2!
@@ -89538,27 +89688,39 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input     32 Bit        Muxes := 1     
+.	  10 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input     20 Bit        Muxes := 10    
+.	   2 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      6 Bit        Muxes := 4     
+.	  10 Input     20 Bit        Muxes := 12    
 2default:default
 Q
 %s*synth2B
-.	   7 Input      5 Bit        Muxes := 10    
+.	  10 Input      6 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      5 Bit        Muxes := 20    
+.	  11 Input      6 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      4 Bit        Muxes := 40    
+.	  11 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	  12 Input      5 Bit        Muxes := 36    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -89566,19 +89728,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
+.	   2 Input      4 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      3 Bit        Muxes := 1     
+.	  10 Input      4 Bit        Muxes := 41    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      1 Bit        Muxes := 25    
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit        Muxes := 23    
 2default:default
 8
 %s*synth2)
@@ -89622,19 +89788,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     20 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
 .	   8 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      8 Bit        Muxes := 1     
+.	   2 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -89646,11 +89812,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
+.	   8 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -89678,6 +89844,10 @@ B
 2default:default
 Q
 %s*synth2B
+.	   3 Input     32 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
 .	  20 Input     23 Bit       Adders := 2     
 2default:default
 Q
@@ -89690,7 +89860,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit       Adders := 20    
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit       Adders := 20    
 2default:default
 Q
 %s*synth2B
@@ -89702,7 +89876,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit         XORs := 10    
+.	   2 Input      5 Bit         XORs := 30    
 2default:default
 Q
 %s*synth2B
@@ -89718,11 +89892,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               20 Bit    Registers := 10    
+.	               20 Bit    Registers := 11    
 2default:default
 Q
 %s*synth2B
-.	                6 Bit    Registers := 4     
+.	                6 Bit    Registers := 5     
 2default:default
 Q
 %s*synth2B
@@ -89734,7 +89908,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 5     
+.	                1 Bit    Registers := 2     
+2default:default
+6
+%s*synth2'
++---Multipliers : 
+2default:default
+Q
+%s*synth2B
+.	                13x32  Multipliers := 1     
 2default:default
 0
 %s*synth2!
@@ -89742,27 +89924,39 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input     32 Bit        Muxes := 1     
+.	  10 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input     20 Bit        Muxes := 10    
+.	   2 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      6 Bit        Muxes := 4     
+.	  10 Input     20 Bit        Muxes := 12    
 2default:default
 Q
 %s*synth2B
-.	   7 Input      5 Bit        Muxes := 10    
+.	  10 Input      6 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      5 Bit        Muxes := 20    
+.	  11 Input      6 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      4 Bit        Muxes := 40    
+.	  11 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	  12 Input      5 Bit        Muxes := 36    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -89770,19 +89964,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
+.	   2 Input      4 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      3 Bit        Muxes := 1     
+.	  10 Input      4 Bit        Muxes := 41    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      1 Bit        Muxes := 25    
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit        Muxes := 23    
 2default:default
 8
 %s*synth2)
@@ -89826,19 +90024,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     20 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
 .	   8 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      8 Bit        Muxes := 1     
+.	   2 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -89850,11 +90048,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
+.	   8 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -89882,6 +90080,10 @@ B
 2default:default
 Q
 %s*synth2B
+.	   3 Input     32 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
 .	  20 Input     23 Bit       Adders := 2     
 2default:default
 Q
@@ -89894,7 +90096,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit       Adders := 20    
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit       Adders := 20    
 2default:default
 Q
 %s*synth2B
@@ -89906,7 +90112,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit         XORs := 10    
+.	   2 Input      5 Bit         XORs := 30    
 2default:default
 Q
 %s*synth2B
@@ -89922,11 +90128,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               20 Bit    Registers := 10    
+.	               20 Bit    Registers := 11    
 2default:default
 Q
 %s*synth2B
-.	                6 Bit    Registers := 4     
+.	                6 Bit    Registers := 5     
 2default:default
 Q
 %s*synth2B
@@ -89938,7 +90144,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 5     
+.	                1 Bit    Registers := 2     
+2default:default
+6
+%s*synth2'
++---Multipliers : 
+2default:default
+Q
+%s*synth2B
+.	                13x32  Multipliers := 1     
 2default:default
 0
 %s*synth2!
@@ -89946,27 +90160,39 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input     32 Bit        Muxes := 1     
+.	  10 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input     20 Bit        Muxes := 10    
+.	   2 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      6 Bit        Muxes := 4     
+.	  10 Input     20 Bit        Muxes := 12    
 2default:default
 Q
 %s*synth2B
-.	   7 Input      5 Bit        Muxes := 10    
+.	  10 Input      6 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      5 Bit        Muxes := 20    
+.	  11 Input      6 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      4 Bit        Muxes := 40    
+.	  11 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	  12 Input      5 Bit        Muxes := 36    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -89974,19 +90200,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
+.	   2 Input      4 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      3 Bit        Muxes := 1     
+.	  10 Input      4 Bit        Muxes := 41    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      1 Bit        Muxes := 25    
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit        Muxes := 23    
 2default:default
 8
 %s*synth2)
@@ -90030,19 +90260,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     20 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
 .	   8 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      8 Bit        Muxes := 1     
+.	   2 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -90054,11 +90284,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
+.	   8 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -90086,6 +90316,10 @@ B
 2default:default
 Q
 %s*synth2B
+.	   3 Input     32 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
 .	  20 Input     23 Bit       Adders := 2     
 2default:default
 Q
@@ -90098,7 +90332,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit       Adders := 20    
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit       Adders := 20    
 2default:default
 Q
 %s*synth2B
@@ -90110,7 +90348,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit         XORs := 10    
+.	   2 Input      5 Bit         XORs := 30    
 2default:default
 Q
 %s*synth2B
@@ -90126,11 +90364,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               20 Bit    Registers := 10    
+.	               20 Bit    Registers := 11    
 2default:default
 Q
 %s*synth2B
-.	                6 Bit    Registers := 4     
+.	                6 Bit    Registers := 5     
 2default:default
 Q
 %s*synth2B
@@ -90142,7 +90380,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 5     
+.	                1 Bit    Registers := 2     
+2default:default
+6
+%s*synth2'
++---Multipliers : 
+2default:default
+Q
+%s*synth2B
+.	                13x32  Multipliers := 1     
 2default:default
 0
 %s*synth2!
@@ -90150,27 +90396,39 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input     32 Bit        Muxes := 1     
+.	  10 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input     20 Bit        Muxes := 10    
+.	   2 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      6 Bit        Muxes := 4     
+.	  10 Input     20 Bit        Muxes := 12    
 2default:default
 Q
 %s*synth2B
-.	   7 Input      5 Bit        Muxes := 10    
+.	  10 Input      6 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      5 Bit        Muxes := 20    
+.	  11 Input      6 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      4 Bit        Muxes := 40    
+.	  11 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	  12 Input      5 Bit        Muxes := 36    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -90178,19 +90436,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
+.	   2 Input      4 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      3 Bit        Muxes := 1     
+.	  10 Input      4 Bit        Muxes := 41    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      1 Bit        Muxes := 25    
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit        Muxes := 23    
 2default:default
 8
 %s*synth2)
@@ -90234,19 +90496,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     20 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
 .	   8 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      8 Bit        Muxes := 1     
+.	   2 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -90258,11 +90520,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
+.	   8 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -90290,6 +90552,10 @@ B
 2default:default
 Q
 %s*synth2B
+.	   3 Input     32 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
 .	  20 Input     23 Bit       Adders := 2     
 2default:default
 Q
@@ -90302,7 +90568,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit       Adders := 20    
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit       Adders := 20    
 2default:default
 Q
 %s*synth2B
@@ -90314,7 +90584,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit         XORs := 10    
+.	   2 Input      5 Bit         XORs := 30    
 2default:default
 Q
 %s*synth2B
@@ -90330,11 +90600,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               20 Bit    Registers := 10    
+.	               20 Bit    Registers := 11    
 2default:default
 Q
 %s*synth2B
-.	                6 Bit    Registers := 4     
+.	                6 Bit    Registers := 5     
 2default:default
 Q
 %s*synth2B
@@ -90346,7 +90616,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 5     
+.	                1 Bit    Registers := 2     
+2default:default
+6
+%s*synth2'
++---Multipliers : 
+2default:default
+Q
+%s*synth2B
+.	                13x32  Multipliers := 1     
 2default:default
 0
 %s*synth2!
@@ -90354,27 +90632,39 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input     32 Bit        Muxes := 1     
+.	  10 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input     20 Bit        Muxes := 10    
+.	   2 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      6 Bit        Muxes := 4     
+.	  10 Input     20 Bit        Muxes := 12    
 2default:default
 Q
 %s*synth2B
-.	   7 Input      5 Bit        Muxes := 10    
+.	  10 Input      6 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      5 Bit        Muxes := 20    
+.	  11 Input      6 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      4 Bit        Muxes := 40    
+.	  11 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      5 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	  12 Input      5 Bit        Muxes := 36    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -90382,19 +90672,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
+.	   2 Input      4 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      3 Bit        Muxes := 1     
+.	  10 Input      4 Bit        Muxes := 41    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      1 Bit        Muxes := 25    
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit        Muxes := 23    
 2default:default
 5
 %s*synth2&
@@ -90438,19 +90732,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     20 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
 .	   8 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
-.	   7 Input      8 Bit        Muxes := 1     
+.	   2 Input     20 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      8 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -90462,11 +90756,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
+.	   8 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
+.	   2 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -90540,13 +90834,17 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-4
-%s*synth2%
-+---Registers : 
+1
+%s*synth2"
++---Adders : 
 2default:default
 Q
 %s*synth2B
-.	               32 Bit    Registers := 1     
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
 2default:default
 Q
 %s*synth2B
@@ -90554,15 +90852,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                4 Bit    Registers := 14    
+.	                4 Bit    Registers := 20    
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 7     
+.	                3 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 2     
+.	                2 Bit    Registers := 6     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
 2default:default
 0
 %s*synth2!
@@ -90570,27 +90872,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
 .	   2 Input     16 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      6 Bit        Muxes := 2     
+.	   7 Input      8 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   5 Input      6 Bit        Muxes := 1     
+.	   2 Input      8 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      4 Bit        Muxes := 11    
+.	   8 Input      4 Bit        Muxes := 17    
 2default:default
 Q
 %s*synth2B
-.	   6 Input      4 Bit        Muxes := 3     
+.	   8 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -90598,19 +90896,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   6 Input      2 Bit        Muxes := 2     
+.	   2 Input      1 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      1 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   6 Input      1 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
+.	   8 Input      1 Bit        Muxes := 14    
 2default:default
 E
 %s*synth26
@@ -90698,15 +90988,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input      1 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
 .	   9 Input      1 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
@@ -90718,7 +91000,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input      1 Bit       Adders := 1     
+.	   2 Input      1 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
@@ -90727,6 +91013,10 @@ Q
 Q
 %s*synth2B
 .	   5 Input      1 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
@@ -92734,11 +93024,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input     13 Bit        Muxes := 1     
+.	   2 Input     13 Bit        Muxes := 8     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     13 Bit        Muxes := 8     
+.	   8 Input     13 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -92786,6 +93076,10 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   8 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
 .	   2 Input      2 Bit        Muxes := 5     
 2default:default
 Q
@@ -92794,11 +93088,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 1     
+.	   2 Input      1 Bit        Muxes := 36    
 2default:default
 Q
 %s*synth2B
@@ -92806,7 +93096,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 36    
+.	   4 Input      1 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -93142,11 +93432,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input      5 Bit        Muxes := 1     
+.	  34 Input      5 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	  34 Input      5 Bit        Muxes := 1     
+.	   4 Input      5 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -93154,11 +93444,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit        Muxes := 9     
+.	   3 Input      4 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   3 Input      4 Bit        Muxes := 1     
+.	   2 Input      4 Bit        Muxes := 9     
 2default:default
 Q
 %s*synth2B
@@ -93178,11 +93468,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  34 Input      1 Bit        Muxes := 32    
+.	   4 Input      1 Bit        Muxes := 64    
 2default:default
 Q
 %s*synth2B
-.	   4 Input      1 Bit        Muxes := 64    
+.	  34 Input      1 Bit        Muxes := 32    
 2default:default
 L
 %s*synth2=
@@ -93258,11 +93548,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  12 Input      1 Bit        Muxes := 4     
+.	   2 Input      1 Bit        Muxes := 7     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 7     
+.	  12 Input      1 Bit        Muxes := 4     
 2default:default
 J
 %s*synth2;
@@ -96114,11 +96404,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      6 Bit        Muxes := 3     
+.	   5 Input      6 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   5 Input      6 Bit        Muxes := 1     
+.	   2 Input      6 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
@@ -96126,11 +96416,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 3     
+.	   6 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      3 Bit        Muxes := 1     
+.	   2 Input      3 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
@@ -96138,11 +96428,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 28    
+.	  10 Input      1 Bit        Muxes := 18    
 2default:default
 Q
 %s*synth2B
-.	  10 Input      1 Bit        Muxes := 18    
+.	   2 Input      1 Bit        Muxes := 28    
 2default:default
 8
 %s*synth2)
@@ -107750,11 +108040,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit        Muxes := 4     
+.	   6 Input      5 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   6 Input      5 Bit        Muxes := 1     
+.	   2 Input      5 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
@@ -107766,15 +108056,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
 .	   6 Input      1 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 7     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
 2default:default
 ?
 %s*synth20
@@ -108062,11 +108352,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   9 Input      3 Bit        Muxes := 1     
+.	   8 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
+.	   9 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -108478,30 +108768,6 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2K
 7\has_mux_b.B/no_softecc_sel_reg.ce_pri.sel_pipe_reg[0] 2default:default2<
 (blk_mem_gen_generic_cstr__parameterized12default:defaultZ8-3332
-ß
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
-\num_rmv_reg[5] 2default:default2!
-eval_block__12default:defaultZ8-3332
-ß
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
-\num_rmv_reg[4] 2default:default2!
-eval_block__12default:defaultZ8-3332
-ß
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
-\num_rmv_reg[3] 2default:default2!
-eval_block__12default:defaultZ8-3332
-ß
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
-\num_rmv_reg[2] 2default:default2!
-eval_block__12default:defaultZ8-3332
-ß
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
-\num_rmv_reg[1] 2default:default2!
-eval_block__12default:defaultZ8-3332
-ß
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
-\num_rmv_reg[0] 2default:default2!
-eval_block__12default:defaultZ8-3332
 ~
 %s*synth2o
 [DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
@@ -108518,17 +108784,13 @@ d
 %s*synth2U
 ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
 2default:default
-l
-%s*synth2]
-IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN+A:B.
 2default:default
 d
 %s*synth2U
-ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
 2default:default
 j
 %s*synth2[
@@ -108538,9 +108800,9 @@ d
 %s*synth2U
 ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
 2default:default
-i
-%s*synth2Z
-FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B.
 2default:default
 d
 %s*synth2U
@@ -108582,30 +108844,6 @@ d
 %s*synth2U
 ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
 2default:default
-ß
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
-\num_rmv_reg[5] 2default:default2!
-eval_block__22default:defaultZ8-3332
-ß
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
-\num_rmv_reg[4] 2default:default2!
-eval_block__22default:defaultZ8-3332
-ß
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
-\num_rmv_reg[3] 2default:default2!
-eval_block__22default:defaultZ8-3332
-ß
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
-\num_rmv_reg[2] 2default:default2!
-eval_block__22default:defaultZ8-3332
-ß
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
-\num_rmv_reg[1] 2default:default2!
-eval_block__22default:defaultZ8-3332
-ß
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2$
-\num_rmv_reg[0] 2default:default2!
-eval_block__22default:defaultZ8-3332
 ~
 %s*synth2o
 [DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
@@ -108622,17 +108860,13 @@ d
 %s*synth2U
 ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
 2default:default
-l
-%s*synth2]
-IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN+A:B.
 2default:default
 d
 %s*synth2U
-ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
 2default:default
 j
 %s*synth2[
@@ -108642,9 +108876,9 @@ d
 %s*synth2U
 ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
 2default:default
-i
-%s*synth2Z
-FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B.
 2default:default
 d
 %s*synth2U
@@ -108686,679 +108920,695 @@ d
 %s*synth2U
 ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
 2default:default
-®
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2&
-\col_out0_reg[19] 2default:default2 
-placement__32default:defaultZ8-3332
-®
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2&
-\col_out0_reg[18] 2default:default2 
-placement__32default:defaultZ8-3332
-®
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2&
-\col_out0_reg[17] 2default:default2 
-placement__32default:defaultZ8-3332
-®
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2&
-\col_out0_reg[16] 2default:default2 
-placement__32default:defaultZ8-3332
-®
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2&
-\col_out0_reg[15] 2default:default2 
-placement__32default:defaultZ8-3332
-®
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2&
-\col_out0_reg[14] 2default:default2 
-placement__32default:defaultZ8-3332
-®
-ESequential element (%s) is unused and will be removed from module %s.3332*oasys2&
-\col_out0_reg[13] 2default:default2 
-placement__32default:defaultZ8-3332
+~
+%s*synth2o
+[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN+A:B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+j
+%s*synth2[
+GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+o
+%s*synth2`
+LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+~
+%s*synth2o
+[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN+A:B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+j
+%s*synth2[
+GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+o
+%s*synth2`
+LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+~
+%s*synth2o
+[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN+A:B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+j
+%s*synth2[
+GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+o
+%s*synth2`
+LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+~
+%s*synth2o
+[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN+A:B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+j
+%s*synth2[
+GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+o
+%s*synth2`
+LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+~
+%s*synth2o
+[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN+A:B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+j
+%s*synth2[
+GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+o
+%s*synth2`
+LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+~
+%s*synth2o
+[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN+A:B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+j
+%s*synth2[
+GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+o
+%s*synth2`
+LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+~
+%s*synth2o
+[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN+A:B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+j
+%s*synth2[
+GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+o
+%s*synth2`
+LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+~
+%s*synth2o
+[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+2default:default
+h
+%s*synth2Y
+EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+2default:default
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN+A:B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+j
+%s*synth2[
+GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+2default:default
+g
+%s*synth2X
+DDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+2default:default
+k
+%s*synth2\
+HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+2default:default
+i
+%s*synth2Z
+FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+o
+%s*synth2`
+LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+2default:default
+d
+%s*synth2U
+ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+2default:default
+√
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys25
+!\arb_row_col0/sent_col_lcl_r_reg 2default:default2,
+mig_7series_v2_0_arb_mux2default:defaultZ8-3332
+≈
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys27
+#\arb_select0/col_mux.col_rmw_r_reg 2default:default2,
+mig_7series_v2_0_arb_mux2default:defaultZ8-3332
+∆
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys28
+$\arb_select0/col_mux.col_size_r_reg 2default:default2,
+mig_7series_v2_0_arb_mux2default:defaultZ8-3332
+≈
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys24
+ \bank_compare0/req_cmd_r_reg[2] 2default:default2/
+mig_7series_v2_0_bank_cntrl2default:defaultZ8-3332
+≈
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys24
+ \bank_compare0/req_cmd_r_reg[2] 2default:default2/
+mig_7series_v2_0_bank_cntrl2default:defaultZ8-3332
+’
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys24
+ \bank_compare0/req_cmd_r_reg[2] 2default:default2?
++mig_7series_v2_0_bank_cntrl__parameterized02default:defaultZ8-3332
+’
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys24
+ \bank_compare0/req_cmd_r_reg[2] 2default:default2?
++mig_7series_v2_0_bank_cntrl__parameterized02default:defaultZ8-3332
+’
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys24
+ \bank_compare0/req_cmd_r_reg[2] 2default:default2?
++mig_7series_v2_0_bank_cntrl__parameterized12default:defaultZ8-3332
+’
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys24
+ \bank_compare0/req_cmd_r_reg[2] 2default:default2?
++mig_7series_v2_0_bank_cntrl__parameterized12default:defaultZ8-3332
+’
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys24
+ \bank_compare0/req_cmd_r_reg[2] 2default:default2?
++mig_7series_v2_0_bank_cntrl__parameterized22default:defaultZ8-3332
+’
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys24
+ \bank_compare0/req_cmd_r_reg[2] 2default:default2?
++mig_7series_v2_0_bank_cntrl__parameterized22default:defaultZ8-3332
+Ï
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2c
+O\rank_mach0/rank_common0/periodic_read_request.periodic_rd_arb0/grant_r_reg[0] 2default:default2'
+mig_7series_v2_0_mc2default:defaultZ8-3332
+Í
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2F
+2\of_pre_fifo_gen.u_ddr_of_pre_fifo/my_full_reg[4] 2default:default2B
+.mig_7series_v2_0_ddr_byte_lane__parameterized02default:defaultZ8-3332
+Î
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2G
+3\of_pre_fifo_gen.u_ddr_of_pre_fifo/my_empty_reg[7] 2default:default2B
+.mig_7series_v2_0_ddr_byte_lane__parameterized02default:defaultZ8-3332
+Î
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2G
+3\of_pre_fifo_gen.u_ddr_of_pre_fifo/my_empty_reg[7] 2default:default2B
+.mig_7series_v2_0_ddr_byte_lane__parameterized02default:defaultZ8-3332
+Í
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys2F
+2\of_pre_fifo_gen.u_ddr_of_pre_fifo/my_full_reg[4] 2default:default2B
+.mig_7series_v2_0_ddr_byte_lane__parameterized02default:defaultZ8-3332
+∆
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys23
+\oclkdelay_start_dly_r_reg[14] 2default:default21
+mig_7series_v2_0_ddr_phy_init2default:defaultZ8-3332
+∆
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys23
+\oclkdelay_start_dly_r_reg[13] 2default:default21
+mig_7series_v2_0_ddr_phy_init2default:defaultZ8-3332
+∆
+ESequential element (%s) is unused and will be removed from module %s.3332*oasys23
+\oclkdelay_start_dly_r_reg[12] 2default:default21
+mig_7series_v2_0_ddr_phy_init2default:defaultZ8-3332
 ‘
 ÅMessage '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2 
 Synth 8-33322default:default2
 1002default:defaultZ17-14
-~
-%s*synth2o
-[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-l
-%s*synth2]
-IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
-2default:default
-j
-%s*synth2[
-GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-i
-%s*synth2Z
-FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-k
-%s*synth2\
-HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
-2default:default
-k
-%s*synth2\
-HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-i
-%s*synth2Z
-FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-o
-%s*synth2`
-LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-~
-%s*synth2o
-[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-l
-%s*synth2]
-IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
-2default:default
-j
-%s*synth2[
-GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-i
-%s*synth2Z
-FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-k
-%s*synth2\
-HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
-2default:default
-k
-%s*synth2\
-HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-i
-%s*synth2Z
-FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-o
-%s*synth2`
-LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-~
-%s*synth2o
-[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-l
-%s*synth2]
-IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
-2default:default
-j
-%s*synth2[
-GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-i
-%s*synth2Z
-FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-k
-%s*synth2\
-HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
-2default:default
-k
-%s*synth2\
-HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-i
-%s*synth2Z
-FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-o
-%s*synth2`
-LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-~
-%s*synth2o
-[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-l
-%s*synth2]
-IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
-2default:default
-j
-%s*synth2[
-GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-i
-%s*synth2Z
-FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-k
-%s*synth2\
-HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
-2default:default
-k
-%s*synth2\
-HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-i
-%s*synth2Z
-FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-o
-%s*synth2`
-LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-~
-%s*synth2o
-[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-l
-%s*synth2]
-IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
-2default:default
-j
-%s*synth2[
-GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-i
-%s*synth2Z
-FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-k
-%s*synth2\
-HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
-2default:default
-k
-%s*synth2\
-HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-i
-%s*synth2Z
-FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-o
-%s*synth2`
-LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-~
-%s*synth2o
-[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-l
-%s*synth2]
-IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
-2default:default
-j
-%s*synth2[
-GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-i
-%s*synth2Z
-FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-k
-%s*synth2\
-HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
-2default:default
-k
-%s*synth2\
-HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-i
-%s*synth2Z
-FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-o
-%s*synth2`
-LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-~
-%s*synth2o
-[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-l
-%s*synth2]
-IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
-2default:default
-j
-%s*synth2[
-GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-i
-%s*synth2Z
-FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-k
-%s*synth2\
-HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
-2default:default
-k
-%s*synth2\
-HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-i
-%s*synth2Z
-FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-o
-%s*synth2`
-LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-~
-%s*synth2o
-[DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-l
-%s*synth2]
-IDSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
-2default:default
-j
-%s*synth2[
-GDSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-i
-%s*synth2Z
-FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-k
-%s*synth2\
-HDSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
-2default:default
-k
-%s*synth2\
-HDSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-i
-%s*synth2Z
-FDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-o
-%s*synth2`
-LDSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
 ÿ
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2-
 oclkdelay_start_dly_r_reg2default:default2
@@ -109387,1711 +109637,9 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 352default:default2Â
 Œ/home/derek/Documents/year_4/ECE532/git/ece352/designs/tetris_test2/tetris_test2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/a2538a4c/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 1212default:default8@Z8-3936
-ÿ
-tResources of type %s have been overutilized. Used = %s, Available = %s. Use report_utilization command for details.
-3323*oasys2
-DSP2default:default2
-3232default:default2
-2402default:defaultZ8-3323
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-á
-%s*synth2x
-dDSP Report: Generating DSP score_reg1, operation Mode is (post resource management): (A:0x1194)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg4, operation Mode is (post resource management): (A:0x2484)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-á
-%s*synth2x
-dDSP Report: Generating DSP score_reg1, operation Mode is (post resource management): (A:0x1194)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg4, operation Mode is (post resource management): (A:0x2484)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-á
-%s*synth2x
-dDSP Report: Generating DSP score_reg1, operation Mode is (post resource management): (A:0x1194)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg4, operation Mode is (post resource management): (A:0x2484)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-á
-%s*synth2x
-dDSP Report: Generating DSP score_reg1, operation Mode is (post resource management): (A:0x1194)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg4, operation Mode is (post resource management): (A:0x2484)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-á
-%s*synth2x
-dDSP Report: Generating DSP score_reg1, operation Mode is (post resource management): (A:0x1194)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg4, operation Mode is (post resource management): (A:0x2484)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-á
-%s*synth2x
-dDSP Report: Generating DSP score_reg1, operation Mode is (post resource management): (A:0x1194)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg4, operation Mode is (post resource management): (A:0x2484)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-á
-%s*synth2x
-dDSP Report: Generating DSP score_reg1, operation Mode is (post resource management): (A:0x1194)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg4, operation Mode is (post resource management): (A:0x2484)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-á
-%s*synth2x
-dDSP Report: Generating DSP score_reg1, operation Mode is (post resource management): (A:0x1194)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register max_height_reg is absorbed into DSP score_reg1.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg1 is absorbed into DSP score_reg1.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg4, operation Mode is (post resource management): (A:0x2484)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg4 is absorbed into DSP score_reg4.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
-ö
-%s*synth2ä
-vDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
-2default:default
-h
-%s*synth2Y
-EDSP Report: register num_filled_reg is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg2 is absorbed into DSP score_reg0.
-2default:default
-Ö
-%s*synth2v
-bDSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg6 is absorbed into DSP score_reg6.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-Ü
-%s*synth2w
-cDSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg3 is absorbed into DSP score_reg3.
-2default:default
-Ñ
-%s*synth2u
-aDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-ä
-%s*synth2{
-gDSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg0 is absorbed into DSP score_reg0.
-2default:default
-d
-%s*synth2U
-ADSP Report: operator score_reg5 is absorbed into DSP score_reg0.
-2default:default
 ´
 %s*synth2õ
-ÜFinished Cross Boundary Optimization : Time (s): cpu = 00:04:41 ; elapsed = 00:04:40 . Memory (MB): peak = 2032.551 ; gain = 1395.633
+ÜFinished Cross Boundary Optimization : Time (s): cpu = 00:09:17 ; elapsed = 00:09:26 . Memory (MB): peak = 1854.008 ; gain = 1217.086
 2default:default
 ¢
 %s*synth2í
@@ -111199,7 +109747,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+õ|eval_block  | PCIN+A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111207,7 +109755,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+õ|eval_block  | PCIN-A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111231,7 +109779,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+õ|eval_block  | PCIN+A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111239,7 +109787,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+õ|eval_block  | PCIN-A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111263,7 +109811,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+õ|eval_block  | PCIN+A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111271,7 +109819,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+õ|eval_block  | PCIN-A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111295,7 +109843,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+õ|eval_block  | PCIN+A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111303,7 +109851,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+õ|eval_block  | PCIN-A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111327,7 +109875,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+õ|eval_block  | PCIN+A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111335,7 +109883,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+õ|eval_block  | PCIN-A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111359,7 +109907,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+õ|eval_block  | PCIN+A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111367,7 +109915,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+õ|eval_block  | PCIN-A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111391,7 +109939,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+õ|eval_block  | PCIN+A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111399,7 +109947,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+õ|eval_block  | PCIN-A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111423,7 +109971,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+õ|eval_block  | PCIN+A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111431,7 +109979,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+õ|eval_block  | PCIN-A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111455,7 +110003,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+õ|eval_block  | PCIN+A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111463,7 +110011,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+õ|eval_block  | PCIN-A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111487,7 +110035,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+õ|eval_block  | PCIN+A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111495,7 +110043,7 @@ DSP:
 2default:default
 ¿
 %s*synth2∞
-õ|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+õ|eval_block  | PCIN-A:B                        | No           | 14 (N)           | 18 (N) | 18 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 1    | 1    | 0    | 
 2default:default
 ¿
 %s*synth2∞
@@ -111791,146 +110339,146 @@ zdesign_1_i/mig_7series_0/\u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_
 6propagating constant %s across sequential element (%s)3333*oasys2
 02default:default2ë
 }design_1_i/mig_7series_0/\u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/mc0 /\cmd_pipe_plus.mc_cas_slot_reg[1] 2default:defaultZ8-3333
-ƒ
+£
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2\
-Hdesign_1_i/mig_7series_0/u_ddr_mc_phy_wrapperi_3/\phy_ctl_wd_i1_reg[31] 2default:defaultZ8-3333
-ƒ
+02default:default2;
+'score_ten__GBM0:/\placement09/done_reg 2default:defaultZ8-3333
+£
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2\
-Hdesign_1_i/mig_7series_0/u_ddr_mc_phy_wrapperi_3/\phy_ctl_wd_i1_reg[31] 2default:defaultZ8-3333
-⁄
+02default:default2;
+'score_ten__GBM0:/\placement08/done_reg 2default:defaultZ8-3333
+¶
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2r
-^design_1_i/mig_7series_0/u_memc_ui_top_axii_5/\u_axi_mc/axi_mc_r_channel_0/r_ignore_end_r_reg 2default:defaultZ8-3333
-Ä
+12default:default2>
+*score_ten__GBM0:/\placement09/down_reg[3] 2default:defaultZ8-3333
+¶
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2ó
-Çdesign_1_i/mig_7series_0/u_memc_ui_top_axii_5/\u_axi_mc/USE_UPSIZER.upsizer_d2/mi_register_slice_inst/r_pipe/storage_data2_reg[1] 2default:defaultZ8-3333
-œ
+12default:default2>
+*score_ten__GBM0:/\placement09/down_reg[2] 2default:defaultZ8-3333
+¶
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2g
-Sdesign_1_i/mig_7series_0/u_memc_ui_top_axii_5/\u_ui_top/ui_cmd0/app_addr_r1_reg[2] 2default:defaultZ8-3333
-Œ
+12default:default2>
+*score_ten__GBM0:/\placement09/down_reg[1] 2default:defaultZ8-3333
+¶
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2f
-Rdesign_1_i/mig_7series_0/u_memc_ui_top_axii_5/\u_ui_top/ui_cmd0/app_hi_pri_r1_reg 2default:defaultZ8-3333
-Ä
+12default:default2>
+*score_ten__GBM0:/\placement09/down_reg[0] 2default:defaultZ8-3333
+¶
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2ó
-Çdesign_1_i/mig_7series_0/u_memc_ui_top_axii_5/\u_axi_mc/USE_UPSIZER.upsizer_d2/mi_register_slice_inst/r_pipe/storage_data1_reg[1] 2default:defaultZ8-3333
-¨
+02default:default2>
+*score_ten__GBM0:/\placement09/down_reg[4] 2default:defaultZ8-3333
+¶
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2D
-0score_ten__GBM2:/eval_block02/\cur_state_reg[4] 2default:defaultZ8-3333
-¨
+12default:default2>
+*score_ten__GBM0:/\placement08/down_reg[0] 2default:defaultZ8-3333
+¶
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2D
-0score_ten__GBM2:/eval_block03/\cur_state_reg[4] 2default:defaultZ8-3333
-¨
+12default:default2>
+*score_ten__GBM0:/\placement08/down_reg[3] 2default:defaultZ8-3333
+¶
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2D
-0score_ten__GBM2:/eval_block04/\cur_state_reg[4] 2default:defaultZ8-3333
-Ø
+12default:default2>
+*score_ten__GBM0:/\placement08/down_reg[2] 2default:defaultZ8-3333
+¶
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2G
-3score_ten__GBM2__1:/eval_block02/\cur_state_reg[4] 2default:defaultZ8-3333
-Ø
+12default:default2>
+*score_ten__GBM0:/\placement08/down_reg[1] 2default:defaultZ8-3333
+¶
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2G
-3score_ten__GBM2__1:/eval_block03/\cur_state_reg[4] 2default:defaultZ8-3333
-Ø
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2G
-3score_ten__GBM2__1:/eval_block04/\cur_state_reg[4] 2default:defaultZ8-3333
-¨
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2D
-0score_ten__GBM1:/eval_block05/\cur_state_reg[4] 2default:defaultZ8-3333
-¨
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2D
-0score_ten__GBM1:/eval_block06/\cur_state_reg[4] 2default:defaultZ8-3333
-Ø
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2G
-3score_ten__GBM1__1:/eval_block05/\cur_state_reg[4] 2default:defaultZ8-3333
-Ø
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2G
-3score_ten__GBM1__1:/eval_block06/\cur_state_reg[4] 2default:defaultZ8-3333
-¨
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2D
-0score_ten__GBM0:/eval_block01/\cur_state_reg[4] 2default:defaultZ8-3333
-¨
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2D
-0score_ten__GBM0:/eval_block00/\cur_state_reg[4] 2default:defaultZ8-3333
+02default:default2>
+*score_ten__GBM0:/\placement08/down_reg[4] 2default:defaultZ8-3333
 ¨
 6propagating constant %s across sequential element (%s)3333*oasys2
 02default:default2D
 0score_ten__GBM0:/eval_block07/\cur_state_reg[4] 2default:defaultZ8-3333
+≤
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2J
+6score_ten__GBM0:/\placement09/FSM_onehot_state_reg[0] 2default:defaultZ8-3333
+≤
+6propagating constant %s across sequential element (%s)3333*oasys2
+12default:default2J
+6score_ten__GBM0:/\placement09/FSM_onehot_state_reg[1] 2default:defaultZ8-3333
+≤
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2J
+6score_ten__GBM0:/\placement09/FSM_onehot_state_reg[2] 2default:defaultZ8-3333
+≤
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2J
+6score_ten__GBM0:/\placement09/FSM_onehot_state_reg[4] 2default:defaultZ8-3333
+≤
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2J
+6score_ten__GBM0:/\placement09/FSM_onehot_state_reg[3] 2default:defaultZ8-3333
+≤
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2J
+6score_ten__GBM0:/\placement09/FSM_onehot_state_reg[5] 2default:defaultZ8-3333
+≤
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2J
+6score_ten__GBM0:/\placement09/FSM_onehot_state_reg[7] 2default:defaultZ8-3333
+≤
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2J
+6score_ten__GBM0:/\placement09/FSM_onehot_state_reg[6] 2default:defaultZ8-3333
 ¨
 6propagating constant %s across sequential element (%s)3333*oasys2
 02default:default2D
 0score_ten__GBM0:/eval_block09/\cur_state_reg[4] 2default:defaultZ8-3333
+≤
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2J
+6score_ten__GBM0:/\placement08/FSM_onehot_state_reg[0] 2default:defaultZ8-3333
+≤
+6propagating constant %s across sequential element (%s)3333*oasys2
+12default:default2J
+6score_ten__GBM0:/\placement08/FSM_onehot_state_reg[1] 2default:defaultZ8-3333
+≤
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2J
+6score_ten__GBM0:/\placement08/FSM_onehot_state_reg[2] 2default:defaultZ8-3333
+≤
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2J
+6score_ten__GBM0:/\placement08/FSM_onehot_state_reg[4] 2default:defaultZ8-3333
+≤
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2J
+6score_ten__GBM0:/\placement08/FSM_onehot_state_reg[3] 2default:defaultZ8-3333
+≤
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2J
+6score_ten__GBM0:/\placement08/FSM_onehot_state_reg[5] 2default:defaultZ8-3333
+≤
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2J
+6score_ten__GBM0:/\placement08/FSM_onehot_state_reg[7] 2default:defaultZ8-3333
+≤
+6propagating constant %s across sequential element (%s)3333*oasys2
+02default:default2J
+6score_ten__GBM0:/\placement08/FSM_onehot_state_reg[6] 2default:defaultZ8-3333
 ¨
 6propagating constant %s across sequential element (%s)3333*oasys2
 02default:default2D
 0score_ten__GBM0:/eval_block08/\cur_state_reg[4] 2default:defaultZ8-3333
-√
+§
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2[
-Gdesign_1_i/aicontroller_0/score_rot2i_6/eval_block01/\cur_state_reg[4] 2default:defaultZ8-3333
-√
+02default:default2<
+(score_ten__GBM0:/\placement09/error_reg 2default:defaultZ8-3333
+§
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2[
-Gdesign_1_i/aicontroller_0/score_rot2i_6/eval_block00/\cur_state_reg[4] 2default:defaultZ8-3333
-√
+02default:default2<
+(score_ten__GBM0:/\placement08/error_reg 2default:defaultZ8-3333
+ß
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2[
-Gdesign_1_i/aicontroller_0/score_rot2i_6/eval_block07/\cur_state_reg[4] 2default:defaultZ8-3333
-√
+02default:default2?
++score_ten__GBM0:/\FSM_onehot_state_reg[11] 2default:defaultZ8-3333
+ƒ
 6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2[
-Gdesign_1_i/aicontroller_0/score_rot2i_6/eval_block09/\cur_state_reg[4] 2default:defaultZ8-3333
-√
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2[
-Gdesign_1_i/aicontroller_0/score_rot2i_6/eval_block08/\cur_state_reg[4] 2default:defaultZ8-3333
-è
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2¶
-ëdesign_1_i/mig_7series_0/u_design_1_mig_7series_0_3_migi_6/\temp_mon_enabled.u_tempmon/FSM_onehot_xadc_supplied_temperature.tempmon_state_reg[4] 2default:defaultZ8-3333
-√
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2[
-Gdesign_1_i/aicontroller_0/score_rot0i_0/eval_block01/\cur_state_reg[4] 2default:defaultZ8-3333
-√
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2[
-Gdesign_1_i/aicontroller_0/score_rot0i_0/eval_block00/\cur_state_reg[4] 2default:defaultZ8-3333
-√
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2[
-Gdesign_1_i/aicontroller_0/score_rot0i_0/eval_block07/\cur_state_reg[4] 2default:defaultZ8-3333
-√
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2[
-Gdesign_1_i/aicontroller_0/score_rot0i_0/eval_block09/\cur_state_reg[4] 2default:defaultZ8-3333
-√
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2[
-Gdesign_1_i/aicontroller_0/score_rot0i_0/eval_block08/\cur_state_reg[4] 2default:defaultZ8-3333
-∏
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2P
-<design_1_i/aicontroller_0/insti_12/\next_array0_rot2_reg[3] 2default:defaultZ8-3333
-∏
-6propagating constant %s across sequential element (%s)3333*oasys2
-02default:default2P
-<design_1_i/aicontroller_0/insti_12/\next_array2_rot1_reg[0] 2default:defaultZ8-3333
+02default:default2\
+Hdesign_1_i/mig_7series_0/u_ddr_mc_phy_wrapperi_3/\phy_ctl_wd_i1_reg[31] 2default:defaultZ8-3333
 ‘
 ÅMessage '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2 
@@ -111938,19 +110486,19 @@ Gdesign_1_i/aicontroller_0/score_rot0i_0/eval_block08/\cur_state_reg[4] 2defaul
 1002default:defaultZ17-14
 †
 %s*synth2ê
-|Finished Area Optimization : Time (s): cpu = 00:07:43 ; elapsed = 00:07:44 . Memory (MB): peak = 2880.148 ; gain = 2243.230
+|Finished Area Optimization : Time (s): cpu = 00:12:36 ; elapsed = 00:12:47 . Memory (MB): peak = 2006.996 ; gain = 1370.074
 2default:default
 Ø
 %s*synth2ü
-äFinished Applying XDC Timing Constraints : Time (s): cpu = 00:07:49 ; elapsed = 00:07:50 . Memory (MB): peak = 2925.148 ; gain = 2288.230
+äFinished Applying XDC Timing Constraints : Time (s): cpu = 00:12:47 ; elapsed = 00:12:59 . Memory (MB): peak = 2029.996 ; gain = 1393.074
 2default:default
 ¢
 %s*synth2í
-~Finished Timing Optimization : Time (s): cpu = 00:08:04 ; elapsed = 00:08:06 . Memory (MB): peak = 3027.148 ; gain = 2390.230
+~Finished Timing Optimization : Time (s): cpu = 00:13:03 ; elapsed = 00:13:15 . Memory (MB): peak = 2061.996 ; gain = 1425.074
 2default:default
 °
 %s*synth2ë
-}Finished Technology Mapping : Time (s): cpu = 00:10:18 ; elapsed = 00:10:23 . Memory (MB): peak = 3279.133 ; gain = 2642.215
+}Finished Technology Mapping : Time (s): cpu = 00:14:54 ; elapsed = 00:15:07 . Memory (MB): peak = 2203.348 ; gain = 1566.426
 2default:default
 Ó
 eFound max_fanout attribute set to %s on net %s. Fanout reduced from %s to %s by creating %s replicas.3744*oasys2
@@ -111980,10 +110528,10 @@ eFound max_fanout attribute set to %s on net %s. Fanout reduced from %s to %s by
 1922default:default2
 392default:default2
 42default:defaultZ8-4618
-Ô
+Ï
 eFound max_fanout attribute set to %s on net %s. Fanout reduced from %s to %s by creating %s replicas.3744*oasys2
-502default:default2ç
-y\n_1398_u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/init_calib_complete_reg 2default:default2
+502default:default2ä
+v\n_0_u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/init_calib_complete_reg 2default:default2
 4772default:default2
 482default:default2
 102default:defaultZ8-4618
@@ -112003,7 +110551,7 @@ F\u_design_1_mig_7series_0_3_mig/u_ddr2_infrastructure/rstdiv0_sync_r1 2default
 122default:defaultZ8-4618
 õ
 %s*synth2ã
-wFinished IO Insertion : Time (s): cpu = 00:10:29 ; elapsed = 00:10:34 . Memory (MB): peak = 3279.133 ; gain = 2642.215
+wFinished IO Insertion : Time (s): cpu = 00:15:00 ; elapsed = 00:15:13 . Memory (MB): peak = 2203.348 ; gain = 1566.426
 2default:default
 ;
 %s*synth2,
@@ -112032,11 +110580,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ¨
 %s*synth2ú
-áFinished Renaming Generated Instances : Time (s): cpu = 00:10:30 ; elapsed = 00:10:35 . Memory (MB): peak = 3279.133 ; gain = 2642.215
+áFinished Renaming Generated Instances : Time (s): cpu = 00:15:00 ; elapsed = 00:15:14 . Memory (MB): peak = 2203.348 ; gain = 1566.426
 2default:default
 ©
 %s*synth2ô
-ÑFinished Rebuilding User Hierarchy : Time (s): cpu = 00:10:40 ; elapsed = 00:10:46 . Memory (MB): peak = 3279.133 ; gain = 2642.215
+ÑFinished Rebuilding User Hierarchy : Time (s): cpu = 00:15:05 ; elapsed = 00:15:19 . Memory (MB): peak = 2203.348 ; gain = 1566.426
 2default:default
 ¢
 %s*synth2í
@@ -112300,267 +110848,259 @@ J
 2default:default
 J
 %s*synth2;
-'|6     |CARRY4                |  1207|
+'|6     |CARRY4                |   148|
 2default:default
 J
 %s*synth2;
-'|7     |DSP48E1               |    37|
+'|7     |DSP48E1               |     1|
 2default:default
 J
 %s*synth2;
-'|8     |DSP48E1_1             |   108|
+'|8     |DSP48E1_1             |     1|
 2default:default
 J
 %s*synth2;
-'|9     |DSP48E1_2             |    74|
+'|9     |DSP48E1_2             |     1|
 2default:default
 J
 %s*synth2;
-'|10    |DSP48E1_3             |     1|
+'|10    |GND                   |     2|
 2default:default
 J
 %s*synth2;
-'|11    |DSP48E1_4             |     1|
+'|11    |IDELAYCTRL            |     1|
 2default:default
 J
 %s*synth2;
-'|12    |DSP48E1_5             |     1|
+'|12    |IDELAYE2              |    16|
 2default:default
 J
 %s*synth2;
-'|13    |GND                   |     2|
+'|13    |INV                   |     4|
 2default:default
 J
 %s*synth2;
-'|14    |IDELAYCTRL            |     1|
+'|14    |IN_FIFO               |     2|
 2default:default
 J
 %s*synth2;
-'|15    |IDELAYE2              |    16|
+'|15    |ISERDESE2             |    16|
 2default:default
 J
 %s*synth2;
-'|16    |INV                   |     4|
+'|16    |LUT1                  |   543|
 2default:default
 J
 %s*synth2;
-'|17    |IN_FIFO               |     2|
+'|17    |LUT2                  |  1930|
 2default:default
 J
 %s*synth2;
-'|18    |ISERDESE2             |    16|
+'|18    |LUT3                  |  2268|
 2default:default
 J
 %s*synth2;
-'|19    |LUT1                  |  1472|
+'|19    |LUT4                  |  2094|
 2default:default
 J
 %s*synth2;
-'|20    |LUT2                  |  5013|
+'|20    |LUT5                  |  2006|
 2default:default
 J
 %s*synth2;
-'|21    |LUT3                  | 11446|
+'|21    |LUT6                  |  3396|
 2default:default
 J
 %s*synth2;
-'|22    |LUT4                  | 10062|
+'|22    |LUT6_2                |   104|
 2default:default
 J
 %s*synth2;
-'|23    |LUT5                  | 16505|
+'|23    |MMCME2_ADV            |     2|
 2default:default
 J
 %s*synth2;
-'|24    |LUT6                  | 25554|
+'|24    |MULT_AND              |     1|
 2default:default
 J
 %s*synth2;
-'|25    |LUT6_2                |   104|
+'|25    |MUXCY                 |   160|
 2default:default
 J
 %s*synth2;
-'|26    |MMCME2_ADV            |     2|
+'|26    |MUXCY_L               |   239|
 2default:default
 J
 %s*synth2;
-'|27    |MULT_AND              |     1|
+'|27    |MUXF7                 |   162|
 2default:default
 J
 %s*synth2;
-'|28    |MUXCY                 |   160|
+'|28    |MUXF8                 |     3|
 2default:default
 J
 %s*synth2;
-'|29    |MUXCY_L               |   239|
+'|29    |ODDR                  |     5|
 2default:default
 J
 %s*synth2;
-'|30    |MUXF7                 |   663|
+'|30    |ODDR_1                |     1|
 2default:default
 J
 %s*synth2;
-'|31    |ODDR                  |     5|
+'|31    |OR2L                  |     2|
 2default:default
 J
 %s*synth2;
-'|32    |ODDR_1                |     1|
+'|32    |OSERDESE2             |    22|
 2default:default
 J
 %s*synth2;
-'|33    |OR2L                  |     2|
+'|33    |OSERDESE2_1           |     2|
 2default:default
 J
 %s*synth2;
-'|34    |OSERDESE2             |    22|
+'|34    |OSERDESE2_2           |    18|
 2default:default
 J
 %s*synth2;
-'|35    |OSERDESE2_1           |     2|
+'|35    |OUT_FIFO              |     2|
 2default:default
 J
 %s*synth2;
-'|36    |OSERDESE2_2           |    18|
+'|36    |OUT_FIFO_1            |     2|
 2default:default
 J
 %s*synth2;
-'|37    |OUT_FIFO              |     2|
+'|37    |PHASER_IN_PHY         |     2|
 2default:default
 J
 %s*synth2;
-'|38    |OUT_FIFO_1            |     2|
+'|38    |PHASER_OUT_PHY        |     2|
 2default:default
 J
 %s*synth2;
-'|39    |PHASER_IN_PHY         |     2|
+'|39    |PHASER_OUT_PHY_1      |     2|
 2default:default
 J
 %s*synth2;
-'|40    |PHASER_OUT_PHY        |     2|
+'|40    |PHASER_REF            |     1|
 2default:default
 J
 %s*synth2;
-'|41    |PHASER_OUT_PHY_1      |     2|
+'|41    |PHY_CONTROL           |     1|
 2default:default
 J
 %s*synth2;
-'|42    |PHASER_REF            |     1|
+'|42    |PLLE2_ADV             |     1|
 2default:default
 J
 %s*synth2;
-'|43    |PHY_CONTROL           |     1|
+'|43    |RAM16X1D              |    32|
 2default:default
 J
 %s*synth2;
-'|44    |PLLE2_ADV             |     1|
+'|44    |RAM32M                |   198|
 2default:default
 J
 %s*synth2;
-'|45    |RAM16X1D              |    32|
+'|45    |RAMB18E1              |     1|
 2default:default
 J
 %s*synth2;
-'|46    |RAM32M                |   198|
+'|46    |RAMB36                |     4|
 2default:default
 J
 %s*synth2;
-'|47    |RAMB18E1              |     1|
+'|47    |RAMB36E1              |    16|
 2default:default
 J
 %s*synth2;
-'|48    |RAMB36                |     4|
+'|48    |RAMB36E1_1            |     2|
 2default:default
 J
 %s*synth2;
-'|49    |RAMB36E1              |    16|
+'|49    |SRL16                 |     2|
 2default:default
 J
 %s*synth2;
-'|50    |RAMB36E1_1            |     2|
+'|50    |SRL16E                |   227|
 2default:default
 J
 %s*synth2;
-'|51    |SRL16                 |     2|
+'|51    |SRLC16E               |    13|
 2default:default
 J
 %s*synth2;
-'|52    |SRL16E                |   227|
+'|52    |SRLC32E               |   259|
 2default:default
 J
 %s*synth2;
-'|53    |SRLC16E               |    13|
+'|53    |XADC                  |     1|
 2default:default
 J
 %s*synth2;
-'|54    |SRLC32E               |   259|
+'|54    |XORCY                 |   240|
 2default:default
 J
 %s*synth2;
-'|55    |XADC                  |     1|
+'|55    |FDCE                  |   644|
 2default:default
 J
 %s*synth2;
-'|56    |XORCY                 |   240|
+'|56    |FDC_1                 |     1|
 2default:default
 J
 %s*synth2;
-'|57    |FDCE                  |   644|
+'|57    |FDE                   |    32|
 2default:default
 J
 %s*synth2;
-'|58    |FDC_1                 |     1|
+'|58    |FDPE                  |   144|
 2default:default
 J
 %s*synth2;
-'|59    |FDE                   |    32|
+'|59    |FDR                   |   149|
 2default:default
 J
 %s*synth2;
-'|60    |FDPE                  |   144|
+'|60    |FDRE                  | 14067|
 2default:default
 J
 %s*synth2;
-'|61    |FDR                   |   149|
+'|61    |FDRE_1                |     1|
 2default:default
 J
 %s*synth2;
-'|62    |FDRE                  | 37021|
+'|62    |FDS                   |    21|
 2default:default
 J
 %s*synth2;
-'|63    |FDRE_1                |     1|
+'|63    |FDSE                  |   239|
 2default:default
 J
 %s*synth2;
-'|64    |FDS                   |    21|
+'|64    |IBUF                  |     8|
 2default:default
 J
 %s*synth2;
-'|65    |FDSE                  |   488|
+'|65    |IOBUFDS_INTERMDISABLE |     2|
 2default:default
 J
 %s*synth2;
-'|66    |IBUF                  |     8|
+'|66    |IOBUF_INTERMDISABLE   |    16|
 2default:default
 J
 %s*synth2;
-'|67    |IOBUFDS_INTERMDISABLE |     2|
+'|67    |OBUF                  |    37|
 2default:default
 J
 %s*synth2;
-'|68    |IOBUF_INTERMDISABLE   |    16|
+'|68    |OBUFDS                |     1|
 2default:default
 J
 %s*synth2;
-'|69    |OBUF                  |    37|
-2default:default
-J
-%s*synth2;
-'|70    |OBUFDS                |     1|
-2default:default
-J
-%s*synth2;
-'|71    |OBUFT                 |     2|
+'|69    |OBUFT                 |     2|
 2default:default
 J
 %s*synth2;
@@ -112571,278 +111111,278 @@ J
 
 Report Instance Areas: 
 2default:default
-÷
-%s*synth2∆
-±+------+-----------------------------------------------------------------------------------------------------------------+---------------------------------------------+-------+
+’
+%s*synth2≈
+∞+------+-----------------------------------------------------------------------------------------------------------------+---------------------------------------------+------+
 2default:default
-÷
-%s*synth2∆
-±|      |Instance                                                                                                         |Module                                       |Cells  |
+’
+%s*synth2≈
+∞|      |Instance                                                                                                         |Module                                       |Cells |
 2default:default
-÷
-%s*synth2∆
-±+------+-----------------------------------------------------------------------------------------------------------------+---------------------------------------------+-------+
+’
+%s*synth2≈
+∞+------+-----------------------------------------------------------------------------------------------------------------+---------------------------------------------+------+
 2default:default
-÷
-%s*synth2∆
-±|1     |top                                                                                                              |                                             | 112340|
+’
+%s*synth2≈
+∞|1     |top                                                                                                              |                                             | 29546|
 2default:default
-÷
-%s*synth2∆
-±|2     |  design_1_i                                                                                                     |design_1                                     | 112318|
+’
+%s*synth2≈
+∞|2     |  design_1_i                                                                                                     |design_1                                     | 29524|
 2default:default
-÷
-%s*synth2∆
-±|3     |    aicontroller_0                                                                                               |design_1_aicontroller_0_0                    |  82801|
+’
+%s*synth2≈
+∞|3     |    aicontroller_0                                                                                               |design_1_aicontroller_0_0                    |     2|
 2default:default
-÷
-%s*synth2∆
-±|4     |    clk_wiz_1                                                                                                    |design_1_clk_wiz_1_0                         |      7|
+’
+%s*synth2≈
+∞|4     |    clk_wiz_1                                                                                                    |design_1_clk_wiz_1_0                         |     7|
 2default:default
-÷
-%s*synth2∆
-±|5     |      inst                                                                                                       |design_1_clk_wiz_1_0_clk_wiz                 |      7|
+’
+%s*synth2≈
+∞|5     |      inst                                                                                                       |design_1_clk_wiz_1_0_clk_wiz                 |     7|
 2default:default
-÷
-%s*synth2∆
-±|6     |    mig_7series_0                                                                                                |design_1_mig_7series_0_3                     |  11333|
+’
+%s*synth2≈
+∞|6     |    mig_7series_0                                                                                                |design_1_mig_7series_0_3                     | 11331|
 2default:default
-÷
-%s*synth2∆
-±|7     |      \u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/u_ddr_phy_rdlvl  |mig_7series_v2_0_ddr_phy_rdlvl               |   1742|
+’
+%s*synth2≈
+∞|7     |      \u_design_1_mig_7series_0_3_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/u_ddr_phy_rdlvl  |mig_7series_v2_0_ddr_phy_rdlvl               |  1742|
 2default:default
-÷
-%s*synth2∆
-±|8     |    xlconstant_0                                                                                                 |design_1_xlconstant_0_0                      |      0|
+’
+%s*synth2≈
+∞|8     |    xlconstant_0                                                                                                 |design_1_xlconstant_0_0                      |     0|
 2default:default
-÷
-%s*synth2∆
-±|9     |    xlconcat_0                                                                                                   |design_1_xlconcat_0_0                        |      0|
+’
+%s*synth2≈
+∞|9     |    xlconcat_0                                                                                                   |design_1_xlconcat_0_0                        |     0|
 2default:default
-÷
-%s*synth2∆
-±|10    |    axi_5but                                                                                                     |design_1_axi_gpio_0_0                        |    101|
+’
+%s*synth2≈
+∞|10    |    axi_5but                                                                                                     |design_1_axi_gpio_0_0                        |   101|
 2default:default
-÷
-%s*synth2∆
-±|11    |      U0                                                                                                         |axi_gpio__parameterized0                     |    101|
+’
+%s*synth2≈
+∞|11    |      U0                                                                                                         |axi_gpio__parameterized0                     |   101|
 2default:default
-÷
-%s*synth2∆
-±|12    |        \gpio_core_1/Not_Dual.INPUT_DOUBLE_REGS3                                                                 |cdc_sync                                     |     20|
+’
+%s*synth2≈
+∞|12    |        \gpio_core_1/Not_Dual.INPUT_DOUBLE_REGS3                                                                 |cdc_sync                                     |    20|
 2default:default
-÷
-%s*synth2∆
-±|13    |    axi_bram_ai_cntrl                                                                                            |design_1_axi_bram_ctrl_0_0                   |    461|
+’
+%s*synth2≈
+∞|13    |    axi_bram_ai_cntrl                                                                                            |design_1_axi_bram_ctrl_0_0                   |   461|
 2default:default
-÷
-%s*synth2∆
-±|14    |    axi_mem_intercon                                                                                             |design_1_axi_mem_intercon_1                  |   3491|
+’
+%s*synth2≈
+∞|14    |    axi_mem_intercon                                                                                             |design_1_axi_mem_intercon_1                  |  3489|
 2default:default
-÷
-%s*synth2∆
-±|15    |      \m00_couplers/auto_cc                                                                                      |design_1_auto_cc_0                           |   1191|
+’
+%s*synth2≈
+∞|15    |      \m00_couplers/auto_cc                                                                                      |design_1_auto_cc_0                           |  1191|
 2default:default
-÷
-%s*synth2∆
-±|16    |        inst                                                                                                     |axi_clock_converter_v2_1_axi_clock_converter |   1191|
+’
+%s*synth2≈
+∞|16    |        inst                                                                                                     |axi_clock_converter_v2_1_axi_clock_converter |  1191|
 2default:default
-÷
-%s*synth2∆
-±|17    |          \gen_clock_conv.gen_async_conv.asyncfifo_axi                                                           |fifo_generator_v12_0                         |   1190|
+’
+%s*synth2≈
+∞|17    |          \gen_clock_conv.gen_async_conv.asyncfifo_axi                                                           |fifo_generator_v12_0                         |  1190|
 2default:default
-÷
-%s*synth2∆
-±|18    |      \s00_couplers/auto_us                                                                                      |design_1_auto_us_0                           |   1162|
+’
+%s*synth2≈
+∞|18    |      \s00_couplers/auto_us                                                                                      |design_1_auto_us_0                           |  1160|
 2default:default
-÷
-%s*synth2∆
-±|19    |        inst                                                                                                     |axi_dwidth_converter_v2_1_top                |   1162|
+’
+%s*synth2≈
+∞|19    |        inst                                                                                                     |axi_dwidth_converter_v2_1_top                |  1160|
 2default:default
-÷
-%s*synth2∆
-±|20    |      xbar                                                                                                       |design_1_xbar_3                              |   1136|
+’
+%s*synth2≈
+∞|20    |      xbar                                                                                                       |design_1_xbar_3                              |  1136|
 2default:default
-÷
-%s*synth2∆
-±|21    |    rst_mig_7series_0_81M                                                                                        |design_1_rst_mig_7series_0_81M_1             |     64|
+’
+%s*synth2≈
+∞|21    |    rst_mig_7series_0_81M                                                                                        |design_1_rst_mig_7series_0_81M_1             |    64|
 2default:default
-÷
-%s*synth2∆
-±|22    |    axi_uartlite_0                                                                                               |design_1_axi_uartlite_0_0                    |    229|
+’
+%s*synth2≈
+∞|22    |    axi_uartlite_0                                                                                               |design_1_axi_uartlite_0_0                    |   229|
 2default:default
-÷
-%s*synth2∆
-±|23    |      U0                                                                                                         |axi_uartlite__parameterized0                 |    229|
+’
+%s*synth2≈
+∞|23    |      U0                                                                                                         |axi_uartlite__parameterized0                 |   229|
 2default:default
-÷
-%s*synth2∆
-±|24    |        \UARTLITE_CORE_I/UARTLITE_RX_I/INPUT_DOUBLE_REGS3                                                        |cdc_sync__parameterized4                     |      4|
+’
+%s*synth2≈
+∞|24    |        \UARTLITE_CORE_I/UARTLITE_RX_I/INPUT_DOUBLE_REGS3                                                        |cdc_sync__parameterized4                     |     4|
 2default:default
-÷
-%s*synth2∆
-±|25    |    rst_clk_wiz_1_100M                                                                                           |design_1_rst_clk_wiz_1_100M_0                |     64|
+’
+%s*synth2≈
+∞|25    |    rst_clk_wiz_1_100M                                                                                           |design_1_rst_clk_wiz_1_100M_0                |    64|
 2default:default
-÷
-%s*synth2∆
-±|26    |    mdm_1                                                                                                        |design_1_mdm_1_0                             |    381|
+’
+%s*synth2≈
+∞|26    |    mdm_1                                                                                                        |design_1_mdm_1_0                             |   381|
 2default:default
-÷
-%s*synth2∆
-±|27    |      U0                                                                                                         |MDM__parameterized0                          |    381|
+’
+%s*synth2≈
+∞|27    |      U0                                                                                                         |MDM__parameterized0                          |   381|
 2default:default
-÷
-%s*synth2∆
-±|28    |    microblaze_0                                                                                                 |design_1_microblaze_0_0                      |   9299|
+’
+%s*synth2≈
+∞|28    |    microblaze_0                                                                                                 |design_1_microblaze_0_0                      |  9308|
 2default:default
-÷
-%s*synth2∆
-±|29    |      U0                                                                                                         |MicroBlaze__parameterized0                   |   9299|
+’
+%s*synth2≈
+∞|29    |      U0                                                                                                         |MicroBlaze__parameterized0                   |  9308|
 2default:default
-÷
-%s*synth2∆
-±|30    |        \MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I                                               |Register_File_gti__parameterized0            |     16|
+’
+%s*synth2≈
+∞|30    |        \MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I                                               |Register_File_gti__parameterized0            |    16|
 2default:default
-÷
-%s*synth2∆
-±|31    |    microblaze_0_axi_intc                                                                                        |design_1_microblaze_0_axi_intc_0             |    374|
+’
+%s*synth2≈
+∞|31    |    microblaze_0_axi_intc                                                                                        |design_1_microblaze_0_axi_intc_0             |   374|
 2default:default
-÷
-%s*synth2∆
-±|32    |      U0                                                                                                         |axi_intc__parameterized0                     |    374|
+’
+%s*synth2≈
+∞|32    |      U0                                                                                                         |axi_intc__parameterized0                     |   374|
 2default:default
-÷
-%s*synth2∆
-±|33    |    microblaze_0_axi_periph                                                                                      |design_1_microblaze_0_axi_periph_1           |    470|
+’
+%s*synth2≈
+∞|33    |    microblaze_0_axi_periph                                                                                      |design_1_microblaze_0_axi_periph_1           |   470|
 2default:default
-÷
-%s*synth2∆
-±|34    |      \m05_couplers/auto_pc                                                                                      |design_1_auto_pc_0                           |      0|
+’
+%s*synth2≈
+∞|34    |      \m05_couplers/auto_pc                                                                                      |design_1_auto_pc_0                           |     0|
 2default:default
-÷
-%s*synth2∆
-±|35    |      xbar                                                                                                       |design_1_xbar_2                              |    470|
+’
+%s*synth2≈
+∞|35    |      xbar                                                                                                       |design_1_xbar_2                              |   470|
 2default:default
-÷
-%s*synth2∆
-±|36    |    blk_mem_gen_ai                                                                                               |design_1_blk_mem_gen_0_1                     |      2|
+’
+%s*synth2≈
+∞|36    |    blk_mem_gen_ai                                                                                               |design_1_blk_mem_gen_0_1                     |     2|
 2default:default
-÷
-%s*synth2∆
-±|37    |    axi_tft_0                                                                                                    |design_1_axi_tft_0_0                         |   2452|
+’
+%s*synth2≈
+∞|37    |    axi_tft_0                                                                                                    |design_1_axi_tft_0_0                         |  2452|
 2default:default
-÷
-%s*synth2∆
-±|38    |      U0                                                                                                         |axi_tft__parameterized0                      |   2452|
+’
+%s*synth2≈
+∞|38    |      U0                                                                                                         |axi_tft__parameterized0                      |  2452|
 2default:default
-÷
-%s*synth2∆
-±|39    |        \TFT_CTRL_I/INTR_EN_SYNC                                                                                 |cdc_sync__parameterized0__2                  |      4|
+’
+%s*synth2≈
+∞|39    |        \TFT_CTRL_I/INTR_EN_SYNC                                                                                 |cdc_sync__parameterized0__2                  |     4|
 2default:default
-÷
-%s*synth2∆
-±|40    |        \TFT_CTRL_I/GET_LINE_SYNC                                                                                |cdc_sync__parameterized1__4                  |     10|
+’
+%s*synth2≈
+∞|40    |        \TFT_CTRL_I/GET_LINE_SYNC                                                                                |cdc_sync__parameterized1__4                  |    10|
 2default:default
-÷
-%s*synth2∆
-±|41    |        \TFT_CTRL_I/V_P_SYNC                                                                                     |cdc_sync__parameterized1__5                  |     10|
+’
+%s*synth2≈
+∞|41    |        \TFT_CTRL_I/V_P_SYNC                                                                                     |cdc_sync__parameterized1__5                  |    10|
 2default:default
-÷
-%s*synth2∆
-±|42    |        \TFT_CTRL_I/V_BP_SYNC                                                                                    |cdc_sync__parameterized1__6                  |     10|
+’
+%s*synth2≈
+∞|42    |        \TFT_CTRL_I/V_BP_SYNC                                                                                    |cdc_sync__parameterized1__6                  |    10|
 2default:default
-÷
-%s*synth2∆
-±|43    |        \TFT_CTRL_I/TFT_ON_MAXI_SYNC                                                                             |cdc_sync__parameterized0                     |      4|
+’
+%s*synth2≈
+∞|43    |        \TFT_CTRL_I/TFT_ON_MAXI_SYNC                                                                             |cdc_sync__parameterized0                     |     4|
 2default:default
-÷
-%s*synth2∆
-±|44    |        \TFT_CTRL_I/BASE_ADDR_SYNC                                                                               |cdc_sync__parameterized2                     |     44|
+’
+%s*synth2≈
+∞|44    |        \TFT_CTRL_I/BASE_ADDR_SYNC                                                                               |cdc_sync__parameterized2                     |    44|
 2default:default
-÷
-%s*synth2∆
-±|45    |        \TFT_CTRL_I/TFT_ON_TFT_SYNC                                                                              |cdc_sync__parameterized3__2                  |      2|
+’
+%s*synth2≈
+∞|45    |        \TFT_CTRL_I/TFT_ON_TFT_SYNC                                                                              |cdc_sync__parameterized3__2                  |     2|
 2default:default
-÷
-%s*synth2∆
-±|46    |        \TFT_CTRL_I/V_INTR_SYNC                                                                                  |cdc_sync__parameterized1                     |     10|
+’
+%s*synth2≈
+∞|46    |        \TFT_CTRL_I/V_INTR_SYNC                                                                                  |cdc_sync__parameterized1                     |    10|
 2default:default
-÷
-%s*synth2∆
-±|47    |        \TFT_CTRL_I/I2C_DONE_SYNC                                                                                |cdc_sync__parameterized3                     |      2|
+’
+%s*synth2≈
+∞|47    |        \TFT_CTRL_I/I2C_DONE_SYNC                                                                                |cdc_sync__parameterized3                     |     2|
 2default:default
-÷
-%s*synth2∆
-±|48    |    Board_Analyzer_BRAM_0                                                                                        |design_1_Board_Analyzer_BRAM_0_0             |    756|
+’
+%s*synth2≈
+∞|48    |    Board_Analyzer_BRAM_0                                                                                        |design_1_Board_Analyzer_BRAM_0_0             |   756|
 2default:default
-÷
-%s*synth2∆
-±|49    |    xlslice_2                                                                                                    |design_1_xlslice_0_2                         |      0|
+’
+%s*synth2≈
+∞|49    |    xlslice_2                                                                                                    |design_1_xlslice_0_2                         |     0|
 2default:default
-÷
-%s*synth2∆
-±|50    |    xlslice_0                                                                                                    |design_1_xlslice_0_0                         |      0|
+’
+%s*synth2≈
+∞|50    |    xlslice_0                                                                                                    |design_1_xlslice_0_0                         |     0|
 2default:default
-÷
-%s*synth2∆
-±|51    |    xlslice_1                                                                                                    |design_1_xlslice_0_1                         |      0|
+’
+%s*synth2≈
+∞|51    |    xlslice_1                                                                                                    |design_1_xlslice_0_1                         |     0|
 2default:default
-÷
-%s*synth2∆
-±|52    |    microblaze_0_local_memory                                                                                    |microblaze_0_local_memory_imp_Z0DGSF         |     33|
+’
+%s*synth2≈
+∞|52    |    microblaze_0_local_memory                                                                                    |microblaze_0_local_memory_imp_Z0DGSF         |    33|
 2default:default
-÷
-%s*synth2∆
-±|53    |      dlmb_bram_if_cntlr                                                                                         |design_1_dlmb_bram_if_cntlr_0                |      8|
+’
+%s*synth2≈
+∞|53    |      dlmb_bram_if_cntlr                                                                                         |design_1_dlmb_bram_if_cntlr_0                |     8|
 2default:default
-÷
-%s*synth2∆
-±|54    |      dlmb_v10                                                                                                   |design_1_dlmb_v10_0                          |      1|
+’
+%s*synth2≈
+∞|54    |      dlmb_v10                                                                                                   |design_1_dlmb_v10_0                          |     1|
 2default:default
-÷
-%s*synth2∆
-±|55    |        U0                                                                                                       |lmb_v10__parameterized0                      |      1|
+’
+%s*synth2≈
+∞|55    |        U0                                                                                                       |lmb_v10__parameterized0                      |     1|
 2default:default
-÷
-%s*synth2∆
-±|56    |      ilmb_bram_if_cntlr                                                                                         |design_1_ilmb_bram_if_cntlr_0                |      7|
+’
+%s*synth2≈
+∞|56    |      ilmb_bram_if_cntlr                                                                                         |design_1_ilmb_bram_if_cntlr_0                |     7|
 2default:default
-÷
-%s*synth2∆
-±|57    |      ilmb_v10                                                                                                   |design_1_ilmb_v10_0                          |      1|
+’
+%s*synth2≈
+∞|57    |      ilmb_v10                                                                                                   |design_1_ilmb_v10_0                          |     1|
 2default:default
-÷
-%s*synth2∆
-±|58    |        U0                                                                                                       |lmb_v10__parameterized0__1                   |      1|
+’
+%s*synth2≈
+∞|58    |        U0                                                                                                       |lmb_v10__parameterized0__1                   |     1|
 2default:default
-÷
-%s*synth2∆
-±|59    |      lmb_bram                                                                                                   |design_1_lmb_bram_0                          |     16|
+’
+%s*synth2≈
+∞|59    |      lmb_bram                                                                                                   |design_1_lmb_bram_0                          |    16|
 2default:default
-÷
-%s*synth2∆
-±+------+-----------------------------------------------------------------------------------------------------------------+---------------------------------------------+-------+
+’
+%s*synth2≈
+∞+------+-----------------------------------------------------------------------------------------------------------------+---------------------------------------------+------+
 2default:default
 ®
 %s*synth2ò
-ÉFinished Writing Synthesis Report : Time (s): cpu = 00:10:48 ; elapsed = 00:10:54 . Memory (MB): peak = 3279.133 ; gain = 2642.215
+ÉFinished Writing Synthesis Report : Time (s): cpu = 00:15:07 ; elapsed = 00:15:21 . Memory (MB): peak = 2203.348 ; gain = 1566.426
 2default:default
 l
 %s*synth2]
-ISynthesis finished with 0 errors, 0 critical warnings and 2899 warnings.
+ISynthesis finished with 0 errors, 0 critical warnings and 1965 warnings.
 2default:default
 ¶
 %s*synth2ñ
-ÅSynthesis Optimization Complete : Time (s): cpu = 00:10:48 ; elapsed = 00:10:54 . Memory (MB): peak = 3279.133 ; gain = 2642.215
+ÅSynthesis Optimization Complete : Time (s): cpu = 00:15:07 ; elapsed = 00:15:21 . Memory (MB): peak = 2203.348 ; gain = 1566.426
 2default:default
-_
+^
 -Analyzing %s Unisim elements for replacement
-17*netlist2
-10942default:defaultZ29-17
+17*netlist2
+8752default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
-02default:defaultZ29-28
+12default:defaultZ29-28
 ^
 1Inserted %s IBUFs to IO ports without IO buffers.100*opt2
 02default:defaultZ31-140
@@ -112884,8 +111424,8 @@ L
 ¬
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
-18622default:default2
-3972default:default2
+18612default:default2
+3892default:default2
 782default:default2
 02default:defaultZ4-41
 U
@@ -112896,15 +111436,15 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:11:032default:default2
-00:11:082default:default2
-3279.1372default:default2
-2453.4842default:defaultZ17-268
+00:15:162default:default2
+00:15:312default:default2
+2203.3522default:default2
+1377.6952default:defaultZ17-268
 
-sreport_utilization: Time (s): cpu = 00:00:00.79 ; elapsed = 00:00:01 . Memory (MB): peak = 3279.137 ; gain = 0.000
+sreport_utilization: Time (s): cpu = 00:00:00.85 ; elapsed = 00:00:01 . Memory (MB): peak = 2203.352 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Tue Mar 24 01:14:47 20152default:defaultZ17-206
+Tue Mar 24 15:38:02 20152default:defaultZ17-206

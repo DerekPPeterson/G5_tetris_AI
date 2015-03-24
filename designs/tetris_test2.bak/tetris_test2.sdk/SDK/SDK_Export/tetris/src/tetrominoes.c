@@ -97,7 +97,6 @@ void gen_next(int bag[])
 			new_piece_id = rand() % 7;
 		} while (picked[new_piece_id]);
 		picked[new_piece_id] = 1;
-
 		bag[N_TETRONIMOES + i] = new_piece_id;
 	}
 }
@@ -109,6 +108,7 @@ void decide_next_piece(int* next_pieces) {
 	if (init == 1) {
 		gen_next(bag);
 		gen_next(bag);
+		init = 0;
 	}
 
 	if (cur_bag_pos == N_TETRONIMOES) {

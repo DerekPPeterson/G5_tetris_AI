@@ -186,7 +186,7 @@ GAME_START:
                 make_moves(moves, &cur_piece, board);
 #endif
 				decide_next_piece(next_pieces);
-				display = 1;
+				//display = 1;
 			}
 			//display = 1;
 			drop_counter = 0;
@@ -204,7 +204,7 @@ GAME_START:
 			display_on_vga(display_board);
 			display = 0;
 
-			draw_rect(0, 100, 110, 113, 0x222222);
+			draw_rect(50, 100, 100, 113, 0x222222);
 			draw_num(score, 100, 100);
 		} else {
 #if !AI_CNTRL

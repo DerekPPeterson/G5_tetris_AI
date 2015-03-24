@@ -47,12 +47,12 @@
 // DO NOT MODIFY THIS FILE.
 
 
-// IP VLNV: xilinx.com:user:aicontroller:1.5
+// IP VLNV: xilinx.com:user:aicontroller:2.0
 // IP Revision: 1
 
 (* X_CORE_INFO = "aicontroller,Vivado 2014.1" *)
 (* CHECK_LICENSE_TYPE = "design_1_aicontroller_0_0,aicontroller,{}" *)
-(* CORE_GENERATION_INFO = "design_1_aicontroller_0_0,aicontroller,{x_ipProduct=Vivado 2014.1,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=aicontroller,x_ipVersion=1.5,x_ipCoreRevision=1,x_ipLanguage=VERILOG,INIT=0,DONE=4}" *)
+(* CORE_GENERATION_INFO = "design_1_aicontroller_0_0,aicontroller,{x_ipProduct=Vivado 2014.1,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=aicontroller,x_ipVersion=2.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,INIT=0,DONE=4}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module design_1_aicontroller_0_0 (
   clk,

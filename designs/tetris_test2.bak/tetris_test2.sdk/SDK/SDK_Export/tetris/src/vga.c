@@ -45,6 +45,9 @@ void draw_block(int xpos, int ypos) {
 	}
 }
 
+// Draw a rectange into the current buffer
+// x1,y1 first corner, x2,y2 second corner
+// colour determines the colour to be drawn
 void draw_rect(int x1, int y1, int x2, int y2, int colour) {
 	int x, y;
 
@@ -55,8 +58,13 @@ void draw_rect(int x1, int y1, int x2, int y2, int colour) {
 	}
 }
 
+// Draw a single digit on the screen
+// d - the value to draw (0-9)
+// x,y -- position of the upper right portion of the digit
+// digits fit in a 8x14 rectangle
 void draw_digit(int d, int x, int y)
 {
+	x = x - 8;
 	int colour = 0xFFFF;
 	switch (d) {
 	case 0:
@@ -121,6 +129,9 @@ void draw_digit(int d, int x, int y)
 	}
 }
 
+// Draw a number into the current buffer
+// n - number to draw
+// x, y - upper right portion of the number (eg 1231434* * - is the posiotn of x, y)
 void draw_num(int n, int x, int y)
 {
 	int digit = n  % 10;
