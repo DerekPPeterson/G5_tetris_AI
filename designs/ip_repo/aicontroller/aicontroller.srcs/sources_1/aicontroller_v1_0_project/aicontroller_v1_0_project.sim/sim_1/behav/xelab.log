@@ -1,0 +1,35 @@
+Vivado Simulator 2014.1
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.1/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot aicontroller_tb_behav --prj D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_0_project/aicontroller_v1_0_project.sim/sim_1/behav/aicontroller_tb.prj xil_defaultlib.aicontroller_tb xil_defaultlib.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eval_block
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/imports/new/placement.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module placement
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module score_ten
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/new/aicontroller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aicontroller
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_0_project/aicontroller_v1_0_project.srcs/sim_1/new/aicontroller_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aicontroller_tb
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Xilinx/Vivado/2014.1/data/verilog/src/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port next_col0 [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:362]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port next_col0 [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:405]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port next_col1 [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:406]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port next_col0 [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:448]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port next_col1 [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:449]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port next_col2 [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:450]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.placement
+Compiling module xil_defaultlib.eval_block
+Compiling module xil_defaultlib.score_ten
+Compiling module xil_defaultlib.aicontroller
+Compiling module xil_defaultlib.aicontroller_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...

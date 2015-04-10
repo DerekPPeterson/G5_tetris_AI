@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:12:35 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Tue Mar 24 17:05:18 2015
+# Process ID: 2296
+# Log file: D:/Library/Dropbox/ECE532/ECE532_Shared/Milestone6/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.runs/synth_1/aicontroller.vds
+# Journal file: D:/Library/Dropbox/ECE532/ECE532_Shared/Milestone6/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source aicontroller.tcl

@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:12:35 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Tue Mar 24 17:55:42 2015
+# Process ID: 6096
+# Log file: D:/Library/Dropbox/ECE532/ECE532_Shared/Milestone6/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/vivado.log
+# Journal file: D:/Library/Dropbox/ECE532/ECE532_Shared/Milestone6/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:\Library\Dropbox\ECE532\ECE532_Shared\Milestone6\IP\aicontroller\aicontroller.srcs\sources_1\aicontroller_v1_4_project\aicontroller_v1_4_project.xpr}
+ipx::open_ipxact_file {D:/Library/Dropbox/ECE532/ECE532_Shared/Milestone6/IP/aicontroller/aicontroller.srcs/sources_1/component.xml}
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Library/Dropbox/ECE532/ECE532_Shared/Milestone6/IP/aicontroller/aicontroller.srcs/sources_1
+set_property version {2.2} [ipx::current_core]
+set_property display_name {aicontroller_v2_2_new_eval} [ipx::current_core]
+set_property description {aicontroller_v2_2_new_eval} [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Library/Dropbox/ECE532/ECE532_Shared/Milestone6/IP/aicontroller/aicontroller.srcs/sources_1
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Library/Dropbox/ECE532/ECE532_Shared/Milestone6/IP/aicontroller/aicontroller.srcs/sources_1
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/Library/Dropbox/ECE532/ECE532_Shared/Milestone6/IP/aicontroller/aicontroller.srcs/sources_1

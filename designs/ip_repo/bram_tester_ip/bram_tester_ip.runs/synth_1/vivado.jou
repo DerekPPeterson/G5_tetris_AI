@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Tue Feb 24 23:13:27 2015
+# Process ID: 23220
+# Log file: D:/Libraries/University/ECE532/IP/bram_tester_ip/bram_tester_ip.runs/synth_1/bram_tester.vds
+# Journal file: D:/Libraries/University/ECE532/IP/bram_tester_ip/bram_tester_ip.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source bram_tester.tcl

@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:12:35 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Tue Mar 24 17:55:37 2015
+# Process ID: 3952
+# Log file: D:/Library/Dropbox/ECE532/ECE532_Shared/Milestone6/IP/aicontroller/vivado.log
+# Journal file: D:/Library/Dropbox/ECE532/ECE532_Shared/Milestone6/IP/aicontroller\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:\Library\Dropbox\ECE532\ECE532_Shared\Milestone6\IP\aicontroller\aicontroller.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/Library/Documents/ECE532/Milestone3/aicontroller' since last save.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'D:/Library/Dropbox/ECE532/ECE532_Shared/Milestone6/IP/IP'; using path 'D:/Library/Documents/ECE532/Milestone3/IP' instead.
+Scanning sources...
+Finished scanning sources
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 820.426 ; gain = 12.234
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 24 17:56:54 2015...

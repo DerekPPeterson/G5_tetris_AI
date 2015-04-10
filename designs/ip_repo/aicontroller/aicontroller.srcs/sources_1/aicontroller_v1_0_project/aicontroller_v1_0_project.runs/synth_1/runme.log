@@ -1,0 +1,1675 @@
+
+*** Running vivado
+    with args -log aicontroller.vds -m64 -mode batch -messageDb vivado.pb -source aicontroller.tcl
+
+
+****** Vivado v2014.1 (64-bit)
+  **** SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+  **** IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source aicontroller.tcl
+# set_param gui.test TreeTableDev
+# set_msg_config -id {Common-41} -limit 4294967295
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a100tcsg324-1
+# set_property target_language Verilog [current_project]
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_property default_lib xil_defaultlib [current_project]
+# set_property ip_repo_paths {
+#   D:/Library/Documents/ECE532/Milestone4/IP
+#   D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1
+#   D:/Library/Documents/ECE532/Milestone4/IP
+# } [current_fileset]
+# read_verilog -library xil_defaultlib {
+#   D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v
+#   D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/imports/new/placement.v
+#   D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v
+#   D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/new/aicontroller.v
+# }
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_0_project/aicontroller_v1_0_project.cache/wt [current_project]
+# set_property parent.project_dir D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_0_project [current_project]
+# synth_design -top aicontroller -part xc7a100tcsg324-1
+Command: synth_design -top aicontroller -part xc7a100tcsg324-1
+
+Starting synthesis...
+
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:01:16 . Memory (MB): peak = 230.848 ; gain = 99.648
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'aicontroller' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/new/aicontroller.v:23]
+	Parameter INIT bound to: 32'sb00000000000000000000000000000000 
+	Parameter DONE bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'score_ten' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:23]
+	Parameter INIT bound to: 32'sb00000000000000000000000000000000 
+	Parameter DONE bound to: 10 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'placement' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/imports/new/placement.v:23]
+	Parameter WAIT bound to: 0 - type: integer 
+	Parameter INIT bound to: 32'sb00000000000000000000000000000001 
+	Parameter FIRST bound to: 2 - type: integer 
+	Parameter SECOND bound to: 3 - type: integer 
+	Parameter THIRD bound to: 4 - type: integer 
+	Parameter NXT bound to: 5 - type: integer 
+	Parameter DONE bound to: 6 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'placement' (1#1) [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/imports/new/placement.v:23]
+INFO: [Synth 8-638] synthesizing module 'eval_block' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:25]
+	Parameter WAIT bound to: 0 - type: integer 
+	Parameter SHFTR bound to: 1 - type: integer 
+	Parameter SHFTD bound to: 2 - type: integer 
+	Parameter ADJUST bound to: 3 - type: integer 
+	Parameter DONE bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'eval_block' (2#1) [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:25]
+WARNING: [Synth 8-350] instance 'eval_block00' of module 'eval_block' requires 17 connections, but only 15 given [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:73]
+WARNING: [Synth 8-350] instance 'eval_block01' of module 'eval_block' requires 17 connections, but only 15 given [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:116]
+WARNING: [Synth 8-350] instance 'eval_block02' of module 'eval_block' requires 17 connections, but only 15 given [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:159]
+WARNING: [Synth 8-350] instance 'eval_block03' of module 'eval_block' requires 17 connections, but only 15 given [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:202]
+WARNING: [Synth 8-350] instance 'eval_block04' of module 'eval_block' requires 17 connections, but only 15 given [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:245]
+WARNING: [Synth 8-350] instance 'eval_block05' of module 'eval_block' requires 17 connections, but only 15 given [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:288]
+WARNING: [Synth 8-350] instance 'eval_block06' of module 'eval_block' requires 17 connections, but only 15 given [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:331]
+WARNING: [Synth 8-689] width (1) of port connection 'next_col0' does not match port width (4) of module 'placement' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:362]
+WARNING: [Synth 8-350] instance 'eval_block07' of module 'eval_block' requires 17 connections, but only 15 given [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:374]
+WARNING: [Synth 8-689] width (1) of port connection 'next_col0' does not match port width (4) of module 'placement' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:405]
+WARNING: [Synth 8-689] width (1) of port connection 'next_col1' does not match port width (4) of module 'placement' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:406]
+WARNING: [Synth 8-350] instance 'eval_block08' of module 'eval_block' requires 17 connections, but only 15 given [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:417]
+WARNING: [Synth 8-689] width (1) of port connection 'next_col0' does not match port width (4) of module 'placement' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:448]
+WARNING: [Synth 8-689] width (1) of port connection 'next_col1' does not match port width (4) of module 'placement' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:449]
+WARNING: [Synth 8-689] width (1) of port connection 'next_col2' does not match port width (4) of module 'placement' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:450]
+WARNING: [Synth 8-350] instance 'eval_block09' of module 'eval_block' requires 17 connections, but only 15 given [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:460]
+WARNING: [Synth 8-3848] Net dummy_arr in module/entity score_ten does not have driver. [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:362]
+INFO: [Synth 8-256] done synthesizing module 'score_ten' (3#1) [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:23]
+INFO: [Synth 8-256] done synthesizing module 'aicontroller' (4#1) [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/new/aicontroller.v:23]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[13]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[12]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[11]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[10]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[9]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[8]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[7]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[6]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[5]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[4]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[3]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[2]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[1]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:01:18 . Memory (MB): peak = 279.660 ; gain = 148.461
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RTL Optimization
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:01:18 . Memory (MB): peak = 279.660 ; gain = 148.461
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Finished RTL Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:01:18 . Memory (MB): peak = 279.660 ; gain = 148.461
+---------------------------------------------------------------------------------
+
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'placement'
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:178]
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:178]
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:178]
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:178]
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:178]
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:178]
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:178]
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:178]
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:178]
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:178]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'score_ten'
+INFO: [Synth 8-4471] merging register 'next_array3_rot1_reg[3:0]' into 'next_array2_rot1_reg[3:0]' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/new/aicontroller.v:89]
+INFO: [Synth 8-4471] merging register 'next_array3_rot2_reg[3:0]' into 'next_array2_rot1_reg[3:0]' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/new/aicontroller.v:93]
+INFO: [Synth 8-4471] merging register 'next_array2_rot3_reg[3:0]' into 'next_array2_rot1_reg[3:0]' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/new/aicontroller.v:96]
+INFO: [Synth 8-4471] merging register 'next_array3_rot3_reg[3:0]' into 'next_array2_rot1_reg[3:0]' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/new/aicontroller.v:97]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'aicontroller'
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'placement'
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'score_ten'
+WARNING: [Synth 8-3848] Net dummy_arr in module/entity score_ten does not have driver. [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:362]
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'aicontroller'
+
+Report RTL Partitions: 
++------+------------------+------------+----------+
+|      |RTL Partition     |Replication |Instances |
++------+------------------+------------+----------+
+|1     |score_ten__GBM0   |           1|     42780|
+|2     |score_ten__GBM1   |           1|     15690|
+|3     |score_ten__GBM2   |           1|     23535|
+|4     |aicontroller__GC0 |           1|      1027|
++------+------------------+------------+----------+
+No constraint files found.
+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	  20 Input     23 Bit       Adders := 80    
+	  10 Input     14 Bit       Adders := 80    
+	   2 Input      6 Bit       Adders := 320   
+	   2 Input      5 Bit       Adders := 1000  
+	   2 Input      4 Bit       Adders := 1600  
++---XORs : 
+	   2 Input      5 Bit         XORs := 400   
+	   2 Input      4 Bit         XORs := 800   
++---Registers : 
+	               32 Bit    Registers := 49    
+	               20 Bit    Registers := 560   
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 160   
+	                5 Bit    Registers := 880   
+	                4 Bit    Registers := 1622  
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 290   
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 41    
+	  12 Input     32 Bit        Muxes := 8     
+	   2 Input     20 Bit        Muxes := 200   
+	   6 Input     20 Bit        Muxes := 400   
+	   8 Input     20 Bit        Muxes := 200   
+	   2 Input     16 Bit        Muxes := 2     
+	  11 Input     12 Bit        Muxes := 4     
+	   2 Input     12 Bit        Muxes := 8     
+	   2 Input      8 Bit        Muxes := 160   
+	   7 Input      8 Bit        Muxes := 40    
+	   6 Input      6 Bit        Muxes := 160   
+	   2 Input      6 Bit        Muxes := 2     
+	   5 Input      6 Bit        Muxes := 1     
+	   6 Input      5 Bit        Muxes := 800   
+	   7 Input      5 Bit        Muxes := 400   
+	   8 Input      5 Bit        Muxes := 40    
+	  12 Input      4 Bit        Muxes := 12    
+	   6 Input      4 Bit        Muxes := 3     
+	   3 Input      4 Bit        Muxes := 800   
+	   7 Input      4 Bit        Muxes := 1600  
+	   8 Input      4 Bit        Muxes := 11    
+	   2 Input      4 Bit        Muxes := 40    
+	   6 Input      3 Bit        Muxes := 40    
+	   2 Input      3 Bit        Muxes := 120   
+	   8 Input      3 Bit        Muxes := 40    
+	   2 Input      2 Bit        Muxes := 160   
+	   8 Input      2 Bit        Muxes := 3     
+	   6 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 1004  
+	  12 Input      1 Bit        Muxes := 16    
+	   2 Input      1 Bit        Muxes := 255   
+	   8 Input      1 Bit        Muxes := 244   
+
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module aicontroller 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                4 Bit    Registers := 14    
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 2     
+	   5 Input      6 Bit        Muxes := 1     
+	   8 Input      4 Bit        Muxes := 11    
+	   6 Input      4 Bit        Muxes := 3     
+	   6 Input      2 Bit        Muxes := 2     
+	   8 Input      2 Bit        Muxes := 3     
+	   6 Input      1 Bit        Muxes := 4     
+	   8 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 3     
+Module placement__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 5     
++---Registers : 
+	               20 Bit    Registers := 4     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 5     
+	   8 Input     20 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 4     
+	   7 Input      8 Bit        Muxes := 1     
+	   8 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
+Module eval_block__1 
+Detailed RTL Component Info : 
++---Adders : 
+	  20 Input     23 Bit       Adders := 2     
+	  10 Input     14 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 20    
+	   2 Input      4 Bit       Adders := 40    
++---XORs : 
+	   2 Input      5 Bit         XORs := 10    
+	   2 Input      4 Bit         XORs := 20    
++---Registers : 
+	               32 Bit    Registers := 1     
+	               20 Bit    Registers := 10    
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 21    
+	                4 Bit    Registers := 40    
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 1     
+	   6 Input     20 Bit        Muxes := 10    
+	   6 Input      6 Bit        Muxes := 4     
+	   7 Input      5 Bit        Muxes := 10    
+	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      4 Bit        Muxes := 40    
+	   3 Input      4 Bit        Muxes := 20    
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 25    
+Module placement__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 5     
++---Registers : 
+	               20 Bit    Registers := 4     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 5     
+	   8 Input     20 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 4     
+	   7 Input      8 Bit        Muxes := 1     
+	   8 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
+Module eval_block__2 
+Detailed RTL Component Info : 
++---Adders : 
+	  20 Input     23 Bit       Adders := 2     
+	  10 Input     14 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 20    
+	   2 Input      4 Bit       Adders := 40    
++---XORs : 
+	   2 Input      5 Bit         XORs := 10    
+	   2 Input      4 Bit         XORs := 20    
++---Registers : 
+	               32 Bit    Registers := 1     
+	               20 Bit    Registers := 10    
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 21    
+	                4 Bit    Registers := 40    
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 1     
+	   6 Input     20 Bit        Muxes := 10    
+	   6 Input      6 Bit        Muxes := 4     
+	   7 Input      5 Bit        Muxes := 10    
+	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      4 Bit        Muxes := 40    
+	   3 Input      4 Bit        Muxes := 20    
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 25    
+Module placement__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 5     
++---Registers : 
+	               20 Bit    Registers := 4     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 5     
+	   8 Input     20 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 4     
+	   7 Input      8 Bit        Muxes := 1     
+	   8 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
+Module eval_block__3 
+Detailed RTL Component Info : 
++---Adders : 
+	  20 Input     23 Bit       Adders := 2     
+	  10 Input     14 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 20    
+	   2 Input      4 Bit       Adders := 40    
++---XORs : 
+	   2 Input      5 Bit         XORs := 10    
+	   2 Input      4 Bit         XORs := 20    
++---Registers : 
+	               32 Bit    Registers := 1     
+	               20 Bit    Registers := 10    
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 21    
+	                4 Bit    Registers := 40    
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 1     
+	   6 Input     20 Bit        Muxes := 10    
+	   6 Input      6 Bit        Muxes := 4     
+	   7 Input      5 Bit        Muxes := 10    
+	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      4 Bit        Muxes := 40    
+	   3 Input      4 Bit        Muxes := 20    
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 25    
+Module placement__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 5     
++---Registers : 
+	               20 Bit    Registers := 4     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 5     
+	   8 Input     20 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 4     
+	   7 Input      8 Bit        Muxes := 1     
+	   8 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
+Module eval_block__4 
+Detailed RTL Component Info : 
++---Adders : 
+	  20 Input     23 Bit       Adders := 2     
+	  10 Input     14 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 20    
+	   2 Input      4 Bit       Adders := 40    
++---XORs : 
+	   2 Input      5 Bit         XORs := 10    
+	   2 Input      4 Bit         XORs := 20    
++---Registers : 
+	               32 Bit    Registers := 1     
+	               20 Bit    Registers := 10    
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 21    
+	                4 Bit    Registers := 40    
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 1     
+	   6 Input     20 Bit        Muxes := 10    
+	   6 Input      6 Bit        Muxes := 4     
+	   7 Input      5 Bit        Muxes := 10    
+	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      4 Bit        Muxes := 40    
+	   3 Input      4 Bit        Muxes := 20    
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 25    
+Module placement__5 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 5     
++---Registers : 
+	               20 Bit    Registers := 4     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 5     
+	   8 Input     20 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 4     
+	   7 Input      8 Bit        Muxes := 1     
+	   8 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
+Module eval_block__5 
+Detailed RTL Component Info : 
++---Adders : 
+	  20 Input     23 Bit       Adders := 2     
+	  10 Input     14 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 20    
+	   2 Input      4 Bit       Adders := 40    
++---XORs : 
+	   2 Input      5 Bit         XORs := 10    
+	   2 Input      4 Bit         XORs := 20    
++---Registers : 
+	               32 Bit    Registers := 1     
+	               20 Bit    Registers := 10    
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 21    
+	                4 Bit    Registers := 40    
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 1     
+	   6 Input     20 Bit        Muxes := 10    
+	   6 Input      6 Bit        Muxes := 4     
+	   7 Input      5 Bit        Muxes := 10    
+	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      4 Bit        Muxes := 40    
+	   3 Input      4 Bit        Muxes := 20    
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 25    
+Module eval_block__6 
+Detailed RTL Component Info : 
++---Adders : 
+	  20 Input     23 Bit       Adders := 2     
+	  10 Input     14 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 20    
+	   2 Input      4 Bit       Adders := 40    
++---XORs : 
+	   2 Input      5 Bit         XORs := 10    
+	   2 Input      4 Bit         XORs := 20    
++---Registers : 
+	               32 Bit    Registers := 1     
+	               20 Bit    Registers := 10    
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 21    
+	                4 Bit    Registers := 40    
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 1     
+	   6 Input     20 Bit        Muxes := 10    
+	   6 Input      6 Bit        Muxes := 4     
+	   7 Input      5 Bit        Muxes := 10    
+	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      4 Bit        Muxes := 40    
+	   3 Input      4 Bit        Muxes := 20    
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 25    
+Module placement__6 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 5     
++---Registers : 
+	               20 Bit    Registers := 4     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 5     
+	   8 Input     20 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 4     
+	   7 Input      8 Bit        Muxes := 1     
+	   8 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
+Module eval_block__7 
+Detailed RTL Component Info : 
++---Adders : 
+	  20 Input     23 Bit       Adders := 2     
+	  10 Input     14 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 20    
+	   2 Input      4 Bit       Adders := 40    
++---XORs : 
+	   2 Input      5 Bit         XORs := 10    
+	   2 Input      4 Bit         XORs := 20    
++---Registers : 
+	               32 Bit    Registers := 1     
+	               20 Bit    Registers := 10    
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 21    
+	                4 Bit    Registers := 40    
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 1     
+	   6 Input     20 Bit        Muxes := 10    
+	   6 Input      6 Bit        Muxes := 4     
+	   7 Input      5 Bit        Muxes := 10    
+	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      4 Bit        Muxes := 40    
+	   3 Input      4 Bit        Muxes := 20    
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 25    
+Module placement__7 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 5     
++---Registers : 
+	               20 Bit    Registers := 4     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 5     
+	   8 Input     20 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 4     
+	   7 Input      8 Bit        Muxes := 1     
+	   8 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
+Module eval_block__8 
+Detailed RTL Component Info : 
++---Adders : 
+	  20 Input     23 Bit       Adders := 2     
+	  10 Input     14 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 20    
+	   2 Input      4 Bit       Adders := 40    
++---XORs : 
+	   2 Input      5 Bit         XORs := 10    
+	   2 Input      4 Bit         XORs := 20    
++---Registers : 
+	               32 Bit    Registers := 1     
+	               20 Bit    Registers := 10    
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 21    
+	                4 Bit    Registers := 40    
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 1     
+	   6 Input     20 Bit        Muxes := 10    
+	   6 Input      6 Bit        Muxes := 4     
+	   7 Input      5 Bit        Muxes := 10    
+	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      4 Bit        Muxes := 40    
+	   3 Input      4 Bit        Muxes := 20    
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 25    
+Module placement__8 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 5     
++---Registers : 
+	               20 Bit    Registers := 4     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 5     
+	   8 Input     20 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 4     
+	   7 Input      8 Bit        Muxes := 1     
+	   8 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
+Module eval_block__9 
+Detailed RTL Component Info : 
++---Adders : 
+	  20 Input     23 Bit       Adders := 2     
+	  10 Input     14 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 20    
+	   2 Input      4 Bit       Adders := 40    
++---XORs : 
+	   2 Input      5 Bit         XORs := 10    
+	   2 Input      4 Bit         XORs := 20    
++---Registers : 
+	               32 Bit    Registers := 1     
+	               20 Bit    Registers := 10    
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 21    
+	                4 Bit    Registers := 40    
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 1     
+	   6 Input     20 Bit        Muxes := 10    
+	   6 Input      6 Bit        Muxes := 4     
+	   7 Input      5 Bit        Muxes := 10    
+	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      4 Bit        Muxes := 40    
+	   3 Input      4 Bit        Muxes := 20    
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 25    
+Module placement__9 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 5     
++---Registers : 
+	               20 Bit    Registers := 4     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 5     
+	   8 Input     20 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 4     
+	   7 Input      8 Bit        Muxes := 1     
+	   8 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
+Module eval_block 
+Detailed RTL Component Info : 
++---Adders : 
+	  20 Input     23 Bit       Adders := 2     
+	  10 Input     14 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 20    
+	   2 Input      4 Bit       Adders := 40    
++---XORs : 
+	   2 Input      5 Bit         XORs := 10    
+	   2 Input      4 Bit         XORs := 20    
++---Registers : 
+	               32 Bit    Registers := 1     
+	               20 Bit    Registers := 10    
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 21    
+	                4 Bit    Registers := 40    
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 1     
+	   6 Input     20 Bit        Muxes := 10    
+	   6 Input      6 Bit        Muxes := 4     
+	   7 Input      5 Bit        Muxes := 10    
+	   6 Input      5 Bit        Muxes := 20    
+	   7 Input      4 Bit        Muxes := 40    
+	   3 Input      4 Bit        Muxes := 20    
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 25    
+Module placement 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 5     
++---Registers : 
+	               20 Bit    Registers := 4     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 5     
+	   8 Input     20 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 4     
+	   7 Input      8 Bit        Muxes := 1     
+	   8 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
+Module score_ten 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	  12 Input     32 Bit        Muxes := 2     
+	  11 Input     12 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 2     
+	  12 Input      4 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 13    
+	  12 Input      1 Bit        Muxes := 4     
+
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Loading clock regions from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.1/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/ConfigModes.xml
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[5] ) is unused and will be removed from module eval_block__1.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[4] ) is unused and will be removed from module eval_block__1.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[3] ) is unused and will be removed from module eval_block__1.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[2] ) is unused and will be removed from module eval_block__1.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[1] ) is unused and will be removed from module eval_block__1.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[0] ) is unused and will be removed from module eval_block__1.
+INFO: [Synth 8-4471] merging register 'num_filled_reg[5:0]' into 'num_filled_reg[5:0]' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:201]
+DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+DSP Report: register max_height_reg is absorbed into DSP score_reg1.
+DSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+DSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+DSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+DSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[5] ) is unused and will be removed from module eval_block__2.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[4] ) is unused and will be removed from module eval_block__2.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[3] ) is unused and will be removed from module eval_block__2.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[2] ) is unused and will be removed from module eval_block__2.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[1] ) is unused and will be removed from module eval_block__2.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[0] ) is unused and will be removed from module eval_block__2.
+INFO: [Synth 8-4471] merging register 'num_filled_reg[5:0]' into 'num_filled_reg[5:0]' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:201]
+DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+DSP Report: register max_height_reg is absorbed into DSP score_reg1.
+DSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+DSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+DSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+DSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[19] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[18] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[17] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[16] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[15] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[14] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[13] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[12] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[11] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[10] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[9] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[8] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[7] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[6] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[5] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[4] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[3] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[2] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[1] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[0] ) is unused and will be removed from module placement__3.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[5] ) is unused and will be removed from module eval_block__3.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[4] ) is unused and will be removed from module eval_block__3.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[3] ) is unused and will be removed from module eval_block__3.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[2] ) is unused and will be removed from module eval_block__3.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[1] ) is unused and will be removed from module eval_block__3.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[0] ) is unused and will be removed from module eval_block__3.
+INFO: [Synth 8-4471] merging register 'num_filled_reg[5:0]' into 'num_filled_reg[5:0]' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:201]
+DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+DSP Report: register max_height_reg is absorbed into DSP score_reg1.
+DSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+DSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+DSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+DSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[19] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[18] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[17] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[16] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[15] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[14] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[13] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[12] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[11] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[10] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[9] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[8] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[7] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[6] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[5] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[4] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[3] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[2] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[1] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[0] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[19] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[18] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[17] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[16] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[15] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[14] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[13] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[12] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[11] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[10] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[9] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[8] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[7] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[6] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[5] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[4] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[3] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[2] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[1] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\col_out1_reg[0] ) is unused and will be removed from module placement__4.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[5] ) is unused and will be removed from module eval_block__4.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[4] ) is unused and will be removed from module eval_block__4.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[3] ) is unused and will be removed from module eval_block__4.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[2] ) is unused and will be removed from module eval_block__4.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[1] ) is unused and will be removed from module eval_block__4.
+WARNING: [Synth 8-3332] Sequential element (\num_rmv_reg[0] ) is unused and will be removed from module eval_block__4.
+INFO: [Synth 8-4471] merging register 'num_filled_reg[5:0]' into 'num_filled_reg[5:0]' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:201]
+DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+DSP Report: register max_height_reg is absorbed into DSP score_reg1.
+DSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+DSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+DSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+DSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[19] ) is unused and will be removed from module placement__5.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[18] ) is unused and will be removed from module placement__5.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[17] ) is unused and will be removed from module placement__5.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[16] ) is unused and will be removed from module placement__5.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[15] ) is unused and will be removed from module placement__5.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[14] ) is unused and will be removed from module placement__5.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[13] ) is unused and will be removed from module placement__5.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[12] ) is unused and will be removed from module placement__5.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[11] ) is unused and will be removed from module placement__5.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[10] ) is unused and will be removed from module placement__5.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[9] ) is unused and will be removed from module placement__5.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[8] ) is unused and will be removed from module placement__5.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[7] ) is unused and will be removed from module placement__5.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[6] ) is unused and will be removed from module placement__5.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[5] ) is unused and will be removed from module placement__5.
+WARNING: [Synth 8-3332] Sequential element (\col_out0_reg[4] ) is unused and will be removed from module placement__5.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-4471] merging register 'num_filled_reg[5:0]' into 'num_filled_reg[5:0]' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:201]
+DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+DSP Report: register max_height_reg is absorbed into DSP score_reg1.
+DSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+DSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+DSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+DSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+INFO: [Synth 8-4471] merging register 'num_filled_reg[5:0]' into 'num_filled_reg[5:0]' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:201]
+DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+DSP Report: register max_height_reg is absorbed into DSP score_reg1.
+DSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+DSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+DSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+DSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+INFO: [Synth 8-4471] merging register 'num_filled_reg[5:0]' into 'num_filled_reg[5:0]' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:201]
+DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+DSP Report: register max_height_reg is absorbed into DSP score_reg1.
+DSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+DSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+DSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+DSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+INFO: [Synth 8-4471] merging register 'num_filled_reg[5:0]' into 'num_filled_reg[5:0]' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:201]
+DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+DSP Report: register max_height_reg is absorbed into DSP score_reg1.
+DSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+DSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+DSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+DSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+INFO: [Synth 8-4471] merging register 'num_filled_reg[5:0]' into 'num_filled_reg[5:0]' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:201]
+DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+DSP Report: register max_height_reg is absorbed into DSP score_reg1.
+DSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+DSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+DSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+DSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+INFO: [Synth 8-4471] merging register 'num_filled_reg[5:0]' into 'num_filled_reg[5:0]' [D:/Libraries/University/ECE532/Milestone4_b/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:201]
+DSP Report: Generating DSP score_reg0, operation Mode is: (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg1, operation Mode is: (A:0x1194)*B2.
+DSP Report: register max_height_reg is absorbed into DSP score_reg1.
+DSP Report: operator score_reg1 is absorbed into DSP score_reg1.
+DSP Report: Generating DSP score_reg6, operation Mode is: (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg4, operation Mode is: (A:0x2484)*B.
+DSP Report: operator score_reg4 is absorbed into DSP score_reg4.
+DSP Report: Generating DSP score_reg3, operation Mode is: (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is: PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[13]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[12]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[11]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[10]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[9]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[8]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[7]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[6]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[5]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[4]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[3]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[2]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[1]
+WARNING: [Synth 8-3331] design aicontroller has unconnected port SWITCH[0]
+WARNING: [Synth 8-3323] Resources of type DSP have been overutilized. Used = 320, Available = 240. Use report_utilization command for details.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): (C:0xffff80000000)+(A:0xd5a)*B2.
+DSP Report: register num_filled_reg is absorbed into DSP score_reg0.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg2 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg6, operation Mode is (post resource management): (A:0xc91)*B.
+DSP Report: operator score_reg6 is absorbed into DSP score_reg6.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg3, operation Mode is (post resource management): (A:0x1edb)*B.
+DSP Report: operator score_reg3 is absorbed into DSP score_reg3.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-A:B-C.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: Generating DSP score_reg0, operation Mode is (post resource management): PCIN-(A:0xd39)*B.
+DSP Report: operator score_reg0 is absorbed into DSP score_reg0.
+DSP Report: operator score_reg5 is absorbed into DSP score_reg0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:01:38 . Memory (MB): peak = 612.309 ; gain = 481.109
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP:
++------------+---------------------------------+--------------+------------------+--------+--------+--------+--------+------+------+------+------+------+
+|Module Name | OP MODE                         | Neg Edge Clk | A Size (Signed?) | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | PREG | 
++------------+---------------------------------+--------------+------------------+--------+--------+--------+--------+------+------+------+------+------+
+|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (C:0xffff80000000)+(A:0xd5a)*B2 | No           | 6 (N)            | 12 (N) | 32 (Y) | 25 (N) | 32 (Y) | 1    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x1194)*B2                   | No           | 6 (N)            | 13 (N) | 48 (N) | 25 (N) | 19 (N) | 1    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0xc91)*B                     | No           | 9 (N)            | 12 (N) | 48 (N) | 25 (N) | 21 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | (A:0x2484)*B                    | No           | 9 (N)            | 14 (N) | 48 (N) | 25 (N) | 23 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | (A:0x1edb)*B                    | No           | 9 (N)            | 13 (N) | 48 (N) | 25 (N) | 22 (N) | 0    | 0    | 1    | 1    | 0    | 
+|eval_block  | PCIN-A:B-C                      | No           | 14 (N)           | 18 (N) | 32 (N) | -1 (Y) | -1 (Y) | 0    | 0    | 0    | 1    | 0    | 
+|eval_block  | PCIN-(A:0xd39)*B                | No           | 12 (N)           | 9 (N)  | 32 (N) | 25 (N) | 32 (N) | 0    | 0    | 1    | 1    | 0    | 
++------------+---------------------------------+--------------+------------------+--------+--------+--------+--------+------+------+------+------+------+
+
+Note: The table shows DSPs generated at current stage. Some DSP generation could be reversed due to later optimizations. Mutiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM2:/eval_block03/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM2:/eval_block04/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM2:/eval_block06/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM2__1:/eval_block03/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM2__1:/eval_block04/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM2__1:/eval_block06/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM1:/eval_block02/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM1:/eval_block05/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM1__1:/eval_block02/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM1__1:/eval_block05/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM0:/eval_block01/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM0:/eval_block00/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM0:/eval_block07/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM0:/eval_block09/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM0:/eval_block08/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM0__1:/eval_block01/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM0__1:/eval_block00/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM0__1:/eval_block07/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM0__1:/eval_block09/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (score_ten__GBM0__1:/eval_block08/\cur_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\next_array0_rot2_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\next_array2_rot1_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\next_array2_rot1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\next_array2_rot1_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\next_array2_rot1_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\next_array1_rot1_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LED_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\col_out3_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out3_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\col_out2_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/done_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/done_reg)
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (placement08/\down_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (placement08/\down_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\down_reg[4] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (placement08/\down_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (placement08/\down_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement09/\down_reg[4] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (placement09/\down_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (placement09/\down_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (placement09/\down_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (placement09/\down_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (placement08/\FSM_onehot_state_reg[0] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:02:57 ; elapsed = 00:04:15 . Memory (MB): peak = 1885.234 ; gain = 1754.035
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:57 ; elapsed = 00:04:15 . Memory (MB): peak = 1885.234 ; gain = 1754.035
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:26 ; elapsed = 00:04:45 . Memory (MB): peak = 1992.391 ; gain = 1861.191
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:33 ; elapsed = 00:04:53 . Memory (MB): peak = 1992.391 ; gain = 1861.191
+---------------------------------------------------------------------------------
+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:34 ; elapsed = 00:04:53 . Memory (MB): peak = 1992.391 ; gain = 1861.191
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:37 ; elapsed = 00:04:57 . Memory (MB): peak = 1992.391 ; gain = 1861.191
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |  1032|
+|3     |DSP48E1 |   222|
+|4     |LUT1    |   893|
+|5     |LUT2    |  2817|
+|6     |LUT3    |  9321|
+|7     |LUT4    |  7832|
+|8     |LUT5    | 13909|
+|9     |LUT6    | 22282|
+|10    |MUXF7   |   485|
+|11    |FDRE    | 22952|
+|12    |FDSE    |   249|
+|13    |IBUF    |   205|
+|14    |OBUF    |    23|
++------+--------+------+
+
+Report Instance Areas: 
++------+-----------------+--------------+------+
+|      |Instance         |Module        |Cells |
++------+-----------------+--------------+------+
+|1     |top              |              | 82223|
+|2     |  score_rot0     |score_ten     | 22043|
+|3     |    eval_block00 |eval_block_55 |  1550|
+|4     |    eval_block01 |eval_block_56 |  1553|
+|5     |    eval_block02 |eval_block_57 |  1574|
+|6     |    eval_block03 |eval_block_58 |  1603|
+|7     |    eval_block04 |eval_block_59 |  1579|
+|8     |    eval_block05 |eval_block_60 |  1575|
+|9     |    eval_block06 |eval_block_61 |  1606|
+|10    |    eval_block07 |eval_block_62 |  1555|
+|11    |    eval_block08 |eval_block_63 |  1584|
+|12    |    eval_block09 |eval_block_64 |  1552|
+|13    |    placement00  |placement_65  |   656|
+|14    |    placement01  |placement_66  |   656|
+|15    |    placement02  |placement_67  |   663|
+|16    |    placement03  |placement_68  |   660|
+|17    |    placement04  |placement_69  |   663|
+|18    |    placement05  |placement_70  |   673|
+|19    |    placement06  |placement_71  |   664|
+|20    |    placement07  |placement_72  |   565|
+|21    |    placement08  |placement_73  |   427|
+|22    |    placement09  |placement_74  |   283|
+|23    |  score_rot1     |score_ten_0   | 21949|
+|24    |    eval_block00 |eval_block_35 |  1550|
+|25    |    eval_block01 |eval_block_36 |  1552|
+|26    |    eval_block02 |eval_block_37 |  1574|
+|27    |    eval_block03 |eval_block_38 |  1581|
+|28    |    eval_block04 |eval_block_39 |  1557|
+|29    |    eval_block05 |eval_block_40 |  1575|
+|30    |    eval_block06 |eval_block_41 |  1584|
+|31    |    eval_block07 |eval_block_42 |  1555|
+|32    |    eval_block08 |eval_block_43 |  1584|
+|33    |    eval_block09 |eval_block_44 |  1552|
+|34    |    placement00  |placement_45  |   664|
+|35    |    placement01  |placement_46  |   664|
+|36    |    placement02  |placement_47  |   642|
+|37    |    placement03  |placement_48  |   647|
+|38    |    placement04  |placement_49  |   645|
+|39    |    placement05  |placement_50  |   639|
+|40    |    placement06  |placement_51  |   628|
+|41    |    placement07  |placement_52  |   582|
+|42    |    placement08  |placement_53  |   433|
+|43    |    placement09  |placement_54  |   302|
+|44    |  score_rot2     |score_ten_1   | 18006|
+|45    |    eval_block00 |eval_block_19 |  1517|
+|46    |    eval_block01 |eval_block_20 |  1584|
+|47    |    eval_block02 |eval_block_21 |  1575|
+|48    |    eval_block03 |eval_block_22 |  1571|
+|49    |    eval_block04 |eval_block_23 |  1605|
+|50    |    eval_block05 |eval_block_24 |  1574|
+|51    |    eval_block06 |eval_block_25 |  1574|
+|52    |    eval_block07 |eval_block_26 |  1586|
+|53    |    placement00  |placement_27  |   633|
+|54    |    placement01  |placement_28  |   633|
+|55    |    placement02  |placement_29  |   651|
+|56    |    placement03  |placement_30  |   651|
+|57    |    placement04  |placement_31  |   650|
+|58    |    placement05  |placement_32  |   654|
+|59    |    placement06  |placement_33  |   649|
+|60    |    placement07  |placement_34  |   555|
+|61    |  score_rot3     |score_ten_2   | 19869|
+|62    |    eval_block00 |eval_block    |  1515|
+|63    |    eval_block01 |eval_block_3  |  1554|
+|64    |    eval_block02 |eval_block_4  |  1584|
+|65    |    eval_block03 |eval_block_5  |  1549|
+|66    |    eval_block04 |eval_block_6  |  1553|
+|67    |    eval_block05 |eval_block_7  |  1585|
+|68    |    eval_block06 |eval_block_8  |  1552|
+|69    |    eval_block07 |eval_block_9  |  1554|
+|70    |    eval_block08 |eval_block_10 |  1617|
+|71    |    placement00  |placement     |   634|
+|72    |    placement01  |placement_11  |   633|
+|73    |    placement02  |placement_12  |   640|
+|74    |    placement03  |placement_13  |   628|
+|75    |    placement04  |placement_14  |   614|
+|76    |    placement05  |placement_15  |   626|
+|77    |    placement06  |placement_16  |   627|
+|78    |    placement07  |placement_17  |   564|
+|79    |    placement08  |placement_18  |   461|
++------+-----------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:43 ; elapsed = 00:05:02 . Memory (MB): peak = 1992.391 ; gain = 1861.191
+---------------------------------------------------------------------------------
+
+Synthesis finished with 0 errors, 0 critical warnings and 1493 warnings.
+Synthesis Optimization Complete : Time (s): cpu = 00:03:43 ; elapsed = 00:05:02 . Memory (MB): peak = 1992.391 ; gain = 1861.191
+INFO: [Netlist 29-17] Analyzing 427 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+146 Infos, 147 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:56 ; elapsed = 00:05:24 . Memory (MB): peak = 1992.391 ; gain = 1815.465
+# write_checkpoint aicontroller.dcp
+# report_utilization -file aicontroller_utilization_synth.rpt -pb aicontroller_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.776 . Memory (MB): peak = 1992.391 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 12 19:27:07 2015...

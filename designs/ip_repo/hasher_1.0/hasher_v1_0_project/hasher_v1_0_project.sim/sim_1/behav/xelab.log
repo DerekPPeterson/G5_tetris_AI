@@ -1,0 +1,30 @@
+Vivado Simulator 2014.1
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: /home/derek/Xilinx/Vivado/2014.1/bin/unwrapped/lnx64.o/xelab --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot hasher_v1_0_behav --prj /home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/hasher_v1_0_project/hasher_v1_0_project.sim/sim_1/behav/hasher_v1_0.prj xil_defaultlib.hasher_v1_0 xil_defaultlib.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "/home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/src/seven_segment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment
+INFO: [VRFC 10-311] analyzing module gen_digit_code
+INFO: [VRFC 10-165] Analyzing Verilog file "/home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/src/mix_hash.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mix_hash
+WARNING: [VRFC 10-1315] redeclaration of ansi port done is not allowed [/home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/src/mix_hash.v:33]
+INFO: [VRFC 10-165] Analyzing Verilog file "/home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/hdl/hasher_v1_0_S00_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hasher_v1_0_S00_AXI
+INFO: [VRFC 10-165] Analyzing Verilog file "/home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/hdl/hasher_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hasher_v1_0
+INFO: [VRFC 10-165] Analyzing Verilog file "/home/derek/Xilinx/Vivado/2014.1/data/verilog/src/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mix_hash
+Compiling module xil_defaultlib.gen_digit_code
+Compiling module xil_defaultlib.seven_segment
+Compiling module xil_defaultlib.hasher_v1_0_S00_AXI(C_S_AXI_DATA...
+Compiling module xil_defaultlib.hasher_v1_0
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot hasher_v1_0_behav

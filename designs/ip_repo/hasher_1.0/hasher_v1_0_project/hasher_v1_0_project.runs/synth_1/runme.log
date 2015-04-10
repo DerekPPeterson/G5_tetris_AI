@@ -1,0 +1,361 @@
+
+*** Running vivado
+    with args -log hasher_v1_0.vds -m64 -mode batch -messageDb vivado.pb -source hasher_v1_0.tcl
+
+
+****** Vivado v2014.1 (64-bit)
+  **** SW Build 881834 on Fri Apr  4 14:00:25 MDT 2014
+  **** IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source hasher_v1_0.tcl
+# set_param gui.test TreeTableDev
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a100tcsg324-1
+# set_property target_language Verilog [current_project]
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_property default_lib xil_defaultlib [current_project]
+# set_property ip_repo_paths {
+#   /home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0
+#   /home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0
+# } [current_fileset]
+# read_verilog -library xil_defaultlib {
+#   /home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/src/seven_segment.v
+#   /home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/src/mix_hash.v
+#   /home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/hdl/hasher_v1_0_S00_AXI.v
+#   /home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/hdl/hasher_v1_0.v
+# }
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir /home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/hasher_v1_0_project/hasher_v1_0_project.cache/wt [current_project]
+# set_property parent.project_dir /home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/hasher_v1_0_project [current_project]
+# synth_design -top hasher_v1_0 -part xc7a100tcsg324-1
+Command: synth_design -top hasher_v1_0 -part xc7a100tcsg324-1
+
+Starting synthesis...
+
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+WARNING: [Synth 8-2611] redeclaration of ansi port done is not allowed [/home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/src/mix_hash.v:33]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 797.695 ; gain = 160.770
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'hasher_v1_0' [/home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/hdl/hasher_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'hasher_v1_0_S00_AXI' [/home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/hdl/hasher_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 3 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'mix_hash' [/home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/src/mix_hash.v:23]
+INFO: [Synth 8-256] done synthesizing module 'mix_hash' (1#1) [/home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/src/mix_hash.v:23]
+INFO: [Synth 8-638] synthesizing module 'seven_segment' [/home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/src/seven_segment.v:23]
+	Parameter n_cycles bound to: 200000 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'gen_digit_code' [/home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/src/seven_segment.v:98]
+INFO: [Synth 8-226] default block is never used [/home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/src/seven_segment.v:107]
+INFO: [Synth 8-256] done synthesizing module 'gen_digit_code' (2#1) [/home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/src/seven_segment.v:98]
+INFO: [Synth 8-256] done synthesizing module 'seven_segment' (3#1) [/home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/src/seven_segment.v:23]
+INFO: [Synth 8-256] done synthesizing module 'hasher_v1_0_S00_AXI' (4#1) [/home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/hdl/hasher_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-256] done synthesizing module 'hasher_v1_0' (5#1) [/home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/hdl/hasher_v1_0.v:4]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 821.703 ; gain = 184.777
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RTL Optimization
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 829.703 ; gain = 192.777
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Finished RTL Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 829.703 ; gain = 192.777
+---------------------------------------------------------------------------------
+
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [/home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/src/mix_hash.v:61]
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     21 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 3     
++---Registers : 
+	               32 Bit    Registers := 13    
+	               21 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	  11 Input     32 Bit        Muxes := 10    
+	   2 Input     32 Bit        Muxes := 11    
+	   8 Input     32 Bit        Muxes := 2     
+	   2 Input     21 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 10    
+	   9 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 13    
+
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module hasher_v1_0 
+Detailed RTL Component Info : 
+Module mix_hash 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 3     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   8 Input     32 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module gen_digit_code 
+Detailed RTL Component Info : 
+Module seven_segment 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     21 Bit       Adders := 1     
++---Registers : 
+	               21 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     21 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 9     
+	   2 Input      1 Bit        Muxes := 3     
+Module hasher_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 12    
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 10    
+	  11 Input     32 Bit        Muxes := 10    
+	   2 Input      1 Bit        Muxes := 7     
+
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Loading clock regions from /home/derek/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from /home/derek/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from /home/derek/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from /home/derek/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/PinFunctions.xml...
+Loading package from /home/derek/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from /home/derek/Xilinx/Vivado/2014.1/data/./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from /home/derek/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/ConfigModes.xml
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (\axi_awaddr_reg[1] ) is unused and will be removed from module hasher_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_awaddr_reg[0] ) is unused and will be removed from module hasher_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_araddr_reg[1] ) is unused and will be removed from module hasher_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_araddr_reg[0] ) is unused and will be removed from module hasher_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_awaddr_reg[1] ) is unused and will be removed from module hasher_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_awaddr_reg[0] ) is unused and will be removed from module hasher_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_araddr_reg[1] ) is unused and will be removed from module hasher_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_araddr_reg[0] ) is unused and will be removed from module hasher_v1_0_S00_AXI.
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 1084.043 ; gain = 447.117
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hasher_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hasher_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (\hasher_v1_0_S00_AXI_inst/axi_bresp_reg[1] ) is unused and will be removed from module hasher_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\hasher_v1_0_S00_AXI_inst/axi_bresp_reg[0] ) is unused and will be removed from module hasher_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\hasher_v1_0_S00_AXI_inst/axi_rresp_reg[1] ) is unused and will be removed from module hasher_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\hasher_v1_0_S00_AXI_inst/axi_rresp_reg[0] ) is unused and will be removed from module hasher_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\hasher_v1_0_S00_AXI_inst/mh/step_reg[3] ) is unused and will be removed from module hasher_v1_0.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 1121.098 ; gain = 484.172
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 1121.098 ; gain = 484.172
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 1121.098 ; gain = 484.172
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:42 . Memory (MB): peak = 1121.098 ; gain = 484.172
+---------------------------------------------------------------------------------
+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:42 . Memory (MB): peak = 1121.098 ; gain = 484.172
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:42 . Memory (MB): peak = 1121.098 ; gain = 484.172
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    13|
+|3     |LUT1   |    24|
+|4     |LUT2   |    12|
+|5     |LUT3   |    41|
+|6     |LUT4   |    34|
+|7     |LUT5   |   105|
+|8     |LUT6   |   203|
+|9     |FDRE   |   454|
+|10    |FDSE   |    13|
+|11    |IBUF   |    51|
+|12    |OBUF   |    57|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------------------+--------------------+------+
+|      |Instance                   |Module              |Cells |
++------+---------------------------+--------------------+------+
+|1     |top                        |                    |  1008|
+|2     |  hasher_v1_0_S00_AXI_inst |hasher_v1_0_S00_AXI |   899|
+|3     |    mh                     |mix_hash            |   207|
+|4     |    ss                     |seven_segment       |   118|
+|5     |      A                    |gen_digit_code      |     6|
++------+---------------------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:42 . Memory (MB): peak = 1121.098 ; gain = 484.172
+---------------------------------------------------------------------------------
+
+Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:42 . Memory (MB): peak = 1121.098 ; gain = 484.172
+INFO: [Netlist 29-17] Analyzing 51 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:46 . Memory (MB): peak = 1121.098 ; gain = 384.258
+# write_checkpoint hasher_v1_0.dcp
+# report_utilization -file hasher_v1_0_utilization_synth.rpt -pb hasher_v1_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.20 ; elapsed = 00:00:00.35 . Memory (MB): peak = 1121.098 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Feb  3 16:30:13 2015...

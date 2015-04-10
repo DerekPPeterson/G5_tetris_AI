@@ -1,0 +1,978 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Sun Mar 22 02:34:49 2015
+# Process ID: 13760
+# Log file: D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/vivado.log
+# Journal file: D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:\Libraries\University\ECE532\Milestone7\IP\aicontroller\aicontroller.srcs\sources_1\aicontroller_v1_4_project\aicontroller_v1_4_project.xpr}
+INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project'
+INFO: [Project 1-313] Project file moved from 'd:/libraries/university/ece532/milestone6/ip/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project' since last save.
+Scanning sources...
+Finished scanning sources
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse D:/Libraries/University/ECE532/Milestone7/aicontroller_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_runs synth_1
+INFO: [HDL 9-1654] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/new/aicontroller.v" into library work [D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/new/aicontroller.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v" into library work [D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/imports/new/placement.v" into library work [D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/imports/new/placement.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v" into library work [D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:1]
+[Sun Mar 22 13:26:48 2015] Launched synth_1...
+Run output will be captured here: D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 889.105 ; gain = 8.152
+launch_xsim -simset sim_1 -mode post-synthesis -type functional
+INFO: [Netlist 29-17] Analyzing 316 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.1
+Loading clock regions from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.1/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/ConfigModes.xml
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Vivado 12-2252] Generating simulation netlist 'D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.sim/sim_1/synth/func/aicontroller_tb_func_synth.v'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L xil_defaultlib -L unisims_ver -L secureip --snapshot aicontroller_tb_func_synth --prj D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.sim/sim_1/synth/func/aicontroller_tb.prj   xil_defaultlib.aicontroller_tb   xil_defaultlib.glbl"
+Vivado Simulator 2014.1
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.1/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L xil_defaultlib -L unisims_ver -L secureip --snapshot aicontroller_tb_func_synth --prj D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.sim/sim_1/synth/func/aicontroller_tb.prj xil_defaultlib.aicontroller_tb xil_defaultlib.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.sim/sim_1/synth/func/aicontroller_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aicontroller
+INFO: [VRFC 10-311] analyzing module eval_block
+INFO: [VRFC 10-311] analyzing module eval_block_10
+INFO: [VRFC 10-311] analyzing module eval_block_19
+INFO: [VRFC 10-311] analyzing module eval_block_20
+INFO: [VRFC 10-311] analyzing module eval_block_21
+INFO: [VRFC 10-311] analyzing module eval_block_22
+INFO: [VRFC 10-311] analyzing module eval_block_23
+INFO: [VRFC 10-311] analyzing module eval_block_24
+INFO: [VRFC 10-311] analyzing module eval_block_25
+INFO: [VRFC 10-311] analyzing module eval_block_26
+INFO: [VRFC 10-311] analyzing module eval_block_3
+INFO: [VRFC 10-311] analyzing module eval_block_35
+INFO: [VRFC 10-311] analyzing module eval_block_36
+INFO: [VRFC 10-311] analyzing module eval_block_37
+INFO: [VRFC 10-311] analyzing module eval_block_38
+INFO: [VRFC 10-311] analyzing module eval_block_39
+INFO: [VRFC 10-311] analyzing module eval_block_4
+INFO: [VRFC 10-311] analyzing module eval_block_40
+INFO: [VRFC 10-311] analyzing module eval_block_41
+INFO: [VRFC 10-311] analyzing module eval_block_42
+INFO: [VRFC 10-311] analyzing module eval_block_43
+INFO: [VRFC 10-311] analyzing module eval_block_44
+INFO: [VRFC 10-311] analyzing module eval_block_5
+INFO: [VRFC 10-311] analyzing module eval_block_55
+INFO: [VRFC 10-311] analyzing module eval_block_56
+INFO: [VRFC 10-311] analyzing module eval_block_57
+INFO: [VRFC 10-311] analyzing module eval_block_58
+INFO: [VRFC 10-311] analyzing module eval_block_59
+INFO: [VRFC 10-311] analyzing module eval_block_6
+INFO: [VRFC 10-311] analyzing module eval_block_60
+INFO: [VRFC 10-311] analyzing module eval_block_61
+INFO: [VRFC 10-311] analyzing module eval_block_62
+INFO: [VRFC 10-311] analyzing module eval_block_63
+INFO: [VRFC 10-311] analyzing module eval_block_64
+INFO: [VRFC 10-311] analyzing module eval_block_7
+INFO: [VRFC 10-311] analyzing module eval_block_8
+INFO: [VRFC 10-311] analyzing module eval_block_9
+INFO: [VRFC 10-311] analyzing module placement
+INFO: [VRFC 10-311] analyzing module placement_11
+INFO: [VRFC 10-311] analyzing module placement_12
+INFO: [VRFC 10-311] analyzing module placement_13
+INFO: [VRFC 10-311] analyzing module placement_14
+INFO: [VRFC 10-311] analyzing module placement_15
+INFO: [VRFC 10-311] analyzing module placement_16
+INFO: [VRFC 10-311] analyzing module placement_17
+INFO: [VRFC 10-311] analyzing module placement_18
+INFO: [VRFC 10-311] analyzing module placement_27
+INFO: [VRFC 10-311] analyzing module placement_28
+INFO: [VRFC 10-311] analyzing module placement_29
+INFO: [VRFC 10-311] analyzing module placement_30
+INFO: [VRFC 10-311] analyzing module placement_31
+INFO: [VRFC 10-311] analyzing module placement_32
+INFO: [VRFC 10-311] analyzing module placement_33
+INFO: [VRFC 10-311] analyzing module placement_34
+INFO: [VRFC 10-311] analyzing module placement_45
+INFO: [VRFC 10-311] analyzing module placement_46
+INFO: [VRFC 10-311] analyzing module placement_47
+INFO: [VRFC 10-311] analyzing module placement_48
+INFO: [VRFC 10-311] analyzing module placement_49
+INFO: [VRFC 10-311] analyzing module placement_50
+INFO: [VRFC 10-311] analyzing module placement_51
+INFO: [VRFC 10-311] analyzing module placement_52
+INFO: [VRFC 10-311] analyzing module placement_53
+INFO: [VRFC 10-311] analyzing module placement_54
+INFO: [VRFC 10-311] analyzing module placement_65
+INFO: [VRFC 10-311] analyzing module placement_66
+INFO: [VRFC 10-311] analyzing module placement_67
+INFO: [VRFC 10-311] analyzing module placement_68
+INFO: [VRFC 10-311] analyzing module placement_69
+INFO: [VRFC 10-311] analyzing module placement_70
+INFO: [VRFC 10-311] analyzing module placement_71
+INFO: [VRFC 10-311] analyzing module placement_72
+INFO: [VRFC 10-311] analyzing module placement_73
+INFO: [VRFC 10-311] analyzing module placement_74
+INFO: [VRFC 10-311] analyzing module score_ten
+INFO: [VRFC 10-311] analyzing module score_ten_0
+INFO: [VRFC 10-311] analyzing module score_ten_1
+INFO: [VRFC 10-311] analyzing module score_ten_2
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.srcs/sim_1/imports/Milestone7/aicontroller_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aicontroller_tb
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module unisims_ver.sffsrce_fdse
+Compiling module unisims_ver.FDSE
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.latchsre_ldce
+Compiling module unisims_ver.LDCE
+Compiling module xil_defaultlib.eval_block_55
+Compiling module xil_defaultlib.eval_block_56
+Compiling module xil_defaultlib.eval_block_57
+Compiling module xil_defaultlib.eval_block_58
+Compiling module xil_defaultlib.eval_block_59
+Compiling module xil_defaultlib.eval_block_60
+Compiling module xil_defaultlib.eval_block_61
+Compiling module xil_defaultlib.eval_block_62
+Compiling module xil_defaultlib.eval_block_63
+Compiling module xil_defaultlib.eval_block_64
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.placement_65
+Compiling module xil_defaultlib.placement_66
+Compiling module xil_defaultlib.placement_67
+Compiling module xil_defaultlib.placement_68
+Compiling module xil_defaultlib.placement_69
+Compiling module xil_defaultlib.placement_70
+Compiling module xil_defaultlib.placement_71
+Compiling module xil_defaultlib.placement_72
+Compiling module xil_defaultlib.placement_73
+Compiling module xil_defaultlib.placement_74
+Compiling module unisims_ver.DSP48E1(ADREG=0,ALUMODEREG=0,BCA...
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module xil_defaultlib.score_ten
+Compiling module xil_defaultlib.eval_block_35
+Compiling module xil_defaultlib.eval_block_36
+Compiling module xil_defaultlib.eval_block_37
+Compiling module xil_defaultlib.eval_block_38
+Compiling module xil_defaultlib.eval_block_39
+Compiling module xil_defaultlib.eval_block_40
+Compiling module xil_defaultlib.eval_block_41
+Compiling module xil_defaultlib.eval_block_42
+Compiling module xil_defaultlib.eval_block_43
+Compiling module xil_defaultlib.eval_block_44
+Compiling module xil_defaultlib.placement_45
+Compiling module xil_defaultlib.placement_46
+Compiling module xil_defaultlib.placement_47
+Compiling module xil_defaultlib.placement_48
+Compiling module xil_defaultlib.placement_49
+Compiling module xil_defaultlib.placement_50
+Compiling module xil_defaultlib.placement_51
+Compiling module xil_defaultlib.placement_52
+Compiling module xil_defaultlib.placement_53
+Compiling module xil_defaultlib.placement_54
+Compiling module xil_defaultlib.score_ten_0
+Compiling module xil_defaultlib.eval_block_19
+Compiling module xil_defaultlib.eval_block_20
+Compiling module xil_defaultlib.eval_block_21
+Compiling module xil_defaultlib.eval_block_22
+Compiling module xil_defaultlib.eval_block_23
+Compiling module xil_defaultlib.eval_block_24
+Compiling module xil_defaultlib.eval_block_25
+Compiling module xil_defaultlib.eval_block_26
+Compiling module xil_defaultlib.placement_27
+Compiling module xil_defaultlib.placement_28
+Compiling module xil_defaultlib.placement_29
+Compiling module xil_defaultlib.placement_30
+Compiling module xil_defaultlib.placement_31
+Compiling module xil_defaultlib.placement_32
+Compiling module xil_defaultlib.placement_33
+Compiling module xil_defaultlib.placement_34
+Compiling module xil_defaultlib.score_ten_1
+Compiling module xil_defaultlib.eval_block
+Compiling module xil_defaultlib.eval_block_3
+Compiling module xil_defaultlib.eval_block_4
+Compiling module xil_defaultlib.eval_block_5
+Compiling module xil_defaultlib.eval_block_6
+Compiling module xil_defaultlib.eval_block_7
+Compiling module xil_defaultlib.eval_block_8
+Compiling module xil_defaultlib.eval_block_9
+Compiling module xil_defaultlib.eval_block_10
+Compiling module xil_defaultlib.placement
+Compiling module xil_defaultlib.placement_11
+Compiling module xil_defaultlib.placement_12
+Compiling module xil_defaultlib.placement_13
+Compiling module xil_defaultlib.placement_14
+Compiling module xil_defaultlib.placement_15
+Compiling module xil_defaultlib.placement_16
+Compiling module xil_defaultlib.placement_17
+Compiling module xil_defaultlib.placement_18
+Compiling module xil_defaultlib.score_ten_2
+Compiling module xil_defaultlib.aicontroller
+Compiling module xil_defaultlib.aicontroller_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 44 sub-compilation(s) to finish...
+Built simulation snapshot aicontroller_tb_func_synth
+INFO: [Runs 36-26] xelab completed.
+INFO: [Vivado 12-1390] *** Running xsim
+    with args "aicontroller_tb_func_synth -key {Post-Synthesis:sim_1:Functional:aicontroller_tb} -tclbatch {aicontroller_tb.tcl} -log {aicontroller_tb_func_synth.log}"
+Vivado Simulator 2014.1
+Time resolution is 1 ps
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1384.246 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:33 . Memory (MB): peak = 1384.246 ; gain = 0.000
+INFO: [Vivado 12-1395] XSim completed. Design snapshot 'aicontroller_tb_func_synth' loaded.
+launch_xsim: Time (s): cpu = 00:00:43 ; elapsed = 00:06:49 . Memory (MB): peak = 1384.246 ; gain = 450.438
+run 1 us
+run 1 us
+INFO: [Simtcl 6-16] Simulation closed
+launch_xsim -simset sim_1 -mode post-synthesis -type functional -noclean_dir
+INFO: [Netlist 29-17] Analyzing 316 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.1
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Vivado 12-2252] Generating simulation netlist 'D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.sim/sim_1/synth/func/aicontroller_tb_func_synth.v'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L xil_defaultlib -L unisims_ver -L secureip --snapshot aicontroller_tb_func_synth --prj D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.sim/sim_1/synth/func/aicontroller_tb.prj   xil_defaultlib.aicontroller_tb   xil_defaultlib.glbl"
+Vivado Simulator 2014.1
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.1/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L xil_defaultlib -L unisims_ver -L secureip --snapshot aicontroller_tb_func_synth --prj D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.sim/sim_1/synth/func/aicontroller_tb.prj xil_defaultlib.aicontroller_tb xil_defaultlib.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.sim/sim_1/synth/func/aicontroller_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aicontroller
+INFO: [VRFC 10-311] analyzing module eval_block
+INFO: [VRFC 10-311] analyzing module eval_block_10
+INFO: [VRFC 10-311] analyzing module eval_block_19
+INFO: [VRFC 10-311] analyzing module eval_block_20
+INFO: [VRFC 10-311] analyzing module eval_block_21
+INFO: [VRFC 10-311] analyzing module eval_block_22
+INFO: [VRFC 10-311] analyzing module eval_block_23
+INFO: [VRFC 10-311] analyzing module eval_block_24
+INFO: [VRFC 10-311] analyzing module eval_block_25
+INFO: [VRFC 10-311] analyzing module eval_block_26
+INFO: [VRFC 10-311] analyzing module eval_block_3
+INFO: [VRFC 10-311] analyzing module eval_block_35
+INFO: [VRFC 10-311] analyzing module eval_block_36
+INFO: [VRFC 10-311] analyzing module eval_block_37
+INFO: [VRFC 10-311] analyzing module eval_block_38
+INFO: [VRFC 10-311] analyzing module eval_block_39
+INFO: [VRFC 10-311] analyzing module eval_block_4
+INFO: [VRFC 10-311] analyzing module eval_block_40
+INFO: [VRFC 10-311] analyzing module eval_block_41
+INFO: [VRFC 10-311] analyzing module eval_block_42
+INFO: [VRFC 10-311] analyzing module eval_block_43
+INFO: [VRFC 10-311] analyzing module eval_block_44
+INFO: [VRFC 10-311] analyzing module eval_block_5
+INFO: [VRFC 10-311] analyzing module eval_block_55
+INFO: [VRFC 10-311] analyzing module eval_block_56
+INFO: [VRFC 10-311] analyzing module eval_block_57
+INFO: [VRFC 10-311] analyzing module eval_block_58
+INFO: [VRFC 10-311] analyzing module eval_block_59
+INFO: [VRFC 10-311] analyzing module eval_block_6
+INFO: [VRFC 10-311] analyzing module eval_block_60
+INFO: [VRFC 10-311] analyzing module eval_block_61
+INFO: [VRFC 10-311] analyzing module eval_block_62
+INFO: [VRFC 10-311] analyzing module eval_block_63
+INFO: [VRFC 10-311] analyzing module eval_block_64
+INFO: [VRFC 10-311] analyzing module eval_block_7
+INFO: [VRFC 10-311] analyzing module eval_block_8
+INFO: [VRFC 10-311] analyzing module eval_block_9
+INFO: [VRFC 10-311] analyzing module placement
+INFO: [VRFC 10-311] analyzing module placement_11
+INFO: [VRFC 10-311] analyzing module placement_12
+INFO: [VRFC 10-311] analyzing module placement_13
+INFO: [VRFC 10-311] analyzing module placement_14
+INFO: [VRFC 10-311] analyzing module placement_15
+INFO: [VRFC 10-311] analyzing module placement_16
+INFO: [VRFC 10-311] analyzing module placement_17
+INFO: [VRFC 10-311] analyzing module placement_18
+INFO: [VRFC 10-311] analyzing module placement_27
+INFO: [VRFC 10-311] analyzing module placement_28
+INFO: [VRFC 10-311] analyzing module placement_29
+INFO: [VRFC 10-311] analyzing module placement_30
+INFO: [VRFC 10-311] analyzing module placement_31
+INFO: [VRFC 10-311] analyzing module placement_32
+INFO: [VRFC 10-311] analyzing module placement_33
+INFO: [VRFC 10-311] analyzing module placement_34
+INFO: [VRFC 10-311] analyzing module placement_45
+INFO: [VRFC 10-311] analyzing module placement_46
+INFO: [VRFC 10-311] analyzing module placement_47
+INFO: [VRFC 10-311] analyzing module placement_48
+INFO: [VRFC 10-311] analyzing module placement_49
+INFO: [VRFC 10-311] analyzing module placement_50
+INFO: [VRFC 10-311] analyzing module placement_51
+INFO: [VRFC 10-311] analyzing module placement_52
+INFO: [VRFC 10-311] analyzing module placement_53
+INFO: [VRFC 10-311] analyzing module placement_54
+INFO: [VRFC 10-311] analyzing module placement_65
+INFO: [VRFC 10-311] analyzing module placement_66
+INFO: [VRFC 10-311] analyzing module placement_67
+INFO: [VRFC 10-311] analyzing module placement_68
+INFO: [VRFC 10-311] analyzing module placement_69
+INFO: [VRFC 10-311] analyzing module placement_70
+INFO: [VRFC 10-311] analyzing module placement_71
+INFO: [VRFC 10-311] analyzing module placement_72
+INFO: [VRFC 10-311] analyzing module placement_73
+INFO: [VRFC 10-311] analyzing module placement_74
+INFO: [VRFC 10-311] analyzing module score_ten
+INFO: [VRFC 10-311] analyzing module score_ten_0
+INFO: [VRFC 10-311] analyzing module score_ten_1
+INFO: [VRFC 10-311] analyzing module score_ten_2
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.srcs/sim_1/imports/Milestone7/aicontroller_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aicontroller_tb
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module unisims_ver.sffsrce_fdse
+Compiling module unisims_ver.FDSE
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.latchsre_ldce
+Compiling module unisims_ver.LDCE
+Compiling module xil_defaultlib.eval_block_55
+Compiling module xil_defaultlib.eval_block_56
+Compiling module xil_defaultlib.eval_block_57
+Compiling module xil_defaultlib.eval_block_58
+Compiling module xil_defaultlib.eval_block_59
+Compiling module xil_defaultlib.eval_block_60
+Compiling module xil_defaultlib.eval_block_61
+Compiling module xil_defaultlib.eval_block_62
+Compiling module xil_defaultlib.eval_block_63
+Compiling module xil_defaultlib.eval_block_64
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.placement_65
+Compiling module xil_defaultlib.placement_66
+Compiling module xil_defaultlib.placement_67
+Compiling module xil_defaultlib.placement_68
+Compiling module xil_defaultlib.placement_69
+Compiling module xil_defaultlib.placement_70
+Compiling module xil_defaultlib.placement_71
+Compiling module xil_defaultlib.placement_72
+Compiling module xil_defaultlib.placement_73
+Compiling module xil_defaultlib.placement_74
+Compiling module unisims_ver.DSP48E1(ADREG=0,ALUMODEREG=0,BCA...
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module xil_defaultlib.score_ten
+Compiling module xil_defaultlib.eval_block_35
+Compiling module xil_defaultlib.eval_block_36
+Compiling module xil_defaultlib.eval_block_37
+Compiling module xil_defaultlib.eval_block_38
+Compiling module xil_defaultlib.eval_block_39
+Compiling module xil_defaultlib.eval_block_40
+Compiling module xil_defaultlib.eval_block_41
+Compiling module xil_defaultlib.eval_block_42
+Compiling module xil_defaultlib.eval_block_43
+Compiling module xil_defaultlib.eval_block_44
+Compiling module xil_defaultlib.placement_45
+Compiling module xil_defaultlib.placement_46
+Compiling module xil_defaultlib.placement_47
+Compiling module xil_defaultlib.placement_48
+Compiling module xil_defaultlib.placement_49
+Compiling module xil_defaultlib.placement_50
+Compiling module xil_defaultlib.placement_51
+Compiling module xil_defaultlib.placement_52
+Compiling module xil_defaultlib.placement_53
+Compiling module xil_defaultlib.placement_54
+Compiling module xil_defaultlib.score_ten_0
+Compiling module xil_defaultlib.eval_block_19
+Compiling module xil_defaultlib.eval_block_20
+Compiling module xil_defaultlib.eval_block_21
+Compiling module xil_defaultlib.eval_block_22
+Compiling module xil_defaultlib.eval_block_23
+Compiling module xil_defaultlib.eval_block_24
+Compiling module xil_defaultlib.eval_block_25
+Compiling module xil_defaultlib.eval_block_26
+Compiling module xil_defaultlib.placement_27
+Compiling module xil_defaultlib.placement_28
+Compiling module xil_defaultlib.placement_29
+Compiling module xil_defaultlib.placement_30
+Compiling module xil_defaultlib.placement_31
+Compiling module xil_defaultlib.placement_32
+Compiling module xil_defaultlib.placement_33
+Compiling module xil_defaultlib.placement_34
+Compiling module xil_defaultlib.score_ten_1
+Compiling module xil_defaultlib.eval_block
+Compiling module xil_defaultlib.eval_block_3
+Compiling module xil_defaultlib.eval_block_4
+Compiling module xil_defaultlib.eval_block_5
+Compiling module xil_defaultlib.eval_block_6
+Compiling module xil_defaultlib.eval_block_7
+Compiling module xil_defaultlib.eval_block_8
+Compiling module xil_defaultlib.eval_block_9
+Compiling module xil_defaultlib.eval_block_10
+Compiling module xil_defaultlib.placement
+Compiling module xil_defaultlib.placement_11
+Compiling module xil_defaultlib.placement_12
+Compiling module xil_defaultlib.placement_13
+Compiling module xil_defaultlib.placement_14
+Compiling module xil_defaultlib.placement_15
+Compiling module xil_defaultlib.placement_16
+Compiling module xil_defaultlib.placement_17
+Compiling module xil_defaultlib.placement_18
+Compiling module xil_defaultlib.score_ten_2
+Compiling module xil_defaultlib.aicontroller
+Compiling module xil_defaultlib.aicontroller_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 44 sub-compilation(s) to finish...
+Built simulation snapshot aicontroller_tb_func_synth
+INFO: [Runs 36-26] xelab completed.
+INFO: [Vivado 12-1390] *** Running xsim
+    with args "aicontroller_tb_func_synth -key {Post-Synthesis:sim_1:Functional:aicontroller_tb} -tclbatch {aicontroller_tb.tcl} -log {aicontroller_tb_func_synth.log}"
+Vivado Simulator 2014.1
+Time resolution is 1 ps
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1400.410 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:33 . Memory (MB): peak = 1400.410 ; gain = 0.000
+INFO: [Vivado 12-1395] XSim completed. Design snapshot 'aicontroller_tb_func_synth' loaded.
+launch_xsim: Time (s): cpu = 00:00:37 ; elapsed = 00:05:56 . Memory (MB): peak = 1400.410 ; gain = 16.164
+run 1 us
+run 1 us
+run 1 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 4 us
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 1400.410 ; gain = 0.000
+reset_run synth_1
+save_wave_config {D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project\aicontroller_tb_func_synth.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_runs synth_1
+INFO: [HDL 9-1654] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/new/aicontroller.v" into library work [D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/new/aicontroller.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v" into library work [D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/imports/new/placement.v" into library work [D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/imports/new/placement.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v" into library work [D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:1]
+[Sun Mar 22 14:19:49 2015] Launched synth_1...
+Run output will be captured here: D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1400.410 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1654] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/new/aicontroller.v" into library work [D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/new/aicontroller.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v" into library work [D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/src/eval_block.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/imports/new/placement.v" into library work [D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/imports/new/placement.v:1]
+INFO: [HDL 9-1654] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v" into library work [D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/src/score_ten.v:1]
+[Sun Mar 22 14:20:44 2015] Launched synth_1...
+Run output will be captured here: D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1400.410 ; gain = 0.000
+launch_xsim -simset sim_1 -mode post-synthesis -type functional -noclean_dir
+INFO: [Netlist 29-17] Analyzing 316 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.1
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Vivado 12-2252] Generating simulation netlist 'D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.sim/sim_1/synth/func/aicontroller_tb_func_synth.v'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L xil_defaultlib -L unisims_ver -L secureip --snapshot aicontroller_tb_func_synth --prj D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.sim/sim_1/synth/func/aicontroller_tb.prj   xil_defaultlib.aicontroller_tb   xil_defaultlib.glbl"
+Vivado Simulator 2014.1
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.1/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L xil_defaultlib -L unisims_ver -L secureip --snapshot aicontroller_tb_func_synth --prj D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.sim/sim_1/synth/func/aicontroller_tb.prj xil_defaultlib.aicontroller_tb xil_defaultlib.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.sim/sim_1/synth/func/aicontroller_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aicontroller
+INFO: [VRFC 10-311] analyzing module eval_block
+INFO: [VRFC 10-311] analyzing module eval_block_10
+INFO: [VRFC 10-311] analyzing module eval_block_19
+INFO: [VRFC 10-311] analyzing module eval_block_20
+INFO: [VRFC 10-311] analyzing module eval_block_21
+INFO: [VRFC 10-311] analyzing module eval_block_22
+INFO: [VRFC 10-311] analyzing module eval_block_23
+INFO: [VRFC 10-311] analyzing module eval_block_24
+INFO: [VRFC 10-311] analyzing module eval_block_25
+INFO: [VRFC 10-311] analyzing module eval_block_26
+INFO: [VRFC 10-311] analyzing module eval_block_3
+INFO: [VRFC 10-311] analyzing module eval_block_35
+INFO: [VRFC 10-311] analyzing module eval_block_36
+INFO: [VRFC 10-311] analyzing module eval_block_37
+INFO: [VRFC 10-311] analyzing module eval_block_38
+INFO: [VRFC 10-311] analyzing module eval_block_39
+INFO: [VRFC 10-311] analyzing module eval_block_4
+INFO: [VRFC 10-311] analyzing module eval_block_40
+INFO: [VRFC 10-311] analyzing module eval_block_41
+INFO: [VRFC 10-311] analyzing module eval_block_42
+INFO: [VRFC 10-311] analyzing module eval_block_43
+INFO: [VRFC 10-311] analyzing module eval_block_44
+INFO: [VRFC 10-311] analyzing module eval_block_5
+INFO: [VRFC 10-311] analyzing module eval_block_55
+INFO: [VRFC 10-311] analyzing module eval_block_56
+INFO: [VRFC 10-311] analyzing module eval_block_57
+INFO: [VRFC 10-311] analyzing module eval_block_58
+INFO: [VRFC 10-311] analyzing module eval_block_59
+INFO: [VRFC 10-311] analyzing module eval_block_6
+INFO: [VRFC 10-311] analyzing module eval_block_60
+INFO: [VRFC 10-311] analyzing module eval_block_61
+INFO: [VRFC 10-311] analyzing module eval_block_62
+INFO: [VRFC 10-311] analyzing module eval_block_63
+INFO: [VRFC 10-311] analyzing module eval_block_64
+INFO: [VRFC 10-311] analyzing module eval_block_7
+INFO: [VRFC 10-311] analyzing module eval_block_8
+INFO: [VRFC 10-311] analyzing module eval_block_9
+INFO: [VRFC 10-311] analyzing module placement
+INFO: [VRFC 10-311] analyzing module placement_11
+INFO: [VRFC 10-311] analyzing module placement_12
+INFO: [VRFC 10-311] analyzing module placement_13
+INFO: [VRFC 10-311] analyzing module placement_14
+INFO: [VRFC 10-311] analyzing module placement_15
+INFO: [VRFC 10-311] analyzing module placement_16
+INFO: [VRFC 10-311] analyzing module placement_17
+INFO: [VRFC 10-311] analyzing module placement_18
+INFO: [VRFC 10-311] analyzing module placement_27
+INFO: [VRFC 10-311] analyzing module placement_28
+INFO: [VRFC 10-311] analyzing module placement_29
+INFO: [VRFC 10-311] analyzing module placement_30
+INFO: [VRFC 10-311] analyzing module placement_31
+INFO: [VRFC 10-311] analyzing module placement_32
+INFO: [VRFC 10-311] analyzing module placement_33
+INFO: [VRFC 10-311] analyzing module placement_34
+INFO: [VRFC 10-311] analyzing module placement_45
+INFO: [VRFC 10-311] analyzing module placement_46
+INFO: [VRFC 10-311] analyzing module placement_47
+INFO: [VRFC 10-311] analyzing module placement_48
+INFO: [VRFC 10-311] analyzing module placement_49
+INFO: [VRFC 10-311] analyzing module placement_50
+INFO: [VRFC 10-311] analyzing module placement_51
+INFO: [VRFC 10-311] analyzing module placement_52
+INFO: [VRFC 10-311] analyzing module placement_53
+INFO: [VRFC 10-311] analyzing module placement_54
+INFO: [VRFC 10-311] analyzing module placement_65
+INFO: [VRFC 10-311] analyzing module placement_66
+INFO: [VRFC 10-311] analyzing module placement_67
+INFO: [VRFC 10-311] analyzing module placement_68
+INFO: [VRFC 10-311] analyzing module placement_69
+INFO: [VRFC 10-311] analyzing module placement_70
+INFO: [VRFC 10-311] analyzing module placement_71
+INFO: [VRFC 10-311] analyzing module placement_72
+INFO: [VRFC 10-311] analyzing module placement_73
+INFO: [VRFC 10-311] analyzing module placement_74
+INFO: [VRFC 10-311] analyzing module score_ten
+INFO: [VRFC 10-311] analyzing module score_ten_0
+INFO: [VRFC 10-311] analyzing module score_ten_1
+INFO: [VRFC 10-311] analyzing module score_ten_2
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.srcs/sim_1/imports/Milestone7/aicontroller_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aicontroller_tb
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module unisims_ver.sffsrce_fdse
+Compiling module unisims_ver.FDSE
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.eval_block_55
+Compiling module xil_defaultlib.eval_block_56
+Compiling module xil_defaultlib.eval_block_57
+Compiling module xil_defaultlib.eval_block_58
+Compiling module xil_defaultlib.eval_block_59
+Compiling module xil_defaultlib.eval_block_60
+Compiling module xil_defaultlib.eval_block_61
+Compiling module xil_defaultlib.eval_block_62
+Compiling module xil_defaultlib.eval_block_63
+Compiling module xil_defaultlib.eval_block_64
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.placement_65
+Compiling module xil_defaultlib.placement_66
+Compiling module xil_defaultlib.placement_67
+Compiling module xil_defaultlib.placement_68
+Compiling module xil_defaultlib.placement_69
+Compiling module xil_defaultlib.placement_70
+Compiling module xil_defaultlib.placement_71
+Compiling module xil_defaultlib.placement_72
+Compiling module xil_defaultlib.placement_73
+Compiling module xil_defaultlib.placement_74
+Compiling module unisims_ver.DSP48E1(ADREG=0,ALUMODEREG=0,BCA...
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module xil_defaultlib.score_ten
+Compiling module xil_defaultlib.eval_block_35
+Compiling module xil_defaultlib.eval_block_36
+Compiling module xil_defaultlib.eval_block_37
+Compiling module xil_defaultlib.eval_block_38
+Compiling module xil_defaultlib.eval_block_39
+Compiling module xil_defaultlib.eval_block_40
+Compiling module xil_defaultlib.eval_block_41
+Compiling module xil_defaultlib.eval_block_42
+Compiling module xil_defaultlib.eval_block_43
+Compiling module xil_defaultlib.eval_block_44
+Compiling module xil_defaultlib.placement_45
+Compiling module xil_defaultlib.placement_46
+Compiling module xil_defaultlib.placement_47
+Compiling module xil_defaultlib.placement_48
+Compiling module xil_defaultlib.placement_49
+Compiling module xil_defaultlib.placement_50
+Compiling module xil_defaultlib.placement_51
+Compiling module xil_defaultlib.placement_52
+Compiling module xil_defaultlib.placement_53
+Compiling module xil_defaultlib.placement_54
+Compiling module xil_defaultlib.score_ten_0
+Compiling module xil_defaultlib.eval_block_19
+Compiling module xil_defaultlib.eval_block_20
+Compiling module xil_defaultlib.eval_block_21
+Compiling module xil_defaultlib.eval_block_22
+Compiling module xil_defaultlib.eval_block_23
+Compiling module xil_defaultlib.eval_block_24
+Compiling module xil_defaultlib.eval_block_25
+Compiling module xil_defaultlib.eval_block_26
+Compiling module xil_defaultlib.placement_27
+Compiling module xil_defaultlib.placement_28
+Compiling module xil_defaultlib.placement_29
+Compiling module xil_defaultlib.placement_30
+Compiling module xil_defaultlib.placement_31
+Compiling module xil_defaultlib.placement_32
+Compiling module xil_defaultlib.placement_33
+Compiling module xil_defaultlib.placement_34
+Compiling module xil_defaultlib.score_ten_1
+Compiling module xil_defaultlib.eval_block
+Compiling module xil_defaultlib.eval_block_3
+Compiling module xil_defaultlib.eval_block_4
+Compiling module xil_defaultlib.eval_block_5
+Compiling module xil_defaultlib.eval_block_6
+Compiling module xil_defaultlib.eval_block_7
+Compiling module xil_defaultlib.eval_block_8
+Compiling module xil_defaultlib.eval_block_9
+Compiling module xil_defaultlib.eval_block_10
+Compiling module xil_defaultlib.placement
+Compiling module xil_defaultlib.placement_11
+Compiling module xil_defaultlib.placement_12
+Compiling module xil_defaultlib.placement_13
+Compiling module xil_defaultlib.placement_14
+Compiling module xil_defaultlib.placement_15
+Compiling module xil_defaultlib.placement_16
+Compiling module xil_defaultlib.placement_17
+Compiling module xil_defaultlib.placement_18
+Compiling module xil_defaultlib.score_ten_2
+Compiling module xil_defaultlib.aicontroller
+Compiling module xil_defaultlib.aicontroller_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 44 sub-compilation(s) to finish...
+Built simulation snapshot aicontroller_tb_func_synth
+INFO: [Runs 36-26] xelab completed.
+INFO: [Vivado 12-1390] *** Running xsim
+    with args "aicontroller_tb_func_synth -key {Post-Synthesis:sim_1:Functional:aicontroller_tb} -tclbatch {aicontroller_tb.tcl} -log {aicontroller_tb_func_synth.log}"
+Vivado Simulator 2014.1
+Time resolution is 1 ps
+WARNING: Simulation object /aicontroller_tb/aicontroller_test/score_rot0/ai_done06 was not found in the design.
+WARNING: Simulation object /aicontroller_tb/aicontroller_test/score_rot0/ai_done05 was not found in the design.
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1459.680 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:33 . Memory (MB): peak = 1459.680 ; gain = 0.000
+INFO: [Vivado 12-1395] XSim completed. Design snapshot 'aicontroller_tb_func_synth' loaded.
+launch_xsim: Time (s): cpu = 00:00:37 ; elapsed = 00:05:40 . Memory (MB): peak = 1459.680 ; gain = 59.270
+run 3 us
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1459.680 ; gain = 0.000
+INFO: [Simtcl 6-16] Simulation closed
+launch_xsim -simset sim_1 -mode post-synthesis -type functional -noclean_dir
+INFO: [Netlist 29-17] Analyzing 316 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.1
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Vivado 12-2252] Generating simulation netlist 'D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.sim/sim_1/synth/func/aicontroller_tb_func_synth.v'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L xil_defaultlib -L unisims_ver -L secureip --snapshot aicontroller_tb_func_synth --prj D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.sim/sim_1/synth/func/aicontroller_tb.prj   xil_defaultlib.aicontroller_tb   xil_defaultlib.glbl"
+Vivado Simulator 2014.1
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.1/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L xil_defaultlib -L unisims_ver -L secureip --snapshot aicontroller_tb_func_synth --prj D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.sim/sim_1/synth/func/aicontroller_tb.prj xil_defaultlib.aicontroller_tb xil_defaultlib.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.sim/sim_1/synth/func/aicontroller_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aicontroller
+INFO: [VRFC 10-311] analyzing module eval_block
+INFO: [VRFC 10-311] analyzing module eval_block_10
+INFO: [VRFC 10-311] analyzing module eval_block_19
+INFO: [VRFC 10-311] analyzing module eval_block_20
+INFO: [VRFC 10-311] analyzing module eval_block_21
+INFO: [VRFC 10-311] analyzing module eval_block_22
+INFO: [VRFC 10-311] analyzing module eval_block_23
+INFO: [VRFC 10-311] analyzing module eval_block_24
+INFO: [VRFC 10-311] analyzing module eval_block_25
+INFO: [VRFC 10-311] analyzing module eval_block_26
+INFO: [VRFC 10-311] analyzing module eval_block_3
+INFO: [VRFC 10-311] analyzing module eval_block_35
+INFO: [VRFC 10-311] analyzing module eval_block_36
+INFO: [VRFC 10-311] analyzing module eval_block_37
+INFO: [VRFC 10-311] analyzing module eval_block_38
+INFO: [VRFC 10-311] analyzing module eval_block_39
+INFO: [VRFC 10-311] analyzing module eval_block_4
+INFO: [VRFC 10-311] analyzing module eval_block_40
+INFO: [VRFC 10-311] analyzing module eval_block_41
+INFO: [VRFC 10-311] analyzing module eval_block_42
+INFO: [VRFC 10-311] analyzing module eval_block_43
+INFO: [VRFC 10-311] analyzing module eval_block_44
+INFO: [VRFC 10-311] analyzing module eval_block_5
+INFO: [VRFC 10-311] analyzing module eval_block_55
+INFO: [VRFC 10-311] analyzing module eval_block_56
+INFO: [VRFC 10-311] analyzing module eval_block_57
+INFO: [VRFC 10-311] analyzing module eval_block_58
+INFO: [VRFC 10-311] analyzing module eval_block_59
+INFO: [VRFC 10-311] analyzing module eval_block_6
+INFO: [VRFC 10-311] analyzing module eval_block_60
+INFO: [VRFC 10-311] analyzing module eval_block_61
+INFO: [VRFC 10-311] analyzing module eval_block_62
+INFO: [VRFC 10-311] analyzing module eval_block_63
+INFO: [VRFC 10-311] analyzing module eval_block_64
+INFO: [VRFC 10-311] analyzing module eval_block_7
+INFO: [VRFC 10-311] analyzing module eval_block_8
+INFO: [VRFC 10-311] analyzing module eval_block_9
+INFO: [VRFC 10-311] analyzing module placement
+INFO: [VRFC 10-311] analyzing module placement_11
+INFO: [VRFC 10-311] analyzing module placement_12
+INFO: [VRFC 10-311] analyzing module placement_13
+INFO: [VRFC 10-311] analyzing module placement_14
+INFO: [VRFC 10-311] analyzing module placement_15
+INFO: [VRFC 10-311] analyzing module placement_16
+INFO: [VRFC 10-311] analyzing module placement_17
+INFO: [VRFC 10-311] analyzing module placement_18
+INFO: [VRFC 10-311] analyzing module placement_27
+INFO: [VRFC 10-311] analyzing module placement_28
+INFO: [VRFC 10-311] analyzing module placement_29
+INFO: [VRFC 10-311] analyzing module placement_30
+INFO: [VRFC 10-311] analyzing module placement_31
+INFO: [VRFC 10-311] analyzing module placement_32
+INFO: [VRFC 10-311] analyzing module placement_33
+INFO: [VRFC 10-311] analyzing module placement_34
+INFO: [VRFC 10-311] analyzing module placement_45
+INFO: [VRFC 10-311] analyzing module placement_46
+INFO: [VRFC 10-311] analyzing module placement_47
+INFO: [VRFC 10-311] analyzing module placement_48
+INFO: [VRFC 10-311] analyzing module placement_49
+INFO: [VRFC 10-311] analyzing module placement_50
+INFO: [VRFC 10-311] analyzing module placement_51
+INFO: [VRFC 10-311] analyzing module placement_52
+INFO: [VRFC 10-311] analyzing module placement_53
+INFO: [VRFC 10-311] analyzing module placement_54
+INFO: [VRFC 10-311] analyzing module placement_65
+INFO: [VRFC 10-311] analyzing module placement_66
+INFO: [VRFC 10-311] analyzing module placement_67
+INFO: [VRFC 10-311] analyzing module placement_68
+INFO: [VRFC 10-311] analyzing module placement_69
+INFO: [VRFC 10-311] analyzing module placement_70
+INFO: [VRFC 10-311] analyzing module placement_71
+INFO: [VRFC 10-311] analyzing module placement_72
+INFO: [VRFC 10-311] analyzing module placement_73
+INFO: [VRFC 10-311] analyzing module placement_74
+INFO: [VRFC 10-311] analyzing module score_ten
+INFO: [VRFC 10-311] analyzing module score_ten_0
+INFO: [VRFC 10-311] analyzing module score_ten_1
+INFO: [VRFC 10-311] analyzing module score_ten_2
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Libraries/University/ECE532/Milestone7/IP/aicontroller/aicontroller.srcs/sources_1/aicontroller_v1_4_project/aicontroller_v1_4_project.srcs/sim_1/imports/Milestone7/aicontroller_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aicontroller_tb
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module unisims_ver.sffsrce_fdse
+Compiling module unisims_ver.FDSE
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.eval_block_55
+Compiling module xil_defaultlib.eval_block_56
+Compiling module xil_defaultlib.eval_block_57
+Compiling module xil_defaultlib.eval_block_58
+Compiling module xil_defaultlib.eval_block_59
+Compiling module xil_defaultlib.eval_block_60
+Compiling module xil_defaultlib.eval_block_61
+Compiling module xil_defaultlib.eval_block_62
+Compiling module xil_defaultlib.eval_block_63
+Compiling module xil_defaultlib.eval_block_64
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.placement_65
+Compiling module xil_defaultlib.placement_66
+Compiling module xil_defaultlib.placement_67
+Compiling module xil_defaultlib.placement_68
+Compiling module xil_defaultlib.placement_69
+Compiling module xil_defaultlib.placement_70
+Compiling module xil_defaultlib.placement_71
+Compiling module xil_defaultlib.placement_72
+Compiling module xil_defaultlib.placement_73
+Compiling module xil_defaultlib.placement_74
+Compiling module unisims_ver.DSP48E1(ADREG=0,ALUMODEREG=0,BCA...
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module xil_defaultlib.score_ten
+Compiling module xil_defaultlib.eval_block_35
+Compiling module xil_defaultlib.eval_block_36
+Compiling module xil_defaultlib.eval_block_37
+Compiling module xil_defaultlib.eval_block_38
+Compiling module xil_defaultlib.eval_block_39
+Compiling module xil_defaultlib.eval_block_40
+Compiling module xil_defaultlib.eval_block_41
+Compiling module xil_defaultlib.eval_block_42
+Compiling module xil_defaultlib.eval_block_43
+Compiling module xil_defaultlib.eval_block_44
+Compiling module xil_defaultlib.placement_45
+Compiling module xil_defaultlib.placement_46
+Compiling module xil_defaultlib.placement_47
+Compiling module xil_defaultlib.placement_48
+Compiling module xil_defaultlib.placement_49
+Compiling module xil_defaultlib.placement_50
+Compiling module xil_defaultlib.placement_51
+Compiling module xil_defaultlib.placement_52
+Compiling module xil_defaultlib.placement_53
+Compiling module xil_defaultlib.placement_54
+Compiling module xil_defaultlib.score_ten_0
+Compiling module xil_defaultlib.eval_block_19
+Compiling module xil_defaultlib.eval_block_20
+Compiling module xil_defaultlib.eval_block_21
+Compiling module xil_defaultlib.eval_block_22
+Compiling module xil_defaultlib.eval_block_23
+Compiling module xil_defaultlib.eval_block_24
+Compiling module xil_defaultlib.eval_block_25
+Compiling module xil_defaultlib.eval_block_26
+Compiling module xil_defaultlib.placement_27
+Compiling module xil_defaultlib.placement_28
+Compiling module xil_defaultlib.placement_29
+Compiling module xil_defaultlib.placement_30
+Compiling module xil_defaultlib.placement_31
+Compiling module xil_defaultlib.placement_32
+Compiling module xil_defaultlib.placement_33
+Compiling module xil_defaultlib.placement_34
+Compiling module xil_defaultlib.score_ten_1
+Compiling module xil_defaultlib.eval_block
+Compiling module xil_defaultlib.eval_block_3
+Compiling module xil_defaultlib.eval_block_4
+Compiling module xil_defaultlib.eval_block_5
+Compiling module xil_defaultlib.eval_block_6
+Compiling module xil_defaultlib.eval_block_7
+Compiling module xil_defaultlib.eval_block_8
+Compiling module xil_defaultlib.eval_block_9
+Compiling module xil_defaultlib.eval_block_10
+Compiling module xil_defaultlib.placement
+Compiling module xil_defaultlib.placement_11
+Compiling module xil_defaultlib.placement_12
+Compiling module xil_defaultlib.placement_13
+Compiling module xil_defaultlib.placement_14
+Compiling module xil_defaultlib.placement_15
+Compiling module xil_defaultlib.placement_16
+Compiling module xil_defaultlib.placement_17
+Compiling module xil_defaultlib.placement_18
+Compiling module xil_defaultlib.score_ten_2
+Compiling module xil_defaultlib.aicontroller
+Compiling module xil_defaultlib.aicontroller_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 44 sub-compilation(s) to finish...
+Built simulation snapshot aicontroller_tb_func_synth
+INFO: [Runs 36-26] xelab completed.
+INFO: [Vivado 12-1390] *** Running xsim
+    with args "aicontroller_tb_func_synth -key {Post-Synthesis:sim_1:Functional:aicontroller_tb} -tclbatch {aicontroller_tb.tcl} -log {aicontroller_tb_func_synth.log}"
+Vivado Simulator 2014.1
+Time resolution is 1 ps
+WARNING: Simulation object /aicontroller_tb/col0 was not traceable in the design for the following reason:
+The number of elements in the requested object is 20, which exceeds the maximum traceable size of 15 elements.
+The maximum can be changed with "set_property trace_limit <number of elements> [current_sim]" Tcl command.
+WARNING: Simulation object /aicontroller_tb/col1 was not traceable in the design for the following reason:
+The number of elements in the requested object is 20, which exceeds the maximum traceable size of 15 elements.
+The maximum can be changed with "set_property trace_limit <number of elements> [current_sim]" Tcl command.
+WARNING: Simulation object /aicontroller_tb/col2 was not traceable in the design for the following reason:
+The number of elements in the requested object is 20, which exceeds the maximum traceable size of 15 elements.
+The maximum can be changed with "set_property trace_limit <number of elements> [current_sim]" Tcl command.
+WARNING: Simulation object /aicontroller_tb/col3 was not traceable in the design for the following reason:
+The number of elements in the requested object is 20, which exceeds the maximum traceable size of 15 elements.
+The maximum can be changed with "set_property trace_limit <number of elements> [current_sim]" Tcl command.
+WARNING: Simulation object /aicontroller_tb/col4 was not traceable in the design for the following reason:
+The number of elements in the requested object is 20, which exceeds the maximum traceable size of 15 elements.
+The maximum can be changed with "set_property trace_limit <number of elements> [current_sim]" Tcl command.
+WARNING: Simulation object /aicontroller_tb/col5 was not traceable in the design for the following reason:
+The number of elements in the requested object is 20, which exceeds the maximum traceable size of 15 elements.
+The maximum can be changed with "set_property trace_limit <number of elements> [current_sim]" Tcl command.
+WARNING: Simulation object /aicontroller_tb/col6 was not traceable in the design for the following reason:
+The number of elements in the requested object is 20, which exceeds the maximum traceable size of 15 elements.
+The maximum can be changed with "set_property trace_limit <number of elements> [current_sim]" Tcl command.
+WARNING: Simulation object /aicontroller_tb/col7 was not traceable in the design for the following reason:
+The number of elements in the requested object is 20, which exceeds the maximum traceable size of 15 elements.
+The maximum can be changed with "set_property trace_limit <number of elements> [current_sim]" Tcl command.
+WARNING: Simulation object /aicontroller_tb/col8 was not traceable in the design for the following reason:
+The number of elements in the requested object is 20, which exceeds the maximum traceable size of 15 elements.
+The maximum can be changed with "set_property trace_limit <number of elements> [current_sim]" Tcl command.
+WARNING: Simulation object /aicontroller_tb/col9 was not traceable in the design for the following reason:
+The number of elements in the requested object is 20, which exceeds the maximum traceable size of 15 elements.
+The maximum can be changed with "set_property trace_limit <number of elements> [current_sim]" Tcl command.
+WARNING: Simulation object /aicontroller_tb/aicontroller_test/score_rot0/ai_done06 was not found in the design.
+WARNING: Simulation object /aicontroller_tb/aicontroller_test/score_rot0/ai_done05 was not found in the design.
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1504.414 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:34 . Memory (MB): peak = 1504.414 ; gain = 0.000
+INFO: [Vivado 12-1395] XSim completed. Design snapshot 'aicontroller_tb_func_synth' loaded.
+launch_xsim: Time (s): cpu = 00:00:37 ; elapsed = 00:05:38 . Memory (MB): peak = 1504.414 ; gain = 44.734
+run 3 us
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1504.414 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 22 16:42:53 2015...

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:00:25 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Tue Feb  3 16:30:15 2015
+# Process ID: 11063
+# Log file: /home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/hasher_v1_0_project/hasher_v1_0_project.runs/impl_1/hasher_v1_0.vdi
+# Journal file: /home/derek/Documents/year_4/ECE532/ip_repo/hasher_1.0/hasher_v1_0_project/hasher_v1_0_project.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source hasher_v1_0.tcl -notrace

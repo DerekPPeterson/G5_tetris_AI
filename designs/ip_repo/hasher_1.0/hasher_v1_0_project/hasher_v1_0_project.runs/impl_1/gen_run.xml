@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1422998955">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="hasher_v1_0.vdi"/>
+  <File Type="BG-DRC" Name="hasher_v1_0.drc"/>
+  <File Type="BG-BGN" Name="hasher_v1_0.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="$PSDKDIR/SDK/SDK_Export/hw/hasher_v1_0.sysdef"/>
+  <File Type="BITSTR-MMI" Name="hasher_v1_0.mmi"/>
+  <File Type="BITSTR-BMM" Name="hasher_v1_0_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="hasher_v1_0.nky"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="hasher_v1_0_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="hasher_v1_0_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="hasher_v1_0_utilization_placed.pb"/>
+  <File Type="PLACE-CLK" Name="hasher_v1_0_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="hasher_v1_0_placed.dcp"/>
+  <File Type="PLACE-CTRL" Name="hasher_v1_0_control_sets_placed.rpt"/>
+  <File Type="PWROPT-DRC" Name="hasher_v1_0_drc_pwropted.rpt"/>
+  <File Type="BITSTR-MSK" Name="hasher_v1_0.msk"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="PLACE-IO" Name="hasher_v1_0_io_placed.rpt"/>
+  <File Type="OPT-DCP" Name="hasher_v1_0_opt.dcp"/>
+  <File Type="BG-BIT" Name="hasher_v1_0.bit"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="PLACE-UTIL" Name="hasher_v1_0_utilization_placed.rpt"/>
+  <File Type="PWROPT-DCP" Name="hasher_v1_0_pwropt.dcp"/>
+  <File Type="PA-TCL" Name="hasher_v1_0.tcl"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="hasher_v1_0_timing_summary_postroute_physopted.rpt"/>
+  <File Type="OPT-DRC" Name="hasher_v1_0_drc_opted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="hasher_v1_0_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="hasher_v1_0.bin"/>
+  <File Type="PHYSOPT-DCP" Name="hasher_v1_0_physopt.dcp"/>
+  <File Type="BITSTR-RBT" Name="hasher_v1_0.rbt"/>
+  <File Type="PHYSOPT-DRC" Name="hasher_v1_0_drc_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="hasher_v1_0_routed.dcp"/>
+  <File Type="ROUTE-DRC" Name="hasher_v1_0_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="hasher_v1_0_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="hasher_v1_0_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="hasher_v1_0_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="hasher_v1_0_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="hasher_v1_0_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="hasher_v1_0_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="hasher_v1_0_timing_summary_routed.pb"/>
+  <File Type="ROUTE-SIMILARITY" Name="hasher_v1_0_incremental_reuse_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="hasher_v1_0_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="hasher_v1_0_timing_summary_postroute_physopted.pb"/>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
