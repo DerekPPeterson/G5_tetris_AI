@@ -105,3 +105,15 @@ com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on har
 10:46:57 INFO  : Processor reset is completed for microblaze_0
 10:48:00 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
 10:48:02 INFO  : Processor reset is completed for microblaze_0
+11:40:55 INFO  : Processor reset is completed for microblaze_0
+11:42:19 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:42:47 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:42:49 INFO  : Processor reset is completed for microblaze_0
+13:19:12 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:19:22 INFO  : Processor reset is completed for microblaze_0
+13:21:54 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:21:56 INFO  : Processor reset is completed for microblaze_0
+13:22:19 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:22:22 INFO  : Processor reset is completed for microblaze_0
+13:28:44 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:28:47 INFO  : Processor reset is completed for microblaze_0

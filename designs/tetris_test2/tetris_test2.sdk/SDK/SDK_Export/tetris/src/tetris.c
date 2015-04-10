@@ -100,7 +100,7 @@ void spin(int n) {
 int main(void) {
 
 	init_platform();
-	srand(10);
+	srand(2394873247);
 
 	char score_string[11];
 	float avg_score = 0;
