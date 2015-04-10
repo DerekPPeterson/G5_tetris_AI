@@ -150,10 +150,9 @@ int check_game_over(piece_t piece, board_t board)
 	int ret = 0;
 	int i;
     for (i = 0; i < 4; i++) {
-        if (board[piece.position.y + i]
-              & (((board[piece.position.y + i] << 4)
-              | TETRONIMOES[piece.piece_id][piece.rotation][i]
-                << (piece.position.x + 4) ) >> 4))
+        if (((board[piece.position.y + i] << 4)
+              & TETRONIMOES[piece.piece_id][piece.rotation][i]
+                << (piece.position.x + 4) ) >> 4)
         	ret = 1;
     }
     return ret;

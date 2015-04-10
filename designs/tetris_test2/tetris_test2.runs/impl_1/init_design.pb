@@ -10,7 +10,7 @@ a
 ^
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-4292default:defaultZ29-17
+5892default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -107,10 +107,10 @@ $Parsing XDC File [%s] for cell '%s'
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2 
 get_clocks: 2default:default2
-00:00:172default:default2
-00:00:182default:default2
-1473.5082default:default2
-410.3752default:defaultZ17-268
+00:00:132default:default2
+00:00:132default:default2
+1657.1052default:default2
+517.6802default:defaultZ17-268
  
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2©
@@ -1410,10 +1410,10 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2!
 link_design: 2default:default2
-00:00:472default:default2
-00:00:462default:default2
-1497.5122default:default2
-752.6722default:defaultZ17-268
+00:00:342default:default2
+00:00:322default:default2
+1668.1092default:default2
+923.2732default:defaultZ17-268
 
 
 End Record

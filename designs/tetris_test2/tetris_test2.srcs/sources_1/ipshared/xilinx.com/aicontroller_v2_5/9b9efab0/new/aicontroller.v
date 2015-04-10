@@ -202,8 +202,8 @@ module aicontroller(
     
     reg score_en0;
     reg score_en1;
-    reg shift_en0;
-    reg shift_en1;
+    reg [1:0] shift_en0;
+    reg [1:0] shift_en1;
     reg [3:0] next_array00;
     reg [3:0] next_array01;
     reg [3:0] next_array02;
@@ -265,7 +265,7 @@ module aicontroller(
         .done(done1)
     );
     
-    reg [2:0] state;
+    reg [3:0] state;
     reg [31:0] best_score;
     reg [3:0] best_shift;
     reg [1:0] best_rot;
@@ -347,7 +347,7 @@ module aicontroller(
                 3: begin
                     score_en0 <= 0;
                     score_en1 <= 0;
-                    if (counter == 1)
+                    if (counter > 1)
                         state <= 4;
                     else
                         counter <= counter + 1;
@@ -392,18 +392,15 @@ module aicontroller(
                             best_shift <= shift1;
                             best_rot <= 3;
                           end
-                        state <= DONE;
+                        state <= 7;
                       end
                   end
-                DONE: begin
+                7: begin
                     algo_done <= 1;
                     algo_rshift <= best_shift;
                     algo_rot <= best_rot;
                   end
                 default: begin
-                  algo_done <= 0;
-                  algo_rshift <= 0;
-                  algo_rot <= 0;
                 end
               endcase
             end

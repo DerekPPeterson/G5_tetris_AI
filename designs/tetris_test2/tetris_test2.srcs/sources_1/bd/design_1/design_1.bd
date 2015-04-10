@@ -357,7 +357,7 @@
       </spirit:componentInstance>
       <spirit:componentInstance>
         <spirit:instanceName>aicontroller_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="aicontroller" spirit:vendor="xilinx.com" spirit:version="2.0"/>
+        <spirit:componentRef spirit:library="user" spirit:name="aicontroller" spirit:vendor="xilinx.com" spirit:version="2.5"/>
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_aicontroller_0_0</spirit:configurableElementValue>
         </spirit:configurableElementValues>

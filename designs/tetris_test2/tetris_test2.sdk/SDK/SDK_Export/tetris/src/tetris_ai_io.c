@@ -42,12 +42,15 @@ void get_moves(int * moves)
     int rotations, shifts;
     while (!done) {
     	//counter--;
+
+    	// if we were waiting too long
     	if (counter == 0) {
     		moves[0] = 0;
     		moves[1] = 1;
     		*(ai_cntrl + 1) = 0;
     		return;
     	}
+
         int ai_result = *(ai_cntrl + 2);
         done = 0x1 & ai_result;
         rotations = 0x3 & (ai_result >> 1);

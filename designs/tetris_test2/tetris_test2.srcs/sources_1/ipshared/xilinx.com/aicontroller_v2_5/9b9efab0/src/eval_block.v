@@ -1,23 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 02/17/2015 10:18:08 AM
-// Design Name: 
-// Module Name: shift_reg
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
 // 0    | 1       ...
 // line | left_l | right_l | S | Z | box | T
@@ -44,7 +25,8 @@ module eval_block(
         output [7:0]colTrans,
         output [7:0]holeCount,
         output [5:0]fillCount,
-        output [5:0]maxHeight,*/
+        output [5:0]maxHeight
+        */
     );
     
     reg [19:0]col_0;
@@ -102,6 +84,13 @@ module eval_block(
     reg [4:0]hole4; reg [4:0]hole5;
     reg [4:0]hole6; reg [4:0]hole7;
     reg [4:0]hole8; reg [4:0]hole9;
+    
+    reg hole0t; reg hole1t;
+    reg hole2t; reg hole3t;
+    reg hole4t; reg hole5t;
+    reg hole6t; reg hole7t;
+    reg hole8t; reg hole9t;
+    
     reg [5:0]FILLD_counter;
     reg [5:0]SHFTR_counter;
     reg [5:0]SHFTD_counter;
@@ -149,8 +138,8 @@ module eval_block(
                           hole5+hole6+hole7+hole8+hole9;
         
         assign fillCount = num_filled;
-        assign maxHeight = max_height;*/
-        
+        assign maxHeight = max_height;
+        */
         
         assign done = reg_done;
         assign score = score_reg;
@@ -223,6 +212,12 @@ module eval_block(
                 hole4 <= 5'b0; hole5 <= 5'b0;
                 hole6 <= 5'b0; hole7 <= 5'b0;
                 hole8 <= 5'b0; hole9 <= 5'b0;
+                
+                hole0t <=1'b0; hole1t <=1'b0;
+                hole2t <=1'b0; hole3t <=1'b0;
+                hole4t <=1'b0; hole5t <=1'b0;
+                hole6t <=1'b0; hole7t <=1'b0;
+                hole8t <=1'b0; hole9t <=1'b0;
             end
             else begin
                 score_reg = 32'b0;
@@ -355,15 +350,18 @@ module eval_block(
             col_8 <= col_7; col_9 <= col_8;
         end
         CALCD: begin
+        
+        SHFTD_counter <= SHFTD_counter + 1;
         //max height
-        empty = !(col_0[0] | col_1[0] | col_2[0] | col_3[0] | col_4[0] |
+        empty = ~(col_0[0] | col_1[0] | col_2[0] | col_3[0] | col_4[0] |
                  col_5[0] | col_6[0] | col_7[0] | col_8[0] | col_9[0]);
         
-        if (!empty) begin
-            max_height = SHFTD_counter+1;
+        if ((empty == 0) && (max_height == 6'b000000)) begin
+                max_height <= 6'b010011 - SHFTD_counter+1;
         end
+        
         //Col transition
-            if ((SHFTD_counter != 6'b010011) && (row_filled[0] == 0)) begin
+            if ((SHFTD_counter != 6'b000000) && (row_filled[0] == 0)) begin
                 col_trans0 <= col_trans0 + ((col_0[0] ^ col_0[1]) & !row_filled[1]) + ((col_0[0] ^ col_0[2]) & (row_filled[1] & !row_filled[2])) + ((col_0[0] ^ col_0[3]) & (row_filled[1] & row_filled[2] & !row_filled[3]));
                 col_trans1 <= col_trans1 + ((col_1[0] ^ col_1[1]) & !row_filled[1]) + ((col_1[0] ^ col_1[2]) & (row_filled[1] & !row_filled[2])) + ((col_1[0] ^ col_1[3]) & (row_filled[1] & row_filled[2] & !row_filled[3]));
                 col_trans2 <= col_trans2 + ((col_2[0] ^ col_2[1]) & !row_filled[1]) + ((col_2[0] ^ col_2[2]) & (row_filled[1] & !row_filled[2])) + ((col_2[0] ^ col_2[3]) & (row_filled[1] & row_filled[2] & !row_filled[3]));
@@ -376,32 +374,72 @@ module eval_block(
                 col_trans9 <= col_trans9 + ((col_9[0] ^ col_9[1]) & !row_filled[1]) + ((col_9[0] ^ col_9[2]) & (row_filled[1] & !row_filled[2])) + ((col_9[0] ^ col_9[3]) & (row_filled[1] & row_filled[2] & !row_filled[3]));
                 
             //Count hole
-                hole0 <= hole0 + (!col_0[0] & col_0[1] & !row_filled[1]) + (!col_0[0] & col_0[2] & row_filled[1] & !row_filled[2]) + (!col_0[0] & col_0[3] & row_filled[1] & row_filled[2] & !row_filled[3]);
-                hole1 <= hole1 + (!col_1[0] & col_1[1] & !row_filled[1]) + (!col_1[0] & col_1[2] & row_filled[1] & !row_filled[2]) + (!col_1[0] & col_1[3] & row_filled[1] & row_filled[2] & !row_filled[3]);
-                hole2 <= hole2 + (!col_2[0] & col_2[1] & !row_filled[1]) + (!col_2[0] & col_2[2] & row_filled[1] & !row_filled[2]) + (!col_2[0] & col_2[3] & row_filled[1] & row_filled[2] & !row_filled[3]);
-                hole3 <= hole3 + (!col_3[0] & col_3[1] & !row_filled[1]) + (!col_3[0] & col_3[2] & row_filled[1] & !row_filled[2]) + (!col_3[0] & col_3[3] & row_filled[1] & row_filled[2] & !row_filled[3]);
-                hole4 <= hole4 + (!col_4[0] & col_4[1] & !row_filled[1]) + (!col_4[0] & col_4[2] & row_filled[1] & !row_filled[2]) + (!col_4[0] & col_4[3] & row_filled[1] & row_filled[2] & !row_filled[3]);
-                hole5 <= hole5 + (!col_5[0] & col_5[1] & !row_filled[1]) + (!col_5[0] & col_5[2] & row_filled[1] & !row_filled[2]) + (!col_5[0] & col_5[3] & row_filled[1] & row_filled[2] & !row_filled[3]);
-                hole6 <= hole6 + (!col_6[0] & col_6[1] & !row_filled[1]) + (!col_6[0] & col_6[2] & row_filled[1] & !row_filled[2]) + (!col_6[0] & col_6[3] & row_filled[1] & row_filled[2] & !row_filled[3]);
-                hole7 <= hole7 + (!col_7[0] & col_7[1] & !row_filled[1]) + (!col_7[0] & col_7[2] & row_filled[1] & !row_filled[2]) + (!col_7[0] & col_7[3] & row_filled[1] & row_filled[2] & !row_filled[3]);
-                hole8 <= hole8 + (!col_8[0] & col_8[1] & !row_filled[1]) + (!col_8[0] & col_8[2] & row_filled[1] & !row_filled[2]) + (!col_8[0] & col_8[3] & row_filled[1] & row_filled[2] & !row_filled[3]);
-                hole9 <= hole9 + (!col_9[0] & col_9[1] & !row_filled[1]) + (!col_9[0] & col_9[2] & row_filled[1] & !row_filled[2]) + (!col_9[0] & col_9[3] & row_filled[1] & row_filled[2] & !row_filled[3]);
+            
+                if ((col_0[0] == 1) && (row_filled[0] == 0)) begin hole0t <=1; end
+                if ((col_1[0] == 1) && (row_filled[0] == 0)) begin hole1t <=1; end
+                if ((col_2[0] == 1) && (row_filled[0] == 0)) begin hole2t <=1; end
+                if ((col_3[0] == 1) && (row_filled[0] == 0)) begin hole3t <=1; end
+                if ((col_4[0] == 1) && (row_filled[0] == 0)) begin hole4t <=1; end
+                if ((col_5[0] == 1) && (row_filled[0] == 0)) begin hole5t <=1; end
+                if ((col_6[0] == 1) && (row_filled[0] == 0)) begin hole6t <=1; end
+                if ((col_7[0] == 1) && (row_filled[0] == 0)) begin hole7t <=1; end
+                if ((col_8[0] == 1) && (row_filled[0] == 0)) begin hole8t <=1; end
+                if ((col_9[0] == 1) && (row_filled[0] == 0)) begin hole9t <=1; end
+                
+                if (hole0t == 1) begin
+                    hole0 <= hole0 + (!col_0[0] & ((col_0[1] & !row_filled[1]) | (col_0[2] & !row_filled[2]) | (col_0[3] & !row_filled[3])));
+                end
+                
+                if (hole1t == 1) begin
+                    hole1 <= hole1 + (!col_1[0] & ((col_1[1] & !row_filled[1]) | (col_1[2] & !row_filled[2]) | (col_1[3] & !row_filled[3])));
+                end
+                
+                if (hole2t == 1) begin
+                    hole2 <= hole2 + (!col_2[0] & ((col_2[1] & !row_filled[1]) | (col_2[2] & !row_filled[2]) | (col_2[3] & !row_filled[3])));
+                end
+                
+                if (hole3t == 1) begin
+                    hole3 <= hole3 + (!col_3[0] & ((col_3[1] & !row_filled[1]) | (col_3[2] & !row_filled[2]) | (col_3[3] & !row_filled[3])));
+                end
+                
+                if (hole4t == 1) begin
+                    hole4 <= hole4 + (!col_4[0] & ((col_4[1] & !row_filled[1]) | (col_4[2] & !row_filled[2]) | (col_4[3] & !row_filled[3])));
+                end
+                
+                if (hole5t == 1) begin
+                    hole5 <= hole5 + (!col_5[0] & ((col_5[1] & !row_filled[1]) | (col_5[2] & !row_filled[2]) | (col_5[3] & !row_filled[3])));
+                end
+                
+                if (hole6t == 1) begin
+                    hole6 <= hole6 + (!col_6[0] & ((col_6[1] & !row_filled[1]) | (col_6[2] & !row_filled[2]) | (col_6[3] & !row_filled[3])));
+                end
+                
+                if (hole7t == 1) begin
+                    hole7 <= hole7 + (!col_7[0] & ((col_7[1] & !row_filled[1]) | (col_7[2] & !row_filled[2]) | (col_7[3] & !row_filled[3])));
+                end
+                
+                if (hole8t == 1) begin
+                    hole8 <= hole8 + (!col_8[0] & ((col_8[1] & !row_filled[1]) | (col_8[2] & !row_filled[2]) | (col_8[3] & !row_filled[3])));
+                end
+                
+                if (hole9t == 1) begin
+                    hole9 <= hole9 + (!col_9[0] & ((col_9[1] & !row_filled[1]) | (col_9[2] & !row_filled[2]) | (col_9[3] & !row_filled[3])));
+                end
             end
         end
         SHFTD: begin
-            SHFTD_counter <= SHFTD_counter + 1;
         //shift down
-            col_0[18:0] <= col_0[19:1]; col_0[19] <= col_0[0];
-            col_1[18:0] <= col_1[19:1]; col_1[19] <= col_1[0];
-            col_2[18:0] <= col_2[19:1]; col_2[19] <= col_2[0];
-            col_3[18:0] <= col_3[19:1]; col_3[19] <= col_3[0];
-            col_4[18:0] <= col_4[19:1]; col_4[19] <= col_4[0];
-            col_5[18:0] <= col_5[19:1]; col_5[19] <= col_5[0];
-            col_6[18:0] <= col_6[19:1]; col_6[19] <= col_6[0];
-            col_7[18:0] <= col_7[19:1]; col_7[19] <= col_7[0];
-            col_8[18:0] <= col_8[19:1]; col_8[19] <= col_8[0];
-            col_9[18:0] <= col_9[19:1]; col_9[19] <= col_9[0];
-            row_filled[18:0] <= row_filled[19:1]; row_filled[19] <= row_filled[0];
+            col_0[19:1] <= col_0[18:0]; col_0[0] <= col_0[19];
+            col_1[19:1] <= col_1[18:0]; col_1[0] <= col_1[19];
+            col_2[19:1] <= col_2[18:0]; col_2[0] <= col_2[19];
+            col_3[19:1] <= col_3[18:0]; col_3[0] <= col_3[19];
+            col_4[19:1] <= col_4[18:0]; col_4[0] <= col_4[19];
+            col_5[19:1] <= col_5[18:0]; col_5[0] <= col_5[19];
+            col_6[19:1] <= col_6[18:0]; col_6[0] <= col_6[19];
+            col_7[19:1] <= col_7[18:0]; col_7[0] <= col_7[19];
+            col_8[19:1] <= col_8[18:0]; col_8[0] <= col_8[19];
+            col_9[19:1] <= col_9[18:0]; col_9[0] <= col_9[19];
+            row_filled[19:1] <= row_filled[18:0]; row_filled[0] <= row_filled[19];
         end
         ADJUST: begin
             if (col_trans0 > 0)
@@ -480,15 +518,15 @@ module eval_block(
                 next_state <= SHFTR;
             end
             SHFTR: begin
-                if (SHFTR_counter == 6'b001001) begin next_state <= CALCD; end
+                if (SHFTR_counter == 6'b001001) begin next_state <= SHFTD; end
                 else begin next_state <= CALCR; end
             end
             CALCD: begin
-                next_state <= SHFTD;
+                if (SHFTD_counter == 6'b010011) begin next_state <= ADJUST; end
+                else begin next_state <= SHFTD; end
             end
             SHFTD: begin
-                if (SHFTD_counter == 6'b010011) begin next_state <= ADJUST; end
-                else begin next_state <= CALCD; end
+                next_state <= CALCD;
             end
             ADJUST: begin next_state <= DONE; end
             DONE: begin

@@ -181,10 +181,10 @@ set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {R
 
 # XDC: bd/design_1/ip/design_1_xbar_2/design_1_xbar_2_ooc.xdc
 
-# XDC: bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3_ooc.xdc
-
 # XDC: bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3.xdc
 #dup# set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_1_mig_7series_0_3 || ORIG_REF_NAME==design_1_mig_7series_0_3}]
+
+# XDC: bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3/user_design/constraints/design_1_mig_7series_0_3_ooc.xdc
 
 # XDC: bd/design_1/ip/design_1_mig_7series_0_3/design_1_mig_7series_0_3_board.xdc
 #dup# set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_1_mig_7series_0_3 || ORIG_REF_NAME==design_1_mig_7series_0_3}]
